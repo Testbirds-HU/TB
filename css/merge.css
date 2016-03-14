@@ -475,7 +475,7 @@ sub {
     -ms-transition: all 0.1s ease-in;
     -o-transition: all 0.1s ease-in; }
     .tesztek .row .teszt2 .imgholder {
-      background-image: url("/img/ux2.png");
+      background-image: url("../img/ux2.png");
       background-size: contain;
       background-repeat: no-repeat;
       height: 170px;
