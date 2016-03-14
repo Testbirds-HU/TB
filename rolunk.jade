@@ -1,0 +1,126 @@
+doctype html
+//if lt IE 7
+	html.no-js.lt-ie9.lt-ie8.lt-ie7  
+//if IE 7
+	html.no-js.lt-ie9.lt-ie8  
+//if IE 8
+	html.no-js.lt-ie9  
+// [if gt IE 8] <!
+html.no-js
+	// <![endif]
+	html.no-js(lang='en')
+html
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title Testbirds
+		link(href='https://www.google.com/fonts#UsePlace:use/Collection:Droid+Sans:400,700', rel='stylesheet', type='text/css')
+		meta(name='description', content='whatever')
+		meta(name='keywords', content='html5 template, css3, one page, animations, agency, portfolio, web design')
+		meta(name='author', content='Kristof Vizy')
+
+
+		link(href='bower_components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+		link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css', rel='stylesheet')
+		link(rel='shortcut icon', href='favicon.ico')
+
+		link(rel='stylesheet', href='css/basic-styles.css', media='screen')
+		link(href='css/merge.css', rel='stylesheet')		
+
+		link(rel='stylesheet', href='css/okayNav.css', media='screen')
+		link(rel='stylesheet', href='css/header.css', media='screen')
+		// Facebook and Twitter integration
+		meta(property='og:title', content='')
+		meta(property='og:image', content='')
+		meta(property='og:url', content='')
+		meta(property='og:site_name', content='')
+		meta(property='og:description', content='')
+		meta(name='twitter:title', content='')
+		meta(name='twitter:image', content='')
+		meta(name='twitter:url', content='')
+		meta(name='twitter:card', content='')
+
+		script(src='js/modernizr.custom.js')
+		script(src='js/jquery.okayNav.js')
+
+
+
+	body
+		header#header
+			a.site-logo(href='index.html')
+			nav#nav-main.okayNav(role='navigation')
+				ul
+					li.active
+						a(href='rolunk.html') Rólunk
+					li
+						a(href='felhasznaloi.html') Felhasználói élmény kutatás
+					li
+						a(href='funkcionalis.html') Funkcionális teszt
+
+					li
+						a(href='#') Kapcsolat
+		.container.rolunk
+			.articletitle
+				.container
+						h1 Rólunk
+						h2 SEGÍTÜNK ÜGYFELEINKNEK EGYÜTT DOLGOZNI A FELHASZNÁLÓKKAL OLYAN DIGITÁLIS TERMÉKEK, SZOLGÁLTATÁSOK FEJLESZTÉSE SORÁN, AMELYEKET ÖRÖM HASZNÁLNI.
+			.articlecover
+				.container
+			.articlebody_w
+				.container
+					p A Testbirds egy crowdtesting szolgáltató. Hiszünk benne, hogy ha a felhasználókat bevonjuk a fejlesztési folyamatokba, azzal mindenki nyer: ebben segít a crowdtesting. A német hátterű Testbirds hazai irodáját 2013 nyarán indítottuk el Magyarországon, hogy itthon is segítsünk áthidalni a fejlesztőket a végfelhasználóktól elválasztó “információs-szakadékot”. Nemzetközi szinten eddig több mint 70.000 tesztelő regisztrált platformunkon, itthon pedig több mint 9.000 magyar tesztelővel rendelkezünk.
+			.team
+				.container-fluid
+					h2 A csapat
+					.col-lg-8.col-md-8.col-sm-8.col-md-offset-2
+						.container-fluid
+							.col-lg-4.col-md-6.col-sm-6#p1
+								p Csíkos Ádám
+							.col-lg-4.col-md-6.col-sm-6#p2
+								p Bartha Gizella
+							.col-lg-4.col-md-6.col-sm-6#p3
+								p Fónagy Balázs
+							.col-lg-4.col-md-6.col-sm-6#p4
+								p Michal Matus
+							.col-lg-4.col-md-6.col-sm-6#p5
+								p Lichter Tamás
+							.col-lg-4.col-md-6.col-sm-6#p6
+								p Csankovszki Kata							
+					.col-lg-8.col-md-8.col-sm-8.col-md-offset-2.persondescription
+						h6 Bartha Gizella
+						p UX kutató<br><br>
+						p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+		footer.container-fluid
+			.row
+				.col-md-4
+					h5 Legutóbbi blogbejegyzések
+					a Etikus design – Az AMUSE konferencián jártunk<br>
+					a Szek.org: Hogyan javítsuk online felületünket?<br>
+					a UX teszt: A kutatási kérdések tisztázása<br>
+					a UX teszt: A célok tisztázása<br>
+					a UX teszt: Az elvárások tisztázása<br>
+				.col-md-2
+				.col-md-3
+					h5 Oldaltérkép
+					a Rólunk<br>
+					a Funkcionális tesztelés?<br>
+					a Felhasználói élmény kutatás<br>
+					a Ajánlatkérés<br>
+					a Kapcsolat<br>
+				.col-md-3
+					h5 Kapcsolat
+					p 1118 Budapest,<br>
+					p Himfy utca 1.<br>
+					p (30) 569 5988
+					p info@testbirds.hu
+
+		script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js')
+		// build:js js/jquery.okayNav-min.js
+		script(src='js/jquery.okayNav.js')
+		// endbuild
+		script(type='text/javascript').
+			var navigation = $('#nav-main').okayNav();

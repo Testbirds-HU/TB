@@ -1,0 +1,90 @@
+//colors
+$green: #1E777A
+$black: #313131
+$off-white: #DBDBDB
+
+
+header 
+	align-items: center
+	background-color: $green
+	display: flex
+	flex-direction: row
+	height: 7rem
+	padding: 0 15px
+	position: fixed
+	justify-content: space-between
+	top: 0
+	width: 100%
+	z-index: 100000000
+
+.site-logo 
+	background-image: url(/img/Logo_CMYK_Background.png)
+	background-size: contain
+	width: 190px
+	background-repeat: no-repeat
+	height: 70px
+
+.ok-header__logo:hover 
+	color: $green
+
+.okayNav a
+	color: white
+	font-weight: 400
+	text-transform: uppercase
+
+.okayNav a:hover
+	text-decoration: none
+
+
+.okayNav__menu-toggle span
+	background-color: white
+
+.okayNav__menu-toggle.icon--active span
+	background-color: white
+
+.okayNav__nav--invisible, .okayNav__nav--invisible a
+	background-color: $green
+
+
+body.okayNav-loaded
+	overflow: hidden
+
+
+
+.okayNav__nav--visible a:hover
+	color: white !important
+
+.okayNav__nav--visible li:after
+	content: ""
+	display: block
+	background-color: #83B999
+	height: 4px
+	width: 0%
+	text-align: center
+	margin: 0 auto
+	margin-top: -12px
+	transition: all 0.3s ease-in
+	-webkit-transition: all 0.3s ease-in
+	-moz-transition: all 0.3s ease-in
+	-ms-transition: all 0.3s ease-in
+	-o-transition: all 0.3s ease-in
+
+.okayNav__nav--visible li:hover:after
+	content: ""
+	display: block
+	background-color: #83B999
+	height: 4px
+	width: 92%
+	text-align: center
+	margin: 0 auto
+	margin-top: -12px
+
+.active:after
+	content: ""
+	display: block
+	background-color: #83B999
+	height: 4px
+	width: 92% !important
+	text-align: center
+	margin: 0 auto
+	margin-top: -12px
