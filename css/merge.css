@@ -148,7 +148,7 @@ a:active, a:hover {
 h1 {
   font-size: 5rem;
   font-family: DroidSans;
-  font-weight: 800;
+  font-weight: 700;
   color: #1E777A;
   margin: 0.83rem;
   text-transform: uppercase;
@@ -178,7 +178,7 @@ h4 {
   font-size: 2.2rem;
   font-family: DroidSans;
   color: #313131;
-  font-weight: 800;
+  font-weight: 700;
   margin-left: 0px; }
 
 h5 {
@@ -186,14 +186,14 @@ h5 {
   font-size: 2.2rem;
   font-family: DroidSans;
   color: #DBDBDB;
-  font-weight: 800;
+  font-weight: 700;
   margin-left: 0px; }
 
 h6 {
   font-size: 1.7rem;
   line-height: 26px;
   font-family: DroidSans;
-  font-weight: 800;
+  font-weight: 700;
   margin: 0.3rem;
   color: #313131;
   margin-left: 0px; }
@@ -201,7 +201,7 @@ h6 {
     font-size: 1.7rem;
     line-height: 26px;
     font-family: DroidSans;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0rem;
     color: #313131;
     margin-left: 0px;
