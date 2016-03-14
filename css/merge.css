@@ -147,7 +147,7 @@ a:active, a:hover {
  ** Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 h1 {
   font-size: 5rem;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   font-weight: 700;
   color: #1E777A;
   margin: 0.83rem;
@@ -156,7 +156,7 @@ h1 {
 
 h2 {
   margin: 0rem;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   font-weight: 400;
   color: #1E777A;
   font-size: 2.3rem;
@@ -167,7 +167,7 @@ h2 {
 h3 {
   margin: 1rem;
   font-size: 2.3rem;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   color: #1E777A;
   line-height: 2.8rem;
   font-weight: 400;
@@ -176,7 +176,7 @@ h3 {
 h4 {
   margin: 1rem;
   font-size: 2.2rem;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   color: #313131;
   font-weight: 700;
   margin-left: 0px; }
@@ -184,7 +184,7 @@ h4 {
 h5 {
   margin: 1rem;
   font-size: 2.2rem;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   color: #DBDBDB;
   font-weight: 700;
   margin-left: 0px; }
@@ -192,7 +192,7 @@ h5 {
 h6 {
   font-size: 1.7rem;
   line-height: 26px;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   font-weight: 700;
   margin: 0.3rem;
   color: #313131;
@@ -200,7 +200,7 @@ h6 {
   h6 li {
     font-size: 1.7rem;
     line-height: 26px;
-    font-family: DroidSans;
+    font-family: Droid Sans, sans-serif;
     font-weight: 700;
     margin: 0rem;
     color: #313131;
@@ -219,7 +219,7 @@ a {
 p {
   font-size: 1.7rem;
   line-height: 30px;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   font-weight: 400;
   margin: 0rem;
   color: #313131;
@@ -228,7 +228,7 @@ p {
 .articlebody_g .container ul {
   font-size: 1.7rem;
   line-height: 26px;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   font-weight: 400;
   margin: 0rem;
   color: white;
@@ -239,7 +239,7 @@ p {
 a {
   color: #1E777A;
   font-size: 2rem;
-  font-family: DroidSans;
+  font-family: Droid Sans, sans-serif;
   text-decoration: none; }
 
 a:hover, a:focus {
@@ -650,7 +650,7 @@ sub {
       width: 310px;
       margin: 0 auto;
       padding: 20px;
-      font-family: DroidSans;
+      font-family: Droid Sans, sans-serif;
       margin-top: 30px;
       font-size: 1.7rem; }
     .folyamat .row .btn-primary:hover {
