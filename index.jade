@@ -1,10 +1,10 @@
 doctype html
 //if lt IE 7
-	html.no-js.lt-ie9.lt-ie8.lt-ie7  
+	html.no-js.lt-ie9.lt-ie8.lt-ie7	
 //if IE 7
-	html.no-js.lt-ie9.lt-ie8  
+	html.no-js.lt-ie9.lt-ie8	
 //if IE 8
-	html.no-js.lt-ie9  
+	html.no-js.lt-ie9	
 // [if gt IE 8] <!
 html.no-js
 	// <![endif]
@@ -28,7 +28,6 @@ html
 		link(rel='stylesheet', href='css/basic-styles.css', media='screen')
 		link(href='css/merge.css', rel='stylesheet')		
 
-		link(rel='stylesheet', href='css/okayNav.css', media='screen')
 		link(rel='stylesheet', href='css/header.css', media='screen')
 		// Facebook and Twitter integration
 		meta(property='og:title', content='')
@@ -40,26 +39,39 @@ html
 		meta(name='twitter:image', content='')
 		meta(name='twitter:url', content='')
 		meta(name='twitter:card', content='')
-
+		script(src='bower_components/jquery/dist/jquery.js')		
+		script(src='bower_components/jquery/dist/jquery.min.js')		
+		script(src='bower_components/bootstrap/dist/js/bootstrap.js')
+		script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
 		script(src='js/modernizr.custom.js')
-		script(src='js/jquery.okayNav.js')
+
 
 
 
 	body
-		header#header
-			a.site-logo(href='index.html')
-			nav#nav-main.okayNav(role='navigation')
-				ul
-					li
-						a(href='rolunk.html') Rólunk
-					li
-						a(href='felhasznaloi.html') Felhasználói élmény kutatás
-					li
-						a(href='funkcionalis.html') Funkcionális teszt
+		nav.navbar.navbar-default
+			.container-fluid
+				.navbar-header
+					button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href='index.html') 
+				// Collect the nav links, forms, and other content for toggling
+				#bs-example-navbar-collapse-1.collapse.navbar-collapse
+					ul.nav.navbar-nav
+						li
+							a(href='rolunk.html') Rólunk
 
-					li
-						a(href='#') Kapcsolat
+						li
+							a(href='miertmi.html') Miért mi?
+						li
+							a(href='funkcionalis.html') Funkcionális tesztelés
+						li
+							a(href='felhasznaloi.html') Felhasználói élmény kutatás
+						li
+							a(href='kapcsolat.html') Kapcsolat
 		.container
 			.cover
 				.row
@@ -67,24 +79,24 @@ html
 						h1 Crowdtesting
 						h2 FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT.
 					.col-md-6.kep
+					.scrollholder
+						img(src="img/scroll_icon.png")
 			.tesztek
 				.row
 					.col-md-6.teszt1
-						a(href='felhasznaloi.html')
-							h2 Funkcionális teszt
-							p Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!
-							.imgholder
-							.navigator
-								p Szolgáltatások / Funkcionális teszt
-								p.more >
+						h2 Funkcionális teszt
+						p Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!
+						.imgholder
+						.navigator
+							p Szolgáltatások / Funkcionális teszt
+							p.more >
 					.col-md-6.teszt2
-						a(href='felhasznaloi.html')
-							h2 Felhasználói élmény kutatás
-							p Gyűjts visszajelzéseket, tapasztalatokat a tesztelőink által érzékelt felhasználói élményről!
-							.imgholder
-							.navigator
-								p Szolgáltatások / Felhasználói élmény kutatás
-								p.more >
+						h2 Felhasználói élmény kutatás
+						p Gyűjts visszajelzéseket, tapasztalatokat a tesztelőink által érzékelt felhasználói élményről!
+						.imgholder
+						.navigator
+							p Szolgáltatások / Felhasználói élmény kutatás
+							p.more >
 
 
 			.Elonyok

@@ -4,57 +4,26 @@ $black: #313131
 $off-white: #DBDBDB
 
 
-header 
-	align-items: center
+.navbar-default
 	background-color: $green
-	display: flex
-	flex-direction: row
-	height: 7rem
-	padding: 0 15px
-	position: fixed
-	justify-content: space-between
-	top: 0
-	width: 100%
-	z-index: 100000000
+	height: 80px
+	z-index: 1000000
+	border: none
+	border-radius: 0px
 
-.site-logo 
-	background-image: url(../img/Logo_CMYK_Background.png)
-	background-size: contain
-	width: 190px
-	background-repeat: no-repeat
-	height: 70px
-
-.ok-header__logo:hover 
-	color: $green
-
-.okayNav a
+.navbar-default .navbar-nav>li>a
 	color: white
-	font-weight: 400
 	text-transform: uppercase
+	font-size: 1.4rem
+	line-height: 30px
+	font-family: Droid Sans, sans-serif
+	font-weight: 400
+	margin: 1rem
 
-.okayNav a:hover
-	text-decoration: none
+.navbar-default .navbar-nav>li>a:hover
+	color: white
 
-
-.okayNav__menu-toggle span
-	background-color: white
-
-.okayNav__menu-toggle.icon--active span
-	background-color: white
-
-.okayNav__nav--invisible, .okayNav__nav--invisible a
-	background-color: $green
-
-
-body.okayNav-loaded
-	overflow: hidden
-
-
-
-.okayNav__nav--visible a:hover
-	color: white !important
-
-.okayNav__nav--visible li:after
+.navbar-default .navbar-nav>li:after
 	content: ""
 	display: block
 	background-color: #83B999
@@ -62,14 +31,14 @@ body.okayNav-loaded
 	width: 0%
 	text-align: center
 	margin: 0 auto
-	margin-top: -12px
+	margin-top: -24px
 	transition: all 0.3s ease-in
 	-webkit-transition: all 0.3s ease-in
 	-moz-transition: all 0.3s ease-in
 	-ms-transition: all 0.3s ease-in
 	-o-transition: all 0.3s ease-in
 
-.okayNav__nav--visible li:hover:after
+.navbar-default .navbar-nav>li:hover:after
 	content: ""
 	display: block
 	background-color: #83B999
@@ -77,7 +46,16 @@ body.okayNav-loaded
 	width: 92%
 	text-align: center
 	margin: 0 auto
-	margin-top: -12px
+	margin-top: -24px
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+
+	background-color: transparent
+	color: white
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover
+	background-color: transparent
 
 .active:after
 	content: ""
@@ -87,4 +65,96 @@ body.okayNav-loaded
 	width: 92% !important
 	text-align: center
 	margin: 0 auto
-	margin-top: -12px
+	margin-top: -24px
+	z-index: 100000000
+
+.navbar-brand
+	padding: 0px 15px
+
+
+.navbar-brand
+	background-image: url(/img/Logo_CMYK_Background.png)
+	background-repeat: no-repeat
+	background-size: contain
+	height: 75px
+	width: 210px
+@media (min-width: 768px)
+	.navbar-nav
+		float: right
+		margin-right: 15px
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+	background-color: $green
+
+.navbar-default .navbar-toggle
+	border-color: transparent
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+	background-color: transparent
+
+.navbar-default .navbar-toggle .icon-bar
+	background-color: white
+	margin-top: 6px
+
+.navbar-toggle
+	margin-top: 15px
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+	border-color: #0D6063
+
+@media(max-width: 1090px) 
+	.navbar-header 
+		float: none
+
+	.navbar-left 
+		float: none !important
+
+	.navbar-right 
+		float: none !important
+
+	.navbar-toggle 
+		display: block
+
+	.navbar-collapse 
+		border-top: 1px solid transparent
+		box-shadow: inset 0 1px 0 white
+		&.collapse 
+			display: none !important
+
+
+	.navbar-fixed-top 
+		top: 0
+		border-width: 0 0 1px
+
+	.navbar-nav 
+		float: none!important
+		margin-top: 7.5px
+		
+		li 
+			float: none
+			
+			a 
+				padding-top: 10px
+				padding-bottom: 10px
+
+
+
+	.collapse.in 
+		display: block !important
+	.navbar.navbar-default
+		.container-fluid
+			padding-left: 0px !important
+			padding-right: 0px !important
+	.navbar-default
+		border-radius: 0px !important
+
+	.active:after
+		content: ""
+		display: block
+		background-color: #83B999
+		height: 4px
+		width: 300px !important
+		text-align: left
+		margin-top: -24px
+		z-index: 100000000
+@media (max-width: 767px)
+	.navbar-toggle
+		margin-right: 35px
