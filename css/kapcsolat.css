@@ -1,0 +1,48 @@
+/* ==========================================================================
+ *kapcsolat
+ *========================================================================== */
+.kapcsolat.articlebody_g {
+  margin-top: 120px; }
+  .kapcsolat.articlebody_g .container {
+    padding-top: 90px; }
+
+@media (max-width: 992px) {
+  .kapcsolat.articlebody_g .container {
+    padding-top: 30px; } }
+/* ==========================================================================
+ *form
+ *========================================================================== */
+.form {
+  margin-top: 30px; }
+
+.kapcsolat .container .row .col-md-6 {
+  padding-left: 0px; }
+
+.form-control {
+  height: 60px;
+  font-size: 1.7rem;
+  line-height: 30px;
+  font-family: Droid Sans, sans-serif;
+  font-weight: 400;
+  margin: 0rem;
+  color: #313131;
+  margin-left: 0px;
+  border-radius: 0px; }
+
+textarea.form-control {
+  height: 286px; }
+
+.send .btn-primary {
+  margin-right: 15px;
+  text-align: center;
+  padding-top: 15px;
+  height: 60px;
+  background-color: #83B999;
+  border: none;
+  font-size: 1.7rem;
+  line-height: 30px;
+  font-family: Droid Sans, sans-serif;
+  font-weight: 400; }
+.send .btn-primary:hover {
+  background-color: #69A782;
+  cursor: pointer; }
