@@ -75,6 +75,7 @@
   .navbar-nav {
     float: right;
     margin-right: 15px; } }
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   background-color: #1E777A; }
 
@@ -94,29 +95,23 @@
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: #0D6063; }
 
-@media(max-width: 1090px) {
+@media (max-width: 1090px) {
   .navbar-header {
     float: none; }
-
   .navbar-left {
     float: none !important; }
-
   .navbar-right {
     float: none !important; }
-
   .navbar-toggle {
     display: block; }
-
   .navbar-collapse {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 white; }
     .navbar-collapse.collapse {
       display: none !important; }
-
   .navbar-fixed-top {
     top: 0;
     border-width: 0 0 1px; }
-
   .navbar-nav {
     float: none !important;
     margin-top: 7.5px; }
@@ -125,17 +120,13 @@
       .navbar-nav li a {
         padding-top: 10px;
         padding-bottom: 10px; }
-
   .collapse.in {
     display: block !important; }
-
   .navbar.navbar-default .container-fluid {
     padding-left: 0px !important;
     padding-right: 0px !important; }
-
   .navbar-default {
     border-radius: 0px !important; }
-
   .active:after {
     content: "";
     display: block;
@@ -145,29 +136,35 @@
     text-align: left;
     margin-top: -24px;
     z-index: 100000000; } }
+
 @media (max-width: 767px) {
   .navbar-toggle {
     margin-right: 35px; } }
+
 /* ==========================================================================
  *HTML5 display definitions
  *========================================================================== */
-/** Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
+/*
+ ** Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
-/** Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
+/*
+ ** Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1; }
 
-/** Prevents modern browsers from displaying `audio` without controls.
+/*
+ ** Prevents modern browsers from displaying `audio` without controls.
  ** Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/** Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3, * and Safari 4.
+/*
+ ** Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3, * and Safari 4.
  ** Known issue:no IE 6 support. */
 [hidden] {
   display: none; }
@@ -175,22 +172,26 @@ audio:not([controls]) {
 /* ==========================================================================
  *Base
  *========================================================================== */
-/** 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+/*
+ ** 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
  **    `em` units.
  ** 2. Prevents iOS text size adjust after orientation change, without disabling
  **    user zoom. */
-/** Addresses `font-family` inconsistency between `textarea` and other form
+/*
+ ** Addresses `font-family` inconsistency between `textarea` and other form
  ** elements. */
 html, body {
   overflow-x: hidden;
   width: 100%; }
 
-/** Addresses margins handled incorrectly in IE 6/7. */
+/*
+ ** Addresses margins handled incorrectly in IE 6/7. */
 body {
   margin: 0;
   background-color: #EFEFEF; }
 
-/** Font Smoothing */
+/*
+ ** Font Smoothing */
 html, html a {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
   -webkit-font-smoothing: antialiased; }
@@ -198,12 +199,14 @@ html, html a {
 /* ==========================================================================
  *Links
  *========================================================================== */
-/** Addresses `outline` inconsistency between Chrome and other browsers. */
+/*
+ ** Addresses `outline` inconsistency between Chrome and other browsers. */
 a:focus {
   outline: thin dotted;
   text-decoration: none; }
 
-/** Improves readability when focused and also mouse hovered in all browsers. */
+/*
+ ** Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover {
   outline: 0;
   text-decoration: none; }
@@ -211,7 +214,8 @@ a:active, a:hover {
 /* ==========================================================================
  *Typography
  *========================================================================== */
-/** Addresses font sizes and margins set differently in IE 6/7.
+/*
+ ** Addresses font sizes and margins set differently in IE 6/7.
  ** Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 h1 {
   font-size: 5rem;
@@ -320,52 +324,61 @@ ul {
   padding: 0;
   list-style: none; }
 
-/** Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
+/*
+ ** Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/** Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
+/*
+ ** Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
 b, strong {
   font-weight: bold; }
 
 blockquote {
   margin: 0px; }
 
-/** Addresses styling not present in Safari 5 and Chrome. */
+/*
+ ** Addresses styling not present in Safari 5 and Chrome. */
 dfn {
   font-style: italic; }
 
-/** Addresses styling not present in IE 6/7/8/9. */
+/*
+ ** Addresses styling not present in IE 6/7/8/9. */
 mark {
   background: #ff0;
   color: #000; }
 
 /* */
-/** Corrects font family set oddly in IE 6, Safari 4/5, and Chrome. */
+/*
+ ** Corrects font family set oddly in IE 6, Safari 4/5, and Chrome. */
 code, kbd, pre, samp {
   font-size: 1em;
   font-family: monospace, serif;
-  _font-family: "courier new", monospace; }
+  _font-family: 'courier new', monospace; }
 
-/** Improves readability of pre-formatted text in all browsers. */
+/*
+ ** Improves readability of pre-formatted text in all browsers. */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word; }
 
-/** Addresses CSS quotes not supported in IE 6/7. */
+/*
+ ** Addresses CSS quotes not supported in IE 6/7. */
 q {
   quotes: none; }
 
-/** Addresses `quotes` property not supported in Safari 4. */
+/*
+ ** Addresses `quotes` property not supported in Safari 4. */
 q:before, q:after {
-  content: "";
+  content: '';
   content: none; }
 
 small {
   font-size: 75%; }
 
-/** Prevents `sub` and `sup` affecting `line-height` in all browsers. */
+/*
+ ** Prevents `sub` and `sup` affecting `line-height` in all browsers. */
 sub, sup {
   position: relative;
   vertical-align: baseline;
@@ -382,9 +395,11 @@ sub {
 @media (max-width: 992px) {
   h1 {
     font-size: 3.5rem; } }
+
 @media (max-width: 340px) {
   h1 {
     font-size: 3.3rem; } }
+
 /* ==========================================================================
  *Buttons
  *========================================================================== */
@@ -445,13 +460,14 @@ sub {
 @media (max-width: 1230px) {
   .container {
     width: 98%; } }
+
 @media (max-width: 400px) {
   .container {
     padding-left: 5px;
     padding-right: 5px; }
-
   .container .row .col-md-6 {
     padding-left: 2rem; } }
+
 /* ==========================================================================
  *Cover
  *========================================================================== */
@@ -489,23 +505,25 @@ sub {
 @media (max-width: 1230px) {
   .cover .row .text {
     padding-left: 8rem; } }
+
 @media (max-width: 992px) {
   .cover .row .text {
     padding-top: 40px; }
-
   .cover .row .kep {
     background-position-x: 40px;
     height: 540px; }
-
   .scrollholder {
     display: none; } }
+
 @media (max-width: 660px) {
   .cover .row .text {
     padding-left: 2rem; } }
+
 @media (max-width: 600px) {
   .cover .row .kep {
     background-position-x: 0px;
     height: 260px; } }
+
 /* ==========================================================================
  *Tesztek section
  *========================================================================== */
@@ -578,23 +596,23 @@ sub {
   .tesztek .row .teszt2 .imgholder {
     margin-top: 80px;
     height: 140px; } }
+
 @media (max-width: 991px) {
   .tesztek .row .teszt1 {
     height: 410px; }
-
   .tesztek .row .teszt2 {
     height: 410px; }
-
   .tesztek .row .teszt2 .imgholder {
     margin-top: 40px;
     height: 120px; }
-
   .tesztek .row .teszt1 .imgholder {
     height: 280px; } }
+
 @media (max-width: 431px) {
   .tesztek .row .teszt2 .imgholder {
     margin-top: 30px;
     height: 90px; } }
+
 /* ==========================================================================
  *Előnyök section
  *========================================================================== */
@@ -676,6 +694,7 @@ sub {
 @media (max-width: 660px) {
   .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4 {
     padding-left: 2rem; } }
+
 /* ==========================================================================
  *Folyamat section
  *========================================================================== */
@@ -769,25 +788,22 @@ sub {
   .Elonyok .row .col-md-12 {
     height: 1210px;
     background-image: none; }
-
   .Elonyok .row .col-md-12 h2#ctelonyei {
     padding-left: 15px;
     padding-top: 70px; }
-
   .Elonyok .row .col-md-12 #ctelonyei:after {
     width: 328px; }
-
   .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4 {
     border-bottom: 1px solid white; }
-
   .folyamat .row .col-md-4 .elso:after {
     display: none; }
-
   .folyamat .row .col-md-4 .masodik:after {
     display: none; } }
+
 @media (max-width: 600px) {
   .folyamat .row .btn-primary {
     width: 100%; } }
+
 /* ==========================================================================
  *Companies section
  *========================================================================== */
@@ -805,6 +821,7 @@ sub {
     padding: 40px; }
   .companies .no {
     display: none; } }
+
 /* ==========================================================================
  *Footer
  *========================================================================== */
@@ -824,9 +841,11 @@ footer {
 @media (max-width: 992px) {
   footer {
     padding-bottom: 50px; } }
+
 @media (max-width: 660px) {
   footer .col-md-3, footer .col-md-2, footer .col-md-4 {
     padding-left: 2rem; } }
+
 /* ==========================================================================
  *articletitle
  *========================================================================== */
@@ -890,9 +909,11 @@ footer {
   background-color: #FAFAFA;
   padding-top: 70px;
   padding-bottom: 120px; }
+
 .quote h3 {
   max-width: 300px;
   margin: 0 auto; }
+
 .quote h3:first-child:before {
   content: "";
   background-image: url("../img/quotemark.png");
@@ -1038,6 +1059,7 @@ textarea.form-control {
  *========================================================================== */
 .rolunk .articletitle .container {
   padding-bottom: 0px; }
+
 .rolunk .articlecover {
   background-color: #FAFAFA; }
   .rolunk .articlecover .container {
@@ -1177,6 +1199,10 @@ textarea.form-control {
       border-left: 40px solid #FAFAFA;
       background-color: #EFEFEF; } }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of d79f18c... kapcsolat, előnyök, stb
 .pageload-overlay {
   display: none;
   position: fixed;
@@ -1196,7 +1222,7 @@ textarea.form-control {
     .pageload-overlay svg path {
       fill: #222; }
   .pageload-overlay::after, .pageload-overlay::before {
-    content: "";
+    content: '';
     position: fixed;
     width: 20px;
     height: 20px;
@@ -1225,15 +1251,19 @@ textarea.form-control {
 @-webkit-keyframes moveRight {
   to {
     -webkit-transform: translateX(20px); } }
+
 @keyframes moveRight {
   to {
     transform: translateX(20px); } }
+
 @-webkit-keyframes moveLeft {
   to {
     -webkit-transform: translateX(-20px); } }
+
 @keyframes moveLeft {
   to {
     transform: translateX(-20px); } }
+
 .pageload-loading.pageload-overlay::after, .pageload-loading.pageload-overlay::before {
   opacity: 1;
   visibility: visible;

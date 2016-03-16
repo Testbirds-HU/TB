@@ -3069,26 +3069,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/elonyok.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/elonyok.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/elonyok.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/elonyok.jade",
-		"outputAbbreviatedPath": "\/elonyok.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
 	"\/felhasznaloi.html": {
 		"fileType": 8192,
 		"ignore": 1,
