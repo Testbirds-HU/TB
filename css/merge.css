@@ -2,7 +2,7 @@
 .navbar-default {
   background-color: #1E777A;
   height: 80px;
-  z-index: 1000000000;
+  z-index: 10000000000;
   border: none;
   border-radius: 0px; }
 
