@@ -1,0 +1,136 @@
+doctype html
+//if lt IE 7
+	html.no-js.lt-ie9.lt-ie8.lt-ie7  
+//if IE 7
+	html.no-js.lt-ie9.lt-ie8  
+//if IE 8
+	html.no-js.lt-ie9  
+// [if gt IE 8] <!
+html.no-js
+	// <![endif]
+	html.no-js(lang='en')
+html
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title Testbirds
+		link(href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700', rel='stylesheet', type='text/css')
+		meta(name='description', content='whatever')
+		meta(name='keywords', content='html5 template, css3, one page, animations, agency, portfolio, web design')
+		meta(name='author', content='Kristof Vizy')
+
+
+		link(href='bower_components/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
+		link(href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css', rel='stylesheet')
+		link(rel='shortcut icon', href='favicon.ico')
+
+		link(rel='stylesheet', href='css/basic-styles.css', media='screen')
+		link(href='css/merge.css', rel='stylesheet')		
+
+		link(rel='stylesheet', href='css/header.css', media='screen')
+		// Facebook and Twitter integration
+		meta(property='og:title', content='')
+		meta(property='og:image', content='')
+		meta(property='og:url', content='')
+		meta(property='og:site_name', content='')
+		meta(property='og:description', content='')
+		meta(name='twitter:title', content='')
+		meta(name='twitter:image', content='')
+		meta(name='twitter:url', content='')
+		meta(name='twitter:card', content='')
+		script(src='bower_components/jquery/dist/jquery.js')		
+		script(src='bower_components/jquery/dist/jquery.min.js')		
+		script(src='bower_components/bootstrap/dist/js/bootstrap.js')
+		script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
+		script(src='js/modernizr.custom.js')
+
+
+	body
+		nav.navbar.navbar-default.navbar-fixed-top
+			.container-fluid
+				.navbar-header
+					button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand(href='index.html') 
+				// Collect the nav links, forms, and other content for toggling
+				#bs-example-navbar-collapse-1.collapse.navbar-collapse
+					ul.nav.navbar-nav
+						li
+						li
+							a(href='rolunk.html') Rólunk
+
+						li
+							a(href='elonyok.html') Miért mi?
+						li
+							a(href='funkcionalis.html') Funkcionális tesztelés
+						li
+							a(href='felhasznaloi.html') Felhasználói élmény kutatás
+						li.active
+							a(href='kapcsolat.html') Kapcsolat
+		.container
+
+			.articlebody_g.kapcsolat
+				.container
+					h1 Lépj kapcsolatba velünk!
+					h2 ALIG VÁRJUK, HOGY EGYÜTT DOLGOZHASSUNK VELED!
+					p A crowdtesting nem dobozos szolgáltatás. Minden ügyfelünknek igényeire szabott, egyedi ajánlatot készítünk, egy ingyenes, igényfelmérő beszélgetést követően. Kérjük, add meg pár adatodat, hogy Kata felvehesse veled a kapcsolatot és beszélgethessetek a projektedről!
+					.row.form
+						.col-md-6
+							.form-group
+								input#usr.form-control(type='text', placeholder='Név', required)
+							.form-group
+								input#usr.form-control(type='text', placeholder='Email cím', required)
+							.form-group
+								input#usr.form-control(type='text', placeholder='Telefonszám', required)
+							.form-group
+								input#usr.form-control(type='text', placeholder='Cégnév', required)
+						.col-md-6.message
+							.form-horizontal
+								.form-group
+									.col-md-12
+										textarea.form-control(rows='3', placeholder="Mesélj a projektedről!", required='')
+					.row.send
+						.btn-primary Küldés
+
+					.row(style="border-top: 1px solid rgba(255, 255, 255, 0.49); margin-right: 15px; margin-top: 40px; padding-top: 40px; text-align: center; opacity: 0.5")
+						p Testbirds kft.
+						p 1118 Budapes, Himfy utca 1. 
+						p (30) 569 5988
+
+
+
+
+		footer.container-fluid
+			.row
+				.col-md-4
+					h5 Legutóbbi blogbejegyzések
+					a Etikus design – Az AMUSE konferencián jártunk<br>
+					a Szek.org: Hogyan javítsuk online felületünket?<br>
+					a UX teszt: A kutatási kérdések tisztázása<br>
+					a UX teszt: A célok tisztázása<br>
+					a UX teszt: Az elvárások tisztázása<br>
+				.col-md-2
+				.col-md-3
+					h5 Oldaltérkép
+					a Rólunk<br>
+					a Funkcionális tesztelés?<br>
+					a Felhasználói élmény kutatás<br>
+					a Ajánlatkérés<br>
+					a Kapcsolat<br>
+				.col-md-3
+					h5 Kapcsolat
+					p 1118 Budapest,<br>
+					p Himfy utca 1.<br>
+					p (30) 569 5988
+					p info@testbirds.hu
+
+		script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js')
+		// build:js js/jquery.okayNav-min.js
+		script(src='js/jquery.okayNav.js')
+		// endbuild
+		script(type='text/javascript').
+			var navigation = $('#nav-main').okayNav();
