@@ -171,10 +171,10 @@
     <script src="js/svgLoader.js"></script>
     <script>
       (function() {
-      docInteractive('lazy_stretch');
+      docInteractive('curtain');
       var pageWrap = document.getElementById( 'pagewrap' ),
       triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
+      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 600 } );
       function init() {
       triggerLoading.forEach( function( trigger ) {
       trigger.addEventListener( 'click', function( ev ) {
