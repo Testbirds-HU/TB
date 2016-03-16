@@ -41,26 +41,28 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
+    <script src="js/snap.svg-min.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"> </a>
+    <div id="pagewrap">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"> </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling-->
+          <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="rolunk.html" class="pageload-link">Rólunk</a></li>
+              <li><a href="elonyok.html" class="pageload-link">Miért mi?</a></li>
+              <li><a href="funkcionalis.html" class="pageload-link">Funkcionális tesztelés</a></li>
+              <li><a href="felhasznaloi.html" class="pageload-link">Felhasználói élmény kutatás</a></li>
+              <li><a href="kapcsolat.html" class="pageload-link">Kapcsolat</a></li>
+            </ul>
+          </div>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling-->
-        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li></li>
-            <li><a href="rolunk.html">Rólunk</a></li>
-            <li><a href="elonyok.html">Miért mi?</a></li>
-            <li class="active"><a href="funkcionalis.html">Funkcionális tesztelés</a></li>
-            <li><a href="felhasznaloi.html">Felhasználói élmény kutatás</a></li>
-            <li><a href="kapcsolat.html">Kapcsolat</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <div class="container elonyok">
       <div class="articletitle">
         <div class="container">
@@ -140,6 +142,11 @@
           </div>
         </div>
       </div>
+      <div id="loader" class="pageload-overlay">
+        <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
+          <path id="loaderPath"></path>
+        </svg>
+      </div>
     </div>
     <footer class="container-fluid">
       <div class="row">
@@ -159,6 +166,30 @@
         </div>
       </div>
     </footer>
+    <script src="js/classie.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/svgLoader.js"></script>
+    <script>
+      (function() {
+      docInteractive('lazy_stretch');
+      var pageWrap = document.getElementById( 'pagewrap' ),
+      triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
+      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
+      function init() {
+      triggerLoading.forEach( function( trigger ) {
+      trigger.addEventListener( 'click', function( ev ) {
+      ev.preventDefault();
+      loader.show();
+      setTimeout( function() {
+      loader.hide();
+      document.location.href= ev.target.href;
+      }, 1000 );
+      } );
+      } );
+      }
+      init();
+      })();	
+    </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- build:js js/jquery.okayNav-min.js-->
     <script src="js/jquery.okayNav.js"></script>

@@ -42,34 +42,36 @@ html
 		meta(name='twitter:card', content='')
 
 		script(src='js/modernizr.custom.js')
-		script(src='js/jquery.okayNav.js')
+		script(src='js/snap.svg-min.js')
+
 
 
 
 	body
-		nav.navbar.navbar-default.navbar-fixed-top
-			.container-fluid
-				.navbar-header
-					button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
-						span.sr-only Toggle navigation
-						span.icon-bar
-						span.icon-bar
-						span.icon-bar
-					a.navbar-brand(href='index.html') 
-				// Collect the nav links, forms, and other content for toggling
-				#bs-example-navbar-collapse-1.collapse.navbar-collapse
-					ul.nav.navbar-nav
-						li
-							a(href='rolunk.html') Rólunk
+		#pagewrap
+			nav.navbar.navbar-default.navbar-fixed-top
+				.container-fluid
+					.navbar-header
+						button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+							span.sr-only Toggle navigation
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+						a.navbar-brand(href='index.html') 
+					// Collect the nav links, forms, and other content for toggling
+					#bs-example-navbar-collapse-1.collapse.navbar-collapse
+						ul.nav.navbar-nav
+							li
+								a.pageload-link(href='rolunk.html') Rólunk
 
-						li
-							a(href='elonyok.html') Miért mi?
-						li
-							a(href='funkcionalis.html') Funkcionális tesztelés
-						li.active
-							a(href='felhasznaloi.html') Felhasználói élmény kutatás
-						li
-							a(href='kapcsolat.html') Kapcsolat
+							li
+								a.pageload-link(href='elonyok.html') Miért mi?
+							li
+								a.pageload-link(href='funkcionalis.html') Funkcionális tesztelés
+							li
+								a.pageload-link(href='felhasznaloi.html') Felhasználói élmény kutatás
+							li
+								a.pageload-link(href='kapcsolat.html') Kapcsolat
 		.container
 			.articletitle
 				.container
@@ -140,6 +142,10 @@ html
 				.col-md-2.no
 					img(src="img/Vodafone.png")
 
+			#loader.pageload-overlay
+				svg#loaderSvg(xmlns='http://www.w3.org/2000/svg', width='100%', height='100%', viewbox='0 0 80 60')
+						path#loaderPath
+						
 		footer.container-fluid
 			.row
 				.col-md-4
@@ -163,7 +169,29 @@ html
 					p Himfy utca 1.<br>
 					p (30) 569 5988
 					p info@testbirds.hu
-
+		script(src='js/classie.js')
+		script(src='js/loader.js')
+		script(src='js/svgLoader.js')
+		script.
+			(function() {
+			docInteractive('lazy_stretch');
+			var pageWrap = document.getElementById( 'pagewrap' ),
+			triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
+			loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
+			function init() {
+			triggerLoading.forEach( function( trigger ) {
+			trigger.addEventListener( 'click', function( ev ) {
+			ev.preventDefault();
+			loader.show();
+			setTimeout( function() {
+			loader.hide();
+			document.location.href= ev.target.href;
+			}, 1000 );
+			} );
+			} );
+			}
+			init();
+			})();	
 		script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js')
 		// build:js js/jquery.okayNav-min.js
 		script(src='js/jquery.okayNav.js')
