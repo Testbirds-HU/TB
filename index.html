@@ -25,6 +25,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/basic-styles.css" media="screen">
     <link href="css/merge.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/header.css" media="screen">
     <!-- Facebook and Twitter integration-->
     <meta property="og:title" content="">
     <meta property="og:image" content="">
@@ -35,14 +36,14 @@
     <meta name="twitter:image" content="">
     <meta name="twitter:url" content="">
     <meta name="twitter:card" content="">
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js">		</script>
+    <script src="bower_components/jquery/dist/jquery.min.js">		</script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!--script src="js/modernizr.custom.js"></script-->
-	<script src="js/snap.svg-min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
   </head>
   <body>
-    <div id="pagewrap">
-	<nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"> </a>
@@ -50,16 +51,16 @@
         <!-- Collect the nav links, forms, and other content for toggling-->
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a class="pageload-link" href="rolunk.html">Rólunk</a></li>
-            <li><a class="pageload-link" href="miertmi.html">Miért mi?</a></li>
-            <li><a class="pageload-link" href="funkcionalis.html">Funkcionális tesztelés</a></li>
-            <li><a class="pageload-link" href="felhasznaloi.html">Felhasználói élmény kutatás</a></li>
-            <li><a class="pageload-link" href="kapcsolat.html">Kapcsolat</a></li>
+            <li><a href="rolunk.html">Rólunk</a></li>
+            <li><a href="elonyok.html">Miért mi?</a></li>
+            <li><a href="funkcionalis.html">Funkcionális tesztelés</a></li>
+            <li><a href="felhasznaloi.html">Felhasználói élmény kutatás</a></li>
+            <li><a href="kapcsolat.html">Kapcsolat</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    
+    <div class="container">
       <div class="cover">
         <div class="row">
           <div class="col-md-6 text">
@@ -164,12 +165,7 @@
         <div class="col-md-2 no"><img src="img/telenor_logo.png"></div>
         <div class="col-md-2 no"><img src="img/Vodafone.png"></div>
       </div>
-	<div id="loader" class="pageload-overlay">
-		<svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60">
-			<path id="loaderPath" />
-		</svg>
-	</div>	  
-	  
+    </div>
     <footer class="container-fluid">
       <div class="row">
         <div class="col-md-4">
@@ -188,39 +184,10 @@
         </div>
       </div>
     </footer>
-    </div>
-
-	<script src="js/classie.js"></script>
-	<script src="js/loader.js"></script>
-	<script src="js/svgLoader.js"></script>
-	<script>
-		(function() {
-			docInteractive('lazy_stretch');
-			var pageWrap = document.getElementById( 'pagewrap' ),
-				triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-				loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
-				
-			function init() {
-				triggerLoading.forEach( function( trigger ) {
-					trigger.addEventListener( 'click', function( ev ) {
-						ev.preventDefault();
-						loader.show();
-						setTimeout( function() {
-							loader.hide();
-							document.location.href= ev.target.href;
-						}, 1000 );
-					} );
-				} );
-			}
-
-			init();
-		})();
-	</script>	
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- build:js js/jquery.okayNav-min.js-->
     <script src="js/jquery.okayNav.js"></script>
     <!-- endbuild-->
     <script type="text/javascript">var navigation = $('#nav-main').okayNav();</script>
-	
-
   </body>
 </html>

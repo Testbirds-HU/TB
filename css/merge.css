@@ -284,7 +284,7 @@ a {
   -webkit-transition-property: color, border-color, background-color;
   transition-property: color, border-color, background-color; }
 
-p {
+p, li {
   font-size: 1.7rem;
   line-height: 30px;
   font-family: Droid Sans, sans-serif;
@@ -901,6 +901,137 @@ footer {
   background-size: 50px 32px;
   height: 60px;
   margin-left: 120px; }
+
+/* ==========================================================================
+ *articletitle
+ *========================================================================== */
+.elonyok h2 {
+  margin: 1rem; }
+.elonyok .one:before {
+  content: "1";
+  height: 40px;
+  width: 40px;
+  border: 2px solid #1E777A;
+  border-radius: 500px;
+  display: block;
+  text-align: center;
+  padding-top: 1px;
+  margin-bottom: 12px; }
+.elonyok .two:before {
+  content: "2";
+  height: 40px;
+  width: 40px;
+  border: 2px solid #1E777A;
+  border-radius: 500px;
+  display: block;
+  text-align: center;
+  padding-top: 1px;
+  margin-bottom: 12px; }
+.elonyok .three:before {
+  content: "3";
+  height: 40px;
+  width: 40px;
+  border: 2px solid #1E777A;
+  border-radius: 500px;
+  display: block;
+  text-align: center;
+  padding-top: 1px;
+  margin-bottom: 12px; }
+.elonyok .four:before {
+  content: "4";
+  height: 40px;
+  width: 40px;
+  border: 2px solid #1E777A;
+  border-radius: 500px;
+  display: block;
+  text-align: center;
+  padding-top: 1px;
+  margin-bottom: 12px; }
+.elonyok .articletitle {
+  background-color: #FAFAFA; }
+  .elonyok .articletitle .container {
+    max-width: 800px;
+    padding-top: 80px;
+    padding-bottom: 50px; }
+    .elonyok .articletitle .container .row {
+      margin-top: 90px; }
+      .elonyok .articletitle .container .row .placeholder {
+        background-image: url("../img/tesztbg1.png");
+        height: 620px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .elonyok .articletitle .container .row .text {
+        padding-top: 10px; }
+
+.elonyok .articletitle .container .row.nr1 {
+  margin-top: 30px; }
+
+/* ========================================================================== */
+@media (max-width: 992px) {
+  .elonyok .articletitle .container .row .placeholder {
+    height: 280px; }
+
+  .elonyok .articletitle .container .row .text {
+    padding-top: 30px; }
+
+  .elonyok .container .row .col-md-6 {
+    padding-left: 1rem; }
+
+  .elonyok .articletitle .container .row {
+    margin-top: 30px; } }
+/* ==========================================================================
+ *kapcsolat
+ *========================================================================== */
+.articlebody_g .container h1, .articlebody_g .container h2 {
+  color: white !important; }
+.articlebody_g .container .container {
+  padding-top: 90px; }
+  .articlebody_g .container .container h1 {
+    color: white; }
+
+@media (max-width: 992px) {
+  .kapcsolat.articlebody_g .container {
+    padding-top: 30px; } }
+/* ==========================================================================
+ *form
+ *========================================================================== */
+.form {
+  margin-top: 30px; }
+
+.kapcsolat {
+  margin-top: 120px; }
+  .kapcsolat .container .row .col-md-6 {
+    padding-left: 0px; }
+
+.form-control {
+  height: 60px;
+  font-size: 1.7rem;
+  line-height: 30px;
+  font-family: Droid Sans, sans-serif;
+  font-weight: 400;
+  margin: 0rem;
+  color: #313131;
+  margin-left: 0px;
+  border-radius: 0px; }
+
+textarea.form-control {
+  height: 286px; }
+
+.send .btn-primary {
+  margin-right: 15px;
+  text-align: center;
+  padding-top: 15px;
+  height: 60px;
+  background-color: #83B999;
+  border: none;
+  font-size: 1.7rem;
+  line-height: 30px;
+  font-family: Droid Sans, sans-serif;
+  font-weight: 400; }
+.send .btn-primary:hover {
+  background-color: #69A782;
+  cursor: pointer; }
 
 /* ==========================================================================
  *cover

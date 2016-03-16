@@ -1,10 +1,12 @@
 /* ==========================================================================
  *kapcsolat
  *========================================================================== */
-.kapcsolat.articlebody_g {
-  margin-top: 120px; }
-  .kapcsolat.articlebody_g .container {
-    padding-top: 90px; }
+.articlebody_g .container h1, .articlebody_g .container h2 {
+  color: white !important; }
+.articlebody_g .container .container {
+  padding-top: 90px; }
+  .articlebody_g .container .container h1 {
+    color: white; }
 
 @media (max-width: 992px) {
   .kapcsolat.articlebody_g .container {
