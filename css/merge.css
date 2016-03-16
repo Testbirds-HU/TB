@@ -1113,10 +1113,6 @@ textarea.form-control {
         -moz-transition: all 0.3s ease-in;
         -ms-transition: all 0.3s ease-in;
         -o-transition: all 0.3s ease-in; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #ph2:hover {
-        opacity: 0; }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #ph2:hover p {
-          display: none; }
       .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p2 {
         background-image: url("../img/Gizella_Bartha-2.jpg");
         background-repeat: no-repeat;
