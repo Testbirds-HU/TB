@@ -1176,6 +1176,7 @@ textarea.form-control {
       border-right: 45px solid #FAFAFA;
       border-left: 40px solid #FAFAFA;
       background-color: #EFEFEF; } }
+<<<<<<< HEAD
 .pageload-overlay {
   display: none;
   position: fixed;
@@ -1238,3 +1239,5 @@ textarea.form-control {
   visibility: visible;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s; }
+=======
+>>>>>>> parent of d6d0a91... page load effects
