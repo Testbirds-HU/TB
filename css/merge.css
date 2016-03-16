@@ -1086,19 +1086,36 @@ textarea.form-control {
           margin: 0 auto;
           margin-top: 5px;
           background-color: white; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p1 {
-        background-image: url("../img/Adam_Csikos-2.jpg");
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #ph1 {
+        background-image: url("../img/Gizella_Bartha-2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+        height: 330px;
+        margin-bottom: 83px;
+        border-radius: 600px;
+        text-align: center;
+        position: absolute;
+        width: 100%; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #ph2 {
+        background-image: url("../img/caprio.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 330px;
+        margin-bottom: 83px;
+        border-radius: 600px;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        transition: all 0.3s ease-in;
         -webkit-transition: all 0.3s ease-in;
         -moz-transition: all 0.3s ease-in;
         -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        transition: background-image 0.3s ease-in; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p1:hover {
-        background-image: url("../img/caprio.jpg"); }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p1:hover p {
+        -o-transition: all 0.3s ease-in; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #ph2:hover {
+        opacity: 0; }
+        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #ph2:hover p {
           display: none; }
       .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p2 {
         background-image: url("../img/Gizella_Bartha-2.jpg");
