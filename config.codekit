@@ -3129,6 +3129,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/img\/3d-darts-vector_23-2147499038.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38606,
+		"inputAbbreviatedPath": "\/img\/3d-darts-vector_23-2147499038.jpg",
+		"outputAbbreviatedPath": "\/img\/3d-darts-vector_23-2147499038.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/_IMG_982-1.jpg": {
 		"fileType": 16384,
 		"ignore": 1,
@@ -3283,6 +3294,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/answers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32734,
+		"inputAbbreviatedPath": "\/img\/answers.jpg",
+		"outputAbbreviatedPath": "\/img\/answers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/arrow_down.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3323,6 +3345,28 @@
 		"initialSize": 93528,
 		"inputAbbreviatedPath": "\/img\/caprio.jpg",
 		"outputAbbreviatedPath": "\/img\/caprio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/device.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23036,
+		"inputAbbreviatedPath": "\/img\/device.jpg",
+		"outputAbbreviatedPath": "\/img\/device.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/devices.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134582,
+		"inputAbbreviatedPath": "\/img\/devices.jpg",
+		"outputAbbreviatedPath": "\/img\/devices.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3492,6 +3536,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/People.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64342,
+		"inputAbbreviatedPath": "\/img\/People.jpg",
+		"outputAbbreviatedPath": "\/img\/People.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/process.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3587,6 +3642,17 @@
 		"initialSize": 508129,
 		"inputAbbreviatedPath": "\/img\/Tamas_Lichter.jpg",
 		"outputAbbreviatedPath": "\/img\/Tamas_Lichter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/target.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111295,
+		"inputAbbreviatedPath": "\/img\/target.jpg",
+		"outputAbbreviatedPath": "\/img\/target.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3689,15 +3755,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/index.jade": {
 		"compileDebug": 1,
@@ -3820,15 +3877,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/kapcsolat.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/kapcsolat.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/kapcsolat.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -3839,6 +3887,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
+		},
+	"\/kapcsolat.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kapcsolat.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rolunk.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rolunk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/rolunk.jade": {
 		"compileDebug": 1,

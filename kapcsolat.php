@@ -1,3 +1,50 @@
+<?php
+  if(!empty($_POST)){
+    // multiple recipients
+    $to  = 'emaerka@gmail.com';
+    
+    // subject
+    $subject = 'Üzenet a TestBirds oldalról.';
+    
+    // message
+    $message = '
+    <html>
+    <head>
+      <title>Üzenet a TestBirds oldalról.!</title>
+    </head>
+    <body>
+      <p>Új üzeneted érkezett a TestBirds oldaláról!</p>
+      <table>
+        <tr>
+          <td>Név</td><td>'.$_POST['nev'].'</td>
+        </tr>
+      <tr>
+          <td>Email</td><td>'.$_POST['email'].'</td>
+        </tr>
+        <tr>
+          <td>Telefonszám</td><td>'.$_POST['telefonszam'].'</td>
+        </tr>
+        <tr>
+          <td>Cégnév</td><td>'.$_POST['cegnev'].'</td>
+        </tr>
+        <tr>
+          <td>Projektről</td><td>'.$_POST['projekt'].'</td>
+        </tr>
+      </table>
+    </body>
+    </html>
+    ';
+    
+    // To send HTML mail, the Content-type header must be set
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    
+    // Mail it
+    mail($to, $subject, $message, $headers);
+    
+  }
+
+?>
 <!DOCTYPE html>
 <!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7  
 -->
@@ -36,8 +83,8 @@
     <meta name="twitter:image" content="">
     <meta name="twitter:url" content="">
     <meta name="twitter:card" content="">
-    <script src="bower_components/jquery/dist/jquery.js">		</script>
-    <script src="bower_components/jquery/dist/jquery.min.js">		</script>
+    <script src="bower_components/jquery/dist/jquery.js">   </script>
+    <script src="bower_components/jquery/dist/jquery.min.js">   </script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -66,49 +113,56 @@
     <div class="container">
       <div class="articlebody_g kapcsolat">
         <div class="container">
+        <? if(empty($_POST) ){
+         
+        ?>
+        
           <h1>Lépj kapcsolatba velünk!</h1>
           <h2>ALIG VÁRJUK, HOGY EGYÜTT DOLGOZHASSUNK VELED!</h2>
           <p>A crowdtesting nem dobozos szolgáltatás. Minden ügyfelünknek igényeire szabott, egyedi ajánlatot készítünk, egy ingyenes, igényfelmérő beszélgetést követően. Kérjük, add meg pár adatodat, hogy Kata felvehesse veled a kapcsolatot és beszélgethessetek a projektedről!</p>
+          <form method="post" action="">
           <div class="row form">
+            
             <div class="col-md-6">
               <div class="form-group">
-                <input id="usr" type="text" placeholder="Név" required class="form-control">
+                <input id="usr" type="text" name="nev" placeholder="Név" required class="form-control">
               </div>
               <div class="form-group">
-                <input id="usr" type="text" placeholder="Email cím" required class="form-control">
+                <input id="usr" type="email" name="email" placeholder="Email cím" required class="form-control">
               </div>
               <div class="form-group">
-                <input id="usr" type="text" placeholder="Telefonszám" required class="form-control">
+                <input id="usr" type="tel" name="telefonszam" placeholder="Telefonszám" required class="form-control">
               </div>
               <div class="form-group">
-                <input id="usr" type="text" placeholder="Cégnév" required class="form-control">
+                <input id="usr" type="text" name="cegnev" placeholder="Cégnév" required class="form-control">
               </div>
             </div>
             <div class="col-md-6 message">
               <div class="form-horizontal">
                 <div class="form-group">
                   <div class="col-md-12">
-                    <textarea rows="3" placeholder="Mesélj a projektedről!" required="" class="form-control"></textarea>
+                    <textarea rows="3" placeholder="Mesélj a projektedről!" required="" name="projekt" class="form-control"></textarea>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="row send">
-            <div class="btn-primary">Küldés</div>
+            <input class="btn-primary" type="submit" value="Küldés">
           </div>
+          </form>
           <div style="border-top: 1px solid rgba(255, 255, 255, 0.49); margin-right: 15px; margin-top: 40px; padding-top: 40px; text-align: center; opacity: 0.5" class="row">
             <p>Testbirds kft.</p>
             <p>1118 Budapes, Himfy utca 1. </p>
             <p>(30) 569 5988</p>
           </div>
+        <?} else {
+        ?>
+          <h1>Köszönjük a leveledet, amint tudunk válaszolunk!</h1>
+        <? } ?>
         </div>
       </div>
-      <div id="loader" class="pageload-overlay">
-        <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
-          <path id="loaderPath"></path>
-        </svg>
-      </div>
+
     </div>
     <footer class="container-fluid">
       <div class="row">
@@ -128,15 +182,20 @@
         </div>
       </div>
     </footer>
+      <div id="loader" class="pageload-overlay">
+        <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
+          <path id="loaderPath"></path>
+        </svg>
+      </div>
     <script src="js/classie.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/svgLoader.js"></script>
     <script>
       (function() {
-      docInteractive('jammed_blind');
+      docInteractive('lazy_stretch');
       var pageWrap = document.getElementById( 'pagewrap' ),
       triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 200 } );
+      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
       function init() {
       triggerLoading.forEach( function( trigger ) {
       trigger.addEventListener( 'click', function( ev ) {
@@ -150,7 +209,7 @@
       } );
       }
       init();
-      })();	
+      })(); 
     </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- build:js js/jquery.okayNav-min.js-->

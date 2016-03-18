@@ -313,7 +313,11 @@ a {
 a:hover, a:focus {
   color: #1E777A;
   cursor: pointer;
-  text-decoration: underline; }
+  text-decoration: underline;
+  outline: none !important; }
+
+a:focus {
+  color: white !important; }
 
 ul {
   margin: 0;
@@ -866,7 +870,7 @@ footer {
     max-width: 800px;
     padding-top: 50px;
     padding-bottom: 80px; }
-    .articlebody_g .container h6, .articlebody_g .container p {
+    .articlebody_g .container h6, .articlebody_g .container p, .articlebody_g .container li {
       color: white; }
 
 /* ==========================================================================
@@ -906,7 +910,10 @@ footer {
  *articletitle
  *========================================================================== */
 .elonyok h2 {
-  margin: 1rem; }
+  margin-bottom: 2rem; }
+.elonyok li {
+  list-style: initial;
+  margin-left: 20px; }
 .elonyok .one:before {
   content: "1";
   height: 40px;
@@ -955,8 +962,26 @@ footer {
     padding-bottom: 50px; }
     .elonyok .articletitle .container .row {
       margin-top: 90px; }
-      .elonyok .articletitle .container .row .placeholder {
-        background-image: url("../img/tesztbg1.png");
+      .elonyok .articletitle .container .row #placeholder1 {
+        background-image: url("../img/target.jpg");
+        height: 620px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .elonyok .articletitle .container .row #placeholder2 {
+        background-image: url("../img/devices.jpg");
+        height: 620px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .elonyok .articletitle .container .row #placeholder3 {
+        background-image: url("../img/people.jpg");
+        height: 620px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+      .elonyok .articletitle .container .row #placeholder4 {
+        background-image: url("../img/answers.jpg");
         height: 620px;
         background-repeat: no-repeat;
         background-position: center;
@@ -1057,138 +1082,154 @@ textarea.form-control {
     padding-top: 50px;
     max-width: 800px; }
 
-@media (min-width: 992px) {
-  .rolunk .team .container-fluid {
+.rolunk .team .container-fluid {
+  padding-right: 0px; }
+  .rolunk .team .container-fluid h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    width: 100%; }
+  .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid {
     padding-right: 0px; }
-    .rolunk .team .container-fluid h2 {
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid .col-lg-4.col-md-6.col-sm-6 {
+      height: 330px;
+      margin-bottom: 83px;
+      border-radius: 10px;
       text-align: center;
-      padding-bottom: 50px;
-      padding-top: 80px; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid {
-      padding-right: 0px; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid .col-lg-4.col-md-6.col-sm-6 {
-        height: 330px;
-        margin-bottom: 83px;
-        border-left: 40px solid #FAFAFA;
-        border-radius: 600px;
+      border-right: 20px solid #FAFAFA; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid .col-lg-4.col-md-6.col-sm-6 p {
+        Color: White;
+        font-weight: 800;
+        height: 100%;
+        padding-top: 250px; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid .col-lg-4.col-md-6.col-sm-6 p:after {
+        content: "";
+        height: 2px;
+        display: block;
+        width: 21px;
         text-align: center;
-        border-right: 40px solid #FAFAFA; }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid .col-lg-4.col-md-6.col-sm-6 p {
-          Color: White;
-          font-weight: 800;
-          margin-top: 250px; }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid .col-lg-4.col-md-6.col-sm-6 p:after {
-          content: "";
-          height: 2px;
-          display: block;
-          width: 21px;
-          text-align: center;
-          margin: 0 auto;
-          margin-top: 5px;
-          background-color: white; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #ph1 {
-        background-image: url("../img/Gizella_Bartha.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 330px;
-        margin-bottom: 83px;
-        border-radius: 600px;
-        text-align: center;
-        position: absolute;
-        width: 100%; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #ph2 {
-        background-image: url("../img/caprio.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 330px;
-        margin-bottom: 83px;
-        border-radius: 600px;
-        text-align: center;
-        position: absolute;
-        width: 100%;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p2 {
-        background-image: url("../img/Gizella_Bartha-2.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p2:hover {
-        background-image: url("../img/Gizella_Bartha.jpg"); }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p2:hover p {
-          display: none; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p3 {
-        background-image: url("../img/Balazs_Fonagy-2.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p3:hover {
-        background-image: url("../img/Balazs_Fonagy.jpg"); }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p3:hover p {
-          display: none; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p4 {
-        background-image: url("../img/Michal_Matus-2.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p4:hover {
-        background-image: url("../img/Michal_Matus.jpg"); }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p4:hover p {
-          display: none; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p5 {
-        background-image: url("../img/Tamas_Lichter-2.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p5:hover {
-        background-image: url("../img/Tamas_Lichter.jpg"); }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p5:hover p {
-          display: none; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p6 {
-        background-image: url("../img/Kata_Csankovszki-2.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -ms-transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p6:hover {
-        background-image: url("../img/Kata_Csankovszki.jpg"); }
-        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8 .container-fluid #p6:hover p {
-          display: none; }
-    .rolunk .team .container-fluid .persondescription {
-      background-color: #FAFAFA;
-      padding: 60px;
-      border-right: 45px solid #FAFAFA;
-      border-left: 40px solid #FAFAFA;
-      background-color: #EFEFEF; } }
+        margin: 0 auto;
+        margin-top: 5px;
+        background-color: white; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph1 {
+      background-image: url("../img/Gizella_Bartha.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 330px;
+      margin-bottom: 83px;
+      border-radius: 10px;
+      text-align: center;
+      position: absolute;
+      width: 100%; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2 {
+      background-image: url("../img/caprio.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 330px;
+      margin-bottom: 83px;
+      border-radius: 10px;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p2 {
+      background-image: url("../img/Gizella_Bartha-2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p2:hover {
+      background-image: url("../img/Gizella_Bartha.jpg"); }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p2:hover p {
+        display: none; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p3 {
+      background-image: url("../img/Balazs_Fonagy-2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p3:hover {
+      background-image: url("../img/Balazs_Fonagy.jpg"); }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p3:hover p {
+        display: none; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p4 {
+      background-image: url("../img/Michal_Matus-2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p4:hover {
+      background-image: url("../img/Michal_Matus.jpg"); }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p4:hover p {
+        display: none; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p5 {
+      background-image: url("../img/Tamas_Lichter-2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p5:hover {
+      background-image: url("../img/Tamas_Lichter.jpg"); }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p5:hover p {
+        display: none; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p6 {
+      background-image: url("../img/Kata_Csankovszki-2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      transition: all 0.3s ease-in;
+      -webkit-transition: all 0.3s ease-in;
+      -moz-transition: all 0.3s ease-in;
+      -ms-transition: all 0.3s ease-in;
+      -o-transition: all 0.3s ease-in; }
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p6:hover {
+      background-image: url("../img/Kata_Csankovszki.jpg"); }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p6:hover p {
+        display: none; }
+  .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .persondescription {
+    background-color: #FAFAFA;
+    padding: 60px;
+    border-right: 45px solid #FAFAFA;
+    border-left: 40px solid #FAFAFA;
+    background-color: #EFEFEF; }
+
+.infoBox.active {
+  padding: 50px 42px;
+  color: black;
+  background: #ECECEC;
+  margin-top: -60px;
+  max-width: 895px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px; }
+  .infoBox.active p {
+    text-transform: none; }
+
+.infoBox.active:after {
+  display: none; }
+
 .pageload-overlay {
   display: none;
   position: fixed;
