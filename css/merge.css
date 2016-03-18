@@ -2,7 +2,7 @@
 .navbar-default {
   background-color: #1E777A;
   height: 80px;
-  z-index: 10000000000;
+  z-index: 10000;
   border: none;
   border-radius: 0px; }
 
@@ -529,9 +529,12 @@ sub {
     bottom: 30px;
     float: right;
     right: 35px; }
+  .tesztek .row a:hover, .tesztek .row a:focus {
+    text-decoration: none; }
   .tesztek .row .teszt1 {
     padding-top: 4rem;
     background-color: #0A83D0;
+    z-index: 100;
     height: 500px;
     transition: all 0.1s ease-in;
     -webkit-transition: all 0.1s ease-in;
@@ -549,7 +552,7 @@ sub {
       cursor: pointer; }
   .tesztek .row .teszt1:hover {
     background-color: #097FCA;
-    z-index: 10000000;
+    z-index: 100;
     -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26); }
@@ -572,7 +575,7 @@ sub {
       margin-top: 90px; }
   .tesztek .row .teszt2:hover {
     background-color: #119E76;
-    z-index: 100000;
+    z-index: 100;
     -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26); }
@@ -602,6 +605,8 @@ sub {
 /* ==========================================================================
  *Előnyök section
  *========================================================================== */
+.Elonyok .row a:hover, .Elonyok .row a:focus {
+  text-decoration: none; }
 .Elonyok .row .col-md-12 {
   background-color: #FAFAFA;
   height: 600px;
@@ -653,25 +658,25 @@ sub {
         right: 35px; }
   .Elonyok .row .col-md-12 .el1:hover {
     background-color: #82b999;
-    z-index: 100000;
+    z-index: 100;
     -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26); }
   .Elonyok .row .col-md-12 .el2:hover {
     background-color: #82b999;
-    z-index: 100000;
+    z-index: 100;
     -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26); }
   .Elonyok .row .col-md-12 .el3:hover {
     background-color: #82b999;
-    z-index: 100000;
+    z-index: 100;
     -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26); }
   .Elonyok .row .col-md-12 .el4:hover {
     background-color: #82b999;
-    z-index: 100000;
+    z-index: 100;
     -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26); }
@@ -1067,7 +1072,7 @@ textarea.form-control {
   background-color: #FAFAFA; }
   .rolunk .articlecover .container {
     background-image: url("../img/process.png");
-    background-size: cover;
+    background-size: contain;
     max-width: 800px;
     background-repeat: no-repeat;
     height: 200px; }
@@ -1089,20 +1094,20 @@ textarea.form-control {
     padding-bottom: 50px;
     padding-top: 80px;
     width: 100%; }
-  .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid {
+  .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid {
     padding-right: 0px; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid .col-lg-4.col-md-6.col-sm-6 {
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid .col-lg-4.col-md-6.col-sm-6 {
       height: 330px;
       margin-bottom: 83px;
       border-radius: 10px;
       text-align: center;
       border-right: 60px solid #FAFAFA; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid .col-lg-4.col-md-6.col-sm-6 p {
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid .col-lg-4.col-md-6.col-sm-6 p {
         Color: White;
         font-weight: 800;
         height: 100%;
         padding-top: 250px; }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid .col-lg-4.col-md-6.col-sm-6 p:after {
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid .col-lg-4.col-md-6.col-sm-6 p:after {
         content: "";
         height: 2px;
         display: block;
@@ -1111,7 +1116,7 @@ textarea.form-control {
         margin: 0 auto;
         margin-top: 5px;
         background-color: white; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph1 {
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph1 {
       background-image: url("../img/Gizella_Bartha.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -1122,7 +1127,7 @@ textarea.form-control {
       text-align: center;
       position: absolute;
       width: 100%; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2 {
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2 {
       background-image: url("../img/Gizella_Bartha-2.jpg");
       background-repeat: no-repeat;
       background-size: cover;
@@ -1133,95 +1138,102 @@ textarea.form-control {
       text-align: center;
       position: absolute;
       width: 100%;
+      opacity: 1;
       transition: all 0.3s ease-in;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
       -ms-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p2 {
-      background-image: url("../img/Gizella_Bartha-2.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      transition: all 0.3s ease-in;
-      -webkit-transition: all 0.3s ease-in;
-      -moz-transition: all 0.3s ease-in;
-      -ms-transition: all 0.3s ease-in;
-      -o-transition: all 0.3s ease-in; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p2:hover {
-      background-image: url("../img/Gizella_Bartha.jpg"); }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p2:hover p {
-        display: none; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p3 {
-      background-image: url("../img/Balazs_Fonagy-2.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      transition: all 0.3s ease-in;
-      -webkit-transition: all 0.3s ease-in;
-      -moz-transition: all 0.3s ease-in;
-      -ms-transition: all 0.3s ease-in;
-      -o-transition: all 0.3s ease-in; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p3:hover {
-      background-image: url("../img/Balazs_Fonagy.jpg"); }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p3:hover p {
-        display: none; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p4 {
-      background-image: url("../img/Michal_Matus-2.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      transition: all 0.3s ease-in;
-      -webkit-transition: all 0.3s ease-in;
-      -moz-transition: all 0.3s ease-in;
-      -ms-transition: all 0.3s ease-in;
-      -o-transition: all 0.3s ease-in; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p4:hover {
-      background-image: url("../img/Michal_Matus.jpg"); }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p4:hover p {
-        display: none; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p5 {
-      background-image: url("../img/Tamas_Lichter-2.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      transition: all 0.3s ease-in;
-      -webkit-transition: all 0.3s ease-in;
-      -moz-transition: all 0.3s ease-in;
-      -ms-transition: all 0.3s ease-in;
-      -o-transition: all 0.3s ease-in; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p5:hover {
-      background-image: url("../img/Tamas_Lichter.jpg"); }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p5:hover p {
-        display: none; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p6 {
-      background-image: url("../img/Kata_Csankovszki-2.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      transition: all 0.3s ease-in;
-      -webkit-transition: all 0.3s ease-in;
-      -moz-transition: all 0.3s ease-in;
-      -ms-transition: all 0.3s ease-in;
-      -o-transition: all 0.3s ease-in; }
-    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p6:hover {
-      background-image: url("../img/Kata_Csankovszki.jpg"); }
-      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .container-fluid #ph2:hover #p6:hover p {
-        display: none; }
-  .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-10.col-xs-12 .persondescription {
+    .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover {
+      opacity: 0; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p2 {
+        background-image: url("../img/Gizella_Bartha-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p2:hover {
+        background-image: url("../img/Gizella_Bartha.jpg"); }
+        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p2:hover p {
+          display: none; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p3 {
+        background-image: url("../img/Balazs_Fonagy-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p3:hover {
+        background-image: url("../img/Balazs_Fonagy.jpg"); }
+        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p3:hover p {
+          display: none; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p4 {
+        background-image: url("../img/Michal_Matus-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p4:hover {
+        background-image: url("../img/Michal_Matus.jpg"); }
+        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p4:hover p {
+          display: none; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p5 {
+        background-image: url("../img/Tamas_Lichter-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p5:hover {
+        background-image: url("../img/Tamas_Lichter.jpg"); }
+        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p5:hover p {
+          display: none; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p6 {
+        background-image: url("../img/Kata_Csankovszki-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.3s ease-in;
+        -webkit-transition: all 0.3s ease-in;
+        -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in; }
+      .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p6:hover {
+        background-image: url("../img/Kata_Csankovszki.jpg"); }
+        .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid #ph2:hover #p6:hover p {
+          display: none; }
+  .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .persondescription {
     background-color: #FAFAFA;
     padding: 60px;
     border-right: 45px solid #FAFAFA;
     border-left: 40px solid #FAFAFA;
     background-color: #EFEFEF; }
 
+.infoBox h1 {
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
 .infoBox.active {
-  padding: 50px 42px;
+  padding: 35px 42px;
   color: black;
   background: #ECECEC;
   margin-top: -60px;
-  max-width: 895px;
-  margin-left: 50px;
+  max-width: 82%;
+  margin-left: 15px;
   margin-bottom: 50px;
   border-radius: 10px; }
   .infoBox.active p {
@@ -1230,7 +1242,14 @@ textarea.form-control {
 .infoBox.active:after {
   display: none; }
 
+@media (max-width: 767px) {
+  .infoBox.active {
+    float: none; } }
+@media (max-width: 998px) {
+  .infoBox.active {
+    max-width: 80%; } }
 .pageload-overlay {
+  z-index: 102;
   display: none;
   position: fixed;
   width: 100%;
