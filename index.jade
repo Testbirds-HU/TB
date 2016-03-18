@@ -59,7 +59,7 @@ html
 							span.icon-bar
 							span.icon-bar
 							span.icon-bar
-						a.navbar-brand(href='index.html') 
+						a.pageload-link.navbar-brand(href='index.html') 
 					// Collect the nav links, forms, and other content for toggling
 					#bs-example-navbar-collapse-1.collapse.navbar-collapse
 						ul.nav.navbar-nav
@@ -85,14 +85,14 @@ html
 							img(src="img/scroll_icon.png")
 				.tesztek
 					.row
-						.col-md-6.teszt1
+						a.pageload-link(href='funkcionalis.html').col-md-6.teszt1
 							h2 Funkcionális teszt
 							p Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!
 							.imgholder
 							.navigator
 								p Szolgáltatások / Funkcionális teszt
 								p.more >
-						.col-md-6.teszt2
+						a.pageload-link(href='felhasznaloi.html').col-md-6.teszt2
 							h2 Felhasználói élmény kutatás
 							p Gyűjts visszajelzéseket, tapasztalatokat a tesztelőink által érzékelt felhasználói élményről!
 							.imgholder
@@ -106,22 +106,22 @@ html
 						.col-md-12
 							h2#ctelonyei A crowdtesting előnyei
 							.row.list
-								.col-md-3.el1
-									h2 Releváns célcsoport
-									.navigator
-										p Szolgáltatások / Felhasználói élmény kutatás
-										p.more >								
-								.col-md-3.el2
+								a.pageload-link(href='elonyok.html').col-md-3.el1
+										h2 Releváns célcsoport
+										.navigator
+											p Szolgáltatások / Felhasználói élmény kutatás
+											p.more >								
+								a.pageload-link(href='elonyok.html').col-md-3.el2
 									h2 Eszközök széles választéka
 									.navigator
 										p Szolgáltatások / Felhasználói élmény kutatás
 										p.more >								
-								.col-md-3.el3
+								a.pageload-link(href='elonyok.html').col-md-3.el3
 									h2 Elfogulatlan tesztelők
 									.navigator
 										p Szolgáltatások / Felhasználói élmény kutatás
 										p.more >
-								.col-md-3.el4
+								a.pageload-link(href='elonyok.html').col-md-3.el4
 									h2 Visszajelzések rövid időn belül
 									.navigator
 										p Szolgáltatások / Felhasználói élmény kutatás
@@ -163,9 +163,7 @@ html
 						img(src="img/telenor_logo.png")						
 					.col-md-2.no
 						img(src="img/Vodafone.png")
-			#loader.pageload-overlay
-				svg#loaderSvg(xmlns='http://www.w3.org/2000/svg', width='100%', height='100%', viewbox='0 0 80 60')
-						path#loaderPath
+
 
 			footer.container-fluid
 				.row
@@ -190,6 +188,11 @@ html
 						p Himfy utca 1.<br>
 						p (30) 569 5988
 						p info@testbirds.hu
+
+			#loader.pageload-overlay
+				svg#loaderSvg(xmlns='http://www.w3.org/2000/svg', width='100%', height='100%', viewbox='0 0 80 60')
+						path#loaderPath
+
 		script(src='js/classie.js')
 		script(src='js/loader.js')
 		script(src='js/svgLoader.js')

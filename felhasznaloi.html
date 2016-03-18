@@ -37,6 +37,8 @@
     <meta name="twitter:image" content="">
     <meta name="twitter:url" content="">
     <meta name="twitter:card" content="">
+    <script src="bower_components/jquery/dist/jquery.min.js">		</script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/snap.svg-min.js"></script>
   </head>
@@ -45,7 +47,7 @@
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"> </a>
+            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="pageload-link navbar-brand"> </a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
@@ -119,11 +121,6 @@
         <div class="col-md-2 no"><img src="img/telenor_logo.png"></div>
         <div class="col-md-2 no"><img src="img/Vodafone.png"></div>
       </div>
-      <div id="loader" class="pageload-overlay">
-        <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
-          <path id="loaderPath"></path>
-        </svg>
-      </div>
     </div>
     <footer class="container-fluid">
       <div class="row">
@@ -143,6 +140,11 @@
         </div>
       </div>
     </footer>
+    <div id="loader" class="pageload-overlay">
+      <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
+        <path id="loaderPath"></path>
+      </svg>
+    </div>
     <script src="js/classie.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/svgLoader.js"></script>

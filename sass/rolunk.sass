@@ -13,7 +13,7 @@
 
 		.container
 			background-image: url("../img/process.png")
-			background-size: cover
+			background-size: contain
 			max-width: 800px
 			background-repeat: no-repeat
 			height: 200px
@@ -32,63 +32,82 @@
 
 
 
-@media (min-width: 992px)
-	.rolunk
-		.team
-			.container-fluid
-				padding-right: 0px
+.rolunk
+	.team
+		.container-fluid
+			padding-right: 0px
 
-				h2
-					text-align: center
-					padding-bottom: 50px
-					padding-top: 80px
+			h2
+				text-align: center
+				padding-bottom: 50px
+				padding-top: 80px
+				width: 100%
 
 
 
-				.col-lg-8.col-md-8.col-sm-8
-					.container-fluid
-						padding-right: 0px
-						.col-lg-4.col-md-6.col-sm-6
-							height: 330px
-							margin-bottom: 83px
-							border-left: 40px solid #FAFAFA
-							border-radius: 600px
+			.col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1
+				.container-fluid
+					padding-right: 0px
+					.col-lg-4.col-md-6.col-sm-6
+						height: 330px
+						margin-bottom: 83px
+						border-radius: 10px
+						text-align: center
+						border-right: 60px solid #FAFAFA
+
+						p
+							Color: White
+							font-weight: 800
+							height: 100%
+							padding-top: 250px
+
+						p:after
+							content: ""
+							height: 2px
+							display: block
+							width: 21px
 							text-align: center
-							border-right: 40px solid #FAFAFA
-
-							p
-								Color: White
-								font-weight: 800
-								margin-top: 250px
-
-							p:after
-								content: ""
-								height: 2px
-								display: block
-								width: 21px
-								text-align: center
-								margin: 0 auto
-								margin-top: 5px
-								background-color: white
+							margin: 0 auto
+							margin-top: 5px
+							background-color: white
 
 
 
-						#p1
-							background-image: url("../img/Adam_Csikos-2.jpg")
-							background-repeat: no-repeat
-							background-size: cover
-							background-position: center
-							-webkit-transition: all 0.3s ease-in
-							-moz-transition: all 0.3s ease-in
-							-ms-transition: all 0.3s ease-in
-							-o-transition: all 0.3s ease-in
-							transition: background-image 0.3s ease-in
+					#ph1
+						background-image: url("../img/Gizella_Bartha.jpg")
+						background-repeat: no-repeat
+						background-size: cover
+						background-position: center
+						height: 330px
+						margin-bottom: 83px
+						border-radius: 10px
+						text-align: center
+						position: absolute
+						width: 100%
 
-						#p1:hover
-							background-image: url("../img/caprio.jpg")
+					#ph2
+						background-image: url("../img/Gizella_Bartha-2.jpg")
+						background-repeat: no-repeat	
+						background-size: cover
+						background-position: center
+						height: 330px
+						margin-bottom: 83px
+						border-radius: 10px
+						text-align: center
+						position: absolute
+						width: 100%
+						opacity: 1
+						transition: all 0.3s ease-in
+						-webkit-transition: all 0.3s ease-in
+						-moz-transition: all 0.3s ease-in
+						-ms-transition: all 0.3s ease-in
+						-o-transition: all 0.3s ease-in
+							
+					#ph2:hover
+						opacity: 0
 
-							p
-								display: none
+
+
 
 						#p2
 							background-image: url("../img/Gizella_Bartha-2.jpg")
@@ -177,3 +196,33 @@
 					border-right: 45px solid $whitebg
 					border-left: 40px solid $whitebg
 					background-color: $grey
+
+
+.infoBox
+	h1
+		margin-bottom: 0px
+		margin-top: 0px
+
+
+.infoBox.active
+	padding: 35px 42px
+	color: black
+	background: #ECECEC
+	margin-top: -60px
+	max-width: 82%
+	margin-left: 15px
+	margin-bottom: 50px
+	border-radius: 10px
+
+	p
+		text-transform: none
+.infoBox.active:after
+	display: none
+
+@media (max-width: 767px)
+	.infoBox.active
+		float: none
+
+@media (max-width: 998px)
+	.infoBox.active
+		max-width: 80%

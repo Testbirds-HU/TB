@@ -193,8 +193,11 @@ a:hover, a:focus
   color: $green
   cursor: pointer
   text-decoration: underline
-  
+  outline: none !important
 
+a:focus
+  color: white !important
+  
 ul 
   margin: 0
   padding: 0
@@ -442,9 +445,12 @@ sub
       float: right
       right: 35px
   .row
+    a:hover, a:focus
+      text-decoration: none
     .teszt1
       padding-top: 4rem
       background-color: #0A83D0
+      z-index: 100
       height: 500px
       transition: all 0.1s ease-in
       -webkit-transition: all 0.1s ease-in
@@ -466,7 +472,7 @@ sub
 
     .teszt1:hover
       background-color: #097FCA
-      z-index: 10000000
+      z-index: 100
       -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
       -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
       box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
@@ -490,7 +496,7 @@ sub
 
     .teszt2:hover
       background-color: #119E76
-      z-index: 100000
+      z-index: 100
       -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
       -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
       box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
@@ -528,6 +534,8 @@ sub
  *==========================================================================
 .Elonyok
   .row
+    a:hover, a:focus
+      text-decoration: none
     .col-md-12
       background-color: $whitebg
       height: 600px
@@ -590,25 +598,25 @@ sub
 
       .el1:hover
         background-color: rgb(130, 185, 153)
-        z-index: 100000
+        z-index: 100
         -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
         -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
         box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
       .el2:hover
         background-color: rgb(130, 185, 153)
-        z-index: 100000
+        z-index: 100
         -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
         -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
         box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
       .el3:hover
         background-color: rgb(130, 185, 153)
-        z-index: 100000
+        z-index: 100
         -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
         -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
         box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)        
       .el4:hover
         background-color: rgb(130, 185, 153)
-        z-index: 100000
+        z-index: 100
         -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
         -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)
         box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, 0.26)

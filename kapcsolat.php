@@ -1,3 +1,50 @@
+<?php
+  if(!empty($_POST)){
+    // multiple recipients
+    $to  = 'emaerka@gmail.com';
+    
+    // subject
+    $subject = 'Üzenet a TestBirds oldalról.';
+    
+    // message
+    $message = '
+    <html>
+    <head>
+      <title>Üzenet a TestBirds oldalról.!</title>
+    </head>
+    <body>
+      <p>Új üzeneted érkezett a TestBirds oldaláról!</p>
+      <table>
+        <tr>
+          <td>Név</td><td>'.$_POST['nev'].'</td>
+        </tr>
+      <tr>
+          <td>Email</td><td>'.$_POST['email'].'</td>
+        </tr>
+        <tr>
+          <td>Telefonszám</td><td>'.$_POST['telefonszam'].'</td>
+        </tr>
+        <tr>
+          <td>Cégnév</td><td>'.$_POST['cegnev'].'</td>
+        </tr>
+        <tr>
+          <td>Projektről</td><td>'.$_POST['projekt'].'</td>
+        </tr>
+      </table>
+    </body>
+    </html>
+    ';
+    
+    // To send HTML mail, the Content-type header must be set
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    
+    // Mail it
+    mail($to, $subject, $message, $headers);
+    
+  }
+
+?>
 <!DOCTYPE html>
 <!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7  
 -->
@@ -36,8 +83,8 @@
     <meta name="twitter:image" content="">
     <meta name="twitter:url" content="">
     <meta name="twitter:card" content="">
-    <script src="bower_components/jquery/dist/jquery.js">		</script>
-    <script src="bower_components/jquery/dist/jquery.min.js">		</script>
+    <script src="bower_components/jquery/dist/jquery.js">   </script>
+    <script src="bower_components/jquery/dist/jquery.min.js">   </script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -48,7 +95,7 @@
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="pageload-link navbar-brand"> </a>
+            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"> </a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
@@ -63,85 +110,59 @@
         </div>
       </nav>
     </div>
-    <div class="container elonyok">
-      <div class="articletitle">
+    <div class="container">
+      <div class="articlebody_g kapcsolat">
         <div class="container">
-          <h1>A crowdtesting előnyei</h1>
-          <h2>TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT!</h2>
-          <div class="row nr1">
-            <div id="placeholder1" class="col-md-6"></div>
-            <div class="col-md-6 text">
-              <h2 class="one">Releváns célcsoport<br></h2>
-              <ul>
-                <li>10.000 hazai és 100.000 nemzetközi regisztrált tesztelő, akik 50 különféle kritérium alapján válogathatók;</li>
-              </ul>
-              <ul>
-                <li>A célcsoportok meghatározásánál legjellemzőbb szempontok lehetnek: demográfiai tényezők, érdeklődési körök és felhasználói szokások;</li>
-              </ul>
-              <ul>
-                <li>Tesztelőink között vannak egyaránt átlagfelhasználók, profi tesztelők és különböző területek szakértői is;</li>
-              </ul>
-              <ul>
-                <li>Akár hozhatod a saját tesztelői bázisod is, ha saját ügyfélköröddel vagy dolgozóiddal szeretnél tesztelni.</li>
-              </ul>
+        <? if(empty($_POST) ){
+         
+        ?>
+        
+          <h1>Lépj kapcsolatba velünk!</h1>
+          <h2>ALIG VÁRJUK, HOGY EGYÜTT DOLGOZHASSUNK VELED!</h2>
+          <p>A crowdtesting nem dobozos szolgáltatás. Minden ügyfelünknek igényeire szabott, egyedi ajánlatot készítünk, egy ingyenes, igényfelmérő beszélgetést követően. Kérjük, add meg pár adatodat, hogy Kata felvehesse veled a kapcsolatot és beszélgethessetek a projektedről!</p>
+          <form method="post" action="">
+          <div class="row form">
+            
+            <div class="col-md-6">
+              <div class="form-group">
+                <input id="usr" type="text" name="nev" placeholder="Név" required class="form-control">
+              </div>
+              <div class="form-group">
+                <input id="usr" type="email" name="email" placeholder="Email cím" required class="form-control">
+              </div>
+              <div class="form-group">
+                <input id="usr" type="tel" name="telefonszam" placeholder="Telefonszám" required class="form-control">
+              </div>
+              <div class="form-group">
+                <input id="usr" type="text" name="cegnev" placeholder="Cégnév" required class="form-control">
+              </div>
+            </div>
+            <div class="col-md-6 message">
+              <div class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-md-12">
+                    <textarea rows="3" placeholder="Mesélj a projektedről!" required="" name="projekt" class="form-control"></textarea>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div id="placeholder2" class="col-md-6"></div>
-            <div class="col-md-6 text">
-              <h2 class="two">Eszközök széles választéka<br></h2>
-              <ul>
-                <li>Több mint … regisztrált okostelefon és több mint … regisztrált tablet, … különféle modell, minden mobil OS: Android, iOS, Windows Phone, Blackberry található;</li>
-              </ul>
-              <ul>
-                <li>Több mint … PC és Mac regisztrálva. Bármely operációs rendszer és böngésző kombináció azonnal elérhető: IE, Firefox, Chrome, Opera, Safari, OS X-en és Windows-on egyaránt;</li>
-              </ul>
-              <ul>
-                <li>Több száz regisztrált Smart TV és különböző set-top-boksz;</li>
-              </ul>
-              <ul>
-                <li>Játékokat is tesztelünk! Konzolokon, mobilon, böngészőben, és Facebookon egyaránt.</li>
-              </ul>
-            </div>
+          <div class="row send">
+            <input class="btn-primary" type="submit" value="Küldés">
           </div>
-          <div class="row">
-            <div id="placeholder3" class="col-md-6"></div>
-            <div class="col-md-6 text">
-              <h2 class="three">Elfogulatlan tesztelők<br></h2>
-              <ul>
-                <li>A tesztelések valós körülmények között zajlanak, nem teremtünk mesterséges környezetet;	</li>
-              </ul>
-              <ul>
-                <li>Tesztelőinktől őszinte, elfogulatlan visszajelzésekre számíthatsz;</li>
-              </ul>
-              <ul>
-                <li>A visszajelzéseket a duplikációktól megszűrve, minőségellenőrzést követően adjuk át részedre;</li>
-              </ul>
-              <ul>
-                <li>Tesztelőinket motiváljuk a feladatok végrehajtására, így biztos lehetsz az eredmény kiváló minőségében.</li>
-              </ul>
-            </div>
+          </form>
+          <div style="border-top: 1px solid rgba(255, 255, 255, 0.49); margin-right: 15px; margin-top: 40px; padding-top: 40px; text-align: center; opacity: 0.5" class="row">
+            <p>Testbirds kft.</p>
+            <p>1118 Budapes, Himfy utca 1. </p>
+            <p>(30) 569 5988</p>
           </div>
-          <div class="row">
-            <div id="placeholder4" class="col-md-6"></div>
-            <div class="col-md-6 text">
-              <h2 class="four">Visszajelzések rövid időn belül<br></h2>
-              <ul>
-                <li>A fejlesztési fázis különböző szakaszaiban is segítséget adhat a crowdtesting: Papíron létező koncepciót, wireframe-t, mockup-ot, kattintható drótvázat, teszt verziót vagy akár éles megoldást is tesztelünk;</li>
-              </ul>
-              <ul>
-                <li>Funkcionális tesztek akár 48 órán belül;</li>
-              </ul>
-              <ul>
-                <li>Felhasználói élmény kutatások akár 2 hetes átfutási idővel;</li>
-              </ul>
-              <ul>
-                <li>A tesztelési feladatokat képzett projektmenedzserek, kutatók koordinálják, ezzel biztosítva az elvárt határidők betartását és a kiváló minőséget.</li>
-              </ul>
-            </div>
-          </div>
+        <?} else {
+        ?>
+          <h1>Köszönjük a leveledet, amint tudunk válaszolunk!</h1>
+        <? } ?>
         </div>
       </div>
+
     </div>
     <footer class="container-fluid">
       <div class="row">
@@ -161,20 +182,20 @@
         </div>
       </div>
     </footer>
-    <div id="loader" class="pageload-overlay">
-      <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
-        <path id="loaderPath"></path>
-      </svg>
-    </div>
+      <div id="loader" class="pageload-overlay">
+        <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
+          <path id="loaderPath"></path>
+        </svg>
+      </div>
     <script src="js/classie.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/svgLoader.js"></script>
     <script>
       (function() {
-      docInteractive('curtain');
+      docInteractive('lazy_stretch');
       var pageWrap = document.getElementById( 'pagewrap' ),
       triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 600 } );
+      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
       function init() {
       triggerLoading.forEach( function( trigger ) {
       trigger.addEventListener( 'click', function( ev ) {
@@ -188,7 +209,7 @@
       } );
       }
       init();
-      })();	
+      })(); 
     </script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- build:js js/jquery.okayNav-min.js-->

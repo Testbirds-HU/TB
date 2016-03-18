@@ -59,7 +59,7 @@ html
 							span.icon-bar
 							span.icon-bar
 							span.icon-bar
-						a.navbar-brand(href='index.html') 
+						a.pageload-link.navbar-brand(href='index.html') 
 					// Collect the nav links, forms, and other content for toggling
 					#bs-example-navbar-collapse-1.collapse.navbar-collapse
 						ul.nav.navbar-nav
@@ -80,7 +80,7 @@ html
 					h1 A crowdtesting előnyei
 					h2 TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT!
 					.row.nr1
-						.col-md-6.placeholder
+						.col-md-6#placeholder1
 						.col-md-6.text
 							h2.one Releváns célcsoport<br>
 							ul
@@ -93,7 +93,7 @@ html
 								li Akár hozhatod a saját tesztelői bázisod is, ha saját ügyfélköröddel vagy dolgozóiddal szeretnél tesztelni.
 
 					.row
-						.col-md-6.placeholder
+						.col-md-6#placeholder2
 						.col-md-6.text
 							h2.two Eszközök széles választéka<br>
 							ul
@@ -110,7 +110,7 @@ html
 
 
 					.row
-						.col-md-6.placeholder
+						.col-md-6#placeholder3
 						.col-md-6.text
 							h2.three Elfogulatlan tesztelők<br>
 							ul
@@ -123,7 +123,7 @@ html
 								li Tesztelőinket motiváljuk a feladatok végrehajtására, így biztos lehetsz az eredmény kiváló minőségében.
 
 					.row
-						.col-md-6.placeholder
+						.col-md-6#placeholder4
 						.col-md-6.text
 							h2.four Visszajelzések rövid időn belül<br>
 							ul
@@ -136,9 +136,7 @@ html
 								li A tesztelési feladatokat képzett projektmenedzserek, kutatók koordinálják, ezzel biztosítva az elvárt határidők betartását és a kiváló minőséget.
 
 
-			#loader.pageload-overlay
-				svg#loaderSvg(xmlns='http://www.w3.org/2000/svg', width='100%', height='100%', viewbox='0 0 80 60')
-						path#loaderPath
+
 		footer.container-fluid
 			.row
 				.col-md-4
@@ -162,6 +160,12 @@ html
 					p Himfy utca 1.<br>
 					p (30) 569 5988
 					p info@testbirds.hu
+
+		#loader.pageload-overlay
+			svg#loaderSvg(xmlns='http://www.w3.org/2000/svg', width='100%', height='100%', viewbox='0 0 80 60')
+				path#loaderPath
+
+
 		script(src='js/classie.js')
 		script(src='js/loader.js')
 		script(src='js/svgLoader.js')
