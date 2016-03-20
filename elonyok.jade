@@ -171,10 +171,10 @@ html
 		script(src='js/svgLoader.js')
 		script.
 			(function() {
-			docInteractive('curtain');
+			docInteractive('spill');
 			var pageWrap = document.getElementById( 'pagewrap' ),
 			triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-			loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 600 } );
+			loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 450 } );
 			function init() {
 			triggerLoading.forEach( function( trigger ) {
 			trigger.addEventListener( 'click', function( ev ) {
@@ -182,7 +182,9 @@ html
 			loader.show();
 			setTimeout( function() {
 			loader.hide();
-			document.location.href= ev.target.href;
+			linkTag = $(ev.target).is('a')? $(ev.target) : $(ev.target).parents('a');
+			link = $(linkTag).attr('href');
+			document.location.href = link;
 			}, 1000 );
 			} );
 			} );

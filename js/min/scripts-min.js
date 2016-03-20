@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".open-popup-link").magnificPopup({type:"inline",midClick:!0})});
+$(document).ready(function(){$("#arrow").click(function(){$("html, body").animate({scrollTop:$("#top").offset().top-90},1e3)})});

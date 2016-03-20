@@ -3492,6 +3492,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/kate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 301261,
+		"inputAbbreviatedPath": "\/img\/kate.jpg",
+		"outputAbbreviatedPath": "\/img\/kate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Logo_CMYK_Background.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3778,17 +3789,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/jquery.okayNav.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery.okayNav.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery.okayNav-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/loader.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -3824,7 +3824,7 @@
 		},
 	"\/js\/min\/scripts-min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/scripts-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/scripts-min-min.js",
@@ -3850,6 +3850,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/svgLoader-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/svgLoader-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/js\/min\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -3908,20 +3919,20 @@
 		},
 	"\/rolunk.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/rolunk.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/rolunk.jade": {
+	"\/rolunksd.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rolunk.jade",
-		"outputAbbreviatedPath": "\/rolunk.html",
+		"inputAbbreviatedPath": "\/rolunksd.jade",
+		"outputAbbreviatedPath": "\/rolunksd.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0

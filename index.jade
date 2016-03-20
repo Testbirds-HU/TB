@@ -45,7 +45,7 @@ html
 		script(src='bower_components/bootstrap/dist/js/bootstrap.min.js')
 		script(src='js/modernizr.custom.js')
 		script(src='js/snap.svg-min.js')
-
+		script(src='js/scripts.js')
 
 
 
@@ -81,24 +81,26 @@ html
 							h1 Crowdtesting
 							h2 FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT.
 						.col-md-6.kep
-						.scrollholder
+						.scrollholder#arrow
 							img(src="img/scroll_icon.png")
-				.tesztek
+				.tesztek#top
 					.row
-						a.pageload-link(href='funkcionalis.html').col-md-6.teszt1
-							h2 Funkcionális teszt
-							p Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!
-							.imgholder
-							.navigator
-								p Szolgáltatások / Funkcionális teszt
-								p.more >
-						a.pageload-link(href='felhasznaloi.html').col-md-6.teszt2
-							h2 Felhasználói élmény kutatás
-							p Gyűjts visszajelzéseket, tapasztalatokat a tesztelőink által érzékelt felhasználói élményről!
-							.imgholder
-							.navigator
-								p Szolgáltatások / Felhasználói élmény kutatás
-								p.more >
+						a.pageload-link(href='funkcionalis.html')
+							.col-md-6.teszt1
+								h2 Funkcionális teszt
+								p Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!
+								.imgholder
+								.navigator
+									p Szolgáltatások / Funkcionális teszt
+										p.more >
+						a.pageload-link(href='felhasznaloi.html')
+							.col-md-6.teszt2
+								h2 Felhasználói élmény kutatás
+								p Gyűjts visszajelzéseket, tapasztalatokat a tesztelőink által érzékelt felhasználói élményről!
+								.imgholder
+								.navigator
+									p Szolgáltatások / Felhasználói élmény kutatás
+									p.more >
 
 
 				.Elonyok
@@ -106,26 +108,30 @@ html
 						.col-md-12
 							h2#ctelonyei A crowdtesting előnyei
 							.row.list
-								a.pageload-link(href='elonyok.html').col-md-3.el1
+								a.pageload-link(href='elonyok.html')
+									.col-md-3.el1
 										h2 Releváns célcsoport
 										.navigator
 											p Szolgáltatások / Felhasználói élmény kutatás
 											p.more >								
-								a.pageload-link(href='elonyok.html').col-md-3.el2
-									h2 Eszközök széles választéka
-									.navigator
-										p Szolgáltatások / Felhasználói élmény kutatás
-										p.more >								
-								a.pageload-link(href='elonyok.html').col-md-3.el3
-									h2 Elfogulatlan tesztelők
-									.navigator
-										p Szolgáltatások / Felhasználói élmény kutatás
-										p.more >
-								a.pageload-link(href='elonyok.html').col-md-3.el4
-									h2 Visszajelzések rövid időn belül
-									.navigator
-										p Szolgáltatások / Felhasználói élmény kutatás
-										p.more >
+								a.pageload-link(href='elonyok.html')
+									.col-md-3.el2
+										h2 Eszközök széles választéka
+										.navigator
+											p Szolgáltatások / Felhasználói élmény kutatás
+											p.more >								
+								a.pageload-link(href='elonyok.html')
+									.col-md-3.el3
+										h2 Elfogulatlan tesztelők
+										.navigator
+											p Szolgáltatások / Felhasználói élmény kutatás
+											p.more >
+								a.pageload-link(href='elonyok.html')
+									.col-md-3.el4
+										h2 Visszajelzések rövid időn belül
+										.navigator
+											p Szolgáltatások / Felhasználói élmény kutatás
+											p.more >
 				.folyamat
 					.row
 						.col-md-12
@@ -149,7 +155,8 @@ html
 						.col-md-12
 							.circlewoman
 							h3 Érdeklődnél szolgáltatásaink iránt? Lépj kapcsolatba velünk!
-							.btn-primary Ajánlatot kérek!
+							a.pageload-link(href='kapcsolat.html')
+								.btn-primary Ajánlatot kérek!
 				.col-md-12.companies
 					.col-md-2
 						img(src="img/eon.png")
@@ -198,10 +205,10 @@ html
 		script(src='js/svgLoader.js')
 		script.
 			(function() {
-			docInteractive('tunnel_vision');
+			docInteractive('spill');
 			var pageWrap = document.getElementById( 'pagewrap' ),
 			triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-			loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 600 } );
+			loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 450 } );
 			function init() {
 			triggerLoading.forEach( function( trigger ) {
 			trigger.addEventListener( 'click', function( ev ) {
@@ -209,13 +216,15 @@ html
 			loader.show();
 			setTimeout( function() {
 			loader.hide();
-			document.location.href= ev.target.href;
+			linkTag = $(ev.target).is('a')? $(ev.target) : $(ev.target).parents('a');
+			link = $(linkTag).attr('href');
+			document.location.href = link;
 			}, 1000 );
 			} );
 			} );
 			}
 			init();
-			})();		
+			})();	
 		script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js')
 		// build:js js/jquery.okayNav-min.js
 		script(src='js/jquery.okayNav.js')
