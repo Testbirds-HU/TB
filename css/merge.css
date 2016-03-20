@@ -477,6 +477,9 @@ sub {
   overflow: hidden;
   padding-bottom: 25px;
   padding-top: 100px; }
+  .cover h6 {
+    color: #1E777A;
+    padding-top: 10px; }
   .cover .row .text {
     padding-top: 170px;
     padding-bottom: 60px;
