@@ -374,14 +374,14 @@ sub
   
   .row
     .text
-      padding-top: 170px
+      padding-top: 8vw
       padding-bottom: 60px
       padding-left: 16rem
     .kep
       background-image: url("../img/dudes.png")
       background-size: contain
       background-repeat: no-repeat
-      height: 600px
+      height: 35vw
       margin-left: 0px
 
   .scrollholder
@@ -427,7 +427,9 @@ sub
   .cover .row .kep
     background-position-x: 0px
     height: 260px
-
+@media (max-width: 562px)
+  .csatlakozz .row
+    padding-top: 44px !important
 
 /* ==========================================================================
  *csatlakozz section
@@ -573,15 +575,15 @@ sub
       background-repeat: no-repeat
 
       h2#ctelonyei
-        padding-left: 35px
-        padding-top: 220px
+        padding-left: 20px
+        padding-top: 330px
 
       #ctelonyei:after
         content: ""
         background-image: url("../img/arrow_down.png")
         background-size: 366px 34px
         display: block
-        width: 348px
+        width: 118px
         margin-top: 5px
         background-repeat: no-repeat
         height: 100px
@@ -593,9 +595,42 @@ sub
         bottom: 0px
         width: 100%
 
+        .el1
+          background-image: url("../img/target.png")
+          background-repeat: no-repeat
+          background-size: contain
+          background-size: 60px 60px
+          background-position: center
+          background-position-y: 100px
+
+        .el2
+          background-image: url("../img/devices.png")
+          background-repeat: no-repeat
+          background-size: contain
+          background-size: 120px 120px
+          background-position: center
+          background-position-y: 75px
+
+        .el3
+          background-image: url("../img/people.png")
+          background-repeat: no-repeat
+          background-size: contain
+          background-size: 80px 80px
+          background-position: center
+          background-position-y: 95px
+
+        .el4
+          background-image: url("../img/messages.png")
+          background-repeat: no-repeat
+          background-size: contain
+          background-size: 100px 100px
+          background-position: center
+          background-position-y: 85px
+
         .el1, .el2, .el3, .el4
           height: 250px
           background-color: rgba(21, 104, 107, 0.89)
+
           padding: 25px
           border-left: 1px solid white
           transition: all 0.2s ease-in
@@ -620,6 +655,7 @@ sub
               bottom: 30px
               float: right
               right: 35px
+
 
 
       .el1:hover
@@ -653,7 +689,26 @@ sub
 @media (max-width: 660px)
   .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4
     padding-left: 2rem
+@media (min-width: 753px)
+  .Elonyok .row .col-md-12
+    height: 690px
 
+  .Elonyok .row .col-md-12 h2#ctelonyei
+    padding-left: 35px 
+@media (max-width: 992px)
+  .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4
+    margin-bottom: 1px
+
+  .Elonyok .row .col-md-12
+    background-image: none
+
+  .Elonyok .row .col-md-12 h2#ctelonyei
+    padding-top: 90px
+
+
+@media (max-width: 767px)
+  .Elonyok .row .col-md-12
+    height: 1190px
 /* ==========================================================================
  *MIKET section
  *==========================================================================
@@ -682,37 +737,51 @@ sub
         color: white
         padding-top: 168px
 
-      #device1
-        background-image: url("../img/what_we_test_icon_1.png")
-        background-size: contain
-        background-position: right
-        background-repeat: no-repeat
-        height: 150px
-        background-position: center
+#device1
+  background-image: url("../img/what_we_test_icon_1.png")
+  background-size: contain
+  background-position: center
+  background-repeat: no-repeat
+  height: 150px
+  background-position: center
+#device2
+  background-image: url("../img/what_we_test_icon_5.png")
+  background-size: contain
+  background-position: center
+  background-repeat: no-repeat
+  height: 150px
+  background-position: center
 
-      #device2
-        background-image: url("../img/what_we_test_icon_5.png")
-        background-size: contain
-        background-position: right
-        background-repeat: no-repeat
-        height: 150px
-        background-position: center
+#device3
+  background-image: url("../img/what_we_test_icon_2.png")
+  background-size: contain
+  background-position: center
+  background-repeat: no-repeat
+  height: 150px
+  background-position: center
 
-      #device3
-        background-image: url("../img/what_we_test_icon_2.png")
-        background-size: contain
-        background-position: right
-        background-repeat: no-repeat
-        height: 150px
-        background-position: center
+#device4
+  background-image: url("../img/what_we_test_icon_2.png")
+  background-size: contain
+  background-position: right
+  background-repeat: no-repeat
+  height: 150px
+  background-position: center
 
-      #device4
-        background-image: url("../img/what_we_test_icon_2.png")
-        background-size: contain
-        background-position: right
-        background-repeat: no-repeat
-        height: 150px
-        background-position: center
+.flickity-slider
+  transform: none
+.carousel-cell
+  width: 100%
+  margin-top: 20px
+
+  h6
+    padding-top: 170px
+    color: white
+
+.flickity-slider
+  text-align: center
+.flickity-viewport
+  height: 240px !important
 
 /* ==========================================================================
 @media (max-width: 992px)
@@ -723,12 +792,34 @@ sub
   .miket .row .col-md-12 h6
     margin-top: 110px
 
+@media (max-width: 992px)
+  .ikonok
+    display: none
+  .miket .row .col-md-12 h6
+    margin-top: 0px
+
+  .miket
+    min-height: 360px
+  .miket .row .col-md-12
+    padding-bottom: 0px
+
+  .miket .row .col-md-12 h2
+    padding-bottom: 30px
+  .flickity-prev-next-button.previous
+    margin-top: -30px
+  .flickity-prev-next-button.next
+    margin-top: -30px
+
+@media (min-width: 992px)
+  .miketmob
+    display: none
 /* ==========================================================================
  *Folyamat section
  *==========================================================================
 
 .folyamat
   background-color: $whitebg
+  padding-bottom: 80px
   a:hover, a:focus
     text-decoration: none
     color: white
@@ -737,7 +828,6 @@ sub
     .col-md-12
       text-align: center
       padding-top: 80px
-      padding-bottom: 80px
 
 
     .col-md-4
@@ -759,8 +849,8 @@ sub
         background-repeat: no-repeat
         background-position: center
       .masodik
-        background-image: url("../img/test.png")
-        background-size: 52px 55px
+        background-image: url("../img/people2.png")
+        background-size: 70px 70px
         background-repeat: no-repeat
         background-position: center
       .harmadik
@@ -828,10 +918,7 @@ sub
   color: #1E777A
 
 /* ==========================================================================
-@media (max-width: 992px)
-  .Elonyok .row .col-md-12
-    height: 1210px
-    background-image: none
+
 
   .Elonyok .row .col-md-12 h2#ctelonyei    
     padding-left: 15px

@@ -25,6 +25,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/basic-styles.css" media="screen">
     <link href="css/merge.css" rel="stylesheet">
+    <link href="css/flickity.css" rel="stylesheet">
     <link rel="stylesheet" href="css/header.css" media="screen">
     <!-- Facebook and Twitter integration-->
     <meta property="og:title" content="">
@@ -43,6 +44,7 @@
     <script src="js/modernizr.custom.js"></script>
     <script src="js/snap.svg-min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
   </head>
   <body>
     <div id="pagewrap">
@@ -72,6 +74,8 @@
               <h6>Magyarországon elsőként.</h6>
             </div>
             <div class="col-md-6 kep"></div>
+          </div>
+          <div class="row">
             <div id="arrow" class="scrollholder"><img src="img/scroll_icon.png"></div>
           </div>
         </div>
@@ -87,17 +91,14 @@
                 <p>Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!</p>
                 <div class="imgholder"></div>
                 <div class="navigator">
-                  <p>Szolgáltatások / Funkcionális teszt
-                    <p class="more">></p>
-                  </p>
+                  <p class="more">></p>
                 </div>
               </div></a><a href="felhasznaloi.html" class="pageload-link">
               <div class="col-md-6 teszt2">
                 <h2>Felhasználói élmény kutatás</h2>
-                <p>Gyűjts visszajelzéseket, tapasztalatokat a tesztelőink által érzékelt felhasználói élményről!</p>
+                <p>Gyűjts visszajelzéseket a tesztelőink által érzékelt felhasználói élményről!</p>
                 <div class="imgholder"></div>
                 <div class="navigator">
-                  <p>Szolgáltatások / Felhasználói élmény kutatás</p>
                   <p class="more">></p>
                 </div>
               </div></a></div>
@@ -105,33 +106,29 @@
         <div class="Elonyok">
           <div class="row">
             <div class="col-md-12">
-              <h2 id="ctelonyei">A crowdtesting előnyei</h2>
+              <h2 id="ctelonyei">Miért mi?</h2>
               <div class="row list"><a href="elonyok.html" class="pageload-link">
-                  <div class="col-md-3 el1">
+                  <div class="col-md-3 col-sm-6 col-xs-12 el1">
                     <h2>Releváns célcsoport</h2>
                     <div class="navigator">
-                      <p>Szolgáltatások / Felhasználói élmény kutatás</p>
                       <p class="more">>								</p>
                     </div>
                   </div></a><a href="elonyok.html" class="pageload-link">
-                  <div class="col-md-3 el2">
+                  <div class="col-md-3 col-sm-6 col-xs-12 el2">
                     <h2>Eszközök széles választéka</h2>
                     <div class="navigator">
-                      <p>Szolgáltatások / Felhasználói élmény kutatás</p>
                       <p class="more">>								</p>
                     </div>
                   </div></a><a href="elonyok.html" class="pageload-link">
-                  <div class="col-md-3 el3">
+                  <div class="col-md-3 col-sm-6 col-xs-12 el3">
                     <h2>Elfogulatlan tesztelők</h2>
                     <div class="navigator">
-                      <p>Szolgáltatások / Felhasználói élmény kutatás</p>
                       <p class="more">></p>
                     </div>
                   </div></a><a href="elonyok.html" class="pageload-link">
-                  <div class="col-md-3 el4">
+                  <div class="col-md-3 col-sm-6 col-xs-12 el4">
                     <h2>Visszajelzések rövid időn belül</h2>
                     <div class="navigator">
-                      <p>Szolgáltatások / Felhasználói élmény kutatás</p>
                       <p class="more">></p>
                     </div>
                   </div></a></div>
@@ -150,10 +147,34 @@
                   <h6>Set-top-box alkalmazásokat</h6>
                 </div>
                 <div id="device3" class="col-md-3">
-                  <h6>Webldalakat</h6>
+                  <h6>Weboldalakat</h6>
                 </div>
                 <div id="device4" class="col-md-3">
                   <h6>Szoftwer user interface-eket</h6>
+                </div>
+              </div>
+              <div class="row miketmob">
+                <div class="carousel js-flickity">
+                  <div class="carousel-cell">
+                    <div id="device1">
+                      <h6>Mobil appokat					</h6>
+                    </div>
+                  </div>
+                  <div class="carousel-cell">
+                    <div id="device2">
+                      <h6>Mobil appokat	</h6>
+                    </div>
+                  </div>
+                  <div class="carousel-cell">
+                    <div id="device3">
+                      <h6>Mobil appokat					</h6>
+                    </div>
+                  </div>
+                  <div class="carousel-cell">
+                    <div id="device4">
+                      <h6>Mobil appokat					</h6>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -162,7 +183,7 @@
         <div class="folyamat">
           <div class="row">
             <div class="col-md-12">
-              <h2>Testbirds szolgáltatási folyamat</h2>
+              <h2>A Testbirds szolgáltatási folyamat</h2>
             </div>
             <div class="col-md-4">
               <div class="circle elso"><img></div>
@@ -176,12 +197,12 @@
             </div>
             <div class="col-md-4">
               <div class="circle harmadik"><img></div>
-              <h2>Tesztelési eredmények</h2>
+              <h2>Tesztelési eredmények, javaslatok</h2>
               <p>összefoglalása és bemutatása</p>
             </div>
             <div class="col-md-12">
               <div class="circlewoman"></div>
-              <h3>Érdeklődnél szolgáltatásaink iránt? Lépj kapcsolatba velünk!</h3><a href="kapcsolat.html" class="pageload-link">
+              <h3>Édekel a szolgáltatásunk? Lépj kapcsolatba velünk!</h3><a href="kapcsolat.html" class="pageload-link">
                 <div class="btn-primary">Ajánlatot kérek!</div></a>
             </div>
           </div>
@@ -202,7 +223,7 @@
           </div>
           <div class="col-md-2"></div>
           <div class="col-md-3">
-            <h5>Oldaltérkép</h5><a>Rólunk<br></a><a>Funkcionális tesztelés?<br></a><a>Felhasználói élmény kutatás<br></a><a>Ajánlatkérés<br></a><a>Kapcsolat<br></a>
+            <h5>Oldaltérkép</h5><a>Rólunk<br></a><a>Miért mi?<br></a><a>Funkcionális tesztelés<br></a><a>Felhasználói élmény kutatás<br></a><a>Ajánlatkérés<br></a><a>Kapcsolat<br></a>
           </div>
           <div class="col-md-3">
             <h5>Kapcsolat</h5>

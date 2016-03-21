@@ -27,7 +27,7 @@ html
 
 		link(rel='stylesheet', href='css/basic-styles.css', media='screen')
 		link(href='css/merge.css', rel='stylesheet')		
-
+		link(href='css/flickity.css', rel='stylesheet')
 		link(rel='stylesheet', href='css/header.css', media='screen')
 		// Facebook and Twitter integration
 		meta(property='og:title', content='')
@@ -46,7 +46,7 @@ html
 		script(src='js/modernizr.custom.js')
 		script(src='js/snap.svg-min.js')
 		script(src='js/scripts.js')
-
+		script(src='js/flickity.pkgd.min.js')
 
 
 	body
@@ -82,6 +82,7 @@ html
 							h2 FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT.
 							h6 Magyarországon elsőként.
 						.col-md-6.kep
+					.row
 						.scrollholder#arrow
 							img(src="img/scroll_icon.png")
 				.csatlakozz
@@ -96,46 +97,40 @@ html
 								p Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!
 								.imgholder
 								.navigator
-									p Szolgáltatások / Funkcionális teszt
 										p.more >
 						a.pageload-link(href='felhasznaloi.html')
 							.col-md-6.teszt2
 								h2 Felhasználói élmény kutatás
-								p Gyűjts visszajelzéseket, tapasztalatokat a tesztelőink által érzékelt felhasználói élményről!
+								p Gyűjts visszajelzéseket a tesztelőink által érzékelt felhasználói élményről!
 								.imgholder
 								.navigator
-									p Szolgáltatások / Felhasználói élmény kutatás
 									p.more >
 
 
 				.Elonyok
 					.row
 						.col-md-12
-							h2#ctelonyei A crowdtesting előnyei
+							h2#ctelonyei Miért mi?
 							.row.list
 								a.pageload-link(href='elonyok.html')
-									.col-md-3.el1
+									.col-md-3.col-sm-6.col-xs-12.el1
 										h2 Releváns célcsoport
 										.navigator
-											p Szolgáltatások / Felhasználói élmény kutatás
 											p.more >								
 								a.pageload-link(href='elonyok.html')
-									.col-md-3.el2
+									.col-md-3.col-sm-6.col-xs-12.el2
 										h2 Eszközök széles választéka
 										.navigator
-											p Szolgáltatások / Felhasználói élmény kutatás
 											p.more >								
 								a.pageload-link(href='elonyok.html')
-									.col-md-3.el3
+									.col-md-3.col-sm-6.col-xs-12.el3
 										h2 Elfogulatlan tesztelők
 										.navigator
-											p Szolgáltatások / Felhasználói élmény kutatás
 											p.more >
 								a.pageload-link(href='elonyok.html')
-									.col-md-3.el4
+									.col-md-3.col-sm-6.col-xs-12.el4
 										h2 Visszajelzések rövid időn belül
 										.navigator
-											p Szolgáltatások / Felhasználói élmény kutatás
 											p.more >
 				.miket
 					.row
@@ -149,15 +144,29 @@ html
 									h6 Set-top-box alkalmazásokat
 								
 								.col-md-3#device3
-									h6 Webldalakat
+									h6 Weboldalakat
 
 								.col-md-3#device4
 									h6 Szoftwer user interface-eket
+							.row.miketmob
 				
+								.carousel.js-flickity
+									.carousel-cell
+										#device1
+											h6 Mobil appokat					
+									.carousel-cell
+										#device2
+											h6 Mobil appokat	
+									.carousel-cell
+										#device3
+											h6 Mobil appokat					
+									.carousel-cell
+										#device4
+											h6 Mobil appokat					
 				.folyamat
 					.row
 						.col-md-12
-							h2 Testbirds szolgáltatási folyamat
+							h2 A Testbirds szolgáltatási folyamat
 						.col-md-4
 							.circle.elso
 								img
@@ -171,12 +180,12 @@ html
 						.col-md-4
 							.circle.harmadik
 								img
-							h2 Tesztelési eredmények
+							h2 Tesztelési eredmények, javaslatok
 							p összefoglalása és bemutatása
 
 						.col-md-12
 							.circlewoman
-							h3 Érdeklődnél szolgáltatásaink iránt? Lépj kapcsolatba velünk!
+							h3 Édekel a szolgáltatásunk? Lépj kapcsolatba velünk!
 							a.pageload-link(href='kapcsolat.html')
 								.btn-primary Ajánlatot kérek!
 				.col-md-12.companies
@@ -207,7 +216,8 @@ html
 					.col-md-3
 						h5 Oldaltérkép
 						a Rólunk<br>
-						a Funkcionális tesztelés?<br>
+						a Miért mi?<br>
+						a Funkcionális tesztelés<br>
 						a Felhasználói élmény kutatás<br>
 						a Ajánlatkérés<br>
 						a Kapcsolat<br>

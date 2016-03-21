@@ -3015,6 +3015,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/flickity.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/flickity.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/header.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3128,17 +3137,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
-		},
-	"\/img\/3d-darts-vector_23-2147499038.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38606,
-		"inputAbbreviatedPath": "\/img\/3d-darts-vector_23-2147499038.jpg",
-		"outputAbbreviatedPath": "\/img\/3d-darts-vector_23-2147499038.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/_IMG_982-1.jpg": {
 		"fileType": 16384,
@@ -3360,28 +3358,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/csm_usability-categorie-illustration_3b544b33a7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30976,
-		"inputAbbreviatedPath": "\/img\/csm_usability-categorie-illustration_3b544b33a7.jpg",
-		"outputAbbreviatedPath": "\/img\/csm_usability-categorie-illustration_3b544b33a7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/device.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23036,
-		"inputAbbreviatedPath": "\/img\/device.jpg",
-		"outputAbbreviatedPath": "\/img\/device.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/devices.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3389,6 +3365,17 @@
 		"initialSize": 134582,
 		"inputAbbreviatedPath": "\/img\/devices.jpg",
 		"outputAbbreviatedPath": "\/img\/devices.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/devices.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21437,
+		"inputAbbreviatedPath": "\/img\/devices.png",
+		"outputAbbreviatedPath": "\/img\/devices.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3455,6 +3442,28 @@
 		"initialSize": 2603,
 		"inputAbbreviatedPath": "\/img\/eon.png",
 		"outputAbbreviatedPath": "\/img\/eon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/explorebug.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400786,
+		"inputAbbreviatedPath": "\/img\/explorebug.png",
+		"outputAbbreviatedPath": "\/img\/explorebug.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/explrebug.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 417096,
+		"inputAbbreviatedPath": "\/img\/explrebug.png",
+		"outputAbbreviatedPath": "\/img\/explrebug.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3536,6 +3545,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/messages.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20671,
+		"inputAbbreviatedPath": "\/img\/messages.png",
+		"outputAbbreviatedPath": "\/img\/messages.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Michal_Matus-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3576,6 +3596,28 @@
 		"initialSize": 64342,
 		"inputAbbreviatedPath": "\/img\/People.jpg",
 		"outputAbbreviatedPath": "\/img\/People.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/people.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25282,
+		"inputAbbreviatedPath": "\/img\/people.png",
+		"outputAbbreviatedPath": "\/img\/people.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/people2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25439,
+		"inputAbbreviatedPath": "\/img\/people2.png",
+		"outputAbbreviatedPath": "\/img\/people2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3690,6 +3732,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/target.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25918,
+		"inputAbbreviatedPath": "\/img\/target.png",
+		"outputAbbreviatedPath": "\/img\/target.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tb_bug1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3719,17 +3772,6 @@
 		"initialSize": 31902,
 		"inputAbbreviatedPath": "\/img\/telenor_logo.png",
 		"outputAbbreviatedPath": "\/img\/telenor_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/test.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17927,
-		"inputAbbreviatedPath": "\/img\/test.png",
-		"outputAbbreviatedPath": "\/img\/test.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3833,6 +3875,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -3850,6 +3901,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/classie.js",
 		"outputAbbreviatedPath": "\/js\/min\/classie-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/flickity.pkgd.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/flickity.pkgd.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/flickity.pkgd.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

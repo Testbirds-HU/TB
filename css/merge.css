@@ -481,14 +481,14 @@ sub {
     color: #1E777A;
     padding-top: 10px; }
   .cover .row .text {
-    padding-top: 170px;
+    padding-top: 8vw;
     padding-bottom: 60px;
     padding-left: 16rem; }
   .cover .row .kep {
     background-image: url("../img/dudes.png");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 35vw;
     margin-left: 0px; }
   .cover .scrollholder {
     text-align: center; }
@@ -526,6 +526,9 @@ sub {
   .cover .row .kep {
     background-position-x: 0px;
     height: 260px; } }
+@media (max-width: 562px) {
+  .csatlakozz .row {
+    padding-top: 44px !important; } }
 /* ==========================================================================
  *csatlakozz section
  *========================================================================== */
@@ -646,14 +649,14 @@ sub {
   background-position: right;
   background-repeat: no-repeat; }
   .Elonyok .row .col-md-12 h2#ctelonyei {
-    padding-left: 35px;
-    padding-top: 220px; }
+    padding-left: 20px;
+    padding-top: 330px; }
   .Elonyok .row .col-md-12 #ctelonyei:after {
     content: "";
     background-image: url("../img/arrow_down.png");
     background-size: 366px 34px;
     display: block;
-    width: 348px;
+    width: 118px;
     margin-top: 5px;
     background-repeat: no-repeat;
     height: 100px;
@@ -662,6 +665,34 @@ sub {
     position: absolute;
     bottom: 0px;
     width: 100%; }
+    .Elonyok .row .col-md-12 .list .el1 {
+      background-image: url("../img/target.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size: 60px 60px;
+      background-position: center;
+      background-position-y: 100px; }
+    .Elonyok .row .col-md-12 .list .el2 {
+      background-image: url("../img/devices.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size: 120px 120px;
+      background-position: center;
+      background-position-y: 75px; }
+    .Elonyok .row .col-md-12 .list .el3 {
+      background-image: url("../img/people.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size: 80px 80px;
+      background-position: center;
+      background-position-y: 95px; }
+    .Elonyok .row .col-md-12 .list .el4 {
+      background-image: url("../img/messages.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size: 100px 100px;
+      background-position: center;
+      background-position-y: 85px; }
     .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4 {
       height: 250px;
       background-color: rgba(21, 104, 107, 0.89);
@@ -714,6 +745,24 @@ sub {
 @media (max-width: 660px) {
   .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4 {
     padding-left: 2rem; } }
+@media (min-width: 753px) {
+  .Elonyok .row .col-md-12 {
+    height: 690px; }
+
+  .Elonyok .row .col-md-12 h2#ctelonyei {
+    padding-left: 35px; } }
+@media (max-width: 992px) {
+  .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4 {
+    margin-bottom: 1px; }
+
+  .Elonyok .row .col-md-12 {
+    background-image: none; }
+
+  .Elonyok .row .col-md-12 h2#ctelonyei {
+    padding-top: 90px; } }
+@media (max-width: 767px) {
+  .Elonyok .row .col-md-12 {
+    height: 1190px; } }
 /* ==========================================================================
  *MIKET section
  *========================================================================== */
@@ -734,34 +783,54 @@ sub {
     .miket .row .col-md-12 h6 {
       color: white;
       padding-top: 168px; }
-    .miket .row .col-md-12 #device1 {
-      background-image: url("../img/what_we_test_icon_1.png");
-      background-size: contain;
-      background-position: right;
-      background-repeat: no-repeat;
-      height: 150px;
-      background-position: center; }
-    .miket .row .col-md-12 #device2 {
-      background-image: url("../img/what_we_test_icon_5.png");
-      background-size: contain;
-      background-position: right;
-      background-repeat: no-repeat;
-      height: 150px;
-      background-position: center; }
-    .miket .row .col-md-12 #device3 {
-      background-image: url("../img/what_we_test_icon_2.png");
-      background-size: contain;
-      background-position: right;
-      background-repeat: no-repeat;
-      height: 150px;
-      background-position: center; }
-    .miket .row .col-md-12 #device4 {
-      background-image: url("../img/what_we_test_icon_2.png");
-      background-size: contain;
-      background-position: right;
-      background-repeat: no-repeat;
-      height: 150px;
-      background-position: center; }
+
+#device1 {
+  background-image: url("../img/what_we_test_icon_1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  background-position: center; }
+
+#device2 {
+  background-image: url("../img/what_we_test_icon_5.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  background-position: center; }
+
+#device3 {
+  background-image: url("../img/what_we_test_icon_2.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  background-position: center; }
+
+#device4 {
+  background-image: url("../img/what_we_test_icon_2.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 150px;
+  background-position: center; }
+
+.flickity-slider {
+  transform: none; }
+
+.carousel-cell {
+  width: 100%;
+  margin-top: 20px; }
+  .carousel-cell h6 {
+    padding-top: 170px;
+    color: white; }
+
+.flickity-slider {
+  text-align: center; }
+
+.flickity-viewport {
+  height: 240px !important; }
 
 /* ========================================================================== */
 @media (max-width: 992px) {
@@ -771,11 +840,36 @@ sub {
 
   .miket .row .col-md-12 h6 {
     margin-top: 110px; } }
+@media (max-width: 992px) {
+  .ikonok {
+    display: none; }
+
+  .miket .row .col-md-12 h6 {
+    margin-top: 0px; }
+
+  .miket {
+    min-height: 360px; }
+
+  .miket .row .col-md-12 {
+    padding-bottom: 0px; }
+
+  .miket .row .col-md-12 h2 {
+    padding-bottom: 30px; }
+
+  .flickity-prev-next-button.previous {
+    margin-top: -30px; }
+
+  .flickity-prev-next-button.next {
+    margin-top: -30px; } }
+@media (min-width: 992px) {
+  .miketmob {
+    display: none; } }
 /* ==========================================================================
  *Folyamat section
  *========================================================================== */
 .folyamat {
-  background-color: #FAFAFA; }
+  background-color: #FAFAFA;
+  padding-bottom: 80px; }
   .folyamat a:hover, .folyamat a:focus {
     text-decoration: none;
     color: white; }
@@ -783,8 +877,7 @@ sub {
     text-align: center; }
     .folyamat .row .col-md-12 {
       text-align: center;
-      padding-top: 80px;
-      padding-bottom: 80px; }
+      padding-top: 80px; }
     .folyamat .row .col-md-4 .circle {
       height: 150px;
       background-color: #EFEFEF;
@@ -799,8 +892,8 @@ sub {
       background-repeat: no-repeat;
       background-position: center; }
     .folyamat .row .col-md-4 .masodik {
-      background-image: url("../img/test.png");
-      background-size: 52px 55px;
+      background-image: url("../img/people2.png");
+      background-size: 70px 70px;
       background-repeat: no-repeat;
       background-position: center; }
     .folyamat .row .col-md-4 .harmadik {
@@ -862,27 +955,23 @@ sub {
   top: 240px;
   color: #1E777A; }
 
-/* ========================================================================== */
-@media (max-width: 992px) {
-  .Elonyok .row .col-md-12 {
-    height: 1210px;
-    background-image: none; }
-
-  .Elonyok .row .col-md-12 h2#ctelonyei {
-    padding-left: 15px;
-    padding-top: 70px; }
-
-  .Elonyok .row .col-md-12 #ctelonyei:after {
-    width: 328px; }
-
-  .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4 {
-    border-bottom: 1px solid white; }
-
-  .folyamat .row .col-md-4 .elso:after {
-    display: none; }
-
-  .folyamat .row .col-md-4 .masodik:after {
-    display: none; } }
+/* ==========================================================================
+ *
+ *
+ * .Elonyok .row .col-md-12 h2#ctelonyei    
+ *   padding-left: 15px
+ *   padding-top: 70px
+ *
+ * .Elonyok .row .col-md-12 #ctelonyei:after
+ *   width: 328px
+ *
+ * .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4
+ *   border-bottom: 1px solid white
+ *
+ * .folyamat .row .col-md-4 .elso:after
+ *   display: none
+ * .folyamat .row .col-md-4 .masodik:after
+ *   display: none */
 @media (max-width: 600px) {
   .folyamat .row .btn-primary {
     width: 100%; } }
@@ -942,7 +1031,7 @@ footer {
  *articlecover
  *========================================================================== */
 .articlecover_funkc {
-  background-image: url("../img/tesztbg2.png");
+  background-image: url("../img/explorebug.png");
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1014,46 +1103,6 @@ footer {
 .elonyok li {
   list-style: initial;
   margin-left: 20px; }
-.elonyok .one:before {
-  content: "1";
-  height: 40px;
-  width: 40px;
-  border: 2px solid #1E777A;
-  border-radius: 500px;
-  display: block;
-  text-align: center;
-  padding-top: 1px;
-  margin-bottom: 12px; }
-.elonyok .two:before {
-  content: "2";
-  height: 40px;
-  width: 40px;
-  border: 2px solid #1E777A;
-  border-radius: 500px;
-  display: block;
-  text-align: center;
-  padding-top: 1px;
-  margin-bottom: 12px; }
-.elonyok .three:before {
-  content: "3";
-  height: 40px;
-  width: 40px;
-  border: 2px solid #1E777A;
-  border-radius: 500px;
-  display: block;
-  text-align: center;
-  padding-top: 1px;
-  margin-bottom: 12px; }
-.elonyok .four:before {
-  content: "4";
-  height: 40px;
-  width: 40px;
-  border: 2px solid #1E777A;
-  border-radius: 500px;
-  display: block;
-  text-align: center;
-  padding-top: 1px;
-  margin-bottom: 12px; }
 .elonyok .articletitle {
   background-color: #FAFAFA; }
   .elonyok .articletitle .container {
