@@ -36,7 +36,7 @@
 </head>
 <body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
 <div style="width:700px">
-    <div style="float:left;width:350px;">
+    <div>
     <p style="color:white;">Git Deployment Script</p>
     <?php echo $output; ?>
     </div>
