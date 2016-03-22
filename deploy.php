@@ -12,10 +12,9 @@
         'whoami',
         'git pull',
         'git status',
-        'git submodule sync',
-        'git submodule update',
-        'git submodule status',
 	'find -type f -name "*.jade" -exec jade {} \;',
+	'find -type f -exec chmod 640 {} \;',
+	'find -type d -exec chmod 750 {} \;',
     );
 
     // exec commands
