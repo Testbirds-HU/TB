@@ -13,7 +13,7 @@
         'whoami',
         'git pull',
         'git status',
-	'find -type f -name "*.jade" -exec jade {} \;',
+//	'find -type f -name "*.jade" -exec jade {} \;',
 	'find -type f -exec chmod 640 {} \;',
 	'find -type d -exec chmod 750 {} \;',
     );
