@@ -15,6 +15,7 @@
         'git submodule sync',
         'git submodule update',
         'git submodule status',
+	'find -type f -name "*.jade" -exec jade {} \;',
     );
 
     // exec commands
@@ -31,7 +32,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>GIT DEPLOYMENT SCRIPT</title>
+    <title>Git deployment script</title>
 </head>
 <body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
 <div style="width:700px">
