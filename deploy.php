@@ -8,6 +8,7 @@
 
     // array of commands
     $commands = array(
+	'rm -f *.html'
         'echo $PWD',
         'whoami',
         'git pull',
