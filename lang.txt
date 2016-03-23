@@ -5,6 +5,10 @@
 	    "Menu3": "Funkcionális tesztelés",
 	    "Menu4": "Felhasználói élmény kutatás",
 	    "Menu5": "Kapcsolat",
+	    "Menu6": "Blog",
+	    "menublogurl": "Blog",
+
+
 	    "fooldal_Focim": "Crowdtesting"
 	    "fooldal_Focim2": "FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT."
 	    "fooldal_Focim3": "Magyarországon egyetlenként."
@@ -195,11 +199,15 @@
 
 
     "Slovak": {
-        "Menu1": "Rólunk",
+       "Menu1": "Rólunk",
 	    "Menu2": "Miért mi?",
 	    "Menu3": "Funkcionális tesztelés",
 	    "Menu4": "Felhasználói élmény kutatás",
 	    "Menu5": "Kapcsolat",
+	    "Menu6": "Blog",
+	    "menublogurl": "Blog",
+
+	    
 	    "fooldal_Focim": "Crowdtesting"
 	    "fooldal_Focim2": "FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT."
 	    "fooldal_Focim3": "Magyarországon egyetlenként."
