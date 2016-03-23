@@ -100,7 +100,7 @@
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="rolunk.html" class="pageload-link">Rólunk</a></li>
+              <li><a href="about-us.html" class="pageload-link">Rólunk</a></li>
               <li><a href="benefits.html" class="pageload-link">Miért mi?</a></li>
               <li><a href="functional.html" class="pageload-link">Funkcionális tesztelés</a></li>
               <li><a href="user-experience.html" class="pageload-link">Felhasználói élmény kutatás</a></li>
