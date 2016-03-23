@@ -70,7 +70,7 @@
       <div class="articletitle">
         <div class="container">
           <h1><?=writeText($lang,'rolunk_cim1',$content);?></h1>
-          <h2><?=writeText($lang,'rolunk_cim1',$content);?></h2>
+          <h2><?=writeText($lang,'rolunk_cim2',$content);?></h2>
         </div>
       </div>
       <div class="articlecover">
@@ -78,7 +78,7 @@
       </div>
       <div class="articlebody_w">
         <div class="container">
-          <p><?=writeText($lang,'rolunk_cim1',$content);?></p>
+          <p><?=writeText($lang,'rolunk_cim3',$content);?></p>
         </div>
       </div>
       <div class="team">
