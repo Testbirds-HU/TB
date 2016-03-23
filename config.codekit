@@ -3084,7 +3084,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/elonyok.jade",
-		"outputAbbreviatedPath": "\/elonyok.html",
+		"outputAbbreviatedPath": "\/benefits.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3095,7 +3095,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/felhasznaloi.jade",
-		"outputAbbreviatedPath": "\/felhasznaloi.html",
+		"outputAbbreviatedPath": "\/user-experience.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3106,7 +3106,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/funkcionalis.jade",
-		"outputAbbreviatedPath": "\/funkcionalis.html",
+		"outputAbbreviatedPath": "\/functional.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3986,7 +3986,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kapcsolat.jade",
-		"outputAbbreviatedPath": "\/kapcsolat.html",
+		"outputAbbreviatedPath": "\/contact.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
