@@ -101,10 +101,10 @@ if($url == 'http://www.testbirds.cz'){
             <ul class="nav navbar-nav">
               <li><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
               <li><a href="elonyok.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
-              <li><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
-              <li><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
               <li><a href="<?=writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?=writeText($lang,'Menu6',$content);?></a></li>                            
-              <li><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>
