@@ -46,7 +46,7 @@
 include('lang.php');
 $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 if($url == 'http://www.testbirds.cz'){
-  $lang = 'English';
+  $lang = 'Slovak';
 }else{
   $lang = 'Hungarian';
 }
@@ -67,7 +67,7 @@ if($url == 'http://www.testbirds.cz'){
     <meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design">
     <meta name="author" content="Kristof Vizy">
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/basic-styles.css" media="screen">
     <link href="css/merge.css" rel="stylesheet">
