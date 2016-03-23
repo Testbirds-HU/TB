@@ -59,17 +59,17 @@
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="pageload-link navbar-brand"> </a>
+            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.php" class="pageload-link navbar-brand"> </a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
-              <li><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
-              <li><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
-              <li><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="elonyok.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
               <li><a href="<?=writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?=writeText($lang,'Menu6',$content);?></a></li>                            
-              <li><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
+              <li><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>
@@ -90,11 +90,11 @@
         </div>
         <div class="csatlakozz">
           <div class="row">
-            <p><?=writeText($lang,'fooldal_legytesztelo',$content);?><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'fooldal_legytesztelo2',$content);?></a></p>
+            <p><?=writeText($lang,'fooldal_legytesztelo',$content);?><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'fooldal_legytesztelo2',$content);?></a></p>
           </div>
         </div>
         <div id="top" class="tesztek">
-          <div class="row"><a href="funkcionalis.html" class="pageload-link">
+          <div class="row"><a href="funkcionalis.php" class="pageload-link">
               <div class="col-md-6 teszt1">
                 <h2><?=writeText($lang,'fooldal_funkcionalis',$content);?></h2>
                 <p><?=writeText($lang,'fooldal_funkcionalis2',$content);?></p>
@@ -102,7 +102,7 @@
                 <div class="navigator">
                   <p class="more">></p>
                 </div>
-              </div></a><a href="felhasznaloi.html" class="pageload-link">
+              </div></a><a href="felhasznaloi.php" class="pageload-link">
               <div class="col-md-6 teszt2">
                 <h2><?=writeText($lang,'fooldal_felhasznaloi',$content);?></h2>
                 <p><?=writeText($lang,'fooldal_felhasznaloi2',$content);?></p>
@@ -116,25 +116,25 @@
           <div class="row">
             <div class="col-md-12">
               <h2 id="ctelonyei"><?=writeText($lang,'fooldal_miertmi',$content);?></h2>
-              <div class="row list"><a href="elonyok.html" class="pageload-link">
+              <div class="row list"><a href="elonyok.php" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el1">
                     <h2><?=writeText($lang,'fooldal_miertmi2',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
-                  </div></a><a href="elonyok.html" class="pageload-link">
+                  </div></a><a href="elonyok.php" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el2">
                     <h2><?=writeText($lang,'fooldal_miertmi3',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
-                  </div></a><a href="elonyok.html" class="pageload-link">
+                  </div></a><a href="elonyok.php" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el3">
                     <h2><?=writeText($lang,'fooldal_miertmi4',$content);?></h2>
                     <div class="navigator">
                       <p class="more">></p>
                     </div>
-                  </div></a><a href="elonyok.html" class="pageload-link">
+                  </div></a><a href="elonyok.php" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el4">
                     <h2><?=writeText($lang,'fooldal_miertmi5',$content);?></h2>
                     <div class="navigator">
@@ -211,7 +211,7 @@
             </div>
             <div class="col-md-12">
               <div class="circlewoman"></div>
-              <h3><?=writeText($lang,'fooldal_ajanlat',$content);?></h3><a href="kapcsolat.html" class="pageload-link">
+              <h3><?=writeText($lang,'fooldal_ajanlat',$content);?></h3><a href="kapcsolat.php" class="pageload-link">
                 <div class="btn-primary"><?=writeText($lang,'fooldal_ajanlat2',$content);?></div></a>
             </div>
           </div>
@@ -250,7 +250,7 @@
           </div>
           <div class="col-md-2"></div>
           <div class="col-md-3">
-            <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
+            <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
           </div>
           <div class="col-md-3">
             <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
