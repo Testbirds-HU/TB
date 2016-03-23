@@ -1,11 +1,14 @@
+<?
+  include('lang.php');
+  $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  if($url == 'http://www.testbirds.cz'){
+    $lang = 'Slovak';
+  }else{
+    $lang = 'Hungarian';
+  }
+?>
 <!DOCTYPE html>
-<!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7  
--->
-<!--if IE 7html.no-js.lt-ie9.lt-ie8  
--->
-<!--if IE 8html.no-js.lt-ie9  
--->
-<!-- [if gt IE 8] <!-->
+
 <html class="no-js">
   <!-- <![endif]-->
   <html lang="en" class="no-js"></html>
@@ -52,11 +55,11 @@
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="rolunk.html" class="pageload-link">Rólunk</a></li>
-              <li><a href="elonyok.html" class="pageload-link">Miért mi?</a></li>
-              <li><a href="funkcionalis.html" class="pageload-link">Funkcionális tesztelés</a></li>
-              <li><a href="felhasznaloi.html" class="pageload-link">Felhasználói élmény kutatás</a></li>
-              <li><a href="kapcsolat.html" class="pageload-link">Kapcsolat</a></li>
+              <li><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>
@@ -65,14 +68,14 @@
     <div class="container">
       <div class="articletitle">
         <div class="container">
-          <h1>Felhasználói élmény kutatás</h1>
-          <h2>GYŰJTS VISSZAJELZÉSEKET A TESZTELŐINK ÁLTAL ÉRZÉKELT FELHASZNÁLÓI ÉLMÉNYRŐL! </h2>
-          <h6>Neked ajánljuk, ha:
+          <h1><?=writeText($lang,'felhasznaloi_cim1',$content);?></h1>
+          <h2><?=writeText($lang,'felhasznaloi_cim2',$content);?></h2>
+          <h6><?=writeText($lang,'felhasznaloi_cim3',$content);?>
             <ul>
-              <li>van egy üzleti koncepciód, de a megvalósítás megkezdése előtt validálni szeretnéd azt valódi ügyfelekkel;</li>
-              <li>van már egy prototípusod és a fejlesztés megkezdése előtt visszajelzést szeretnél a potenciális ügyfeleidtől, ezzel fejlesztési költséget spórolva a cégednek;</li>
-              <li>a lefejlesztett megoldásod bevezetését megelőzően visszajelzéseket akarsz gyűjteni a használhatóságáról;</li>
-              <li>a piacon lévő megoldásod használhatóságával kapcsolatban bizonytalan vagy, talán vannak már negatív visszajelzéseid is ügyfelektől, esetleg roadmap építésben vagy.</li>
+              <li><?=writeText($lang,'felhasznaloi_cim4',$content);?></li>
+              <li><?=writeText($lang,'felhasznaloi_cim5',$content);?> ezzel fejlesztési költséget spórolva a cégednek;</li>
+              <li><?=writeText($lang,'felhasznaloi_cim6',$content);?></li>
+              <li><?=writeText($lang,'felhasznaloi_cim7',$content);?></li>
             </ul>
           </h6>
         </div>
@@ -80,37 +83,37 @@
       <div class="articlecover_felh"></div>
       <div class="articlebody_g">
         <div class="container">
-          <h6>Felhasználói élmények első kézből</h6>
-          <p>A kiválasztott célcsoportba eső, valós felhasználók adnak visszajelzést megoldásod használhatóságáról. A felhasználók bevonásával tükröt tartunk eléd és megtudhatod, mit gondolnak lehetséges (vagy valós) ügyfeleid az általad nyújtott szolgáltatásról.</p><br><br>
-          <h6>Kvalitatív módszertan</h6><br>
-          <p>A megoldásodhoz legjobban illeszkedő módszertant alkalmazva tárjuk fel felhasználóid véleményét. Mélyinterjúk, kvalitatív kérdőívek, ügyfél által vezetett naplók segítenek megérteni felhasználóid motivációit, viselkedésük okait.<br><br></p>
+          <h6><?=writeText($lang,'felhasznaloi_leiras1',$content);?></h6>
+          <p><?=writeText($lang,'felhasznaloi_leiras2',$content);?></p><br><br>
+          <h6><?=writeText($lang,'felhasznaloi_leiras3',$content);?></h6><br>
+          <p><?=writeText($lang,'felhasznaloi_leiras4',$content);?><br><br></p>
           <h6>Strukturált visszajelzések<br></h6>
-          <p>A Testbirds UX kutatói a felhasználói tesztelés eredményeiről strukturált visszajelzést készítenek számodra:<br><br></p>
+          <p><?=writeText($lang,'felhasznaloi_leiras5',$content);?><br><br></p>
           <ul>
-            <li>Információt kapsz a kevésbé hasznos vagy nem jól érthető funkciókról;</li>
-            <li>Összefoglaljuk számodra a felhasználók által jelzett fejlesztési lehetőségeket vagy hiányolt üzleti funkciókat.<br></li>
-            <li>Kézzel fogható javaslatokat fogalmazunk meg, a felhasználói visszajelzésekre alapozva.<br><br></li>
+            <li><?=writeText($lang,'felhasznaloi_leiras6',$content);?></li>
+            <li><?=writeText($lang,'felhasznaloi_leiras7',$content);?><br></li>
+            <li><?=writeText($lang,'felhasznaloi_leiras8',$content);?><br><br></li>
           </ul>
-          <h6>Versenytárs elemzés <br></h6>
-          <p>A teljes kép megértéséhez gyakran hasznos a versenytársaid megoldásainak értékelése is. Felhasználói élmény tesztjeink lehetőséget biztosítanak számodra, hogy megoldásod megmérettesd a piacon elérhető többi megoldással.<br></p>
+          <h6><?=writeText($lang,'felhasznaloi_leiras9',$content);?><br></h6>
+          <p><?=writeText($lang,'felhasznaloi_leiras10',$content);?><br></p>
         </div>
       </div>
       <div class="articlebody_w">
         <div class="container">
-          <h2>A FELHASZNÁLÓI ÉLMÉNY KUTATÁS FOLYAMATA<br><br></h2>
-          <p>A teljes tesztelési folyamatot kijelölt Testbirds projektmenedzser támogatja.<br><br></p>
-          <h6>1. Felkészülés<br></h6>
-          <p>Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is, a tesztelői célcsoport jellemzői alapján. Illetve leegyeztetjük a hangsúlyos tesztelendő funkciókat. <br><br></p>
-          <h6>2. Tesztelés a kiválasztott módszertan alapján</h6>
-          <p>A Testbirds projektmenedzser kiválasztja a feladatba bevont tesztelői kört és elindítja a tesztelést  és a teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét. <br><br></p>
-          <h6>3. Tesztelési eredmények összefoglalása és bemutatása</h6>
-          <p>Tesztelési eredmények összefoglalása, bemutatása és javaslatok megfogalmazása cím. Alatta a szöveg: A Testbirds UX kutatója záró prezentációt készít, amit személyesen előad az ügyfélnek. A záró anyagban kézzel fogható javaslatokat fogalmazunk meg a felhasználók visszajelzéseire alapozva, fontossági sorrendbe állítva a javaslatokat.</p>
+          <h2><?=writeText($lang,'felhasznaloi_folyamat1',$content);?><br><br></h2>
+          <p><?=writeText($lang,'felhasznaloi_folyamat2',$content);?><br><br></p>
+          <h6><?=writeText($lang,'felhasznaloi_folyamat3',$content);?><br></h6>
+          <p><?=writeText($lang,'felhasznaloi_folyamat4',$content);?><br><br></p>
+          <h6><?=writeText($lang,'felhasznaloi_folyamat5',$content);?></h6>
+          <p><?=writeText($lang,'felhasznaloi_folyamat6',$content);?><br><br></p>
+          <h6><?=writeText($lang,'felhasznaloi_folyamat7',$content);?></h6>
+          <p><?=writeText($lang,'felhasznaloi_folyamat8',$content);?></p>
         </div>
       </div>
       <div class="quote">
         <div class="col-md-12">
-          <h3>Great team, great service! Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></h3>
-          <h3>Mr. Smith</h3>
+          <h3><?=writeText($lang,'felhasznaloi_idezet',$content);?><br></h3>
+          <h3><?=writeText($lang,'felhasznaloi_idezet2',$content);?></h3>
         </div>
       </div>
       <div class="col-md-12 companies">
@@ -125,21 +128,22 @@
     <footer class="container-fluid">
       <div class="row">
         <div class="col-md-4">
-          <h5>Legutóbbi blogbejegyzések</h5><a>Etikus design – Az AMUSE konferencián jártunk<br></a><a>Szek.org: Hogyan javítsuk online felületünket?<br></a><a>UX teszt: A kutatási kérdések tisztázása<br></a><a>UX teszt: A célok tisztázása<br></a><a>UX teszt: Az elvárások tisztázása<br></a>
+          <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-3">
-          <h5>Oldaltérkép</h5><a>Rólunk<br></a><a>Miért mi?<br></a><a>Funkcionális tesztelés<br></a><a>Felhasználói élmény kutatás<br></a><a>Kapcsolat<br></a>
+          <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
         </div>
         <div class="col-md-3">
-          <h5>Kapcsolat</h5>
-          <p>1118 Budapest,<br></p>
-          <p>Himfy utca 1.<br></p>
-          <p>(30) 569 5988</p>
-          <p>info@testbirds.hu</p>
+          <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
+          <p><?=writeText($lang,'footer_kapcsolat2',$content);?><br><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
+          <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
         </div>
       </div>
     </footer>
+
     <div id="loader" class="pageload-overlay">
       <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
         <path id="loaderPath"></path>

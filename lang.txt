@@ -1,0 +1,386 @@
+{
+    "Hungarian": {
+        "Menu1": "Rólunk",
+	    "Menu2": "Miért mi?",
+	    "Menu3": "Funkcionális tesztelés",
+	    "Menu4": "Felhasználói élmény kutatás",
+	    "Menu5": "Kapcsolat",
+	    "fooldal_Focim": "Crowdtesting"
+	    "fooldal_Focim2": "FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT."
+	    "fooldal_Focim3": "Magyarországon egyetlenként."
+
+	    "fooldal_legytesztelo": "Légy te is tesztelő! Ha szívesen kipróbálnád magad,"
+	    "fooldal_legytesztelo2": "regisztrálj itt!"
+
+	    "fooldal_funkcionalis": "Funkcionális teszt"
+	    "fooldal_funkcionalis2": "Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!"
+
+	    "fooldal_felhasznaloi": "Felhasználói élmény kutatás"
+	    "fooldal_felhasznaloi2": "Gyűjts visszajelzéseket a tesztelőink által érzékelt felhasználói élményről!"
+
+	    "fooldal_miertmi": "Gyűjts visszajelzéseket a tesztelőink által érzékelt felhasználói élményről!"
+	    "fooldal_miertmi2": "Releváns célcsoport"
+	    "fooldal_miertmi3": "Eszközök széles választéka"
+	    "fooldal_miertmi4": "Elfogulatlan tesztelők"
+	    "fooldal_miertmi5": "Visszajelzések rövid időn belül"
+
+	    "fooldal_miket": "MIKET TESZTELÜNK?"
+	    "fooldal_miket2": "Mobil alkalmazásokat"
+	    "fooldal_miket3": "Weboldalakat és webshopokat"
+	    "fooldal_miket4": "TV alkalmazásokat"
+	    "fooldal_miket5": "Egyéb szoftverek<br>felhasználói felületeit"
+
+	    "fooldal_folyamat": "A Testbirds szolgáltatási folyamat"
+	    "fooldal_folyamat2": "Tesztelési célok"
+	    "fooldal_folyamat3": "közös kialakítása"
+	    "fooldal_folyamat4": "Tesztelési eredmények,<br>javaslatok"
+	    "fooldal_folyamat5": "összefoglalása és bemutatása"
+
+	    "fooldal_ajanlat": "Édekel a szolgáltatásunk? Lépj kapcsolatba velünk!"
+	    "fooldal_ajanlat2": "Ajánlatot kérek!"
+
+	    "footer_blog": "Legutóbbi blogbejegyzések!"
+
+	    "footer_blog2": "Etikus design – Az AMUSE konferencián jártunk"
+	    "blogurl2": "blog.html"	    
+
+	    "footer_blog3": "Szek.org: Hogyan javítsuk online felületünket?"
+	    "blogurl3": "blog.html"
+
+
+	    "footer_blog4": "UX teszt: A kutatási kérdések tisztázása"
+	    "blogurl4": "blog.html"
+
+
+	    "footer_blog5": "UX teszt: A célok tisztázása"
+	    "blogurl5": "blog.html"
+
+
+	    "footer_blog6": "UX teszt: Az elvárások tisztázása"
+	    "blogurl6": "blog.html"
+
+	    "footer_oldalterkep": "Oldaltérkép"
+	    "footer_oldalterkep2": "Rólunk"
+	    "footer_oldalterkep3": "Miért mi?"
+	    "footer_oldalterkep4": "Funkcionális tesztelés"
+	    "footer_oldalterkep5": "Felhasználói élmény kutatás"
+	    "footer_oldalterkep6": "Kapcsolat"
+
+	    "footer_kapcsolat": "Kapcsolat"
+	    "footer_kapcsolat2": "1118 Budapest,"
+	    "footer_kapcsolat3": "Himfy utca 1."
+	    "footer_kapcsolat4": "(30) 569 5988"
+	    "footer_kapcsolat5": "info@testbirds.hu"
+
+
+	    "miertmi_cim": "A crowdtesting előnyei"
+	    "miertmi_cim2": "TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT ÉS FELHASZNÁLÓI ÉLMÉNYÉT!"
+
+	    "miertmi_elony1": "Releváns célcsoport"
+	    "miertmi_elony1_1": "10.000 hazai és 100.000 nemzetközi regisztrált tesztelő, akik között 50 különféle kritérium alapján te is megtalálhatod a célcsoportodba eső embereket;"
+	    "miertmi_elony1_2": "A célcsoportok meghatározásánál legjellemzőbb szempontok lehetnek: demográfiai tényezők, érdeklődési körök és felhasználói szokások;"
+	    "miertmi_elony1_3": "Tesztelőink között vannak átlagfelhasználók, profi tesztelők és speciális területek szakértői is;"
+	    "miertmi_elony1_4": "Hozhatod a saját tesztelői bázisod is, ha saját ügyfélköröddel vagy dolgozóiddal szeretnél tesztelni."
+
+	    "miertmi_elony2": "Eszközök széles választéka"
+	    "miertmi_elony2_1": "Több mint 9 000 regisztrált okostelefon és több mint 2 000 regisztrált tablet, több mint 700 különféle modell, minden mobil OS: Android, iOS, Windows Phone, Blackberry is megtalálható a crowd-ban;"
+	    "miertmi_elony2_2": "Több mint 11 000 PC és Mac regisztrálva. Bármely operációs rendszer és böngésző kombináció azonnal elérhető: IE, Firefox, Chrome, Opera, Safari, OS X-en és Windows-on egyaránt;"
+	    "miertmi_elony2_3": "Több száz regisztrált Smart TV és különböző set-top-boksz;"
+	    "miertmi_elony2_4": "Játékokat is tesztelünk! Konzolokon, mobilon és böngészőben egyaránt."
+
+
+	    "miertmi_elony3": "Elfogulatlan tesztelők"
+	    "miertmi_elony3_1": "A tesztelések valós körülmények között zajlanak, nem teremtünk mesterséges környezetet;"
+	    "miertmi_elony3_2": "Tesztelőinktől őszinte, elfogulatlan visszajelzésekre számíthatsz;"
+	    "miertmi_elony3_3": "A visszajelzéseket a duplikációktól megszűrve, minőségellenőrzést követően adjuk át részedre;"
+	    "miertmi_elony3_4": "Tesztelőinket motiváljuk a feladatok végrehajtására, így biztos lehetsz az eredmény kiváló minőségében."
+	    "miertmi_elony3_5": "Tesztelőink hétvégén is dolgoznak, így még gyorsabb visszajelzésekre számíthat."
+
+
+	    "miertmi_elony4": "Visszajelzések rövid időn belül"
+	    "miertmi_elony4_1": "A fejlesztési fázis különböző szakaszaiban is segítséget adhat a crowdtesting: Papíron létező koncepciót, wireframe-t, mockup-ot, kattintható drótvázat, teszt verziót vagy akár éles megoldást is tesztelünk;"
+	    "miertmi_elony4_2": "Funkcionális tesztek akár 48 órán belül;"
+	    "miertmi_elony4_3": "Felhasználói élmény kutatások akár 2 hetes átfutási idővel;"
+	    "miertmi_elony4_4": "A tesztelési feladatokat képzett projektmenedzserek, kutatók koordinálják, ezzel biztosítva az elvárt határidők betartását és a kiváló minőséget."
+
+
+	    "felhasznaloi_cim1": "Felhasználói élmény kutatás"
+	    "felhasznaloi_cim2": "GYŰJTS VISSZAJELZÉSEKET A TESZTELŐINK ÁLTAL ÉRZÉKELT FELHASZNÁLÓI ÉLMÉNYRŐL!"
+	    "felhasznaloi_cim3": "Neked ajánljuk, ha:"
+	    "felhasznaloi_cim4": "van egy üzleti koncepciód, de a megvalósítás megkezdése előtt validálni szeretnéd azt valódi ügyfelekkel;"
+	    "felhasznaloi_cim5": "van már egy prototípusod és a fejlesztés megkezdése előtt visszajelzést szeretnél a potenciális ügyfeleidtől, ezzel fejlesztési költséget spórolva a cégednek;"
+	    "felhasznaloi_cim6": "a lefejlesztett megoldásod bevezetését megelőzően visszajelzéseket akarsz gyűjteni a használhatóságáról;"
+	    "felhasznaloi_cim7": "a piacon lévő megoldásod használhatóságával kapcsolatban bizonytalan vagy, talán vannak már negatív visszajelzéseid is ügyfelektől, esetleg roadmap építésben vagy."
+
+
+	    "felhasznaloi_leiras1": "Felhasználói élmények első kézből"
+	    "felhasznaloi_leiras2": "A kiválasztott célcsoportba eső, valós felhasználók adnak visszajelzést megoldásod használhatóságáról. A felhasználók bevonásával tükröt tartunk eléd és megtudhatod, mit gondolnak lehetséges (vagy valós) ügyfeleid az általad nyújtott szolgáltatásról."
+	    "felhasznaloi_leiras3": "Kvalitatív módszertan"
+	    "felhasznaloi_leiras4": "A megoldásodhoz legjobban illeszkedő módszertant alkalmazva tárjuk fel felhasználóid véleményét. Mélyinterjúk, kvalitatív kérdőívek, ügyfél által vezetett naplók segítenek megérteni felhasználóid motivációit, viselkedésük okait."
+	    "felhasznaloi_leiras5": "A Testbirds UX kutatói a felhasználói tesztelés eredményeiről strukturált visszajelzést készítenek számodra:"
+	    "felhasznaloi_leiras6": "Információt kapsz a kevésbé hasznos vagy nem jól érthető funkciókról;"
+	    "felhasznaloi_leiras7": "Összefoglaljuk számodra a felhasználók által jelzett fejlesztési lehetőségeket vagy hiányolt üzleti funkciókat."
+	    "felhasznaloi_leiras8": "Kézzel fogható javaslatokat fogalmazunk meg, a felhasználói visszajelzésekre alapozva."
+	    "felhasznaloi_leiras9": "Versenytárs elemzés"
+	    "felhasznaloi_leiras10": "A teljes kép megértéséhez gyakran hasznos a versenytársaid megoldásainak értékelése is. Felhasználói élmény tesztjeink lehetőséget biztosítanak számodra, hogy megoldásod megmérettesd a piacon elérhető többi megoldással."
+
+	    "felhasznaloi_folyamat1": "A FELHASZNÁLÓI ÉLMÉNY KUTATÁS FOLYAMATA"
+	    "felhasznaloi_folyamat2": "A teljes tesztelési folyamatot kijelölt Testbirds projektmenedzser támogatja."
+	    "felhasznaloi_folyamat3": "1. Felkészülés"
+	    "felhasznaloi_folyamat4": "Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is, a tesztelői célcsoport jellemzői alapján. Illetve leegyeztetjük a hangsúlyos tesztelendő funkciókat. "
+	    "felhasznaloi_folyamat5": "2. Tesztelés a kiválasztott módszertan alapján"
+	    "felhasznaloi_folyamat6": "A Testbirds projektmenedzser kiválasztja a feladatba bevont tesztelői kört és elindítja a tesztelést  és a teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét. <br><br></p>
+        "felhasznaloi_folyamat7": "Tesztelési eredmények összefoglalása és bemutatása"
+	    "felhasznaloi_folyamat7": "A Testbirds UX kutatója záró prezentációt készít, amit személyesen előad az ügyfélnek. A záró anyagban kézzel fogható javaslatokat fogalmazunk meg a felhasználók visszajelzéseire alapozva, fontossági sorrendbe állítva a javaslatokat."
+
+	    "felhasznaloi_idezet": "Great team, great service! Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	    "felhasznaloi_idezet2": "Mr. Smith"
+
+	    
+	    "funkcionalis_cim1": "Funkcionális tesztelés"
+	    "funkcionalis_cim2": "TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT!"
+	    "funkcionalis_cim3": "Neked ajánljuk, ha:"
+	    "funkcionalis_cim4": "a fejlesztésed már elkészült, de még a bevezetés előtt meg akarsz győződni megoldásod minőségéről;"
+	    "funkcionalis_cim5": "nincs elegendő erőforrásod egy teljes körű tesztelésre."
+	    "funkcionalis_cim6": "ha sok platformon fejlesztesz egyszerre vagy sok platformon kell egyszerre működnie a megoldásodnak."
+	    "funkcionalis_cim7": "élesítés előtt, ha új funkciók kerültek a megoldásodba."
+
+	    "funkcionalis_leiras1": "Strukturált hibakeresés"
+	    "funkcionalis_leiras2": "Tesztelőink előzetesen meghatározott teszteset dokumentáció alapján, lépésről-lépésre haladva vizsgálják át felhasználói felületeid. A hibakeresés kötött szabályok alapján zajlik."
+	    "funkcionalis_leiras3": "Felfedező tesztelés"
+	    "funkcionalis_leiras4": "Tesztelőink a leggyakoribb funkciókból kiindulva, előre meghatározott forgatókönyv nélkül fedezik fel felhasználói felületed."
+	    "funkcionalis_leiras5": "Hibák felülvizsgálata"
+	    "funkcionalis_leiras6": "A feltárt hibás működés minden esetben ellenőrzésre kerül különböző eszközökön és operációs rendszereken is. A feltárt hibákat az általad elvárt időközönként és formátumban adjuk át számodra."
+	    "funkcionalis_leiras7": "Eredmények villámgyorsan"
+	    "funkcionalis_leiras8": "Teljes projektek akár 48 óra alatt, a hibák összesítésével és kiértékelésével."
+
+	    "funkcionalis_folyamat1": "FUNKCIONÁLIS TESZTELÉS FOLYAMATA"
+	    "funkcionalis_folyamat2": "A teljes tesztelési folyamat kijelölt Testbirds projektmenedzser vezetésével zajlik."
+	    "funkcionalis_folyamat3": "1. Felkészülés"
+	    "funkcionalis_folyamat4": "Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is: tesztelendő platformok, tesztelők által használt eszközök."
+	    "funkcionalis_folyamat5": "2. Tesztelés a kiválasztott módszertan alapján"
+	    "funkcionalis_folyamat6": "A Testbirds projektmenedzser kiválasztja a felkészülési megbeszélésen egyeztetett tesztelői kört és elindítja a tesztelést. A teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét."
+	    "funkcionalis_folyamat7": "3. Tesztelési eredmények összefoglalása és bemutatása"
+	    "funkcionalis_folyamat8": "A Testbirds projektmenedzser riportot készít a tesztelők által jelzett hibákról, az észlelt hiba részletes leírásával és csatolt képernyő fotókkal együtt."
+
+	    "funkcionalis_idezet1": "Great team, great service! Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	    "funkcionalis_idezet2": "Mr. Smith"
+
+	    "rolunk_cim1": "Rólunk"
+	    "rolunk_cim2": "Segítünk ügyfeleinknek, hogy meghallják a felhasználóik hangját. Az eredmény: olyan digitális fejlesztés, amelyet öröm használni."
+	    "rolunk_cim3": "A Testbirds egy crowdtesting szolgáltató cég. Hiszünk benne, hogy ha a felhasználókat bevonjuk a fejlesztésbe, azzal mindenki nyer: ebben segít a crowdtesting. A német hátterű Testbirds hazai irodáját 2013 nyarán indítottuk el, hogy itthon is segítsünk áthidalni a fejlesztőket a végfelhasználóktól elválasztó információs-szakadékot. Nemzetközi szinten eddig több mint 100.000 tesztelő regisztrált platformunkon, itthon pedig több mint 10.000 magyar tesztelővel rendelkezünk."
+
+	    "kapcsolat_cim1": "Lépj kapcsolatba velünk!"
+	    "kapcsolat_cim1": "ALIG VÁRJUK, HOGY EGYÜTT DOLGOZHASSUNK VELED!"
+	    "kapcsolat_cim1": "A crowdtesting nem dobozos szolgáltatás. Minden ügyfelünknek egyedi ajánlatot készítünk, egy ingyenes, kötelezettségek nélküli beszélgetést követően. Kérjük, add meg pár adatodat, hogy Kata felvehesse veled a kapcsolatot!"
+
+	    "kapcsolat_form1": "Név"
+	    "kapcsolat_form2": "Email cím"
+	    "kapcsolat_form3": "Telefonszám"
+	    "kapcsolat_form4": "Cégnév"
+	    "kapcsolat_form5": "Mesélj a projektedről!"
+	    "kapcsolat_form6": "Küldés"
+
+	    "kapcsolat_kapcsolat1": "1118 Budapest Ménesi út 18."
+	    "kapcsolat_kapcsolat2": "Csankovszki Kata"
+	    "kapcsolat_kapcsolat3": "(30) 569 5988"
+	    "kapcsolat_kapcsolat4": "info@testbirds.hu"
+	    "kapcsolat_kapcsolat5": "Köszönjük a leveledet, amint tudunk válaszolunk!"
+
+
+    },
+
+
+
+
+
+    "Slovak": {
+        "Menu1": "Rólunk",
+	    "Menu2": "Miért mi?",
+	    "Menu3": "Funkcionális tesztelés",
+	    "Menu4": "Felhasználói élmény kutatás",
+	    "Menu5": "Kapcsolat",
+	    "fooldal_Focim": "Crowdtesting"
+	    "fooldal_Focim2": "FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT."
+	    "fooldal_Focim3": "Magyarországon egyetlenként."
+
+	    "fooldal_legytesztelo": "Légy te is tesztelő! Ha szívesen kipróbálnád magad,"
+	    "fooldal_legytesztelo2": "regisztrálj itt!"
+
+	    "fooldal_funkcionalis": "Funkcionális teszt"
+	    "fooldal_funkcionalis2": "Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!"
+
+	    "fooldal_felhasznaloi": "Felhasználói élmény kutatás"
+	    "fooldal_felhasznaloi2": "Gyűjts visszajelzéseket a tesztelőink által érzékelt felhasználói élményről!"
+
+	    "fooldal_miertmi": "Gyűjts visszajelzéseket a tesztelőink által érzékelt felhasználói élményről!"
+	    "fooldal_miertmi2": "Releváns célcsoport"
+	    "fooldal_miertmi3": "Eszközök széles választéka"
+	    "fooldal_miertmi4": "Elfogulatlan tesztelők"
+	    "fooldal_miertmi5": "Visszajelzések rövid időn belül"
+
+	    "fooldal_miket": "MIKET TESZTELÜNK?"
+	    "fooldal_miket2": "Mobil alkalmazásokat"
+	    "fooldal_miket3": "Weboldalakat és webshopokat"
+	    "fooldal_miket4": "TV alkalmazásokat"
+	    "fooldal_miket5": "Egyéb szoftverek<br>felhasználói felületeit"
+
+	    "fooldal_folyamat": "A Testbirds szolgáltatási folyamat"
+	    "fooldal_folyamat2": "Tesztelési célok"
+	    "fooldal_folyamat3": "közös kialakítása"
+	    "fooldal_folyamat4": "Tesztelési eredmények,<br>javaslatok"
+	    "fooldal_folyamat5": "összefoglalása és bemutatása"
+
+	    "fooldal_ajanlat": "Édekel a szolgáltatásunk? Lépj kapcsolatba velünk!"
+	    "fooldal_ajanlat2": "Ajánlatot kérek!"
+
+	    "footer_blog": "Legutóbbi blogbejegyzések!"
+
+	    "footer_blog2": "Etikus design – Az AMUSE konferencián jártunk"
+	    "blogurl2": "blog.html"	    
+
+	    "footer_blog3": "Szek.org: Hogyan javítsuk online felületünket?"
+	    "blogurl3": "blog.html"
+
+
+	    "footer_blog4": "UX teszt: A kutatási kérdések tisztázása"
+	    "blogurl4": "blog.html"
+
+
+	    "footer_blog5": "UX teszt: A célok tisztázása"
+	    "blogurl5": "blog.html"
+
+
+	    "footer_blog6": "UX teszt: Az elvárások tisztázása"
+	    "blogurl6": "blog.html"
+
+	    "footer_oldalterkep": "Oldaltérkép"
+	    "footer_oldalterkep2": "Rólunk"
+	    "footer_oldalterkep3": "Miért mi?"
+	    "footer_oldalterkep4": "Funkcionális tesztelés"
+	    "footer_oldalterkep5": "Felhasználói élmény kutatás"
+	    "footer_oldalterkep6": "Kapcsolat"
+
+	    "footer_kapcsolat": "Kapcsolat"
+	    "footer_kapcsolat2": "1118 Budapest,"
+	    "footer_kapcsolat3": "Himfy utca 1."
+	    "footer_kapcsolat4": "(30) 569 5988"
+	    "footer_kapcsolat5": "info@testbirds.hu"
+
+
+	    "miertmi_cim": "A crowdtesting előnyei"
+	    "miertmi_cim2": "TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT ÉS FELHASZNÁLÓI ÉLMÉNYÉT!"
+
+	    "miertmi_elony1": "Releváns célcsoport"
+	    "miertmi_elony1_1": "10.000 hazai és 100.000 nemzetközi regisztrált tesztelő, akik között 50 különféle kritérium alapján te is megtalálhatod a célcsoportodba eső embereket;"
+	    "miertmi_elony1_2": "A célcsoportok meghatározásánál legjellemzőbb szempontok lehetnek: demográfiai tényezők, érdeklődési körök és felhasználói szokások;"
+	    "miertmi_elony1_3": "Tesztelőink között vannak átlagfelhasználók, profi tesztelők és speciális területek szakértői is;"
+	    "miertmi_elony1_4": "Hozhatod a saját tesztelői bázisod is, ha saját ügyfélköröddel vagy dolgozóiddal szeretnél tesztelni."
+
+	    "miertmi_elony2": "Eszközök széles választéka"
+	    "miertmi_elony2_1": "Több mint 9 000 regisztrált okostelefon és több mint 2 000 regisztrált tablet, több mint 700 különféle modell, minden mobil OS: Android, iOS, Windows Phone, Blackberry is megtalálható a crowd-ban;"
+	    "miertmi_elony2_2": "Több mint 11 000 PC és Mac regisztrálva. Bármely operációs rendszer és böngésző kombináció azonnal elérhető: IE, Firefox, Chrome, Opera, Safari, OS X-en és Windows-on egyaránt;"
+	    "miertmi_elony2_3": "Több száz regisztrált Smart TV és különböző set-top-boksz;"
+	    "miertmi_elony2_4": "Játékokat is tesztelünk! Konzolokon, mobilon és böngészőben egyaránt."
+
+
+	    "miertmi_elony3": "Elfogulatlan tesztelők"
+	    "miertmi_elony3_1": "A tesztelések valós körülmények között zajlanak, nem teremtünk mesterséges környezetet;"
+	    "miertmi_elony3_2": "Tesztelőinktől őszinte, elfogulatlan visszajelzésekre számíthatsz;"
+	    "miertmi_elony3_3": "A visszajelzéseket a duplikációktól megszűrve, minőségellenőrzést követően adjuk át részedre;"
+	    "miertmi_elony3_4": "Tesztelőinket motiváljuk a feladatok végrehajtására, így biztos lehetsz az eredmény kiváló minőségében."
+	    "miertmi_elony3_5": "Tesztelőink hétvégén is dolgoznak, így még gyorsabb visszajelzésekre számíthat."
+
+
+	    "miertmi_elony4": "Visszajelzések rövid időn belül"
+	    "miertmi_elony4_1": "A fejlesztési fázis különböző szakaszaiban is segítséget adhat a crowdtesting: Papíron létező koncepciót, wireframe-t, mockup-ot, kattintható drótvázat, teszt verziót vagy akár éles megoldást is tesztelünk;"
+	    "miertmi_elony4_2": "Funkcionális tesztek akár 48 órán belül;"
+	    "miertmi_elony4_3": "Felhasználói élmény kutatások akár 2 hetes átfutási idővel;"
+	    "miertmi_elony4_4": "A tesztelési feladatokat képzett projektmenedzserek, kutatók koordinálják, ezzel biztosítva az elvárt határidők betartását és a kiváló minőséget."
+
+
+	    "felhasznaloi_cim1": "Felhasználói élmény kutatás"
+	    "felhasznaloi_cim2": "GYŰJTS VISSZAJELZÉSEKET A TESZTELŐINK ÁLTAL ÉRZÉKELT FELHASZNÁLÓI ÉLMÉNYRŐL!"
+	    "felhasznaloi_cim3": "Neked ajánljuk, ha:"
+	    "felhasznaloi_cim4": "van egy üzleti koncepciód, de a megvalósítás megkezdése előtt validálni szeretnéd azt valódi ügyfelekkel;"
+	    "felhasznaloi_cim5": "van már egy prototípusod és a fejlesztés megkezdése előtt visszajelzést szeretnél a potenciális ügyfeleidtől, ezzel fejlesztési költséget spórolva a cégednek;"
+	    "felhasznaloi_cim6": "a lefejlesztett megoldásod bevezetését megelőzően visszajelzéseket akarsz gyűjteni a használhatóságáról;"
+	    "felhasznaloi_cim7": "a piacon lévő megoldásod használhatóságával kapcsolatban bizonytalan vagy, talán vannak már negatív visszajelzéseid is ügyfelektől, esetleg roadmap építésben vagy."
+
+
+	    "felhasznaloi_leiras1": "Felhasználói élmények első kézből"
+	    "felhasznaloi_leiras2": "A kiválasztott célcsoportba eső, valós felhasználók adnak visszajelzést megoldásod használhatóságáról. A felhasználók bevonásával tükröt tartunk eléd és megtudhatod, mit gondolnak lehetséges (vagy valós) ügyfeleid az általad nyújtott szolgáltatásról."
+	    "felhasznaloi_leiras3": "Kvalitatív módszertan"
+	    "felhasznaloi_leiras4": "A megoldásodhoz legjobban illeszkedő módszertant alkalmazva tárjuk fel felhasználóid véleményét. Mélyinterjúk, kvalitatív kérdőívek, ügyfél által vezetett naplók segítenek megérteni felhasználóid motivációit, viselkedésük okait."
+	    "felhasznaloi_leiras5": "A Testbirds UX kutatói a felhasználói tesztelés eredményeiről strukturált visszajelzést készítenek számodra:"
+	    "felhasznaloi_leiras6": "Információt kapsz a kevésbé hasznos vagy nem jól érthető funkciókról;"
+	    "felhasznaloi_leiras7": "Összefoglaljuk számodra a felhasználók által jelzett fejlesztési lehetőségeket vagy hiányolt üzleti funkciókat."
+	    "felhasznaloi_leiras8": "Kézzel fogható javaslatokat fogalmazunk meg, a felhasználói visszajelzésekre alapozva."
+	    "felhasznaloi_leiras9": "Versenytárs elemzés"
+	    "felhasznaloi_leiras10": "A teljes kép megértéséhez gyakran hasznos a versenytársaid megoldásainak értékelése is. Felhasználói élmény tesztjeink lehetőséget biztosítanak számodra, hogy megoldásod megmérettesd a piacon elérhető többi megoldással."
+
+	    "felhasznaloi_folyamat1": "A FELHASZNÁLÓI ÉLMÉNY KUTATÁS FOLYAMATA"
+	    "felhasznaloi_folyamat2": "A teljes tesztelési folyamatot kijelölt Testbirds projektmenedzser támogatja."
+	    "felhasznaloi_folyamat3": "1. Felkészülés"
+	    "felhasznaloi_folyamat4": "Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is, a tesztelői célcsoport jellemzői alapján. Illetve leegyeztetjük a hangsúlyos tesztelendő funkciókat. "
+	    "felhasznaloi_folyamat5": "2. Tesztelés a kiválasztott módszertan alapján"
+	    "felhasznaloi_folyamat6": "A Testbirds projektmenedzser kiválasztja a feladatba bevont tesztelői kört és elindítja a tesztelést  és a teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét. <br><br></p>
+        "felhasznaloi_folyamat7": "Tesztelési eredmények összefoglalása és bemutatása"
+	    "felhasznaloi_folyamat7": "A Testbirds UX kutatója záró prezentációt készít, amit személyesen előad az ügyfélnek. A záró anyagban kézzel fogható javaslatokat fogalmazunk meg a felhasználók visszajelzéseire alapozva, fontossági sorrendbe állítva a javaslatokat."
+
+	    "felhasznaloi_idezet": "Great team, great service! Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	    "felhasznaloi_idezet2": "Mr. Smith"
+
+	    
+	    "funkcionalis_cim1": "Funkcionális tesztelés"
+	    "funkcionalis_cim2": "TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT!"
+	    "funkcionalis_cim3": "Neked ajánljuk, ha:"
+	    "funkcionalis_cim4": "a fejlesztésed már elkészült, de még a bevezetés előtt meg akarsz győződni megoldásod minőségéről;"
+	    "funkcionalis_cim5": "nincs elegendő erőforrásod egy teljes körű tesztelésre."
+	    "funkcionalis_cim6": "ha sok platformon fejlesztesz egyszerre vagy sok platformon kell egyszerre működnie a megoldásodnak."
+	    "funkcionalis_cim7": "élesítés előtt, ha új funkciók kerültek a megoldásodba."
+
+	    "funkcionalis_leiras1": "Strukturált hibakeresés"
+	    "funkcionalis_leiras2": "Tesztelőink előzetesen meghatározott teszteset dokumentáció alapján, lépésről-lépésre haladva vizsgálják át felhasználói felületeid. A hibakeresés kötött szabályok alapján zajlik."
+	    "funkcionalis_leiras3": "Felfedező tesztelés"
+	    "funkcionalis_leiras4": "Tesztelőink a leggyakoribb funkciókból kiindulva, előre meghatározott forgatókönyv nélkül fedezik fel felhasználói felületed."
+	    "funkcionalis_leiras5": "Hibák felülvizsgálata"
+	    "funkcionalis_leiras6": "A feltárt hibás működés minden esetben ellenőrzésre kerül különböző eszközökön és operációs rendszereken is. A feltárt hibákat az általad elvárt időközönként és formátumban adjuk át számodra."
+	    "funkcionalis_leiras7": "Eredmények villámgyorsan"
+	    "funkcionalis_leiras8": "Teljes projektek akár 48 óra alatt, a hibák összesítésével és kiértékelésével."
+
+	    "funkcionalis_folyamat1": "FUNKCIONÁLIS TESZTELÉS FOLYAMATA"
+	    "funkcionalis_folyamat2": "A teljes tesztelési folyamat kijelölt Testbirds projektmenedzser vezetésével zajlik."
+	    "funkcionalis_folyamat3": "1. Felkészülés"
+	    "funkcionalis_folyamat4": "Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is: tesztelendő platformok, tesztelők által használt eszközök."
+	    "funkcionalis_folyamat5": "2. Tesztelés a kiválasztott módszertan alapján"
+	    "funkcionalis_folyamat6": "A Testbirds projektmenedzser kiválasztja a felkészülési megbeszélésen egyeztetett tesztelői kört és elindítja a tesztelést. A teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét."
+	    "funkcionalis_folyamat7": "3. Tesztelési eredmények összefoglalása és bemutatása"
+	    "funkcionalis_folyamat8": "A Testbirds projektmenedzser riportot készít a tesztelők által jelzett hibákról, az észlelt hiba részletes leírásával és csatolt képernyő fotókkal együtt."
+
+	    "funkcionalis_idezet1": "Great team, great service! Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	    "funkcionalis_idezet2": "Mr. Smith"
+
+	    "rolunk_cim1": "Rólunk"
+	    "rolunk_cim2": "Segítünk ügyfeleinknek, hogy meghallják a felhasználóik hangját. Az eredmény: olyan digitális fejlesztés, amelyet öröm használni."
+	    "rolunk_cim3": "A Testbirds egy crowdtesting szolgáltató cég. Hiszünk benne, hogy ha a felhasználókat bevonjuk a fejlesztésbe, azzal mindenki nyer: ebben segít a crowdtesting. A német hátterű Testbirds hazai irodáját 2013 nyarán indítottuk el, hogy itthon is segítsünk áthidalni a fejlesztőket a végfelhasználóktól elválasztó információs-szakadékot. Nemzetközi szinten eddig több mint 100.000 tesztelő regisztrált platformunkon, itthon pedig több mint 10.000 magyar tesztelővel rendelkezünk."
+
+	    "kapcsolat_cim1": "Lépj kapcsolatba velünk!"
+	    "kapcsolat_cim1": "ALIG VÁRJUK, HOGY EGYÜTT DOLGOZHASSUNK VELED!"
+	    "kapcsolat_cim1": "A crowdtesting nem dobozos szolgáltatás. Minden ügyfelünknek egyedi ajánlatot készítünk, egy ingyenes, kötelezettségek nélküli beszélgetést követően. Kérjük, add meg pár adatodat, hogy Kata felvehesse veled a kapcsolatot!"
+
+	    "kapcsolat_form1": "Név"
+	    "kapcsolat_form2": "Email cím"
+	    "kapcsolat_form3": "Telefonszám"
+	    "kapcsolat_form4": "Cégnév"
+	    "kapcsolat_form5": "Mesélj a projektedről!"
+	    "kapcsolat_form6": "Küldés"
+
+	    "kapcsolat_kapcsolat1": "1118 Budapest Ménesi út 18."
+	    "kapcsolat_kapcsolat2": "Csankovszki Kata"
+	    "kapcsolat_kapcsolat3": "(30) 569 5988"
+	    "kapcsolat_kapcsolat4": "info@testbirds.hu"
+	    "kapcsolat_kapcsolat5": "Köszönjük a leveledet, amint tudunk válaszolunk!"
+    }
+    
+}

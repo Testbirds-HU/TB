@@ -243,7 +243,7 @@ h2 {
   font-size: 2.3rem;
   text-transform: uppercase;
   margin-left: 0px;
-  line-height: 3.5rem; }
+  line-height: 3rem; }
 
 h3 {
   margin: 1rem;
@@ -793,7 +793,7 @@ sub {
   background-position: center; }
 
 #device2 {
-  background-image: url("../img/what_we_test_icon_5.png");
+  background-image: url("../img/what_we_test_icon_2.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -801,7 +801,7 @@ sub {
   background-position: center; }
 
 #device3 {
-  background-image: url("../img/what_we_test_icon_2.png");
+  background-image: url("../img/what_we_test_icon_5.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -809,7 +809,7 @@ sub {
   background-position: center; }
 
 #device4 {
-  background-image: url("../img/what_we_test_icon_2.png");
+  background-image: url("../img/what_we_test_icon_3.png");
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -830,7 +830,7 @@ sub {
   text-align: center; }
 
 .flickity-viewport {
-  height: 240px !important; }
+  height: 260px !important; }
 
 /* ========================================================================== */
 @media (max-width: 992px) {
@@ -885,22 +885,61 @@ sub {
       margin: 0 auto;
       width: 150px;
       margin-top: 60px;
-      margin-bottom: 30px; }
+      margin-bottom: 80px; }
     .folyamat .row .col-md-4 .elso {
       background-image: url("../img/document.png");
       background-size: 58px 50px;
       background-repeat: no-repeat;
       background-position: center; }
+    .folyamat .row .col-md-4 .elso:before {
+      content: "1";
+      border: 2px solid #1E777A;
+      border-radius: 10000px;
+      color: #1E777A;
+      height: 40px;
+      width: 40px;
+      padding-top: 6px;
+      margin-top: 173px;
+      position: absolute;
+      margin-left: -25px;
+      font-size: 1.7rem;
+      font-weight: bold; }
     .folyamat .row .col-md-4 .masodik {
       background-image: url("../img/people2.png");
       background-size: 70px 70px;
       background-repeat: no-repeat;
       background-position: center; }
+    .folyamat .row .col-md-4 .masodik:before {
+      content: "2";
+      border: 2px solid #1E777A;
+      border-radius: 10000px;
+      color: #1E777A;
+      height: 40px;
+      width: 40px;
+      padding-top: 6px;
+      margin-top: 173px;
+      position: absolute;
+      margin-left: -25px;
+      font-size: 1.7rem;
+      font-weight: bold; }
     .folyamat .row .col-md-4 .harmadik {
       background-image: url("../img/diagram.png");
       background-size: 52px 55px;
       background-repeat: no-repeat;
       background-position: center; }
+    .folyamat .row .col-md-4 .harmadik:before {
+      content: "3";
+      border: 2px solid #1E777A;
+      border-radius: 10000px;
+      color: #1E777A;
+      height: 40px;
+      width: 40px;
+      padding-top: 6px;
+      margin-top: 173px;
+      position: absolute;
+      margin-left: -25px;
+      font-size: 1.7rem;
+      font-weight: bold; }
     .folyamat .row .col-md-4 p {
       color: #1E777A; }
     .folyamat .row .circlewoman {
@@ -935,26 +974,6 @@ sub {
       border-color: #186265;
       width: 310px; }
 
-.folyamat .row .col-md-4 .elso:after {
-  content: ">";
-  display: block;
-  position: absolute;
-  right: 0px;
-  font-weight: 700;
-  font-size: 20px;
-  top: 240px;
-  color: #1E777A; }
-
-.folyamat .row .col-md-4 .masodik:after {
-  content: ">";
-  display: block;
-  position: absolute;
-  right: 0px;
-  font-weight: 700;
-  font-size: 20px;
-  top: 240px;
-  color: #1E777A; }
-
 /* ==========================================================================
  *
  *
@@ -981,17 +1000,19 @@ sub {
 .companies {
   background-color: #E9E9E9;
   padding-bottom: 40px !important;
-  padding-top: 70px;
   text-align: center; }
   .companies img {
-    max-width: 120px; }
+    max-width: 120px;
+    margin-top: 50px; }
 
 /* ========================================================================== */
 @media (max-width: 992px) {
-  .companies .col-md-2 {
-    padding: 40px; }
-  .companies .no {
-    display: none; } }
+  .companies {
+    min-height: 750px; }
+    .companies .col-md-2 {
+      padding: 40px; }
+    .companies .no {
+      display: none; } }
 /* ==========================================================================
  *Footer
  *========================================================================== */

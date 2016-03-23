@@ -1,11 +1,13 @@
+<?
+  include('lang.php');
+  $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  if($url == 'http://www.testbirds.cz'){
+    $lang = 'Slovak';
+  }else{
+    $lang = 'Hungarian';
+  }
+?>
 <!DOCTYPE html>
-<!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7  
--->
-<!--if IE 7html.no-js.lt-ie9.lt-ie8  
--->
-<!--if IE 8html.no-js.lt-ie9  
--->
-<!-- [if gt IE 8] <!-->
 <html class="no-js">
   <!-- <![endif]-->
   <html lang="en" class="no-js"></html>
@@ -52,11 +54,11 @@
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="rolunk.html" class="pageload-link">Rólunk</a></li>
-              <li><a href="elonyok.html" class="pageload-link">Miért mi?</a></li>
-              <li><a href="funkcionalis.html" class="pageload-link">Funkcionális tesztelés</a></li>
-              <li><a href="felhasznaloi.html" class="pageload-link">Felhasználói élmény kutatás</a></li>
-              <li><a href="kapcsolat.html" class="pageload-link">Kapcsolat</a></li>
+              <li><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
             </ul>
           </div>
         </div>
@@ -65,14 +67,14 @@
     <div class="container">
       <div class="articletitle">
         <div class="container">
-          <h1>Funkcionális tesztelés</h1>
-          <h2>TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT!</h2>
-          <h6>Neked ajánljuk, ha:
+          <h1><?=writeText($lang,'funkcionalis_cim1',$content);?></h1>
+          <h2><?=writeText($lang,'funkcionalis_cim2',$content);?></h2>
+          <h6><?=writeText($lang,'funkcionalis_cim3',$content);?>
             <ul>
-              <li>a fejlesztésed már elkészült, de még a bevezetés előtt meg akarsz győződni megoldásod minőségéről;</li>
-              <li>nincs elegendő erőforrásod egy teljes körű tesztelésre.</li>
-              <li>ha sok platformon fejlesztesz egyszerre vagy sok platformon kell egyszerre működnie a megoldásodnak.</li>
-              <li>élesítés előtt, ha új funkciók kerültek a megoldásodba.</li>
+              <li><?=writeText($lang,'funkcionalis_cim4',$content);?></li>
+              <li><?=writeText($lang,'funkcionalis_cim5',$content);?></li>
+              <li><?=writeText($lang,'funkcionalis_cim6',$content);?></li>
+              <li><?=writeText($lang,'funkcionalis_cim7',$content);?></li>
             </ul>
           </h6>
         </div>
@@ -80,32 +82,32 @@
       <div class="articlecover_funkc"></div>
       <div class="articlebody_g">
         <div class="container">
-          <h6>Strukturált hibakeresés </h6>
-          <p>Tesztelőink előzetesen meghatározott teszteset dokumentáció alapján, lépésről-lépésre haladva vizsgálják át felhasználói felületeid. A hibakeresés kötött szabályok alapján zajlik.<br><br></p>
-          <h6>Felfedező tesztelés<br></h6>
-          <p>Tesztelőink a leggyakoribb funkciókból kiindulva, előre meghatározott forgatókönyv nélkül fedezik fel felhasználói felületed.<br><br></p>
-          <h6>Hibák felülvizsgálata<br></h6>
-          <p>A feltárt hibás működés minden esetben ellenőrzésre kerül különböző eszközökön és operációs rendszereken is. A feltárt hibákat az általad elvárt időközönként és formátumban adjuk át számodra.<br><br></p>
-          <h6>Eredmények villámgyorsan<br></h6>
-          <p>Teljes projektek akár 48 óra alatt, a hibák összesítésével és kiértékelésével.<br></p>
+          <h6><?=writeText($lang,'funkcionalis_leiras1',$content);?> </h6>
+          <p><?=writeText($lang,'funkcionalis_leiras2',$content);?><br><br></p>
+          <h6><?=writeText($lang,'funkcionalis_leiras3',$content);?><br></h6>
+          <p><?=writeText($lang,'funkcionalis_leiras4',$content);?><br><br></p>
+          <h6><?=writeText($lang,'funkcionalis_leiras5',$content);?><br></h6>
+          <p><?=writeText($lang,'funkcionalis_leiras6',$content);?><br><br></p>
+          <h6><?=writeText($lang,'funkcionalis_leiras7',$content);?><br></h6>
+          <p><?=writeText($lang,'funkcionalis_leiras8',$content);?><br></p>
         </div>
       </div>
       <div class="articlebody_w">
         <div class="container">
-          <h2>FUNKCIONÁLIS TESZTELÉS FOLYAMATA<br><br></h2>
-          <p>A teljes tesztelési folyamat kijelölt Testbirds projektmenedzser vezetésével zajlik.<br><br></p>
-          <h6>1. Felkészülés<br></h6>
-          <p>Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is: tesztelendő platformok, tesztelők által használt eszközök.<br><br></p>
-          <h6>2. Tesztelés a kiválasztott módszertan alapján</h6>
-          <p>A Testbirds projektmenedzser kiválasztja a felkészülési megbeszélésen egyeztetett tesztelői kört és elindítja a tesztelést. A teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét. <br><br></p>
-          <h6>3. Tesztelési eredmények összefoglalása és bemutatása</h6>
-          <p>A Testbirds projektmenedzser riportot készít a tesztelők által jelzett hibákról, az észlelt hiba részletes leírásával és csatolt képernyő fotókkal együtt.</p>
+          <h2><?=writeText($lang,'funkcionalis_folyamat1',$content);?><br><br></h2>
+          <p><?=writeText($lang,'funkcionalis_folyamat2',$content);?><br><br></p>
+          <h6><?=writeText($lang,'funkcionalis_folyamat3',$content);?><br></h6>
+          <p><?=writeText($lang,'funkcionalis_folyamat4',$content);?><br><br></p>
+          <h6><?=writeText($lang,'funkcionalis_folyamat5',$content);?></h6>
+          <p><?=writeText($lang,'funkcionalis_folyamat6',$content);?><br><br></p>
+          <h6><?=writeText($lang,'funkcionalis_folyamat7',$content);?></h6>
+          <p><?=writeText($lang,'funkcionalis_folyamat8',$content);?></p>
         </div>
       </div>
       <div class="quote">
         <div class="col-md-12">
-          <h3>Great team, great service! Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></h3>
-          <h3>Mr. Smith</h3>
+          <h3><?=writeText($lang,'funkcionalis_idezet1',$content);?><br></h3>
+          <h3><?=writeText($lang,'funkcionalis_ideze2',$content);?></h3>
         </div>
       </div>
       <div class="col-md-12 companies">
@@ -120,21 +122,22 @@
     <footer class="container-fluid">
       <div class="row">
         <div class="col-md-4">
-          <h5>Legutóbbi blogbejegyzések</h5><a>Etikus design – Az AMUSE konferencián jártunk<br></a><a>Szek.org: Hogyan javítsuk online felületünket?<br></a><a>UX teszt: A kutatási kérdések tisztázása<br></a><a>UX teszt: A célok tisztázása<br></a><a>UX teszt: Az elvárások tisztázása<br></a>
+          <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-3">
-          <h5>Oldaltérkép</h5><a>Rólunk<br></a><a>Miért mi?<br></a><a>Funkcionális tesztelés<br></a><a>Felhasználói élmény kutatás<br></a><a>Kapcsolat<br></a>
+          <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
         </div>
         <div class="col-md-3">
-          <h5>Kapcsolat</h5>
-          <p>1118 Budapest,<br></p>
-          <p>Himfy utca 1.<br></p>
-          <p>(30) 569 5988</p>
-          <p>info@testbirds.hu</p>
+          <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
+          <p><?=writeText($lang,'footer_kapcsolat2',$content);?><br><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
+          <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
         </div>
       </div>
     </footer>
+
     <div id="loader" class="pageload-overlay">
       <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
         <path id="loaderPath"></path>

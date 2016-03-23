@@ -1,11 +1,14 @@
+<?
+  include('lang.php');
+  $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  if($url == 'http://www.testbirds.cz'){
+    $lang = 'English';
+  }else{
+    $lang = 'Hungarian';
+  }
+?>
 <!DOCTYPE html>
-<!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7  
--->
-<!--if IE 7html.no-js.lt-ie9.lt-ie8  
--->
-<!--if IE 8html.no-js.lt-ie9  
--->
-<!-- [if gt IE 8] <!-->
+
 <html class="no-js">
   <!-- <![endif]-->
   <html lang="en" class="no-js"></html>
@@ -52,11 +55,11 @@
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="rolunk.html" class="pageload-link">Rólunk</a></li>
-              <li><a href="elonyok.html" class="pageload-link">Miért mi?</a></li>
-              <li><a href="funkcionalis.html" class="pageload-link">Funkcionális tesztelés</a></li>
-              <li><a href="felhasznaloi.html" class="pageload-link">Felhasználói élmény kutatás</a></li>
-              <li><a href="kapcsolat.html" class="pageload-link">Kapcsolat</a></li>
+              <li><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>
@@ -65,8 +68,8 @@
     <div class="container rolunk">
       <div class="articletitle">
         <div class="container">
-          <h1>Rólunk</h1>
-          <h2>Segítünk ügyfeleinknek, hogy meghallják a felhasználóik hangját. Az eredmény: olyan digitális fejlesztés, amelyet öröm használni.</h2>
+          <h1><?=writeText($lang,'rolunk_cim1',$content);?></h1>
+          <h2><?=writeText($lang,'rolunk_cim1',$content);?></h2>
         </div>
       </div>
       <div class="articlecover">
@@ -74,7 +77,7 @@
       </div>
       <div class="articlebody_w">
         <div class="container">
-          <p>A Testbirds egy crowdtesting szolgáltató cég. Hiszünk benne, hogy ha a felhasználókat bevonjuk a fejlesztésbe, azzal mindenki nyer: ebben segít a crowdtesting. A német hátterű Testbirds hazai irodáját 2013 nyarán indítottuk el, hogy itthon is segítsünk áthidalni a fejlesztőket a végfelhasználóktól elválasztó információs-szakadékot. Nemzetközi szinten eddig több mint 100.000 tesztelő regisztrált platformunkon, itthon pedig több mint 10.000 magyar tesztelővel rendelkezünk.</p>
+          <p><?=writeText($lang,'rolunk_cim1',$content);?></p>
         </div>
       </div>
       <div class="team">
@@ -160,21 +163,22 @@
     <footer class="container-fluid">
       <div class="row">
         <div class="col-md-4">
-          <h5>Legutóbbi blogbejegyzések</h5><a>Etikus design – Az AMUSE konferencián jártunk<br></a><a>Szek.org: Hogyan javítsuk online felületünket?<br></a><a>UX teszt: A kutatási kérdések tisztázása<br></a><a>UX teszt: A célok tisztázása<br></a><a>UX teszt: Az elvárások tisztázása<br></a>
+          <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-3">
-          <h5>Oldaltérkép</h5><a>Rólunk<br></a><a>Miért mi?<br></a><a>Funkcionális tesztelés<br></a><a>Felhasználói élmény kutatás<br></a><a>Kapcsolat<br></a>
+          <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
         </div>
         <div class="col-md-3">
-          <h5>Kapcsolat</h5>
-          <p>1118 Budapest,<br></p>
-          <p>Himfy utca 1.<br></p>
-          <p>(30) 569 5988</p>
-          <p>info@testbirds.hu</p>
+          <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
+          <p><?=writeText($lang,'footer_kapcsolat2',$content);?><br><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
+          <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
         </div>
       </div>
     </footer>
+
     <script src="js/classie.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/svgLoader.js"></script>

@@ -1,3 +1,12 @@
+<?
+  include('lang.php');
+  $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  if($url == 'http://www.testbirds.cz'){
+    $lang = 'English';
+  }else{
+    $lang = 'Hungarian';
+  }
+?>
 <!DOCTYPE html>
 <!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7	
 -->
@@ -17,8 +26,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Testbirds</title>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
-    <meta name="description" content="whatever">
-    <meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design">
+    <meta name="description" content="Testbirds website">
+    <meta name="keywords" content="testing template, css3, one page, animations, agency, portfolio, web design">
     <meta name="author" content="Kristof Vizy">
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -41,7 +50,6 @@
     <script src="bower_components/jquery/dist/jquery.min.js">		</script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/modernizr.custom.js"></script>
     <script src="js/snap.svg-min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/flickity.pkgd.min.js"></script>
@@ -56,11 +64,11 @@
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="rolunk.html" class="pageload-link">Rólunk</a></li>
-              <li><a href="elonyok.html" class="pageload-link">Miért mi?</a></li>
-              <li><a href="funkcionalis.html" class="pageload-link">Funkcionális tesztelés</a></li>
-              <li><a href="felhasznaloi.html" class="pageload-link">Felhasználói élmény kutatás</a></li>
-              <li><a href="kapcsolat.html" class="pageload-link">Kapcsolat</a></li>
+              <li><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>
@@ -69,9 +77,9 @@
         <div class="cover">
           <div class="row">
             <div class="col-md-6 text">
-              <h1>Crowdtesting</h1>
-              <h2>FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT.</h2>
-              <h6>Magyarországon egyetlenként.</h6>
+              <h1><?=writeText($lang,'fooldal_Focim',$content);?></h1>
+              <h2><?=writeText($lang,'fooldal_Focim2',$content);?></h2>
+              <h6><?=writeText($lang,'fooldal_Focim3',$content);?></h6>
             </div>
             <div class="col-md-6 kep"></div>
           </div>
@@ -81,22 +89,22 @@
         </div>
         <div class="csatlakozz">
           <div class="row">
-            <p>Légy te is tesztelő! Ha szívesen kipróbálnád magad, <a href="kapcsolat.html" class="pageload-link">regisztrálj itt! </a></p>
+            <p><?=writeText($lang,'fooldal_legytesztelo',$content);?><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'fooldal_legytesztelo2',$content);?></a></p>
           </div>
         </div>
         <div id="top" class="tesztek">
           <div class="row"><a href="funkcionalis.html" class="pageload-link">
               <div class="col-md-6 teszt1">
-                <h2>Funkcionális teszt</h2>
-                <p>Tárd fel tesztelőink segítségével felhasználói felületed működési hibáit!</p>
+                <h2><?=writeText($lang,'fooldal_funkcionalis',$content);?></h2>
+                <p><?=writeText($lang,'fooldal_funkcionalis2',$content);?></p>
                 <div class="imgholder"></div>
                 <div class="navigator">
                   <p class="more">></p>
                 </div>
               </div></a><a href="felhasznaloi.html" class="pageload-link">
               <div class="col-md-6 teszt2">
-                <h2>Felhasználói élmény kutatás</h2>
-                <p>Gyűjts visszajelzéseket a tesztelőink által érzékelt felhasználói élményről!</p>
+                <h2><?=writeText($lang,'fooldal_felhasznaloi',$content);?></h2>
+                <p><?=writeText($lang,'fooldal_felhasznaloi2',$content);?></p>
                 <div class="imgholder"></div>
                 <div class="navigator">
                   <p class="more">></p>
@@ -106,28 +114,28 @@
         <div class="Elonyok">
           <div class="row">
             <div class="col-md-12">
-              <h2 id="ctelonyei">Miért mi?</h2>
+              <h2 id="ctelonyei"><?=writeText($lang,'fooldal_miertmi',$content);?></h2>
               <div class="row list"><a href="elonyok.html" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el1">
-                    <h2>Releváns célcsoport</h2>
+                    <h2><?=writeText($lang,'fooldal_miertmi2',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
                   </div></a><a href="elonyok.html" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el2">
-                    <h2>Eszközök széles választéka</h2>
+                    <h2><?=writeText($lang,'fooldal_miertmi3',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
                   </div></a><a href="elonyok.html" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el3">
-                    <h2>Elfogulatlan tesztelők</h2>
+                    <h2><?=writeText($lang,'fooldal_miertmi4',$content);?></h2>
                     <div class="navigator">
                       <p class="more">></p>
                     </div>
                   </div></a><a href="elonyok.html" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el4">
-                    <h2>Visszajelzések rövid időn belül</h2>
+                    <h2><?=writeText($lang,'fooldal_miertmi5',$content);?></h2>
                     <div class="navigator">
                       <p class="more">></p>
                     </div>
@@ -138,41 +146,41 @@
         <div class="miket">
           <div class="row">
             <div class="col-md-12">
-              <h2>MIKET TESZTELÜNK?</h2>
+              <h2><?=writeText($lang,'fooldal_miket',$content);?></h2>
               <div class="row ikonok">
                 <div id="device1" class="col-md-3">
-                  <h6>Mobil appokat</h6>
+                  <h6><?=writeText($lang,'fooldal_miket2',$content);?></h6>
                 </div>
                 <div id="device2" class="col-md-3">
-                  <h6>Set-top-box alkalmazásokat</h6>
+                  <h6><?=writeText($lang,'fooldal_miket3',$content);?></h6>
                 </div>
                 <div id="device3" class="col-md-3">
-                  <h6>Weboldalakat</h6>
+                  <h6><?=writeText($lang,'fooldal_miket4',$content);?></h6>
                 </div>
                 <div id="device4" class="col-md-3">
-                  <h6>Szoftwer user interface-eket</h6>
+                  <h6><?=writeText($lang,'fooldal_miket5',$content);?></h6>
                 </div>
               </div>
               <div class="row miketmob">
                 <div class="carousel js-flickity">
                   <div class="carousel-cell">
                     <div id="device1">
-                      <h6>Mobil appokat					</h6>
+                      <h6><?=writeText($lang,'fooldal_miket2',$content);?></h6>
                     </div>
                   </div>
                   <div class="carousel-cell">
                     <div id="device2">
-                      <h6>Mobil appokat	</h6>
+                      <h6><?=writeText($lang,'fooldal_miket3',$content);?></h6>
                     </div>
                   </div>
                   <div class="carousel-cell">
                     <div id="device3">
-                      <h6>Mobil appokat					</h6>
+                      <h6><?=writeText($lang,'fooldal_miket4',$content);?></h6>
                     </div>
                   </div>
                   <div class="carousel-cell">
                     <div id="device4">
-                      <h6>Mobil appokat					</h6>
+                      <h6><?=writeText($lang,'fooldal_miket5',$content);?></h6>
                     </div>
                   </div>
                 </div>
@@ -183,57 +191,76 @@
         <div class="folyamat">
           <div class="row">
             <div class="col-md-12">
-              <h2>A Testbirds szolgáltatási folyamat</h2>
+              <h2><?=writeText($lang,'fooldal_folyamat',$content);?></h2>
             </div>
             <div class="col-md-4">
               <div class="circle elso"><img></div>
-              <h2>Tesztelési célok</h2>
-              <p>közös kialakítása</p>
+              <h2><?=writeText($lang,'fooldal_folyamat2',$content);?></h2>
+              <p><?=writeText($lang,'fooldal_folyamat3',$content);?></p>
             </div>
             <div class="col-md-4">
               <div class="circle masodik"><img></div>
-              <h2>Felhasználói tesztelés</h2>
-              <p>Testbirds managerek vezetésével</p>
+              <h2><?=writeText($lang,'fooldal_folyamat4',$content);?></h2>
+              <p><?=writeText($lang,'fooldal_folyamat5',$content);?></p>
             </div>
             <div class="col-md-4">
               <div class="circle harmadik"><img></div>
-              <h2>Tesztelési eredmények, javaslatok</h2>
-              <p>összefoglalása és bemutatása</p>
+              <h2><?=writeText($lang,'fooldal_folyamat6',$content);?></h2>
+              <p><?=writeText($lang,'fooldal_folyamat7',$content);?></p>
             </div>
             <div class="col-md-12">
               <div class="circlewoman"></div>
-              <h3>Édekel a szolgáltatásunk? Lépj kapcsolatba velünk!</h3><a href="kapcsolat.html" class="pageload-link">
-                <div class="btn-primary">Ajánlatot kérek!</div></a>
+              <h3><?=writeText($lang,'fooldal_ajanlat',$content);?></h3><a href="kapcsolat.html" class="pageload-link">
+                <div class="btn-primary"><?=writeText($lang,'fooldal_ajanlat2',$content);?></div></a>
             </div>
           </div>
         </div>
         <div class="col-md-12 companies">
-          <div class="col-md-2"><img src="img/eon.png"></div>
-          <div class="col-md-2"><img src="img/nng_logo.png"></div>
-          <div class="col-md-2"><img src="img/Raiffeisen_Bank.png"></div>
-          <div class="col-md-2"><img src="img/shopline_logo.png"></div>
-          <div class="col-md-2 no"><img src="img/telenor_logo.png"></div>
-          <div class="col-md-2 no"><img src="img/Vodafone.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/1.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/2.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/3.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/4.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/5.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/6.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/7.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/8.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/9.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/10.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/11.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/12.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/13.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/14.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/15.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/16.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/17.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/18.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/19.png"></div>
+          <div class="col-md-2 col-sm-4"><img src="img/companies/20.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/21.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/22.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/23.png"></div>
+          <div class="col-md-2 no col-sm-4"><img src="img/companies/24.png"></div>
         </div>
       </div>
       <footer class="container-fluid">
         <div class="row">
           <div class="col-md-4">
-            <h5>Legutóbbi blogbejegyzések</h5><a>Etikus design – Az AMUSE konferencián jártunk<br></a><a>Szek.org: Hogyan javítsuk online felületünket?<br></a><a>UX teszt: A kutatási kérdések tisztázása<br></a><a>UX teszt: A célok tisztázása<br></a><a>UX teszt: Az elvárások tisztázása<br></a>
+            <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
           </div>
           <div class="col-md-2"></div>
           <div class="col-md-3">
-            <h5>Oldaltérkép</h5><a>Rólunk<br></a><a>Miért mi?<br></a><a>Funkcionális tesztelés<br></a><a>Felhasználói élmény kutatás<br></a><a>Kapcsolat<br></a>
+            <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
           </div>
           <div class="col-md-3">
-            <h5>Kapcsolat</h5>
-            <p>1118 Budapest,<br></p>
-            <p>Himfy utca 1.<br></p>
-            <p>(30) 569 5988</p>
-            <p>info@testbirds.hu</p>
+            <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
+            <p><?=writeText($lang,'footer_kapcsolat2',$content);?><br><br></p>
+            <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
+            <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
+            <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
           </div>
         </div>
       </footer>
+
       <div id="loader" class="pageload-overlay">
         <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
           <path id="loaderPath"></path>

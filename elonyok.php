@@ -1,11 +1,13 @@
+<?
+  include('lang.php');
+  $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  if($url == 'http://www.testbirds.cz'){
+    $lang = 'Slovak';
+  }else{
+    $lang = 'Hungarian';
+  }
+?>
 <!DOCTYPE html>
-<!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7  
--->
-<!--if IE 7html.no-js.lt-ie9.lt-ie8  
--->
-<!--if IE 8html.no-js.lt-ie9  
--->
-<!-- [if gt IE 8] <!-->
 <html class="no-js">
   <!-- <![endif]-->
   <html lang="en" class="no-js"></html>
@@ -53,11 +55,11 @@
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><a href="rolunk.html" class="pageload-link">Rólunk</a></li>
-              <li><a href="elonyok.html" class="pageload-link">Miért mi?</a></li>
-              <li><a href="funkcionalis.html" class="pageload-link">Funkcionális tesztelés</a></li>
-              <li><a href="felhasznaloi.html" class="pageload-link">Felhasználói élmény kutatás</a></li>
-              <li><a href="kapcsolat.html" class="pageload-link">Kapcsolat</a></li>
+              <li><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>
@@ -66,80 +68,80 @@
     <div class="container elonyok">
       <div class="articletitle">
         <div class="container">
-          <h1>A crowdtesting előnyei</h1>
-          <h2>TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT ÉS FELHASZNÁLÓI ÉLMÉNYÉT!</h2>
+          <h1><?=writeText($lang,'miertmi_cim',$content);?></h1>
+          <h2><?=writeText($lang,'miertmi_cim2',$content);?></h2>
           <div class="row nr1">
             <div id="placeholder1" class="col-md-6"></div>
             <div class="col-md-6 text">
-              <h2 class="one">Releváns célcsoport<br></h2>
+              <h2 class="one"><?=writeText($lang,'miertmi_elony1',$content);?><br></h2>
               <ul>
-                <li>10.000 hazai és 100.000 nemzetközi regisztrált tesztelő, akik között 50 különféle kritérium alapján te is megtalálhatod a célcsoportodba eső embereket;</li>
+                <li><?=writeText($lang,'miertmi_elony1_1',$content);?></li>
               </ul>
               <ul>
-                <li>A célcsoportok meghatározásánál legjellemzőbb szempontok lehetnek: demográfiai tényezők, érdeklődési körök és felhasználói szokások;</li>
+                <li><?=writeText($lang,'miertmi_elony1_2',$content);?></li>
               </ul>
               <ul>
-                <li>Tesztelőink között vannak átlagfelhasználók, profi tesztelők és speciális területek szakértői is;</li>
+                <li><?=writeText($lang,'miertmi_elony1_3',$content);?></li>
               </ul>
               <ul>
-                <li>Hozhatod a saját tesztelői bázisod is, ha saját ügyfélköröddel vagy dolgozóiddal szeretnél tesztelni.</li>
+                <li><?=writeText($lang,'miertmi_elony1_4',$content);?></li>
               </ul>
             </div>
           </div>
           <div class="row">
             <div id="placeholder2" class="col-md-6"></div>
             <div class="col-md-6 text">
-              <h2 class="two">Eszközök széles választéka<br></h2>
+              <h2 class="two"><?=writeText($lang,'miertmi_elony2',$content);?><br></h2>
               <ul>
-                <li>Több mint … regisztrált okostelefon és több mint … regisztrált tablet, … különféle modell, minden mobil OS: Android, iOS, Windows Phone, Blackberry is megtalálható a crowd-ban;</li>
+                <li><?=writeText($lang,'miertmi_elony2_1',$content);?></li>
               </ul>
               <ul>
-                <li>Több mint … PC és Mac regisztrálva. Bármely operációs rendszer és böngésző kombináció azonnal elérhető: IE, Firefox, Chrome, Opera, Safari, OS X-en és Windows-on egyaránt;</li>
+                <li><?=writeText($lang,'miertmi_elony2_2',$content);?></li>
               </ul>
               <ul>
-                <li>Több száz regisztrált Smart TV és különböző set-top-boksz;</li>
+                <li><?=writeText($lang,'miertmi_elony2_3',$content);?></li>
               </ul>
               <ul>
-                <li>Játékokat is tesztelünk! Konzolokon, mobilon és böngészőben egyaránt.</li>
+                <li><?=writeText($lang,'miertmi_elony2_4',$content);?></li>
               </ul>
             </div>
           </div>
           <div class="row">
             <div id="placeholder3" class="col-md-6"></div>
             <div class="col-md-6 text">
-              <h2 class="three">Elfogulatlan tesztelők<br></h2>
+              <h2 class="three"><?=writeText($lang,'miertmi_elony3',$content);?><br></h2>
               <ul>
-                <li>A tesztelések valós körülmények között zajlanak, nem teremtünk mesterséges környezetet;	</li>
+                <li><?=writeText($lang,'miertmi_elony3_1',$content);?>	</li>
               </ul>
               <ul>
-                <li>Tesztelőinktől őszinte, elfogulatlan visszajelzésekre számíthatsz;</li>
+                <li><?=writeText($lang,'miertmi_elony3_2',$content);?></li>
               </ul>
               <ul>
-                <li>A visszajelzéseket a duplikációktól megszűrve, minőségellenőrzést követően adjuk át részedre;</li>
+                <li><?=writeText($lang,'miertmi_elony3_3',$content);?></li>
               </ul>
               <ul>
-                <li>Tesztelőinket motiváljuk a feladatok végrehajtására, így biztos lehetsz az eredmény kiváló minőségében.</li>
+                <li><?=writeText($lang,'miertmi_elony3_4',$content);?></li>
               </ul>
               <ul>
-                <li>Tesztelőink hétvégén is dolgoznak, így még gyorsabb visszajelzésekre számíthat.</li>
+                <li><?=writeText($lang,'miertmi_elony3_5',$content);?></li>
               </ul>
             </div>
           </div>
           <div class="row">
             <div id="placeholder4" class="col-md-6"></div>
             <div class="col-md-6 text">
-              <h2 class="four">Visszajelzések rövid időn belül<br></h2>
+              <h2 class="four"><?=writeText($lang,'miertmi_elony4',$content);?><br></h2>
               <ul>
-                <li>A fejlesztési fázis különböző szakaszaiban is segítséget adhat a crowdtesting: Papíron létező koncepciót, wireframe-t, mockup-ot, kattintható drótvázat, teszt verziót vagy akár éles megoldást is tesztelünk;</li>
+                <li><?=writeText($lang,'miertmi_elony4_1',$content);?></li>
               </ul>
               <ul>
-                <li>Funkcionális tesztek akár 48 órán belül;</li>
+                <li><?=writeText($lang,'miertmi_elony4_2',$content);?></li>
               </ul>
               <ul>
-                <li>Felhasználói élmény kutatások akár 2 hetes átfutási idővel;</li>
+                <li><?=writeText($lang,'miertmi_elony4_3',$content);?></li>
               </ul>
               <ul>
-                <li>A tesztelési feladatokat képzett projektmenedzserek, kutatók koordinálják, ezzel biztosítva az elvárt határidők betartását és a kiváló minőséget.</li>
+                <li><?=writeText($lang,'miertmi_elony4_4',$content);?></li>
               </ul>
             </div>
           </div>
@@ -149,21 +151,22 @@
     <footer class="container-fluid">
       <div class="row">
         <div class="col-md-4">
-          <h5>Legutóbbi blogbejegyzések</h5><a>Etikus design – Az AMUSE konferencián jártunk<br></a><a>Szek.org: Hogyan javítsuk online felületünket?<br></a><a>UX teszt: A kutatási kérdések tisztázása<br></a><a>UX teszt: A célok tisztázása<br></a><a>UX teszt: Az elvárások tisztázása<br></a>
+          <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-3">
-          <h5>Oldaltérkép</h5><a>Rólunk<br></a><a>Miért mi?<br></a><a>Funkcionális tesztelés<br></a><a>Felhasználói élmény kutatás<br></a><a>Kapcsolat<br></a>
+          <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
         </div>
         <div class="col-md-3">
-          <h5>Kapcsolat</h5>
-          <p>1118 Budapest,<br></p>
-          <p>Himfy utca 1.<br></p>
-          <p>(30) 569 5988</p>
-          <p>info@testbirds.hu</p>
+          <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
+          <p><?=writeText($lang,'footer_kapcsolat2',$content);?><br><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
+          <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
         </div>
       </div>
     </footer>
+
     <div id="loader" class="pageload-overlay">
       <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
         <path id="loaderPath"></path>

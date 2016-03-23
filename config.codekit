@@ -3078,24 +3078,42 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/elonyok.jade": {
+	"\/elonyok.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/elonyok.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/elonyok1.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/elonyok.jade",
-		"outputAbbreviatedPath": "\/elonyok.html",
+		"inputAbbreviatedPath": "\/elonyok1.jade",
+		"outputAbbreviatedPath": "\/elonyok1.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/felhasznaloi.jade": {
+	"\/felhasznaloi.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/felhasznaloi.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/felhasznaloi2.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/felhasznaloi.jade",
-		"outputAbbreviatedPath": "\/felhasznaloi.html",
+		"inputAbbreviatedPath": "\/felhasznaloi2.jade",
+		"outputAbbreviatedPath": "\/felhasznaloi2.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3331,6 +3349,292 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/companies\/1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3718,
+		"inputAbbreviatedPath": "\/img\/companies\/1.png",
+		"outputAbbreviatedPath": "\/img\/companies\/1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/10.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4977,
+		"inputAbbreviatedPath": "\/img\/companies\/10.png",
+		"outputAbbreviatedPath": "\/img\/companies\/10.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2031,
+		"inputAbbreviatedPath": "\/img\/companies\/11.png",
+		"outputAbbreviatedPath": "\/img\/companies\/11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/12.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5020,
+		"inputAbbreviatedPath": "\/img\/companies\/12.png",
+		"outputAbbreviatedPath": "\/img\/companies\/12.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/13.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6736,
+		"inputAbbreviatedPath": "\/img\/companies\/13.png",
+		"outputAbbreviatedPath": "\/img\/companies\/13.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/14.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4126,
+		"inputAbbreviatedPath": "\/img\/companies\/14.png",
+		"outputAbbreviatedPath": "\/img\/companies\/14.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/15.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5163,
+		"inputAbbreviatedPath": "\/img\/companies\/15.png",
+		"outputAbbreviatedPath": "\/img\/companies\/15.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3052,
+		"inputAbbreviatedPath": "\/img\/companies\/16.png",
+		"outputAbbreviatedPath": "\/img\/companies\/16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/17.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7474,
+		"inputAbbreviatedPath": "\/img\/companies\/17.png",
+		"outputAbbreviatedPath": "\/img\/companies\/17.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/18.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4958,
+		"inputAbbreviatedPath": "\/img\/companies\/18.png",
+		"outputAbbreviatedPath": "\/img\/companies\/18.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/19.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5289,
+		"inputAbbreviatedPath": "\/img\/companies\/19.png",
+		"outputAbbreviatedPath": "\/img\/companies\/19.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2753,
+		"inputAbbreviatedPath": "\/img\/companies\/2.png",
+		"outputAbbreviatedPath": "\/img\/companies\/2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/20.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4882,
+		"inputAbbreviatedPath": "\/img\/companies\/20.png",
+		"outputAbbreviatedPath": "\/img\/companies\/20.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/21.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4550,
+		"inputAbbreviatedPath": "\/img\/companies\/21.png",
+		"outputAbbreviatedPath": "\/img\/companies\/21.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/22.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5248,
+		"inputAbbreviatedPath": "\/img\/companies\/22.png",
+		"outputAbbreviatedPath": "\/img\/companies\/22.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/23.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4407,
+		"inputAbbreviatedPath": "\/img\/companies\/23.png",
+		"outputAbbreviatedPath": "\/img\/companies\/23.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/24.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 580922,
+		"inputAbbreviatedPath": "\/img\/companies\/24.png",
+		"outputAbbreviatedPath": "\/img\/companies\/24.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/25.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20746,
+		"inputAbbreviatedPath": "\/img\/companies\/25.png",
+		"outputAbbreviatedPath": "\/img\/companies\/25.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/26.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24613,
+		"inputAbbreviatedPath": "\/img\/companies\/26.png",
+		"outputAbbreviatedPath": "\/img\/companies\/26.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6137,
+		"inputAbbreviatedPath": "\/img\/companies\/3.png",
+		"outputAbbreviatedPath": "\/img\/companies\/3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3364,
+		"inputAbbreviatedPath": "\/img\/companies\/4.png",
+		"outputAbbreviatedPath": "\/img\/companies\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4230,
+		"inputAbbreviatedPath": "\/img\/companies\/5.png",
+		"outputAbbreviatedPath": "\/img\/companies\/5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2718,
+		"inputAbbreviatedPath": "\/img\/companies\/6.png",
+		"outputAbbreviatedPath": "\/img\/companies\/6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8228,
+		"inputAbbreviatedPath": "\/img\/companies\/7.png",
+		"outputAbbreviatedPath": "\/img\/companies\/7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3055,
+		"inputAbbreviatedPath": "\/img\/companies\/8.png",
+		"outputAbbreviatedPath": "\/img\/companies\/8.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/companies\/9.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5572,
+		"inputAbbreviatedPath": "\/img\/companies\/9.png",
+		"outputAbbreviatedPath": "\/img\/companies\/9.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/devices.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3404,17 +3708,6 @@
 		"initialSize": 299572,
 		"inputAbbreviatedPath": "\/img\/dudes.png",
 		"outputAbbreviatedPath": "\/img\/dudes.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/eon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2280,
-		"inputAbbreviatedPath": "\/img\/eon.png",
-		"outputAbbreviatedPath": "\/img\/eon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3551,17 +3844,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/nng_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22429,
-		"inputAbbreviatedPath": "\/img\/nng_logo.png",
-		"outputAbbreviatedPath": "\/img\/nng_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/People.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3617,17 +3899,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/Raiffeisen_Bank.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9510,
-		"inputAbbreviatedPath": "\/img\/Raiffeisen_Bank.png",
-		"outputAbbreviatedPath": "\/img\/Raiffeisen_Bank.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/scroll.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3657,17 +3928,6 @@
 		"initialSize": 11484,
 		"inputAbbreviatedPath": "\/img\/shadow_circle.png",
 		"outputAbbreviatedPath": "\/img\/shadow_circle.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/shopline_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7261,
-		"inputAbbreviatedPath": "\/img\/shopline_logo.png",
-		"outputAbbreviatedPath": "\/img\/shopline_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3738,17 +3998,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/telenor_logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29445,
-		"inputAbbreviatedPath": "\/img\/telenor_logo.png",
-		"outputAbbreviatedPath": "\/img\/telenor_logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/tesztbg1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3793,17 +4042,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/Vodafone.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 135344,
-		"inputAbbreviatedPath": "\/img\/Vodafone.png",
-		"outputAbbreviatedPath": "\/img\/Vodafone.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/what_we_test_icon_1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3837,6 +4075,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/what_we_test_icon_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21664,
+		"inputAbbreviatedPath": "\/img\/what_we_test_icon_3.png",
+		"outputAbbreviatedPath": "\/img\/what_we_test_icon_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/what_we_test_icon_5.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3848,13 +4097,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.jade": {
+	"\/index.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index1.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.jade",
-		"outputAbbreviatedPath": "\/index.html",
+		"inputAbbreviatedPath": "\/index1.jade",
+		"outputAbbreviatedPath": "\/index1.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3980,6 +4238,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/kapcsolat.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kapcsolat.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kapcsolat.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -3996,6 +4263,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kapcsolat.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lang.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lang.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
