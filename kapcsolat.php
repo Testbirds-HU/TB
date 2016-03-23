@@ -103,6 +103,7 @@ if($url == 'http://www.testbirds.cz'){
               <li><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
               <li><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
               <li><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="<?=writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?=writeText($lang,'Menu6',$content);?></a></li>                            
               <li><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
             </ul>
           </div>
