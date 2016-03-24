@@ -195,7 +195,7 @@ if($url == 'http://www.testbirds.cz'){
     <script src="js/svgLoader.js"></script>
     <script>
       (function() {
-      docInteractive('lazy_stretch');
+      docInteractive('spill');
       var pageWrap = document.getElementById( 'pagewrap' ),
       triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
       loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
