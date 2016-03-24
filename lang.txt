@@ -6,7 +6,7 @@
         "Menu4": "Felhasználói élmény kutatás",
         "Menu5": "Kapcsolat",
         "Menu6": "Blog",
-        "menublogurl": "Blog",
+        "menublogurl": "//blog.testbirds.hu",
         "fooldal_Focim": "Crowdtesting",
         "fooldal_Focim2": "FELHASZNÁLIÓI FELÜLETEK TESZTELÉSE,<br>VALÓDI FELHASZNÁLÓKKAL,<br>VALÓS KÖRÜLMÉNYEK KÖZÖTT.",
         "fooldal_Focim3": "Magyarországon egyetlenként.",
