@@ -162,7 +162,7 @@
         </div>
         <div class="col-md-3">
           <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
-          <p><?=writeText($lang,'footer_kapcsolat2',$content);?><br><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat2',$content);?></p>
           <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
           <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
           <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
