@@ -198,7 +198,7 @@ if($url == 'http://www.testbirds.cz'){
       docInteractive('spill');
       var pageWrap = document.getElementById( 'pagewrap' ),
       triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
+      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 450 } );
       function init() {
       triggerLoading.forEach( function( trigger ) {
       trigger.addEventListener( 'click', function( ev ) {
