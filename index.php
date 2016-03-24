@@ -90,7 +90,7 @@
         </div>
         <div class="csatlakozz">
           <div class="row">
-            <p><?=writeText($lang,'fooldal_legytesztelo',$content);?><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'fooldal_legytesztelo2',$content);?></a></p>
+            <p><?=writeText($lang,'fooldal_legytesztelo',$content);?><a href="//nest.testbirds.com" class="pageload-link"><?=writeText($lang,'fooldal_legytesztelo2',$content);?></a></p>
           </div>
         </div>
         <div id="top" class="tesztek">
