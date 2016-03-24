@@ -146,10 +146,11 @@ if($url == 'http://www.testbirds.cz'){
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row send col-md-12">
+            <div class="row send col-md-12">
             <input class="btn-primary" type="submit" value="<?=writeText($lang,'kapcsolat_form6',$content);?>">
           </div>
+          </div>
+
           </form>
           <div style="border-top: 1px solid rgba(255, 255, 255, 0.49); margin-right: 15px; margin-top: 40px; padding-top: 40px; text-align: center; opacity: 0.5" class="row">
             <p><?=writeText($lang,'kapcsolat_kapcsolat1',$content);?></p>

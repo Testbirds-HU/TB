@@ -1224,12 +1224,14 @@ textarea.form-control {
 .send .btn-primary {
   margin-right: 15px;
   text-align: center;
-  padding-top: 15px;
   height: 60px;
   background-color: #83B999;
   border: none;
   font-size: 1.7rem;
   line-height: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
   font-family: Droid Sans, sans-serif;
   font-weight: 400; }
 .send .btn-primary:hover {
