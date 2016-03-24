@@ -427,6 +427,7 @@ sub
   .cover .row .kep
     background-position-x: 0px
     height: 260px
+    background-position: center
 @media (max-width: 562px)
   .csatlakozz .row
     padding-top: 44px !important
@@ -495,7 +496,7 @@ sub
         background-repeat: no-repeat
         height: 370px
         background-position: center
-        background-position-y: -20px
+        background-position-y: 0px
         cursor: pointer
 
     .teszt1:hover
@@ -548,17 +549,18 @@ sub
 
   .tesztek .row .teszt1 .imgholder
     height: 280px
+    background-position-y: -20px
 
 
 @media (max-width: 431px)
 
   .tesztek .row .teszt2 .imgholder
-    margin-top: 10px
+    margin-top: 40px
     height: 90px
 
 
 /* ==========================================================================
- *Előnyök section
+ *miértmi section
  *==========================================================================
 .Elonyok
   .row
@@ -566,7 +568,7 @@ sub
       text-decoration: none
     .col-md-12
       background-color: $whitebg
-      height: 600px
+      height: 60vh
       padding-left: 0px
       padding-right: 0px
       background-image: url("../img/Dude-Projectmanager.png")
@@ -576,7 +578,7 @@ sub
 
       h2#ctelonyei
         padding-left: 20px
-        padding-top: 330px
+        padding-top: 90px
 
       #ctelonyei:after
         content: ""
@@ -599,33 +601,33 @@ sub
           background-image: url("../img/target.png")
           background-repeat: no-repeat
           background-size: contain
-          background-size: 60px 60px
+          background-size: 70px
           background-position: center
-          background-position-y: 100px
+          background-position-y: 110px
 
         .el2
           background-image: url("../img/devices.png")
           background-repeat: no-repeat
           background-size: contain
-          background-size: 120px 120px
+          background-size: 110px
           background-position: center
-          background-position-y: 75px
+          background-position-y: 87px
 
         .el3
           background-image: url("../img/people.png")
           background-repeat: no-repeat
           background-size: contain
-          background-size: 80px 80px
+          background-size: 80px
           background-position: center
-          background-position-y: 95px
+          background-position-y: 100px
 
         .el4
           background-image: url("../img/messages.png")
           background-repeat: no-repeat
           background-size: contain
-          background-size: 100px 100px
+          background-size: 90px
           background-position: center
-          background-position-y: 85px
+          background-position-y: 88px
 
         .el1, .el2, .el3, .el4
           height: 250px
@@ -691,7 +693,7 @@ sub
     padding-left: 2rem
 @media (min-width: 753px)
   .Elonyok .row .col-md-12
-    height: 690px
+    height: 61vh
 
   .Elonyok .row .col-md-12 h2#ctelonyei
     padding-left: 35px 
@@ -983,8 +985,7 @@ sub
     min-height: 750px
 
 
-    .col-md-2
-      padding: 40px
+
     .no
       display: none
 
