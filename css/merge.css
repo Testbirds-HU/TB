@@ -13,7 +13,8 @@
   line-height: 15px;
   font-family: Droid Sans, sans-serif;
   font-weight: 400;
-  margin: 1rem; }
+  margin: 1rem;
+  padding-top: 20px; }
 
 .navbar-default .navbar-nav > li > a:hover {
   color: white; }
