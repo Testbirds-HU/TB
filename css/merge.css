@@ -518,7 +518,8 @@ sub {
 
   .cover .row .kep {
     background-position-x: 40px;
-    height: 540px; }
+    height: 540px;
+    background-position: center; }
 
   .scrollholder {
     display: none; } }
