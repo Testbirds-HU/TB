@@ -1,9 +1,9 @@
 <?
   include('lang.php');
   $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-  if($url == 'http://testbirds.cz'){
+  if($url == 'https://testbirds.cz'){
     $lang = 'Czech';
-  }elseif ($url == 'http://testbirds.sk'){
+  }elseif ($url == 'https://testbirds.sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
