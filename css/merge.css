@@ -964,7 +964,7 @@ sub {
       background-image: url("../img/Dude-MissMarketing.png");
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: top;
       background-size: 101.7px;
       background-position-y: 20px; }
     .folyamat .row .btn-primary {
