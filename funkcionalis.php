@@ -111,14 +111,33 @@
           <h3><?=writeText($lang,'funkcionalis_ideze2',$content);?></h3>
         </div>
       </div>
-      <div class="col-md-12 companies">
-        <div class="col-md-2"><img src="img/eon.png"></div>
-        <div class="col-md-2"><img src="img/nng_logo.png"></div>
-        <div class="col-md-2"><img src="img/Raiffeisen_Bank.png"></div>
-        <div class="col-md-2"><img src="img/shopline_logo.png"></div>
-        <div class="col-md-2 no"><img src="img/telenor_logo.png"></div>
-        <div class="col-md-2 no"><img src="img/Vodafone.png"></div>
-      </div>
+        <div class="col-md-12 companies">
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/1.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/2.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/3.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/4.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/5.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/6.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/7.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/8.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/9.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/10.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/11.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/12.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/13.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/14.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/15.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/16.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/17.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/18.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/19.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/20.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/21.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/22.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/23.png"></div>
+          <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/24.png"></div>
+        </div>
+
     </div>
     <footer class="container-fluid">
       <div class="row">

@@ -10,7 +10,7 @@
   color: white;
   text-transform: uppercase;
   font-size: 1.4rem;
-  line-height: 30px;
+  line-height: 15px;
   font-family: Droid Sans, sans-serif;
   font-weight: 400;
   margin: 1rem; }
@@ -94,7 +94,7 @@
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: #0D6063; }
 
-@media(max-width: 1090px) {
+@media(max-width: 1142px) {
   .navbar-header {
     float: none; }
 
@@ -120,7 +120,7 @@
   .navbar-nav {
     float: none !important;
     margin-top: 7.5px;
-    padding-bottom: 30px; }
+    padding-bottom: 10px; }
     .navbar-nav li {
       float: none; }
       .navbar-nav li a {
@@ -161,6 +161,9 @@
     margin-left: 20px;
     margin-top: -24px;
     width: 230px; } }
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 390px; }
+
 /* ==========================================================================
  *HTML5 display definitions
  *========================================================================== */
@@ -525,7 +528,8 @@ sub {
 @media (max-width: 600px) {
   .cover .row .kep {
     background-position-x: 0px;
-    height: 260px; } }
+    height: 260px;
+    background-position: center; } }
 @media (max-width: 562px) {
   .csatlakozz .row {
     padding-top: 44px !important; } }
@@ -580,7 +584,7 @@ sub {
       background-repeat: no-repeat;
       height: 370px;
       background-position: center;
-      background-position-y: -20px;
+      background-position-y: 0px;
       cursor: pointer; }
   .tesztek .row .teszt1:hover {
     background-color: #097FCA;
@@ -629,19 +633,20 @@ sub {
     height: 120px; }
 
   .tesztek .row .teszt1 .imgholder {
-    height: 280px; } }
+    height: 280px;
+    background-position-y: -20px; } }
 @media (max-width: 431px) {
   .tesztek .row .teszt2 .imgholder {
-    margin-top: 10px;
+    margin-top: 40px;
     height: 90px; } }
 /* ==========================================================================
- *Előnyök section
+ *miértmi section
  *========================================================================== */
 .Elonyok .row a:hover, .Elonyok .row a:focus {
   text-decoration: none; }
 .Elonyok .row .col-md-12 {
   background-color: #FAFAFA;
-  height: 600px;
+  height: 60vh;
   padding-left: 0px;
   padding-right: 0px;
   background-image: url("../img/Dude-Projectmanager.png");
@@ -650,7 +655,7 @@ sub {
   background-repeat: no-repeat; }
   .Elonyok .row .col-md-12 h2#ctelonyei {
     padding-left: 20px;
-    padding-top: 330px; }
+    padding-top: 90px; }
   .Elonyok .row .col-md-12 #ctelonyei:after {
     content: "";
     background-image: url("../img/arrow_down.png");
@@ -669,30 +674,30 @@ sub {
       background-image: url("../img/target.png");
       background-repeat: no-repeat;
       background-size: contain;
-      background-size: 60px 60px;
+      background-size: 70px;
       background-position: center;
-      background-position-y: 100px; }
+      background-position-y: 110px; }
     .Elonyok .row .col-md-12 .list .el2 {
       background-image: url("../img/devices.png");
       background-repeat: no-repeat;
       background-size: contain;
-      background-size: 120px 120px;
+      background-size: 110px;
       background-position: center;
-      background-position-y: 75px; }
+      background-position-y: 87px; }
     .Elonyok .row .col-md-12 .list .el3 {
       background-image: url("../img/people.png");
       background-repeat: no-repeat;
       background-size: contain;
-      background-size: 80px 80px;
+      background-size: 80px;
       background-position: center;
-      background-position-y: 95px; }
+      background-position-y: 100px; }
     .Elonyok .row .col-md-12 .list .el4 {
       background-image: url("../img/messages.png");
       background-repeat: no-repeat;
       background-size: contain;
-      background-size: 100px 100px;
+      background-size: 90px;
       background-position: center;
-      background-position-y: 85px; }
+      background-position-y: 88px; }
     .Elonyok .row .col-md-12 .list .el1, .Elonyok .row .col-md-12 .list .el2, .Elonyok .row .col-md-12 .list .el3, .Elonyok .row .col-md-12 .list .el4 {
       height: 250px;
       background-color: rgba(21, 104, 107, 0.89);
@@ -1009,8 +1014,6 @@ sub {
 @media (max-width: 992px) {
   .companies {
     min-height: 750px; }
-    .companies .col-md-2 {
-      padding: 40px; }
     .companies .no {
       display: none; } }
 /* ==========================================================================
@@ -1134,25 +1137,25 @@ footer {
       margin-top: 90px; }
       .elonyok .articletitle .container .row #placeholder1 {
         background-image: url("../img/target.jpg");
-        height: 530px;
+        height: 550px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
       .elonyok .articletitle .container .row #placeholder2 {
         background-image: url("../img/devices.jpg");
-        height: 530px;
+        height: 550px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
       .elonyok .articletitle .container .row #placeholder3 {
         background-image: url("../img/People.jpg");
-        height: 530px;
+        height: 550px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
       .elonyok .articletitle .container .row #placeholder4 {
         background-image: url("../img/answers.jpg");
-        height: 530px;
+        height: 550px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
@@ -1178,12 +1181,17 @@ footer {
 /* ==========================================================================
  *kapcsolat
  *========================================================================== */
-.articlebody_g .container h1, .articlebody_g .container h2 {
-  color: white !important; }
-.articlebody_g .container .container {
-  padding-top: 90px; }
-  .articlebody_g .container .container h1 {
-    color: white; }
+.articlebody_g .container {
+  min-height: 550px; }
+  .articlebody_g .container h1, .articlebody_g .container h2 {
+    color: white !important; }
+  .articlebody_g .container .container {
+    padding-top: 90px; }
+    .articlebody_g .container .container h1 {
+      color: white; }
+    .articlebody_g .container .container p.thankyou {
+      text-align: center;
+      margin-top: 90px; }
 
 @media (max-width: 992px) {
   .kapcsolat.articlebody_g .container {
@@ -1239,8 +1247,10 @@ textarea.form-control {
     background-image: url("../img/process.png");
     background-size: contain;
     max-width: 800px;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 200px; }
+    background-position-y: 20px;
+    height: 120px; }
 
 /* ==========================================================================
  *team
@@ -1257,7 +1267,6 @@ textarea.form-control {
   .rolunk .team .container-fluid h2 {
     text-align: center;
     padding-bottom: 50px;
-    padding-top: 80px;
     width: 100%; }
   .rolunk .team .container-fluid .col-lg-8.col-md-8.col-sm-8.col-md-offset-2.col-sm-offset-1 .container-fluid {
     padding-right: 0px; }
@@ -1497,6 +1506,9 @@ textarea.form-control {
   .infoBox.active {
     max-width: 100%;
     margin-left: -20px; } }
+@media (min-width: 800px) {
+  .rolunk .articlecover .container {
+    min-height: 200px; } }
 .pageload-overlay {
   z-index: 102;
   display: none;

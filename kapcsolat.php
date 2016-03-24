@@ -147,7 +147,7 @@ if($url == 'http://www.testbirds.cz'){
               </div>
             </div>
           </div>
-          <div class="row send">
+          <div class="row send col-md-12">
             <input class="btn-primary" type="submit" value="<?=writeText($lang,'kapcsolat_form6',$content);?>">
           </div>
           </form>
@@ -159,7 +159,7 @@ if($url == 'http://www.testbirds.cz'){
           </div>
         <?} else {
         ?>
-          <p><?=writeText($lang,'kapcsolat_kapcsolat5',$content);?></p>
+          <p class="thankyou"><?=writeText($lang,'kapcsolat_kapcsolat5',$content);?></p>
         <? } ?>
         </div>
       </div>
