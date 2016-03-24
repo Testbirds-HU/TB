@@ -646,7 +646,7 @@ sub {
   text-decoration: none; }
 .Elonyok .row .col-md-12 {
   background-color: #FAFAFA;
-  height: 60vh;
+  height: 1200px;
   padding-left: 0px;
   padding-right: 0px;
   background-image: url("../img/Dude-Projectmanager.png");
@@ -752,7 +752,7 @@ sub {
     padding-left: 2rem; } }
 @media (min-width: 753px) {
   .Elonyok .row .col-md-12 {
-    height: 61vh; }
+    height: 690px; }
 
   .Elonyok .row .col-md-12 h2#ctelonyei {
     padding-left: 35px; } }
@@ -765,9 +765,12 @@ sub {
 
   .Elonyok .row .col-md-12 h2#ctelonyei {
     padding-top: 90px; } }
-@media (max-width: 767px) {
+@media (min-width: 767px) {
   .Elonyok .row .col-md-12 {
-    height: 1190px; } }
+    height: 710px; } }
+@media (min-width: 992px) {
+  .Elonyok .row .col-md-12 {
+    height: 500px; } }
 /* ==========================================================================
  *MIKET section
  *========================================================================== */
