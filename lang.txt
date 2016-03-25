@@ -195,7 +195,6 @@
         "blogurl5": "blog.html",
         "footer_blog6": "UX test: Vyjasnenie požiadaviek",
         "blogurl6": "blog.html",
-<<<<<<< HEAD
         "footer_oldalterkep": "Mapa stránky",
         "footer_oldalterkep2": "O nás",
         "footer_oldalterkep3": "Prečo my?",
