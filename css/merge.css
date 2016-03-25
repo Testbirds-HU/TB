@@ -13,7 +13,8 @@
   line-height: 15px;
   font-family: Droid Sans, sans-serif;
   font-weight: 400;
-  margin: 1rem; }
+  margin: 1rem;
+  padding-top: 20px; }
 
 .navbar-default .navbar-nav > li > a:hover {
   color: white; }
@@ -964,7 +965,7 @@ sub {
       background-image: url("../img/Dude-MissMarketing.png");
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: top;
       background-size: 101.7px;
       background-position-y: 20px; }
     .folyamat .row .btn-primary {
