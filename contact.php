@@ -43,16 +43,17 @@
     mail($to, $subject, $message, $headers);
     
   }
-
+include('lang.php');
+$url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  if($url == 'https://testbirds.cz'){
+    $lang = 'Czech';
+  }elseif ($url == 'https://testbirds.sk'){
+    $lang = 'Slovak';
+  }else{
+    $lang = 'Hungarian';
+  }
 ?>
 <!DOCTYPE html>
-<!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7  
--->
-<!--if IE 7html.no-js.lt-ie9.lt-ie8  
--->
-<!--if IE 8html.no-js.lt-ie9  
--->
-<!-- [if gt IE 8] <!-->
 <html class="no-js">
   <!-- <![endif]-->
   <html lang="en" class="no-js"></html>
@@ -95,16 +96,25 @@
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"> </a>
+            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.php" class="navbar-brand"> </a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
+<<<<<<< HEAD:contact.php
               <li><a href="about-us.html" class="pageload-link">Rólunk</a></li>
               <li><a href="benefits.html" class="pageload-link">Miért mi?</a></li>
               <li><a href="functional.html" class="pageload-link">Funkcionális tesztelés</a></li>
               <li><a href="user-experience.html" class="pageload-link">Felhasználói élmény kutatás</a></li>
               <li><a href="contact.html" class="pageload-link">Kapcsolat</a></li>
+=======
+              <li><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li><a href="elonyok.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li><a href="<?=writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?=writeText($lang,'Menu6',$content);?></a></li>                            
+              <li><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
+>>>>>>> gh-pages:kapcsolat.php
             </ul>
           </div>
         </div>
@@ -117,68 +127,71 @@
          
         ?>
         
-          <h1>Lépj kapcsolatba velünk!</h1>
-          <h2>ALIG VÁRJUK, HOGY EGYÜTT DOLGOZHASSUNK VELED!</h2>
-          <p>A crowdtesting nem dobozos szolgáltatás. Minden ügyfelünknek igényeire szabott, egyedi ajánlatot készítünk, egy ingyenes, igényfelmérő beszélgetést követően. Kérjük, add meg pár adatodat, hogy Kata felvehesse veled a kapcsolatot és beszélgethessetek a projektedről!</p>
+          <h1><?=writeText($lang,'kapcsolat_cim1',$content);?></h1>
+          <h2><?=writeText($lang,'kapcsolat_cim2',$content);?></h2>
+          <p><?=writeText($lang,'kapcsolat_cim3',$content);?></p>
           <form method="post" action="">
           <div class="row form">
             
             <div class="col-md-6">
               <div class="form-group">
-                <input id="usr" type="text" name="nev" placeholder="Név" required class="form-control">
+                <input id="usr" type="text" name="nev" placeholder="<?=writeText($lang,'kapcsolat_form1',$content);?>" required class="form-control">
               </div>
               <div class="form-group">
-                <input id="usr" type="email" name="email" placeholder="Email cím" required class="form-control">
+                <input id="usr" type="email" name="email" placeholder="<?=writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control">
               </div>
               <div class="form-group">
-                <input id="usr" type="tel" name="telefonszam" placeholder="Telefonszám" required class="form-control">
+                <input id="usr" type="tel" name="telefonszam" placeholder="<?=writeText($lang,'kapcsolat_form3',$content);?>" required class="form-control">
               </div>
               <div class="form-group">
-                <input id="usr" type="text" name="cegnev" placeholder="Cégnév" required class="form-control">
+                <input id="usr" type="text" name="cegnev" placeholder="<?=writeText($lang,'kapcsolat_form4',$content);?>" required class="form-control">
               </div>
             </div>
             <div class="col-md-6 message">
               <div class="form-horizontal">
                 <div class="form-group">
                   <div class="col-md-12">
-                    <textarea rows="3" placeholder="Mesélj a projektedről!" required="" name="projekt" class="form-control"></textarea>
+                    <textarea rows="3" placeholder="<?=writeText($lang,'kapcsolat_form5',$content);?>" required="" name="projekt" class="form-control"></textarea>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="row send col-md-12">
+            <input class="btn-primary" type="submit" value="<?=writeText($lang,'kapcsolat_form6',$content);?>">
           </div>
-          <div class="row send">
-            <input class="btn-primary" type="submit" value="Küldés">
           </div>
+
           </form>
           <div style="border-top: 1px solid rgba(255, 255, 255, 0.49); margin-right: 15px; margin-top: 40px; padding-top: 40px; text-align: center; opacity: 0.5" class="row">
-            <p>Testbirds kft.</p>
-            <p>1118 Budapes, Himfy utca 1. </p>
-            <p>(30) 569 5988</p>
+            <p><?=writeText($lang,'kapcsolat_kapcsolat1',$content);?></p>
+            <p><?=writeText($lang,'kapcsolat_kapcsolat2',$content);?></p>
+            <p><?=writeText($lang,'kapcsolat_kapcsolat3',$content);?></p>
+            <p><?=writeText($lang,'kapcsolat_kapcsolat4',$content);?></p>            
           </div>
         <?} else {
         ?>
-          <h1>Köszönjük a leveledet, amint tudunk válaszolunk!</h1>
+          <p class="thankyou"><?=writeText($lang,'kapcsolat_kapcsolat5',$content);?></p>
         <? } ?>
         </div>
       </div>
 
     </div>
+    </div>
     <footer class="container-fluid">
       <div class="row">
         <div class="col-md-4">
-          <h5>Legutóbbi blogbejegyzések</h5><a>Etikus design – Az AMUSE konferencián jártunk<br></a><a>Szek.org: Hogyan javítsuk online felületünket?<br></a><a>UX teszt: A kutatási kérdések tisztázása<br></a><a>UX teszt: A célok tisztázása<br></a><a>UX teszt: Az elvárások tisztázása<br></a>
+          <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
         </div>
         <div class="col-md-2"></div>
         <div class="col-md-3">
-          <h5>Oldaltérkép</h5><a>Rólunk<br></a><a>Funkcionális tesztelés?<br></a><a>Felhasználói élmény kutatás<br></a><a>Ajánlatkérés<br></a><a>Kapcsolat<br></a>
+          <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.html" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
         </div>
         <div class="col-md-3">
-          <h5>Kapcsolat</h5>
-          <p>1118 Budapest,<br></p>
-          <p>Himfy utca 1.<br></p>
-          <p>(30) 569 5988</p>
-          <p>info@testbirds.hu</p>
+          <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
+          <p><?=writeText($lang,'footer_kapcsolat2',$content);?><br><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
+          <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
+          <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
         </div>
       </div>
     </footer>
@@ -192,10 +205,10 @@
     <script src="js/svgLoader.js"></script>
     <script>
       (function() {
-      docInteractive('lazy_stretch');
+      docInteractive('spill');
       var pageWrap = document.getElementById( 'pagewrap' ),
       triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 100 } );
+      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 450 } );
       function init() {
       triggerLoading.forEach( function( trigger ) {
       trigger.addEventListener( 'click', function( ev ) {
