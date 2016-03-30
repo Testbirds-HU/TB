@@ -3092,13 +3092,8 @@
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
-		"inputAbbreviatedPath": "\/elonyok.jade",
-		"outputAbbreviatedPath": "\/benefits.html",
-=======
 		"inputAbbreviatedPath": "\/elonyok1.jade",
 		"outputAbbreviatedPath": "\/elonyok1.html",
->>>>>>> gh-pages
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3117,13 +3112,8 @@
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
-		"inputAbbreviatedPath": "\/felhasznaloi.jade",
-		"outputAbbreviatedPath": "\/user-experience.html",
-=======
 		"inputAbbreviatedPath": "\/felhasznaloi2.jade",
 		"outputAbbreviatedPath": "\/felhasznaloi2.html",
->>>>>>> gh-pages
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -3142,13 +3132,8 @@
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
-		"inputAbbreviatedPath": "\/funkcionalis.jade",
-		"outputAbbreviatedPath": "\/functional.html",
-=======
 		"inputAbbreviatedPath": "\/funkcionalis1.jade",
 		"outputAbbreviatedPath": "\/funkcionalis1.html",
->>>>>>> gh-pages
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -4296,13 +4281,8 @@
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-<<<<<<< HEAD
-		"inputAbbreviatedPath": "\/kapcsolat.jade",
-		"outputAbbreviatedPath": "\/contact.html",
-=======
 		"inputAbbreviatedPath": "\/kapcsolat2.jade",
 		"outputAbbreviatedPath": "\/kapcsolat2.html",
->>>>>>> gh-pages
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
@@ -4316,19 +4296,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
 	"\/about-us.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/about-us.html",
-=======
-	"\/rolunk.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/rolunk.php",
->>>>>>> gh-pages
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

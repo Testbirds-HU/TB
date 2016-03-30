@@ -11,10 +11,7 @@
 //	'rm -f *.html',
         'echo $PWD',
         'whoami',
-<<<<<<< HEAD
-=======
 	'git checkout -- .',
->>>>>>> gh-pages
         'git pull',
         'git status',
 //	'find -type f -name "*.jade" -exec jade {} \;',
