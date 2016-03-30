@@ -1,5 +1,8 @@
 {
     "Hungarian": {
+        "head_title": "Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.",
+        "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
+        "head_keywords": "crowdtesting",
         "Menu1": "Rólunk",
         "Menu2": "Miért mi?",
         "Menu3": "Funkcionális tesztelés",
@@ -151,6 +154,9 @@
         "kapcsolat_kapcsolat5": "Köszönjük a leveledet, amint tudunk válaszolunk!"
     },
     "Slovak": {
+        "head_title": "Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.",
+        "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
+        "head_keywords": "crowdtesting",        
         "Menu1": "O nás",
         "Menu2": "Prečo my?",
         "Menu3": "Funkcionálne testovanie",
@@ -300,6 +306,9 @@
         "kapcsolat_kapcsolat5": "Ďakujeme Ti za Tvoju správu, čo najskôr Ti odpovieme!"
     },
     "Czech": {
+        "head_title": "Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.",
+        "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
+        "head_keywords": "crowdtesting",
         "Menu1": "O nás",
         "Menu2": "Proč my?",
         "Menu3": "Funkční testování",

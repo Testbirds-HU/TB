@@ -19,11 +19,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Testbirds</title>
+    <title><?=writeText($lang,'head_title',$content);?></title>
     <link href="https://www.google.com/fonts#UsePlace:use/Collection:Droid+Sans:400,700" rel="stylesheet" type="text/css">
-    <meta name="description" content="whatever">
-    <meta name="keywords" content="html5 template, css3, one page, animations, agency, portfolio, web design">
-    <meta name="author" content="Kristof Vizy">
+    <meta name="description" content="<?=writeText($lang,'head_description',$content);?>">
+    <meta name="keywords" content="<?=writeText($lang,'head_keywords',$content);?>">
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
@@ -31,17 +30,7 @@
     <link href="css/merge.css" rel="stylesheet">
     <link rel="stylesheet" href="css/okayNav.css" media="screen">
     <link rel="stylesheet" href="css/header.css" media="screen">
-    <!-- Facebook and Twitter integration-->
-    <meta property="og:title" content="">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:description" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:url" content="">
-    <meta name="twitter:card" content="">
-    <script src="bower_components/jquery/dist/jquery.min.js">		</script>
+    <script src="bower_components/jquery/dist/jquery.min.js">   </script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <script src="js/snap.svg-min.js"></script>
