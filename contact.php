@@ -43,11 +43,13 @@
     mail($to, $subject, $message, $headers);
     
   }
-include('lang.php');
-$url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-  if($url == 'https://testbirds.cz'){
+  include('lang.php');
+  $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  $pos = strrpos($url,'.');
+  $url = substr($url, $pos,strlen($url)-$pos);
+  if($url == 'cz'){
     $lang = 'Czech';
-  }elseif ($url == 'https://testbirds.sk'){
+  }elseif ($url == 'sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
@@ -89,12 +91,12 @@ $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li id="menu1"><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
-              <li id="menu2"><a href="elonyok.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
-              <li id="menu3"><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
-              <li id="menu4"><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li id="menu1"><a href="about.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li id="menu2"><a href="whyus.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li id="menu3"><a href="functional.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li id="menu4"><a href="ux.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
               <li id="menu5"><a href="<?=writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?=writeText($lang,'Menu6',$content);?></a></li>                            
-              <li id="menu6"><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
+              <li id="menu6"><a href="contact.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>

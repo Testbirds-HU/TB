@@ -1,9 +1,11 @@
 <?
   include('lang.php');
   $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-  if($url == 'https://testbirds.cz'){
+  $pos = strrpos($url,'.');
+  $url = substr($url, $pos,strlen($url)-$pos);
+  if($url == 'cz'){
     $lang = 'Czech';
-  }elseif ($url == 'https://testbirds.sk'){
+  }elseif ($url == 'sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
@@ -46,12 +48,12 @@
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li id="menu1"><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
-              <li id="menu2"><a href="elonyok.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
-              <li id="menu3"><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
-              <li id="menu4"><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li id="menu1"><a href="about.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li id="menu2"><a href="whyus.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li id="menu3"><a href="functional.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li id="menu4"><a href="ux.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
               <li id="menu5"><a href="<?=writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?=writeText($lang,'Menu6',$content);?></a></li>                            
-              <li id="menu6"><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
+              <li id="menu6"><a href="contact.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>
@@ -187,9 +189,9 @@
       loader.show();
       setTimeout( function() {
       loader.hide();
-	  linkTag = $(ev.target).is('a')? $(ev.target) : $(ev.target).parents('a');
-	  link = $(linkTag).attr('href');
-	  document.location.href = link;
+    linkTag = $(ev.target).is('a')? $(ev.target) : $(ev.target).parents('a');
+    link = $(linkTag).attr('href');
+    document.location.href = link;
       }, 1000 );
       } );
       } );
@@ -203,7 +205,7 @@
         $('html').click(function(){
            $('.infoBox').each(function(){
           $(this).removeClass('active');
-        $(this).php('');
+        $(this).html('');
         });
          $('.team .col-lg-4.col-md-6.col-sm-6').each(function(){
           $(this).children('.col-lg-12:first').css('opacity','1');
@@ -220,7 +222,7 @@
         
         $('.infoBox').each(function(){
           $(this).removeClass('active');
-        $(this).php('');
+        $(this).html('');
         });
         
         $('.team .col-lg-4.col-md-6.col-sm-6').each(function(){
@@ -234,7 +236,7 @@
         //var next =  $(this).parent().parent().nextAll('.infoBox:visible:first');
         
         $(this).parent().parent().nextAll('.infoBox:visible:first').addClass('active');
-        $(this).parent().parent().nextAll('.infoBox:visible:first').php(desc);
+        $(this).parent().parent().nextAll('.infoBox:visible:first').html(desc);
       });
       });     
     </script>

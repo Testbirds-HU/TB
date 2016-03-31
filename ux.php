@@ -1,15 +1,18 @@
 <?
   include('lang.php');
   $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-  if($url == 'https://testbirds.cz'){
+  $pos = strrpos($url,'.');
+  $url = substr($url, $pos,strlen($url)-$pos);
+  if($url == 'cz'){
     $lang = 'Czech';
-  }elseif ($url == 'https://testbirds.sk'){
+  }elseif ($url == 'sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
   }
 ?>
 <!DOCTYPE html>
+
 <html class="no-js">
   <!-- <![endif]-->
   <html lang="en" class="no-js"></html>
@@ -45,12 +48,12 @@
           <!-- Collect the nav links, forms, and other content for toggling-->
           <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li id="menu1"><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
-              <li id="menu2"><a href="elonyok.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
-              <li id="menu3"><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
-              <li id="menu4"><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
+              <li id="menu1"><a href="about.php" class="pageload-link"><?=writeText($lang,'Menu1',$content);?></a></li>
+              <li id="menu2"><a href="whyus.php" class="pageload-link"><?=writeText($lang,'Menu2',$content);?></a></li>
+              <li id="menu3"><a href="functional.php" class="pageload-link"><?=writeText($lang,'Menu3',$content);?></a></li>
+              <li id="menu4"><a href="ux.php" class="pageload-link"><?=writeText($lang,'Menu4',$content);?></a></li>
               <li id="menu5"><a href="<?=writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?=writeText($lang,'Menu6',$content);?></a></li>                            
-              <li id="menu6"><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
+              <li id="menu6"><a href="contact.php" class="pageload-link"><?=writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
         </div>
@@ -59,47 +62,52 @@
     <div class="container">
       <div class="articletitle">
         <div class="container">
-          <h1><?=writeText($lang,'funkcionalis_cim1',$content);?></h1>
-          <h2><?=writeText($lang,'funkcionalis_cim2',$content);?></h2>
-          <h6><?=writeText($lang,'funkcionalis_cim3',$content);?>
+          <h1><?=writeText($lang,'felhasznaloi_cim1',$content);?></h1>
+          <h2><?=writeText($lang,'felhasznaloi_cim2',$content);?></h2>
+          <h6><?=writeText($lang,'felhasznaloi_cim3',$content);?>
             <ul>
-              <li><?=writeText($lang,'funkcionalis_cim4',$content);?></li>
-              <li><?=writeText($lang,'funkcionalis_cim5',$content);?></li>
-              <li><?=writeText($lang,'funkcionalis_cim6',$content);?></li>
-              <li><?=writeText($lang,'funkcionalis_cim7',$content);?></li>
+              <li><?=writeText($lang,'felhasznaloi_cim4',$content);?></li>
+              <li><?=writeText($lang,'felhasznaloi_cim5',$content);?> ezzel fejlesztési költséget spórolva a cégednek;</li>
+              <li><?=writeText($lang,'felhasznaloi_cim6',$content);?></li>
+              <li><?=writeText($lang,'felhasznaloi_cim7',$content);?></li>
             </ul>
           </h6>
         </div>
       </div>
-      <div class="articlecover_funkc"></div>
+      <div class="articlecover_felh"></div>
       <div class="articlebody_g">
         <div class="container">
-          <h6><?=writeText($lang,'funkcionalis_leiras1',$content);?> </h6>
-          <p><?=writeText($lang,'funkcionalis_leiras2',$content);?><br><br></p>
-          <h6><?=writeText($lang,'funkcionalis_leiras3',$content);?><br></h6>
-          <p><?=writeText($lang,'funkcionalis_leiras4',$content);?><br><br></p>
-          <h6><?=writeText($lang,'funkcionalis_leiras5',$content);?><br></h6>
-          <p><?=writeText($lang,'funkcionalis_leiras6',$content);?><br><br></p>
-          <h6><?=writeText($lang,'funkcionalis_leiras7',$content);?><br></h6>
-          <p><?=writeText($lang,'funkcionalis_leiras8',$content);?><br></p>
+          <h6><?=writeText($lang,'felhasznaloi_leiras1',$content);?></h6>
+          <p><?=writeText($lang,'felhasznaloi_leiras2',$content);?></p><br><br>
+          <h6><?=writeText($lang,'felhasznaloi_leiras3',$content);?></h6><br>
+          <p><?=writeText($lang,'felhasznaloi_leiras4',$content);?><br><br></p>
+          <h6>Strukturált visszajelzések<br></h6>
+          <p><?=writeText($lang,'felhasznaloi_leiras5',$content);?><br><br></p>
+          <ul>
+            <li><?=writeText($lang,'felhasznaloi_leiras6',$content);?></li>
+            <li><?=writeText($lang,'felhasznaloi_leiras7',$content);?><br></li>
+            <li><?=writeText($lang,'felhasznaloi_leiras8',$content);?><br><br></li>
+          </ul>
+          <h6><?=writeText($lang,'felhasznaloi_leiras9',$content);?><br></h6>
+          <p><?=writeText($lang,'felhasznaloi_leiras10',$content);?><br></p>
         </div>
       </div>
       <div class="articlebody_w">
         <div class="container">
-          <h2><?=writeText($lang,'funkcionalis_folyamat1',$content);?><br><br></h2>
-          <p><?=writeText($lang,'funkcionalis_folyamat2',$content);?><br><br></p>
-          <h6><?=writeText($lang,'funkcionalis_folyamat3',$content);?><br></h6>
-          <p><?=writeText($lang,'funkcionalis_folyamat4',$content);?><br><br></p>
-          <h6><?=writeText($lang,'funkcionalis_folyamat5',$content);?></h6>
-          <p><?=writeText($lang,'funkcionalis_folyamat6',$content);?><br><br></p>
-          <h6><?=writeText($lang,'funkcionalis_folyamat7',$content);?></h6>
-          <p><?=writeText($lang,'funkcionalis_folyamat8',$content);?></p>
+          <h2><?=writeText($lang,'felhasznaloi_folyamat1',$content);?><br><br></h2>
+          <p><?=writeText($lang,'felhasznaloi_folyamat2',$content);?><br><br></p>
+          <h6><?=writeText($lang,'felhasznaloi_folyamat3',$content);?><br></h6>
+          <p><?=writeText($lang,'felhasznaloi_folyamat4',$content);?><br><br></p>
+          <h6><?=writeText($lang,'felhasznaloi_folyamat5',$content);?></h6>
+          <p><?=writeText($lang,'felhasznaloi_folyamat6',$content);?><br><br></p>
+          <h6><?=writeText($lang,'felhasznaloi_folyamat7',$content);?></h6>
+          <p><?=writeText($lang,'felhasznaloi_folyamat8',$content);?></p>
         </div>
       </div>
-      <!--<div class="quote">
+      <!-- <div class="quote">
         <div class="col-md-12">
-          <h3><?=writeText($lang,'funkcionalis_idezet1',$content);?><br></h3>
-          <h3><?=writeText($lang,'funkcionalis_ideze2',$content);?></h3>
+          <h3><?=writeText($lang,'felhasznaloi_idezet',$content);?><br></h3>
+          <h3><?=writeText($lang,'felhasznaloi_idezet2',$content);?></h3>
         </div>
       </div>-->
         <div class="col-md-12 companies">
