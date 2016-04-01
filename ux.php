@@ -112,6 +112,8 @@
         </div>
       </div>-->
         <div class="col-md-12 companies">
+        <div class="row">
+
           <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/1.png"></div>
           <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/2.png"></div>
           <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/3.png"></div>
@@ -137,8 +139,9 @@
           <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/23.png"></div>
           <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/24.png"></div>
         </div>
+      </div>
 
-    </div>
+      </div>
     <footer class="container-fluid">
       <div class="row">
         <div class="col-md-4">
