@@ -1016,15 +1016,15 @@ sub {
     margin-top: 50px; }
 
 /* ========================================================================== */
+@media (max-width: 992px) {
+  .companies {
+    min-height: 600px; } }
 @media (max-width: 767px) {
   .companies {
     min-height: 900px; }
 
   .no {
     display: none; } }
-@media (max-width: 992px) {
-  .companies {
-    min-height: 600px; } }
 /* ==========================================================================
  *Footer
  *========================================================================== */
@@ -1047,6 +1047,9 @@ footer {
 @media (max-width: 660px) {
   footer .col-md-3, footer .col-md-2, footer .col-md-4 {
     padding-left: 2rem; } }
+#menu1 {
+  display: none; }
+
 /* ==========================================================================
  *articletitle
  *========================================================================== */
