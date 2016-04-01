@@ -31,6 +31,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/basic-styles.css" media="screen">
     <link href="css/merge.css" rel="stylesheet">
+    <link href="css/<?=writeText($lang,'customcss',$content);?>" rel="stylesheet">    
     <link rel="stylesheet" href="css/okayNav.css" media="screen">
     <link rel="stylesheet" href="css/header.css" media="screen">
     <script src="bower_components/jquery/dist/jquery.min.js">   </script>

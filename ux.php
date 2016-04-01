@@ -29,8 +29,8 @@
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/basic-styles.css" media="screen">
     <link href="css/merge.css" rel="stylesheet">
+    <link href="css/<?=writeText($lang,'customcss',$content);?>" rel="stylesheet">    
     <link rel="stylesheet" href="css/okayNav.css" media="screen">
     <link rel="stylesheet" href="css/header.css" media="screen">
     <script src="bower_components/jquery/dist/jquery.min.js">   </script>
