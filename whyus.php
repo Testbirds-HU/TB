@@ -142,24 +142,24 @@
         </div>
       </div>
     </div>
-    <footer class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-          <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
+          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-3">
+            <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="whyus.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="functional.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="ux.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="contact.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
+          </div>
+          <div class="col-md-3">
+            <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
+            <p><?=writeText($lang,'footer_kapcsolat2',$content);?></p>
+            <p><?=writeText($lang,'footer_kapcsolat3',$content);?></p>
+            <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
+            <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
+          </div>
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-3">
-          <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="elonyok.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="funkcionalis.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="felhasznaloi.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="kapcsolat.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
-        </div>
-        <div class="col-md-3">
-          <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
-          <p><?=writeText($lang,'footer_kapcsolat2',$content);?></p>
-          <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
-          <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
-          <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
-        </div>
-      </div>
-    </footer>
+      </footer>
 
     <div id="loader" class="pageload-overlay">
       <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">

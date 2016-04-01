@@ -967,7 +967,8 @@ sub {
       background-repeat: no-repeat;
       background-position: top;
       background-size: 101.7px;
-      background-position-y: 20px; }
+      background-position-y: 20px;
+      background-position: top; }
     .folyamat .row .btn-primary {
       color: #fff;
       background-color: #1E777A;
@@ -1047,7 +1048,7 @@ footer {
 @media (max-width: 660px) {
   footer .col-md-3, footer .col-md-2, footer .col-md-4 {
     padding-left: 2rem; } }
-#menu1 {
+#menu1, #menu5 {
   display: none; }
 
 /* ==========================================================================
