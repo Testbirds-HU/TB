@@ -43,13 +43,14 @@
     mail($to, $subject, $message, $headers);
     
   }
+
   include('lang.php');
-  $url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+  $url = "https://$_SERVER[HTTP_HOST]";
   $pos = strrpos($url,'.');
-  $url = substr($url, $pos,strlen($url)-$pos);
-  if($url == 'cz'){
+  #$url = substr($url, $pos,strlen($url)-$pos);
+  if($url == 'https://staging.testbirds.cz'){
     $lang = 'Czech';
-  }elseif ($url == 'sk'){
+  }elseif ($url == 'https://staging.testbirds.sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
