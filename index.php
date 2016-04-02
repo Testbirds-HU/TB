@@ -257,10 +257,11 @@
             <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
           </div>
           <div class="col-md-4" id="social">
-          <a class="socialicon" id="fbicon" href="https://www.facebook.com/testbirds.hu/?fref=ts">
+          <a href="https://www.facebook.com/testbirds.hu/?fref=ts">
+          <img src="img/fb_icon.png" alt="Testbirds on Facebook" width="60" height="60" opacity: "0.5" border="0">
           </a>
-          <a href="http://www.w3schools.com">
-          <img src="smiley.gif" alt="Go to W3Schools!" width="42" height="42" border="0">
+          <a href="https://www.linkedin.com/company/testbirds-magyarorsz-g">
+          <img src="img/in_icon.png" alt="Testbirds on Linkedin" width="60" height="60" opacity: "0.5" border="0">
           </a>
           </div>
         </div>

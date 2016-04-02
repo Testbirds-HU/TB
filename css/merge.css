@@ -1039,6 +1039,9 @@ footer {
     footer .col-md-3 a:hover, footer .col-md-2 a:hover, footer .col-md-4 a:hover {
       text-decoration: none; }
 
+.social {
+  float: right; }
+
 /* ========================================================================== */
 @media (max-width: 992px) {
   footer {
