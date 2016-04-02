@@ -257,8 +257,7 @@
             <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
           </div>
           <div class="col-md-4" id="social">
-          <a href="https://www.facebook.com/testbirds.hu/?fref=ts">
-          <img src="img/fb_icon.png" alt="Testbirds on Facebook" width="42" height="42" border="0">
+          <a class="socialicon" id="fbicon" href="https://www.facebook.com/testbirds.hu/?fref=ts">
           </a>
           <a href="http://www.w3schools.com">
           <img src="smiley.gif" alt="Go to W3Schools!" width="42" height="42" border="0">
