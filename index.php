@@ -242,10 +242,10 @@
       </div>
       <footer class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
+          <!--<div class="col-md-4">
             <h5><?=writeText($lang,'footer_blog',$content);?></h5><a href="<?=writeText($lang,'blogurl2',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog2',$content);?><br></a><a href="<?=writeText($lang,'blogurl3',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog3',$content);?><br></a><a href="<?=writeText($lang,'blogurl4',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog4',$content);?><br></a><a href="<?=writeText($lang,'blogurl5',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog5',$content);?><br></a><a href="<?=writeText($lang,'blogurl6',$content);?>" class="pageload-link"><?=writeText($lang,'footer_blog6',$content);?><br></a>
           </div>
-          <div class="col-md-2"></div>
+          <div class="col-md-2"></div>-->
           <div class="col-md-3">
             <h5><?=writeText($lang,'footer_oldalterkep',$content);?></h5><a href="rolunk.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep2',$content);?><br></a><a href="whyus.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep3',$content);?><br></a><a href="functional.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep4',$content);?><br></a><a href="ux.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep5',$content);?><br></a><a href="contact.php" class="pageload-link"><?=writeText($lang,'footer_oldalterkep6',$content);?><br></a>
           </div>
@@ -255,6 +255,14 @@
             <p><?=writeText($lang,'footer_kapcsolat3',$content);?></p>
             <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
             <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p>
+          </div>
+          <div class="col-md-4" id="social">
+          <a href="https://www.facebook.com/testbirds.hu/?fref=ts">
+          <img src="img/fb_icon.png" alt="Testbirds on Facebook" width="42" height="42" border="0">
+          </a>
+          <a href="http://www.w3schools.com">
+          <img src="smiley.gif" alt="Go to W3Schools!" width="42" height="42" border="0">
+          </a>
           </div>
         </div>
       </footer>
