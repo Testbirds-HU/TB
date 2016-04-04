@@ -87,7 +87,7 @@
           </div>
         </div>
         <div id="top" class="tesztek">
-          <div class="row"><a href="funkcionalis.php" class="pageload-link">
+          <div class="row"><a href="functional.php" class="pageload-link">
               <div class="col-md-6 teszt1">
                 <h2><?=writeText($lang,'fooldal_funkcionalis',$content);?></h2>
                 <p><?=writeText($lang,'fooldal_funkcionalis2',$content);?></p>
@@ -95,7 +95,7 @@
                 <div class="navigator">
                   <p class="more">></p>
                 </div>
-              </div></a><a href="felhasznaloi.php" class="pageload-link">
+              </div></a><a href="ux.php" class="pageload-link">
               <div class="col-md-6 teszt2">
                 <h2><?=writeText($lang,'fooldal_felhasznaloi',$content);?></h2>
                 <p><?=writeText($lang,'fooldal_felhasznaloi2',$content);?></p>
@@ -109,25 +109,25 @@
           <div class="row">
             <div class="col-md-12">
               <h2 id="ctelonyei"><?=writeText($lang,'fooldal_miertmi',$content);?></h2>
-              <div class="row list"><a href="elonyok.php" class="pageload-link">
+              <div class="row list"><a href="whyus.php" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el1">
                     <h2><?=writeText($lang,'fooldal_miertmi2',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
-                  </div></a><a href="elonyok.php" class="pageload-link">
+                  </div></a><a href="whyus.php" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el2">
                     <h2><?=writeText($lang,'fooldal_miertmi3',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
-                  </div></a><a href="elonyok.php" class="pageload-link">
+                  </div></a><a href="whyus.php" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el3">
                     <h2><?=writeText($lang,'fooldal_miertmi4',$content);?></h2>
                     <div class="navigator">
                       <p class="more">></p>
                     </div>
-                  </div></a><a href="elonyok.php" class="pageload-link">
+                  </div></a><a href="whyus.php" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el4">
                     <h2><?=writeText($lang,'fooldal_miertmi5',$content);?></h2>
                     <div class="navigator">
@@ -204,7 +204,7 @@
             </div>
             <div class="col-md-12">
               <div class="circlewoman"></div>
-              <h3><?=writeText($lang,'fooldal_ajanlat',$content);?></h3><a href="kapcsolat.php" class="pageload-link">
+              <h3><?=writeText($lang,'fooldal_ajanlat',$content);?></h3><a href="contact.php" class="pageload-link">
                 <div class="btn-primary"><?=writeText($lang,'fooldal_ajanlat2',$content);?></div></a>
             </div>
           </div>
