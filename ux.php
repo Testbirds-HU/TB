@@ -68,7 +68,7 @@
           <h6><?=writeText($lang,'felhasznaloi_cim3',$content);?>
             <ul>
               <li><?=writeText($lang,'felhasznaloi_cim4',$content);?></li>
-              <li><?=writeText($lang,'felhasznaloi_cim5',$content);?> ezzel fejlesztési költséget spórolva a cégednek;</li>
+              <li><?=writeText($lang,'felhasznaloi_cim5',$content);?></li>
               <li><?=writeText($lang,'felhasznaloi_cim6',$content);?></li>
               <li><?=writeText($lang,'felhasznaloi_cim7',$content);?></li>
             </ul>
