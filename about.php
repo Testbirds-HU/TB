@@ -4,9 +4,9 @@
   $url = "https://$_SERVER[HTTP_HOST]";
   $pos = strrpos($url,'.');
   #$url = substr($url, $pos,strlen($url)-$pos);
-  if($url == 'https://staging.testbirds.cz'){
+  if($url == 'www.testbirds.cz'){
     $lang = 'Czech';
-  }elseif ($url == 'https://staging.testbirds.sk'){
+  }elseif ($url == 'www.testbirds.sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
