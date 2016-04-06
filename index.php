@@ -1,12 +1,13 @@
 
+
 <?
   include('lang.php');
   $url = "https://$_SERVER[HTTP_HOST]";
   $pos = strrpos($url,'.');
   #$url = substr($url, $pos,strlen($url)-$pos);
-  if($url == 'www.testbirds.cz'){
+  if($url == 'https://www.testbirds.cz'){
     $lang = 'Czech';
-  }elseif ($url == 'www.testbirds.sk'){
+  }elseif ($url == 'https://www.testbirds.sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
