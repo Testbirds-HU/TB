@@ -79,7 +79,7 @@
         <div class="container">
           <h6><?=writeText($lang,'felhasznaloi_leiras1',$content);?></h6>
           <p><?=writeText($lang,'felhasznaloi_leiras2',$content);?></p><br><br>
-          <h6><?=writeText($lang,'felhasznaloi_leiras3',$content);?></h6><br>
+          <h6><?=writeText($lang,'felhasznaloi_leiras3',$content);?></h6>
           <p><?=writeText($lang,'felhasznaloi_leiras4',$content);?><br><br></p>
           <h6><?=writeText($lang,'felhasznaloi_leiras4.1',$content);?><br></h6>
           <p><?=writeText($lang,'felhasznaloi_leiras5',$content);?><br><br></p>
