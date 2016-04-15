@@ -1015,9 +1015,9 @@ sub {
     margin-top: 50px; }
 
 .comptitle {
-  padding-top: 80px;
-  padding-bottom: 30px;
-  display: none; }
+  padding-top: 80px !important;
+  padding-bottom: 30px !important;
+  display: none !important; }
 
 /* ========================================================================== */
 @media (max-width: 992px) {
