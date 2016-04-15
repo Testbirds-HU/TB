@@ -17,7 +17,7 @@
 <!--if lt IE 7html.no-js.lt-ie9.lt-ie8.lt-ie7	
 -->
 <!--if IE 7html.no-js.lt-ie9.lt-ie8	
--->
+-->flickity.pkgd.min
 <!--if IE 8html.no-js.lt-ie9	
 -->
 <!-- [if gt IE 8] <!-->
@@ -43,6 +43,7 @@
     <script src="bower_components/jquery/dist/jquery.min.js">   </script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="flickity.pkgd.min.js"></script>    
     <script src="js/snap.svg-min.js"></script>
   </head>
   <body>
