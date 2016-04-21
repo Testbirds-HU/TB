@@ -8,4 +8,6 @@
   padding-top: 45px !important; }
 
 #reftitle {
-  display: block; }
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px; }

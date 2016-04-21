@@ -5,4 +5,6 @@
   background-image: url("../img/Dude-MrMarketing.png"); }
 
 #reftitle {
-  display: block; }
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px; }
