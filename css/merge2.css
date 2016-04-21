@@ -1019,6 +1019,11 @@ sub {
   padding-bottom: 30px !important;
   display: none !important; }
 
+#reftitle {
+  padding-bottom: 30px;
+  padding-top: 80px;
+  display: none; }
+
 /* ========================================================================== */
 @media (max-width: 992px) {
   .companies {

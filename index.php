@@ -110,25 +110,25 @@
           <div class="row">
             <div class="col-md-12">
               <h2 id="ctelonyei"><?=writeText($lang,'fooldal_miertmi',$content);?></h2>
-              <div class="row list"><a href="whyus.php#one" class="pageload-link">
+              <div class="row list"><a href="whyus.php#1_" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el1">
                     <h2><?=writeText($lang,'fooldal_miertmi2',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
-                  </div></a><a href="whyus.php#two" class="pageload-link">
+                  </div></a><a href="whyus.php#2_" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el2">
                     <h2><?=writeText($lang,'fooldal_miertmi3',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
-                  </div></a><a href="whyus.php#three" class="pageload-link">
+                  </div></a><a href="whyus.php#3_" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el3">
                     <h2><?=writeText($lang,'fooldal_miertmi4',$content);?></h2>
                     <div class="navigator">
                       <p class="more">></p>
                     </div>
-                  </div></a><a href="whyus.php#four" class="pageload-link">
+                  </div></a><a href="whyus.php#4_" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el4">
                     <h2><?=writeText($lang,'fooldal_miertmi5',$content);?></h2>
                     <div class="navigator">
@@ -212,7 +212,7 @@
         </div>
         <div class="col-md-12 companies">
         <div class="row">
-          <div class="col-md-12" style="padding-bottom: 30px; padding-top: 80px; display: none;"><h2><?=writeText($lang,'Referencia_cim',$content);?></h2></div>
+          <div class="col-md-12" id="reftitle"><h2><?=writeText($lang,'Referencia_cim',$content);?></h2></div>
           <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/1.png"></div>
           <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/2.png"></div>
           <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/3.png"></div>
@@ -289,10 +289,9 @@
       init();
       })();	
     </script>
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <!-- build:js js/jquery.okayNav-min.js-->
-    <script src="js/jquery.okayNav.js"></script>
-    <!-- endbuild-->
+
     <script type="text/javascript">var navigation = $('#nav-main').okayNav();</script>
   </body>
 </html>
