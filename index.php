@@ -110,25 +110,25 @@
           <div class="row">
             <div class="col-md-12">
               <h2 id="ctelonyei"><?=writeText($lang,'fooldal_miertmi',$content);?></h2>
-              <div class="row list"><a href="whyus.php#1_" class="pageload-link">
+              <div class="row list"><a href="whyus.php#1" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el1">
                     <h2><?=writeText($lang,'fooldal_miertmi2',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
-                  </div></a><a href="whyus.php#2_" class="pageload-link">
+                  </div></a><a href="whyus.php#2" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el2">
                     <h2><?=writeText($lang,'fooldal_miertmi3',$content);?></h2>
                     <div class="navigator">
                       <p class="more">>								</p>
                     </div>
-                  </div></a><a href="whyus.php#3_" class="pageload-link">
+                  </div></a><a href="whyus.php#3" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el3">
                     <h2><?=writeText($lang,'fooldal_miertmi4',$content);?></h2>
                     <div class="navigator">
                       <p class="more">></p>
                     </div>
-                  </div></a><a href="whyus.php#4_" class="pageload-link">
+                  </div></a><a href="whyus.php#4" class="pageload-link">
                   <div class="col-md-3 col-sm-6 col-xs-12 el4">
                     <h2><?=writeText($lang,'fooldal_miertmi5',$content);?></h2>
                     <div class="navigator">
