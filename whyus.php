@@ -198,7 +198,7 @@
         var pathname = window.location.hash;
         var length = pathname.length;
         pathname = pathname.substring(1,length);
-        var magassag = $('#'+pathname+'_').offset().top;
+        var magassag = $('#'+pathname+'_').offset().top-200;
         $('html,body').animate({
               scrollTop: magassag},
             'slow');
