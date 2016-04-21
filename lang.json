@@ -157,7 +157,7 @@
         "kapcsolat_kapcsolat5": "Köszönjük a leveledet, amint tudunk válaszolunk!"
     },
     "Slovak": {
-        "customcss": "basic-styles-sk.css",
+        "customcss": "basic-styles-sk2.css",
         "head_title": "Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.",
         "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
         "head_keywords": "crowdtesting",        
@@ -314,7 +314,7 @@
         "kapcsolat_kapcsolat5": "Ďakujeme Ti za Tvoju správu, čo najskôr Ti odpovieme!"
     },
     "Czech": {
-        "customcss": "basic-styles-cz.css",
+        "customcss": "basic-styles-cz2.css",
         "head_title": "Testbirds - Crowdtesting: testování s reálnými uživateli.",
         "head_description": "Opravdový uživatelé, reálné prostředí, testování aplikací, webových stránek a software.",
         "head_keywords": "crowdtesting",

@@ -31,6 +31,7 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link href="css/merge2.css" rel="stylesheet">
     <link href="css/<?=writeText($lang,'customcss',$content);?>" rel="stylesheet">    
+    <link href="css/<?=writeText($lang,'customcss',$content);?>" rel="stylesheet">    
     <link rel="stylesheet" href="css/header.css" media="screen">
     <script src="bower_components/jquery/dist/jquery.min.js">   </script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
