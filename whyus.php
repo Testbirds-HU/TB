@@ -66,7 +66,7 @@
           <div class="row nr1">
             <div id="placeholder1" class="col-md-6"></div>
             <div class="col-md-6 text">
-              <h2 class="one"><?=writeText($lang,'miertmi_elony1',$content);?><br></h2>
+              <h2 class="one" id="one"><?=writeText($lang,'miertmi_elony1',$content);?><br></h2>
               <ul>
                 <li><?=writeText($lang,'miertmi_elony1_1',$content);?></li>
               </ul>
@@ -84,7 +84,7 @@
           <div class="row">
             <div id="placeholder2" class="col-md-6"></div>
             <div class="col-md-6 text">
-              <h2 class="two"><?=writeText($lang,'miertmi_elony2',$content);?><br></h2>
+              <h2 class="two" id="two"><?=writeText($lang,'miertmi_elony2',$content);?><br></h2>
               <ul>
                 <li><?=writeText($lang,'miertmi_elony2_1',$content);?></li>
               </ul>
@@ -102,7 +102,7 @@
           <div class="row">
             <div id="placeholder3" class="col-md-6"></div>
             <div class="col-md-6 text">
-              <h2 class="three"><?=writeText($lang,'miertmi_elony3',$content);?><br></h2>
+              <h2 class="three" id="three"><?=writeText($lang,'miertmi_elony3',$content);?><br></h2>
               <ul>
                 <li><?=writeText($lang,'miertmi_elony3_1',$content);?>	</li>
               </ul>
@@ -123,7 +123,7 @@
           <div class="row">
             <div id="placeholder4" class="col-md-6"></div>
             <div class="col-md-6 text">
-              <h2 class="four"><?=writeText($lang,'miertmi_elony4',$content);?><br></h2>
+              <h2 class="four" id="four"><?=writeText($lang,'miertmi_elony4',$content);?><br></h2>
               <ul>
                 <li><?=writeText($lang,'miertmi_elony4_1',$content);?></li>
               </ul>
