@@ -17,13 +17,13 @@
             $to  = 'sales@testbirds.hu';
 
             // subject
-            $subject = 'Üzenet a TestBirds oldalról.';
+            $subject = 'Üzenet a Testbirds weboldalról';
 
             // message
             $message = '
             <html>
             <head>
-              <title>Üzenet a TestBirds oldalról.!</title>
+              <title>Üzenet a Testbirds weboldalról!</title>
             </head>
             <body>
               <p>Új üzeneted érkezett a TestBirds oldaláról!</p>
