@@ -1,49 +1,4 @@
 <?php
-  if(!empty($_POST)){
-    // multiple recipients
-    $to  = 'emaerka@gmail.com';
-    
-    // subject
-    $subject = 'Üzenet a TestBirds oldalról.';
-    
-    // message
-    $message = '
-    <html>
-    <head>
-      <title>Üzenet a TestBirds oldalról.!</title>
-    </head>
-    <body>
-      <p>Új üzeneted érkezett a TestBirds oldaláról!</p>
-      <table>
-        <tr>
-          <td>Név</td><td>'.$_POST['nev'].'</td>
-        </tr>
-      <tr>
-          <td>Email</td><td>'.$_POST['email'].'</td>
-        </tr>
-        <tr>
-          <td>Telefonszám</td><td>'.$_POST['telefonszam'].'</td>
-        </tr>
-        <tr>
-          <td>Cégnév</td><td>'.$_POST['cegnev'].'</td>
-        </tr>
-        <tr>
-          <td>Projektről</td><td>'.$_POST['projekt'].'</td>
-        </tr>
-      </table>
-    </body>
-    </html>
-    ';
-    
-    // To send HTML mail, the Content-type header must be set
-    $headers  = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    
-    // Mail it
-    mail($to, $subject, $message, $headers);
-    
-  }
-
 
   include('lang.php');
   $url = "https://$_SERVER[HTTP_HOST]";
@@ -56,6 +11,127 @@
   }else{
     $lang = 'Hungarian';
   }
+
+  if($lang == 'Hungarian'){
+	  if(!empty($_POST)){
+	    // multiple recipients
+	    $to  = 'sales@testbirds.hu';
+	    
+	    // subject
+	    $subject = 'Üzenet a TestBirds oldalról.';
+	    
+	    // message
+	    $message = '
+	    <html>
+	    <head>
+	      <title>Üzenet a TestBirds oldalról.!</title>
+	    </head>
+	    <body>
+	      <p>Új üzeneted érkezett a TestBirds oldaláról!</p>
+	      <table>
+	        <tr>
+	          <td>Név</td><td>'.$_POST['nev'].'</td>
+	        </tr>
+	      <tr>
+	          <td>Email</td><td>'.$_POST['email'].'</td>
+	        </tr>
+	        <tr>
+	          <td>Telefonszám</td><td>'.$_POST['telefonszam'].'</td>
+	        </tr>
+	        <tr>
+	          <td>Cégnév</td><td>'.$_POST['cegnev'].'</td>
+	        </tr>
+	        <tr>
+	          <td>Projektről</td><td>'.$_POST['projekt'].'</td>
+	        </tr>
+	      </table>
+	    </body>
+	    </html>
+    	';
+  }elseif($lang == 'Czech'){
+          if(!empty($_POST)){
+            // multiple recipients
+            $to  = 'sales@testbirds.cz';
+
+            // subject
+            $subject = 'Message from the website';
+
+            // message
+            $message = '
+            <html>
+            <head>
+              <title>Message from the website!</title>
+            </head>
+            <body>
+              <p>Someone filled out the contact form on the Testbirds site</p>
+              <table>
+                <tr>
+                  <td>Name</td><td>'.$_POST['nev'].'</td>
+                </tr>
+              <tr>
+                  <td>E-mail</td><td>'.$_POST['email'].'</td>
+                </tr>
+                <tr>
+                  <td>Phone number</td><td>'.$_POST['telefonszam'].'</td>
+                </tr>
+                <tr>
+                  <td>Company name</td><td>'.$_POST['cegnev'].'</td>
+                </tr>
+                <tr>
+                  <td>About the project</td><td>'.$_POST['projekt'].'</td>
+                </tr>
+              </table>
+            </body>
+            </html>
+        ';
+  }elseif($lang == 'Slovak'){
+          if(!empty($_POST)){
+            // multiple recipients
+            $to  = 'sales@testbirds.sk';
+
+            // subject
+            $subject = 'Message from the website';
+
+            // message
+            $message = '
+            <html>
+            <head>
+              <title>Message from the website!</title>
+            </head>
+            <body>
+              <p>Someone filled out the contact form on the Testbirds site</p>
+              <table>
+                <tr>
+                  <td>Name</td><td>'.$_POST['nev'].'</td>
+                </tr>
+              <tr>
+                  <td>E-mail</td><td>'.$_POST['email'].'</td>
+                </tr>
+                <tr>
+                  <td>Phone number</td><td>'.$_POST['telefonszam'].'</td>
+                </tr>
+                <tr>
+                  <td>Company name</td><td>'.$_POST['cegnev'].'</td>
+                </tr>
+                <tr>
+                  <td>About the project</td><td>'.$_POST['projekt'].'</td>
+                </tr>
+              </table>
+            </body>
+            </html>
+        ';
+  }
+    
+    // To send HTML mail, the Content-type header must be set
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+    
+    // Mail it
+    mail($to, $subject, $message, $headers);
+    
+  }
+
+
 ?>
 <!DOCTYPE html>
 <html class="no-js">
