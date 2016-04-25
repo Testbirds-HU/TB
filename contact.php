@@ -1,7 +1,7 @@
 <?php
   if(!empty($_POST)){
     // multiple recipients
-    $to  = 'emaerka@gmail.com';
+    $to  = 'sales@testbirds.hu';
     
     // subject
     $subject = 'Üzenet a TestBirds oldalról.';
