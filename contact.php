@@ -113,7 +113,7 @@
           <h1><?=writeText($lang,'kapcsolat_cim1',$content);?></h1>
           <h2><?=writeText($lang,'kapcsolat_cim2',$content);?></h2>
           <p><?=writeText($lang,'kapcsolat_cim3',$content);?></p>
-          <form method="post" action="">
+          <form method="post" action="" accept-charset="UTF-8">
           <div class="row form">
             
             <div class="col-md-6">
