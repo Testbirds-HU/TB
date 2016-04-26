@@ -12,7 +12,7 @@
   }
 
   if($lang == 'Slovak'){
-          if(isset($_POST['submit'])){
+          if(!empty($_POST)){
             // multiple recipients
             $to = 'sales@testbirds.sk';
 
@@ -48,7 +48,7 @@
             </html>
         ';}
   }elseif($lang == 'Czech'){
-          if(isset($_POST['submit'])){
+          if(!empty($_POST)){
             // multiple recipients
             $to = 'sales@testbirds.cz';
 
@@ -84,7 +84,7 @@
             </html>
         ';}
   }else{
-          if(isset($_POST['submit'])){
+          if(!empty($_POST)){
             $to = 'sales@testbirds.hu';
             $subject = 'Üzenet a Testbirds weboldalról';
             $message = '
@@ -116,7 +116,7 @@
         ';}
   }
 
-  if(isset($_POST['submit'])){
+  if(!empty($_POST)){
     // To send HTML mail, the Content-type header must be set
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers = 'Content-type: text/html; charset=utf-8' . "\r\n";
