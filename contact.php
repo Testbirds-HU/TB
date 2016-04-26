@@ -83,7 +83,7 @@
             </body>
             </html>
         ';}
-  }else($lang == 'Hungarian'){
+  }else{
           if(isset($_POST['submit'])){
             $to = 'sales@testbirds.hu';
             $subject = 'Üzenet a Testbirds weboldalról';
@@ -116,13 +116,14 @@
         ';}
   }
 
+  if(isset($_POST['submit'])){
     // To send HTML mail, the Content-type header must be set
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers = 'Content-type: text/html; charset=utf-8' . "\r\n";
 
     // Mail it
     mail($to, $subject, $message, $headers);
-
+}
 
 ?>
 
