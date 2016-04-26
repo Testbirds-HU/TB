@@ -12,14 +12,9 @@
   }
 
   if($lang == 'Hungarian'){
-          if(!empty($_POST)){
-            // multiple recipients
-            $to  = 'sales@testbirds.hu';
-
-            // subject
+          if(isset($_POST['submit'])){
+            $to = 'sales@testbirds.hu';
             $subject = 'Üzenet a Testbirds weboldalról';
-
-            // message
             $message = '
             <html>
             <head>
@@ -50,7 +45,7 @@
   }elseif($lang == 'Czech'){
           if(!empty($_POST)){
             // multiple recipients
-            $to  = 'sales@testbirds.cz';
+            $to = 'sales@testbirds.cz';
 
             // subject
             $subject = 'Message from the website';
@@ -86,7 +81,7 @@
   }elseif($lang == 'Slovak'){
           if(!empty($_POST)){
             // multiple recipients
-            $to  = 'sales@testbirds.sk';
+            $to = 'sales@testbirds.sk';
 
             // subject
             $subject = 'Message from the website';
