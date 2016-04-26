@@ -11,39 +11,44 @@
     $lang = 'Hungarian';
   }
 
-  if($lang == 'Hungarian'){
+  if($lang == 'Slovak'){
           if(isset($_POST['submit'])){
-            $to = 'sales@testbirds.hu';
-            $subject = 'Üzenet a Testbirds weboldalról';
+            // multiple recipients
+            $to = 'sales@testbirds.sk';
+
+            // subject
+            $subject = 'Message from the website';
+
+            // message
             $message = '
             <html>
             <head>
-              <title>Üzenet a Testbirds weboldalról!</title>
+              <title>Message from the website!</title>
             </head>
             <body>
-              <p>Új üzeneted érkezett a TestBirds oldaláról!</p>
+              <p>Someone filled out the contact form on the Testbirds site</p>
               <table>
                 <tr>
-                  <td>Név</td><td>'.$_POST['nev'].'</td>
+                  <td>Name</td><td>'.$_POST['nev'].'</td>
                 </tr>
               <tr>
-                  <td>Email</td><td>'.$_POST['email'].'</td>
+                  <td>E-mail</td><td>'.$_POST['email'].'</td>
                 </tr>
                 <tr>
-                  <td>Telefonszám</td><td>'.$_POST['telefonszam'].'</td>
+                  <td>Phone number</td><td>'.$_POST['telefonszam'].'</td>
                 </tr>
                 <tr>
-                  <td>Cégnév</td><td>'.$_POST['cegnev'].'</td>
+                  <td>Company name</td><td>'.$_POST['cegnev'].'</td>
                 </tr>
                 <tr>
-                  <td>Projektről</td><td>'.$_POST['projekt'].'</td>
+                  <td>About the project</td><td>'.$_POST['projekt'].'</td>
                 </tr>
               </table>
             </body>
             </html>
         ';}
   }elseif($lang == 'Czech'){
-          if(!empty($_POST)){
+          if(isset($_POST['submit'])){
             // multiple recipients
             $to = 'sales@testbirds.cz';
 
@@ -78,37 +83,32 @@
             </body>
             </html>
         ';}
-  }elseif($lang == 'Slovak'){
-          if(!empty($_POST)){
-            // multiple recipients
-            $to = 'sales@testbirds.sk';
-
-            // subject
-            $subject = 'Message from the website';
-
-            // message
+  }else($lang == 'Hungarian'){
+          if(isset($_POST['submit'])){
+            $to = 'sales@testbirds.hu';
+            $subject = 'Üzenet a Testbirds weboldalról';
             $message = '
             <html>
             <head>
-              <title>Message from the website!</title>
+              <title>Üzenet a Testbirds weboldalról!</title>
             </head>
             <body>
-              <p>Someone filled out the contact form on the Testbirds site</p>
+              <p>Új üzeneted érkezett a TestBirds oldaláról!</p>
               <table>
                 <tr>
-                  <td>Name</td><td>'.$_POST['nev'].'</td>
+                  <td>Név</td><td>'.$_POST['nev'].'</td>
                 </tr>
               <tr>
-                  <td>E-mail</td><td>'.$_POST['email'].'</td>
+                  <td>Email</td><td>'.$_POST['email'].'</td>
                 </tr>
                 <tr>
-                  <td>Phone number</td><td>'.$_POST['telefonszam'].'</td>
+                  <td>Telefonszám</td><td>'.$_POST['telefonszam'].'</td>
                 </tr>
                 <tr>
-                  <td>Company name</td><td>'.$_POST['cegnev'].'</td>
+                  <td>Cégnév</td><td>'.$_POST['cegnev'].'</td>
                 </tr>
                 <tr>
-                  <td>About the project</td><td>'.$_POST['projekt'].'</td>
+                  <td>Projektről</td><td>'.$_POST['projekt'].'</td>
                 </tr>
               </table>
             </body>
