@@ -41,7 +41,7 @@
               </table>
             </body>
             </html>
-        ';
+        ';}
   }elseif($lang == 'Czech'){
           if(!empty($_POST)){
             // multiple recipients
@@ -117,13 +117,11 @@
   }
 
     // To send HTML mail, the Content-type header must be set
-    $headers  = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+    $headers = 'MIME-Version: 1.0' . "\r\n";
+    $headers = 'Content-type: text/html; charset=utf-8' . "\r\n";
 
     // Mail it
     mail($to, $subject, $message, $headers);
-
-  }
 
 
 ?>
