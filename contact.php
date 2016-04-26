@@ -85,7 +85,7 @@
         ';}
   }else{
           if(!empty($_POST)){
-            $to = 'sales@testbirds.hu';
+            $to = 'no-reply@testbirds.hu';
             $subject = 'Üzenet a Testbirds weboldalról';
             $message = '
             <html>
