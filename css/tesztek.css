@@ -1,0 +1,82 @@
+/* ==========================================================================
+ *articletitle
+ *========================================================================== */
+.articletitle {
+  margin-top: 80px;
+  background-color: #FAFAFA; }
+  .articletitle .container {
+    max-width: 800px;
+    padding-top: 80px;
+    padding-bottom: 50px; }
+  .articletitle .row .col-md-12 {
+    height: 200px; }
+
+/* ==========================================================================
+ *articlecover
+ *========================================================================== */
+.articlecover_funkc {
+  background-image: url("../img/explorebug.png");
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.articlecover_felh {
+  background-image: url("../img/tesztbg1.png");
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+@media (max-width: 992px) {
+  .articlecover_felh {
+    height: 330px; } }
+@media (max-width: 992px) {
+  .articlecover_funkc {
+    height: 330px; } }
+/* ==========================================================================
+ *articlebody green section
+ *========================================================================== */
+.articlebody_g {
+  background-color: #1E777A; }
+  .articlebody_g .container {
+    max-width: 800px;
+    padding-top: 50px;
+    padding-bottom: 80px; }
+    .articlebody_g .container h6, .articlebody_g .container p, .articlebody_g .container li {
+      color: white; }
+
+/* ==========================================================================
+ *articlebody white section
+ *========================================================================== */
+.articlebody_w {
+  background-color: #FAFAFA; }
+  .articlebody_w .container {
+    max-width: 800px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FAFAFA; }
+    .articlebody_w .container h6, .articlebody_w .container p {
+      color: #313131; }
+
+/* ==========================================================================
+ *quote section
+ *========================================================================== */
+.quote .col-md-12 {
+  text-align: center;
+  background-color: #FAFAFA;
+  padding-top: 70px;
+  padding-bottom: 120px; }
+.quote h3 {
+  max-width: 300px;
+  margin: 0 auto; }
+.quote h3:first-child:before {
+  content: "";
+  background-image: url("../img/quotemark.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 50px 32px;
+  height: 60px;
+  margin-left: 120px; }
+
+/*# sourceMappingURL=tesztek.css.map */
