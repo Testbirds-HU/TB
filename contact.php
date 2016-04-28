@@ -85,7 +85,7 @@
         ';}
   }else{
           if(!empty($_POST)){
-            $to = 'no-reply@testbirds.hu';
+            $to = 'sales@testbirds.hu';
             $subject = 'Üzenet a Testbirds weboldalról';
             $message = '
             <html>
@@ -93,7 +93,7 @@
               <title>Üzenet a Testbirds weboldalról!</title>
             </head>
             <body>
-              <p>Új üzeneted érkezett a TestBirds oldaláról!</p>
+              <p>Új üzeneted érkezett a Testbirds oldaláról!</p>
               <table>
                 <tr>
                   <td>Név</td><td>'.$_POST['nev'].'</td>
