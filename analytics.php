@@ -1,4 +1,3 @@
-<?php
 	<script type="text/javascript">
 		var _paq = _paq || [];
 		_paq.push(['trackPageView']);
@@ -17,4 +16,4 @@
 		</p>
 	</noscript>
 	<script type="text/javascript" src="//js.leadin.com/js/v1/1798051.js" id="LeadinEmbed-1798051" crossorigin="use-credentials" async defer></script>
-?>
+
