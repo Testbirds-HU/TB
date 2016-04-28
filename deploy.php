@@ -8,13 +8,12 @@
 
     // array of commands
     $commands = array(
-//	'rm -f *.html',
         'echo $PWD',
         'whoami',
-	    'git reset --hard',
+	'git checkout --'
+	'git reset --hard',
         'git pull',
         'git status',
-//	'find -type f -name "*.jade" -exec jade {} \;',
 	'find -type f -exec chmod 640 {} \;',
 	'find -type d -exec chmod 750 {} \;',
     );
