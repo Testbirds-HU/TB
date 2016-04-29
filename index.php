@@ -39,7 +39,7 @@
     <script src="js/snap.svg-min.js"></script>
   </head>
   <body>
-    <span>Lang is <?=$url>, lang is <?=$lang>.</span>
+    <span>URL is <?=$url> lang is <?=$lang>.</span>
     <div id="pagewrap">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
