@@ -1,15 +1,5 @@
 <?php
   include('lang.php');
-  $url = "https://$_SERVER[HTTP_HOST]";
-  $pos = strrpos($url,'.');
-  #$url = substr($url, $pos,strlen($url)-$pos);
-  if($url == 'https://testbirds.cz'){
-    $lang = 'Czech';
-  }elseif ($url == 'https://staging.testbirds.sk'){
-    $lang = 'Slovak';
-  }else{
-    $lang = 'Hungarian';
-  }
 
   if($lang == 'Slovak'){
           if(!empty($_POST)){
