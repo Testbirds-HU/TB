@@ -14,5 +14,7 @@
   }else{
     $lang = 'hu';
   }	
-	
+
+header('DLang: $lang');
+
 ?>
