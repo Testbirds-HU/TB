@@ -15,5 +15,13 @@
 		<img src="//analytics.testbirds.hu/piwik.php?idsite=3" style="border:0;" alt="" />
 	</p>
 </noscript>
-<script type="text/javascript" src="//js.leadin.com/js/v1/1798051.js" id="LeadinEmbed-1798051" crossorigin="use-credentials" async defer></script>
+<?php
+	if($lang == 'Czech'){
+		<script type="text/javascript" src="//js.leadin.com/js/v1/2223448.js" id="LeadinEmbed-2223448" crossorigin="use-credentials" async defer></script>
+	} elseif ($lang == 'Czech'){
+		# slovak tracking code
+	} else {
+		<script type="text/javascript" src="//js.leadin.com/js/v1/1798051.js" id="LeadinEmbed-1798051" crossorigin="use-credentials" async defer></script>
+	}
+?>
 
