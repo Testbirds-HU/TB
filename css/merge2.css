@@ -480,7 +480,8 @@ sub {
   background-color: #FAFAFA;
   overflow: hidden;
   padding-bottom: 25px;
-  padding-top: 100px; }
+  padding-top: 100px;
+  height: 88vh; }
   .cover h6 {
     color: #1E777A;
     padding-top: 10px; }
@@ -539,10 +540,10 @@ sub {
  *csatlakozz section
  *========================================================================== */
 .csatlakozz .row {
-  height: 150px;
+  height: 100px;
   background-color: #44505E;
   text-align: center;
-  padding-top: 60px; }
+  padding-top: 20px; }
   .csatlakozz .row p {
     color: white; }
     .csatlakozz .row p a {
