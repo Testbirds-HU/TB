@@ -7,6 +7,8 @@
   $tld = strrchr ( $_SERVER['SERVER_NAME'], "." );
   $tld = substr ( $tld, 1 );
 
+  echo "TLD is $tld";
+
   if($tld == 'cz'){
     $lang = 'Czech';
   }elseif ($tld == 'sk'){
