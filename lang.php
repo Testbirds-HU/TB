@@ -4,14 +4,12 @@
 		echo $json[$lang][$text];
 	}
 
-  $url = substr($domain, strrpos($domain, ".")+1);
-  
-  echo "URL is $url ##";
-  echo "domain is $domain ##"
+  $tld = strrchr ( $_SERVER['SERVER_NAME'], "." );
+  $tld = substr ( $tld, 1 );
 
-  if($url == 'cz'){
+  if($tld == 'cz'){
     $lang = 'Czech';
-  }elseif ($url == 'sk'){
+  }elseif ($tld == 'sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
