@@ -5,15 +5,13 @@
 	}
 
   $url = substr($domain, strrpos($domain, ".")+1);
-  echo "Hellow World";
-  echo "It is $url";
   
   if($url == 'cz'){
     $lang = 'Czech';
   }elseif ($url == 'sk'){
     $lang = 'Slovak';
   }else{
-    $lang = 'hu';
+    $lang = 'Hungarian';
   }	
 
 ?>
