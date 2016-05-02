@@ -5,7 +5,7 @@
   #$url = substr($url, $pos,strlen($url)-$pos);
   if($url == 'https://testbirds.cz'){
     $lang = 'Czech';
-  }elseif ($url == 'https://staging.testbirds.sk'){
+  }elseif ($url == 'https://testbirds.sk'){
     $lang = 'Slovak';
   }else{
     $lang = 'Hungarian';
