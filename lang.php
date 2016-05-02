@@ -6,7 +6,8 @@
 
   $url = substr($domain, strrpos($domain, ".")+1);
   
-  echo "URL is $url";
+  echo "URL is $url ##";
+  echo "domain is $domain ##"
 
   if($url == 'cz'){
     $lang = 'Czech';
