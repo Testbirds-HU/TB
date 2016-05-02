@@ -6,6 +6,8 @@
 
   $url = substr($domain, strrpos($domain, ".")+1);
   
+  echo "URL is $url";
+
   if($url == 'cz'){
     $lang = 'Czech';
   }elseif ($url == 'sk'){
