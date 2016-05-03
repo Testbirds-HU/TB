@@ -10,12 +10,12 @@
               triggerLoading.forEach(function(trigger) {
                   trigger.addEventListener('click', function(ev) {
                       ev.preventDefault();
+		      document.location.href = link;
                       loader.show();
                       setTimeout(function() {
                           loader.hide();
                           linkTag = $(ev.target).is('a') ? $(ev.target) : $(ev.target).parents('a');
                           link = $(linkTag).attr('href');
-                          document.location.href = link;
                       }, 1000);
                   });
               });
