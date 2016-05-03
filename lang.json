@@ -158,7 +158,7 @@
     },
     "Slovak": {
         "customcss": "basic-styles-sk2.css",
-        "head_title": "Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.",
+        "head_title": "Testbirds – Crowdtesting: testovanie skutočnými používateľmi.",
         "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
         "head_keywords": "crowdtesting",        
         "Menu1": "O nás",
