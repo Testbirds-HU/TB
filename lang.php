@@ -5,8 +5,8 @@ require 'lib/tldx/tldextract.php';
 	function writeText($lang,$text,$json){
 		echo $json[$lang][$text];
 	}
-
-  echo "TLD is $components->tld";
+  $components = tldextract("$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+  echo $components->tld;
 
   if($tld == 'cz'){
     $lang = 'Czech';
