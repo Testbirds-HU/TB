@@ -13,9 +13,8 @@
                       ev.preventDefault();
                       loader.show();
                       setTimeout(function() {
-                          loader.hide();
-                          linkTag = $(ev.target).is(a) ? $(ev.target) : $(ev.target).parents(a);
-                          link = $(linkTag).attr(href);
+                         linkTag = $(ev.target).is(a) ? $(ev.target) : $(ev.target).parents(a);
+                         link = $(linkTag).attr(href);
                          document.location.href = link;
                          //$("body").load(link);
                          //window.history.pushState(body, link, link);
