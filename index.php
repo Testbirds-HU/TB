@@ -35,6 +35,7 @@
     <script src="js/scripts.js"></script>
     <script src="js/flickity.pkgd.min.js"></script>    
     <script src="js/snap.svg-min.js"></script>
+    <script src="js/pageload.js"></script>
   </head>
   <body>
     <div id="pagewrap">
