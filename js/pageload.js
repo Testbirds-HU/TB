@@ -16,9 +16,9 @@
                           loader.hide();
                           linkTag = $(ev.target).is(a) ? $(ev.target) : $(ev.target).parents(a);
                           link = $(linkTag).attr(href);
-                         //document.location.href = link;
-                         $("body").load(link);
-                         window.history.pushState(body, link, link);
+                         document.location.href = link;
+                         //$("body").load(link);
+                         //window.history.pushState(body, link, link);
                       }, 1000);
                   });
               });
