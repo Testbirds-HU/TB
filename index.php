@@ -29,7 +29,8 @@
     <link href="css/flickity.css" rel="stylesheet">
     <link href="css/<?=writeText($lang,'customcss',$content);?>" rel="stylesheet">    
     <link rel="stylesheet" href="css/header.css" media="screen">
-    <link href="css/<?=writeText($lang,'customcss',$content);?>" rel="stylesheet">    
+    <link href="css/<?=writeText($lang,'customcss',$content);?>" rel="stylesheet">
+    <link href="css/pageload.css" rel="stylesheet">
     <script src="bower_components/jquery/dist/jquery.min.js">   </script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
