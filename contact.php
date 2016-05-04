@@ -1,15 +1,5 @@
 <?php
   include('lang.php');
-  $url = "https://$_SERVER[HTTP_HOST]";
-  $pos = strrpos($url,'.');
-  #$url = substr($url, $pos,strlen($url)-$pos);
-  if($url == 'https://testbirds.cz'){
-    $lang = 'Czech';
-  }elseif ($url == 'https://testbirds.sk'){
-    $lang = 'Slovak';
-  }else{
-    $lang = 'Hungarian';
-  }
 
   if($lang == 'Slovak'){
           if(!empty($_POST)){
@@ -253,27 +243,7 @@
     <script src="js/classie.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/svgLoader.js"></script>
-    <script>
-      (function() {
-      docInteractive('spill');
-      var pageWrap = document.getElementById( 'pagewrap' ),
-      triggerLoading = [].slice.call( pageWrap.querySelectorAll( 'a.pageload-link' ) ),
-      loader = new SVGLoader( document.getElementById( 'loader' ), { speedIn : 450 } );
-      function init() {
-      triggerLoading.forEach( function( trigger ) {
-      trigger.addEventListener( 'click', function( ev ) {
-      ev.preventDefault();
-      loader.show();
-      setTimeout( function() {
-      loader.hide();
-      document.location.href= ev.target.href;
-      }, 1000 );
-      } );
-      } );
-      }
-      init();
-      })(); 
-    </script>
+    <script src="js/pageload.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- build:js js/jquery.okayNav-min.js-->
     <script src="js/jquery.okayNav.js"></script>

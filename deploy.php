@@ -13,6 +13,7 @@
 	'git checkout --',
 	'git reset --hard',
         'git pull',
+	'git reset --hard',
         'git status',
 	'find -type f -exec chmod 640 {} \;',
 	'find -type d -exec chmod 750 {} \;',
