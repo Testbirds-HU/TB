@@ -116,106 +116,110 @@
 }
 
 ?>
+    <!DOCTYPE html>
+    <html class="no-js">
+    <!-- <![endif]-->
+    <html lang="en" class="no-js">
 
-<!DOCTYPE html>
-<html class="no-js">
-  <!-- <![endif]-->
-  <html lang="en" class="no-js"></html>
-</html>
-<html>
-  <head>
-    <? include('html-head.php'); ?>
-  </head>
-  <body>
-    <div id="pagewrap">
-      <?php include('navigation.php'); ?>
-    </div>
-    <div class="container">
-      <div class="articlebody_g kapcsolat">
+    </html>
+
+    </html>
+    <html>
+
+    <head>
+        <? include('html-head.php'); ?>
+    </head>
+
+    <body>
+        <div id="pagewrap">
+            <?php include('navigation.php'); ?> </div>
         <div class="container">
-        <? if(empty($_POST) ){
+            <div class="articlebody_g kapcsolat">
+                <div class="container">
+                    <? if(empty($_POST) ){
          
         ?>
-        
-          <h1><?=writeText($lang,'kapcsolat_cim1',$content);?></h1>
-          <h2><?=writeText($lang,'kapcsolat_cim2',$content);?></h2>
-          <p><?=writeText($lang,'kapcsolat_cim3',$content);?></p>
-          <form method="post" action="" accept-charset="UTF-8">
-          <div class="row form">
-            
-            <div class="col-md-6">
-              <div class="form-group">
-                <input id="usr" type="text" name="nev" placeholder="<?=writeText($lang,'kapcsolat_form1',$content);?>" required class="form-control">
-              </div>
-              <div class="form-group">
-                <input id="usr" type="email" name="email" placeholder="<?=writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control">
-              </div>
-              <div class="form-group">
-                <input id="usr" type="tel" name="telefonszam" placeholder="<?=writeText($lang,'kapcsolat_form3',$content);?>" required class="form-control">
-              </div>
-              <div class="form-group">
-                <input id="usr" type="text" name="cegnev" placeholder="<?=writeText($lang,'kapcsolat_form4',$content);?>" required class="form-control">
-              </div>
-            </div>
-            <div class="col-md-6 message">
-              <div class="form-horizontal">
-                <div class="form-group">
-                  <div class="col-md-12">
-                    <textarea rows="3" placeholder="<?=writeText($lang,'kapcsolat_form5',$content);?>" required="" name="projekt" class="form-control"></textarea>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row send col-md-12">
-            <input class="btn-primary" type="submit" value="<?=writeText($lang,'kapcsolat_form6',$content);?>">
-          </div>
-          </div>
-
-          </form>
-          <div style="border-top: 1px solid rgba(255, 255, 255, 0.49); margin-right: 15px; margin-top: 40px; padding-top: 40px; text-align: center; opacity: 0.5" class="row">
-            <p><?=writeText($lang,'kapcsolat_kapcsolat1',$content);?></p>
-            <p><?=writeText($lang,'kapcsolat_kapcsolat2',$content);?></p>
-            <p><?=writeText($lang,'kapcsolat_kapcsolat3',$content);?></p>
-            <p><?=writeText($lang,'kapcsolat_kapcsolat4',$content);?></p>            
-          </div>
-        <?} else {
+                        <h1><?=writeText($lang,'kapcsolat_cim1',$content);?></h1>
+                        <h2><?=writeText($lang,'kapcsolat_cim2',$content);?></h2>
+                        <p>
+                            <?=writeText($lang,'kapcsolat_cim3',$content);?>
+                        </p>
+                        <form method="post" action="" accept-charset="UTF-8">
+                            <div class="row form">
+                                <div class="col-md-6">
+                                    <div class="form-group"> <input id="usr" name="nev" placeholder="<?=writeText($lang,'kapcsolat_form1',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group"> <input id="usr" type="email" name="email" placeholder="<?=writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group"> <input id="usr" type="tel" name="telefonszam" placeholder="<?=writeText($lang,'kapcsolat_form3',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group"> <input id="usr" name="cegnev" placeholder="<?=writeText($lang,'kapcsolat_form4',$content);?>" required class="form-control"> </div>
+                                </div>
+                                <div class="col-md-6 message">
+                                    <div class="form-horizontal">
+                                        <div class="form-group">
+                                            <div class="col-md-12"> <textarea rows="3" placeholder="<?=writeText($lang,'kapcsolat_form5',$content);?>" required name="projekt" class="form-control"></textarea> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row send col-md-12"> <input class="btn-primary" type="submit" value="<?=writeText($lang,'kapcsolat_form6',$content);?>"> </div>
+                            </div>
+                        </form>
+                        <div style="border-top:1px solid rgba(255,255,255,.49);margin-right:15px;margin-top:40px;padding-top:40px;text-align:center;opacity:.5" class="row">
+                            <p>
+                                <?=writeText($lang,'kapcsolat_kapcsolat1',$content);?>
+                            </p>
+                            <p>
+                                <?=writeText($lang,'kapcsolat_kapcsolat2',$content);?>
+                            </p>
+                            <p>
+                                <?=writeText($lang,'kapcsolat_kapcsolat3',$content);?>
+                            </p>
+                            <p>
+                                <?=writeText($lang,'kapcsolat_kapcsolat4',$content);?>
+                            </p>
+                        </div>
+                        <?} else {
         ?>
-          <p class="thankyou"><?=writeText($lang,'kapcsolat_kapcsolat5',$content);?></p>
-        <? } ?>
+                            <p class="thankyou">
+                                <?=writeText($lang,'kapcsolat_kapcsolat5',$content);?>
+                            </p>
+                            <? } ?>
+                </div>
+            </div>
         </div>
-      </div>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 contact">
+                    <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
+                    <p>
+                        <?=writeText($lang,'footer_kapcsolat2',$content);?><br></p>
+                    <p>
+                        <?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
+                    <p>
+                        <?=writeText($lang,'footer_kapcsolat4',$content);?>
+                    </p>
+                    <p>
+                        <?=writeText($lang,'footer_kapcsolat5',$content);?>
+                    </p>
+                    <a href="facebok.com" class="ref">
+                        <a href="https://www.facebook.com/testbirds.hu/" class="ref">
+                            <div class="fbicon"></div>
+                        </a>
+                        <a href="https://www.linkedin.com/company/testbirds-magyarorsz-g" class="ref">
+                            <div class="inicon"></div>
+                        </a>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <div id="loader" class="pageload-overlay"> <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60"> <path id="loaderPath"></path> </svg> </div>
+        <script src="js/classie.js"></script>
+        <script src="js/loader.js"></script>
+        <script src="js/svgLoader.js"></script>
+        <script src="js/pageload.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="js/jquery.okayNav.js"></script>
+        <script>
+            var navigation = $("#nav-main").okayNav()
+        </script>
+        <?php include('analytics.php'); ?> </body>
 
-    </div>
-    </div>
-      <footer class="container-fluid">
-        <div class="row">
-          <div class="col-md-12 contact">
-            <h5><?=writeText($lang,'footer_kapcsolat',$content);?></h5>
-            <p><?=writeText($lang,'footer_kapcsolat2',$content);?><br></p>
-            <p><?=writeText($lang,'footer_kapcsolat3',$content);?><br></p>
-            <p><?=writeText($lang,'footer_kapcsolat4',$content);?></p>
-            <p><?=writeText($lang,'footer_kapcsolat5',$content);?></p><a href="facebok.com" class="ref">
-            <a href="https://www.facebook.com/testbirds.hu/" class="ref">
-              <div class="fbicon"></div></a>
-            <a href="https://www.linkedin.com/company/testbirds-magyarorsz-g" class="ref">
-              <div class="inicon"></div></a>
-          </div>
-        </div>
-      </footer>
-      <div id="loader" class="pageload-overlay">
-        <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60">
-          <path id="loaderPath"></path>
-        </svg>
-      </div>
-    <script src="js/classie.js"></script>
-    <script src="js/loader.js"></script>
-    <script src="js/svgLoader.js"></script>
-    <script src="js/pageload.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <!-- build:js js/jquery.okayNav-min.js-->
-    <script src="js/jquery.okayNav.js"></script>
-    <!-- endbuild-->
-    <script type="text/javascript">var navigation = $('#nav-main').okayNav();</script>
-    <?php include('analytics.php'); ?>
-  </body>
-</html>
+    </html>
