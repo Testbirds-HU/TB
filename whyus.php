@@ -4,9 +4,6 @@
     <!DOCTYPE html>
     <html class="no-js">
     <!-- <![endif]-->
-    <html lang="en" class="no-js">
-
-    </html>
 
     </html>
     <html>
@@ -180,10 +177,6 @@
             })
         </script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script src="js/jquery.okayNav.js"></script>
-        <script>
-            var navigation = $("#nav-main").okayNav()
-        </script>
         <?php include('analytics.php'); ?> </body>
 
     </html>
