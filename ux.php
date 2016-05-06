@@ -126,6 +126,10 @@
         <script src="js/svgLoader.js"></script>
         <script src="js/pageload.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <?php include('analytics.php'); ?> </body>
+        <?php
+            include('analytics.php');
+            include('bottom-components.php');
+        ?>
+        </body>
 
     </html>
