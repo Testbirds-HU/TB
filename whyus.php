@@ -157,7 +157,6 @@
                 </div>
             </div>
         </footer>
-        <div id="loader" class="pageload-overlay"> <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60"> <path id="loaderPath"></path> </svg> </div>
         <script>
             function scroll() {
                 var o = window.location.hash,
