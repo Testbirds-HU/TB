@@ -232,8 +232,6 @@
             </footer>
             <div id="loader" class="pageload-overlay"> <svg id="loaderSvg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewbox="0 0 80 60"> <path id="loaderPath"></path> </svg> </div>
         </div>
-        <script src="js/classie.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <?php
             include('analytics.php');
             include('bottom-components.php');

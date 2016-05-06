@@ -176,7 +176,6 @@
                 scroll()
             })
         </script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
         <?php
             include('analytics.php');
             include('bottom-components.php');
