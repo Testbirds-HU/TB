@@ -1,5 +1,9 @@
 <?php
-echo '<nav class="navbar navbar-default navbar-fixed-top" style="z-index: 4;">
+echo '
+<style>
+  .navbar-default .navbar-nav>li>a { color: white !important }
+</style>
+<nav class="navbar navbar-default navbar-fixed-top" style="z-index: 4;">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
