@@ -1,3 +1,8 @@
+body.loading {
+  opacity: 0;
+  transition: opacity, .3s;
+}
+
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
