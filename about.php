@@ -109,10 +109,6 @@
                 </div>
             </div>
         </footer>
-        <script src="js/classie.js"></script>
-        <script src="js/loader.js"></script>
-        <script src="js/svgLoader.js"></script>
-        <script src="js/pageload.js"></script>
         <script>
             $(function() {
                 $("html").click(function() {
