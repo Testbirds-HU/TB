@@ -1,61 +1,71 @@
-/* ==========================================================================
- *articletitle
- *========================================================================== */
+.elonyok .articletitle .container .row #placeholder1,
+.elonyok .articletitle .container .row #placeholder2,
+.elonyok .articletitle .container .row #placeholder3,
+.elonyok .articletitle .container .row #placeholder4 {
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
 .elonyok h2 {
-  margin-bottom: 2rem; }
+    margin-bottom: 2rem
+}
+
 .elonyok li {
-  list-style: initial;
-  margin-left: 20px; }
+    list-style: outside;
+    margin-left: 20px
+}
+
 .elonyok .articletitle {
-  background-color: #FAFAFA; }
-  .elonyok .articletitle .container {
+    background-color: #FAFAFA
+}
+
+.elonyok .articletitle .container {
     max-width: 800px;
     padding-top: 80px;
-    padding-bottom: 50px; }
-    .elonyok .articletitle .container .row {
-      margin-top: 90px; }
-      .elonyok .articletitle .container .row #placeholder1 {
-        background-image: url("../img/target.jpg");
-        height: 550px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; }
-      .elonyok .articletitle .container .row #placeholder2 {
-        background-image: url("../img/devices.jpg");
-        height: 550px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; }
-      .elonyok .articletitle .container .row #placeholder3 {
-        background-image: url("../img/People.jpg");
-        height: 550px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; }
-      .elonyok .articletitle .container .row #placeholder4 {
-        background-image: url("../img/answers.jpg");
-        height: 550px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; }
-      .elonyok .articletitle .container .row .text {
-        padding-top: 10px; }
+    padding-bottom: 50px
+}
+
+.elonyok .articletitle .container .row {
+    margin-top: 90px
+}
+
+.elonyok .articletitle .container .row #placeholder1 {
+    background-image: url(../img/target.jpg)
+}
+
+.elonyok .articletitle .container .row #placeholder2 {
+    background-image: url(../img/devices.jpg)
+}
+
+.elonyok .articletitle .container .row #placeholder3 {
+    background-image: url(../img/People.jpg)
+}
+
+.elonyok .articletitle .container .row #placeholder4 {
+    background-image: url(../img/answers.jpg)
+}
+
+.elonyok .articletitle .container .row .text {
+    padding-top: 10px
+}
 
 .elonyok .articletitle .container .row.nr1 {
-  margin-top: 30px; }
+    margin-top: 30px
+}
 
-/* ========================================================================== */
-@media (max-width: 992px) {
-  .elonyok .articletitle .container .row .placeholder {
-    height: 280px; }
-
-  .elonyok .articletitle .container .row .text {
-    padding-top: 30px; }
-
-  .elonyok .container .row .col-md-6 {
-    padding-left: 1rem; }
-
-  .elonyok .articletitle .container .row {
-    margin-top: 30px; } }
-
-/*# sourceMappingURL=elonyok.css.map */
+@media (max-width:992px) {
+    .elonyok .articletitle .container .row .placeholder {
+        height: 280px
+    }
+    .elonyok .articletitle .container .row .text {
+        padding-top: 30px
+    }
+    .elonyok .container .row .col-md-6 {
+        padding-left: 1rem
+    }
+    .elonyok .articletitle .container .row {
+        margin-top: 30px
+    }
+}
