@@ -9,6 +9,7 @@
     <script src="js/snap.svg-min.js" async defer></script>
     <script src="js/classie.js" async defer></script>
     <script src="js/pageload.js"></script>
+    <link href="css/basic-styles-'?><? echo($components->tld);?><? echo '" rel="stylesheet">
     <script>
     	$( document ).ready(function() {
    			$("#arrow").click(function() {

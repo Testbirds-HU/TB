@@ -8,6 +8,5 @@
     <meta name="keywords" content="'?><?=writeText($lang,'head_keywords',$content);?><? echo '">
     <title>'?><?=writeText($lang,'head_title',$content);?><? echo '</title>
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="css/'?><?=writeText($lang,'customcss',$content);?><? echo '" rel="stylesheet">
     ';
  ?>
