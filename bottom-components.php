@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/header.css" media="screen">
     <script src="bower_components/jquery/dist/jquery.min.js">   </script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="js/scripts.js"></script>
     <script src="js/snap.svg-min.js"></script>
     <script>
     	$( document ).ready(function() {
