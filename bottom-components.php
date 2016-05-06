@@ -8,4 +8,13 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/snap.svg-min.js"></script>
+    <script>
+    	$( document ).ready(function() {
+   			$("#arrow").click(function() {
+    			$(\'html, body\').animate({
+     				scrollTop: $("#top").offset().top-90
+    			}, 1000);
+   			});
+		})
+    </script>
 '; ?>
