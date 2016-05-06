@@ -180,30 +180,30 @@
                     <div class="row">
                         <div class="col-md-12" id="reftitle">
                             <h2><?=writeText($lang,'Referencia_cim',$content);?></h2></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/1.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/2.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/3.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/4.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/5.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/6.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/7.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/8.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/9.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/10.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/11.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/12.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/13.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/14.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/15.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/16.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/17.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/18.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/19.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/20.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/21.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/22.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/23.png"></div>
-                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/24.png"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/1.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/2.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/3.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/4.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/5.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/6.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/7.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/8.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 col-xs-6"><img src="img/companies/9.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/10.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/11.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/12.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/13.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/14.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/15.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/16.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/17.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/18.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/19.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/companies/20.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/21.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/22.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/23.png" width="128px" height="61px"></div>
+                        <div class="col-md-2 col-sm-4 col-xs-6 no"><img src="img/companies/24.png" width="128px" height="61px"></div>
                     </div>
                 </div>
             </div>
