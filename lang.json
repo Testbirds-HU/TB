@@ -316,7 +316,7 @@
         "kapcsolat_kapcsolat5": "Ďakujeme Ti za Tvoju správu, čo najskôr Ti odpovieme!"
     },
     "Czech": {
-	"nesturl": "nest.testbirds.com/locale/public-language/cz",
+	"nesturl": "nest.testbirds.com/locale/public-language/cs",
         "customcss": "basic-styles-cz.css",
         "head_title": "Testbirds - Crowdtesting: testování s reálnými uživateli.",
         "head_description": "Opravdový uživatelé, reálné prostředí, testování aplikací, webových stránek a software.",
