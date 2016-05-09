@@ -31,7 +31,7 @@
                 <div class="csatlakozz">
                     <div class="row">
                         <p>
-                            <?=writeText($lang,'fooldal_legytesztelo',$content);?>&nbsp;<a href="//<?=writeText($lang,'nesturl',$content);?>" target="_blank"><?=writeText($lang,'fooldal_legytesztelo2',$content);?></a></p>
+                            <?=writeText($lang,'fooldal_legytesztelo',$content);?>&nbsp;<a href="//<?=writeText($lang,'nest.testbirds.com',$content);?>" target="_blank"><?=writeText($lang,'fooldal_legytesztelo2',$content);?></a></p>
                     </div>
                 </div>
                 <div id="top" class="tesztek">
