@@ -1,5 +1,6 @@
 {
     "Hungarian": {
+	"nesturl": "nest.testbirds.com/locale/public-language/hu",
         "customcss": "",
         "head_title": "Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.",
         "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
@@ -157,6 +158,7 @@
         "kapcsolat_kapcsolat5": "Köszönjük a leveledet, amint tudunk válaszolunk!"
     },
     "Slovak": {
+	"nesturl": "nest.testbirds.com/locale/public-language/sk",
         "customcss": "basic-styles-sk.css",
         "head_title": "Testbirds – Crowdtesting: testovanie skutočnými používateľmi.",
         "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
@@ -314,6 +316,7 @@
         "kapcsolat_kapcsolat5": "Ďakujeme Ti za Tvoju správu, čo najskôr Ti odpovieme!"
     },
     "Czech": {
+	"nesturl": "nest.testbirds.com/locale/public-language/cz",
         "customcss": "basic-styles-cz.css",
         "head_title": "Testbirds - Crowdtesting: testování s reálnými uživateli.",
         "head_description": "Opravdový uživatelé, reálné prostředí, testování aplikací, webových stránek a software.",
