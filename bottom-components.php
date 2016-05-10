@@ -6,10 +6,7 @@
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script src="js/snap.svg-min.js" async defer></script>
-    <script src="js/classie.js" async defer></script>
-    <script src="js/pageload.js" async defer></script>
-    <script src="js/flickity.pkgd.min.js" async defer></script>
+    <script src="js/combined.js" async defer></script>
 
     <link href="css/basic-styles-'?><? echo($components->tld);?><? echo '.css" rel="stylesheet">
     <script>
