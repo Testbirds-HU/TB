@@ -108,8 +108,10 @@
 
   if(!empty($_POST)){
     // To send HTML mail, the Content-type header must be set
-    $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers = 'Content-type: text/html; charset=utf-8' . "\r\n";
+    $headers = 'MIME-Version: 1.0' . PHP_EOL .
+        'Content-type: text/html; charset=utf-8' . PHP_EOL .
+        'From: Testbirds.hu <no-reply@testbirds.hu>' . PHP_EOL .
+        'Reply-To: Testbirds <info@testbirds.hu>';
 
     // Mail it
     mail($to, $subject, $message, $headers);
