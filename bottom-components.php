@@ -5,7 +5,7 @@
     <link href="css/combined.css" rel="stylesheet">
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/combined.js" async defer></script>
 
     <link href="css/basic-styles-'?><? echo($components->tld);?><? echo '.css" rel="stylesheet">
