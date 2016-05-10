@@ -2,6 +2,12 @@
   include('lang.php');
 
   if($lang == 'Slovak'){
+    // To send HTML mail, the Content-type header must be set
+    $headers = 'MIME-Version: 1.0' . PHP_EOL .
+        'Content-type: text/html; charset=utf-8' . PHP_EOL .
+        'From: Testbirds.sk <no-reply@testbirds.hu>' . PHP_EOL .
+        'Reply-To: Testbirds <no-reply@testbirds.hu>';
+
           if(!empty($_POST)){
             // multiple recipients
             $to = 'sales@testbirds.sk';
@@ -38,6 +44,12 @@
             </html>
         ';}
   }elseif($lang == 'Czech'){
+    // To send HTML mail, the Content-type header must be set
+    $headers = 'MIME-Version: 1.0' . PHP_EOL .
+        'Content-type: text/html; charset=utf-8' . PHP_EOL .
+        'From: Testbirds.cz <no-reply@testbirds.hu>' . PHP_EOL .
+        'Reply-To: Testbirds <no-reply@testbirds.hu>';
+
           if(!empty($_POST)){
             // multiple recipients
             $to = 'sales@testbirds.cz';
@@ -74,6 +86,12 @@
             </html>
         ';}
   }else{
+    // To send HTML mail, the Content-type header must be set
+    $headers = 'MIME-Version: 1.0' . PHP_EOL .
+        'Content-type: text/html; charset=utf-8' . PHP_EOL .
+        'From: Testbirds.hu <no-reply@testbirds.hu>' . PHP_EOL .
+        'Reply-To: Testbirds <no-reply@testbirds.hu>';
+
           if(!empty($_POST)){
             $to = 'sales@testbirds.hu';
             $subject = 'Üzenet a Testbirds weboldalról';
@@ -107,10 +125,6 @@
   }
 
   if(!empty($_POST)){
-    // To send HTML mail, the Content-type header must be set
-    $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers = 'Content-type: text/html; charset=utf-8' . "\r\n";
-
     // Mail it
     mail($to, $subject, $message, $headers);
 }
