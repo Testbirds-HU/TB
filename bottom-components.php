@@ -4,7 +4,7 @@
 
     <link href="css/combined.min.css" rel="stylesheet" async defer>
 
-    <script src="/bower_components/jquery/dist/jquery.min.js" async defer></script>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" async defer></script>
     <script src="/js/combined.min.js" async defer></script>
 
