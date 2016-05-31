@@ -1,7 +1,13 @@
+.companies {
+    padding-top: 50px;
+}
+
 .sprite {
     background-image: url(/img/companies/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
+    margin: 0 auto;
+    margin-bottom: 50px !important;
 }
 
 .sprite-1 {
