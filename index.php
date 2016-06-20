@@ -176,13 +176,13 @@
                         </div>
                     </div>
                 </div>
-        <?php
-            include('references.php');
-        ?>
+        		<?php
+        		    include('references.php');
+        		?>
             </div>
-        <?php
-            include ('footer.php');
-        ?>
+        	<?php
+        	    include ('footer.php');
+        	?>
         </div>
         <?php
             include('analytics.php');

@@ -7,5 +7,6 @@
     <meta name="keywords" content="'?><?=writeText($lang,'head_keywords',$content);?><? echo '">
     <title>'?><?=writeText($lang,'head_title',$content);?><? echo '</title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="/css/layout.css" async defer>
     ';
  ?>
