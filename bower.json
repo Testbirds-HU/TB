@@ -1,14 +1,17 @@
 {
   "name": "TB",
-  "description": "Testbirds website",
+  "homepage": "https://testbirds.hu",
+  "authors": [
+    "DecentM <DecentM@users.noreply.github.com>"
+  ],
+  "description": "Testbirds' website",
   "main": "index.php",
   "keywords": [
-    "testbirds",
     "crowdtesting",
-    "ux"
+    "testbirds",
+    "UX"
   ],
-  "license": "All Rights Reserved",
-  "homepage": "https://testbirds.hu",
+  "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
@@ -18,11 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "normalize-css": "4.1.1",
-    "jquery": "~2",
-    "bootstrap": "~4.0.0"
-  },
-  "resolutions": {
-    "jquery": "3.0.0"
+    "normalize-css": "~3.0.3",
+    "bootstrap": "~3.3.6"
   }
 }
