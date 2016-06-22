@@ -13,10 +13,10 @@
                         <p>
                             ')?><?=writeText($lang,'footer_kapcsolat5',$content);?><? echo('
                         </p>
-                        <a href="https://www.facebook.com/testbirds.hu/" class="ref">
+                        <a href="https://www.facebook.com/testbirds.hu/" class="ref" target="_blank">
                             <div class="fbicon"></div>
                         </a>
-                        <a href="https://www.linkedin.com/company/testbirds-magyarorsz-g" class="ref">
+                        <a href="https://www.linkedin.com/company/testbirds-magyarorsz-g" class="ref" target="_blank">
                             <div class="inicon"></div>
                         </a>
                     </div>
