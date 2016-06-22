@@ -1,0 +1,25 @@
+{
+  "name": "TB",
+  "description": "Testbirds website",
+  "main": "index.php",
+  "keywords": [
+    "testbirds",
+    "crowdtesting",
+    "ux"
+  ],
+  "license": "All Rights Reserved",
+  "homepage": "https://testbirds.hu",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "4.1.1",
+    "jquery": "3.0.0",
+    "bootstrap": "~3.3.6"
+  }
+}
