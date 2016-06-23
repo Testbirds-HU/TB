@@ -330,12 +330,6 @@ p {
     font-family: Droid Sans, sans-serif
 }
 
-li,
-p {
-    line-height: 30px;
-    color: #313131
-}
-
 .articlebody_g .container ul {
     line-height: 26px;
     margin: 0 0 0 20px;

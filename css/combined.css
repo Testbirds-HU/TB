@@ -846,11 +846,6 @@ p {
     font-weight: 400
 }
 
-li,
-p {
-    line-height: 30px
-}
-
 .articlebody_g .container ul {
     line-height: 26px;
     color: #fff
