@@ -6,7 +6,6 @@
 
     <head>
         <? include('html-head.php'); ?>
-        <link rel="stylesheet" href="/css/rolunk.css" async defer>
     </head>
 
     <body>
