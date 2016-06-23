@@ -187,7 +187,7 @@
                                 <?=writeText($lang,'kapcsolat_kapcsolat4',$content);?>
                             </p>
                         </div>
-                        <?} else {
+                        <?php } else {
         ?>
                             <p class="thankyou">
                                 <?=writeText($lang,'kapcsolat_kapcsolat5',$content);?>
@@ -197,9 +197,7 @@
             </div>
         </div>
         <?php
-            include ('footer.php');
-        ?>
-        <?php
+            include('footer.php');
             include('analytics.php');
             include('bottom-components.php');
         ?>

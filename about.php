@@ -1,18 +1,12 @@
-<?php
-  include('lang.php');
-?>
     <!DOCTYPE html>
+    <?php include('lang.php'); ?>
     <html>
-
     <head>
         <?php include('html-head.php'); ?>
     </head>
 
     <body>
     <style>
-    	* {
-    		outline: 0px red solid;
-    	}
     </style>
         <div id="pagewrap">
             <?php include('navigation.php'); ?> </div>
@@ -205,12 +199,6 @@
 							</span>
 						</div>
 					</div>
-
-
-
-
-
-
                 </div>
         	</div>
         <?php

@@ -1,17 +1,9 @@
-<?php
-  include('lang.php');
-?>
     <!DOCTYPE html>
-    <html class="no-js">
-    <!-- <![endif]-->
-
-    </html>
+    <?php include('lang.php'); ?>
     <html>
-
     <head>
         <?php include('html-head.php'); ?>
     </head>
-
     <body>
         <div id="pagewrap">
             <?php include('navigation.php'); ?> </div>
@@ -62,8 +54,6 @@
         </div>
         <?php
             include ('footer.php');
-        ?>
-        <?php
             include('analytics.php');
             include('bottom-components.php');
         ?>

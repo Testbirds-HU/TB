@@ -1,17 +1,9 @@
-<?php
-  include('lang.php');
-?>
     <!DOCTYPE html>
-    <html class="no-js">
-    <!-- <![endif]-->
-
-    </html>
+    <?php include('lang.php'); ?>
     <html>
-
     <head>
         <?php include('html-head.php'); ?>
     </head>
-
     <body>
         <div id="pagewrap">
             <?php include('navigation.php'); ?> </div>
@@ -134,22 +126,6 @@
         </div>
         <?php
             include ('footer.php');
-        ?>
-        <script>
-            function scroll() {
-                var o = window.location.hash,
-                    l = o.length;
-                o = o.substring(1, l);
-                var n = $("#" + o + "_").offset().top - 200;
-                $("html,body").animate({
-                    scrollTop: n
-                }, "slow")
-            }
-            $(function() {
-                scroll()
-            })
-        </script>
-        <?php
             include('analytics.php');
             include('bottom-components.php');
         ?>
