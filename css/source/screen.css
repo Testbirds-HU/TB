@@ -1,4 +1,24 @@
 @charset "UTF-8";
+h1,
+h2,
+h3 {
+    color: #1E777A
+}
+
+h3,
+h4,
+h5 {
+    margin: 1rem 1rem 1rem 0
+}
+
+h4,
+h6,
+h6 li,
+li,
+p {
+    color: #313131
+}
+
 body,
 h2,
 li,
@@ -22,7 +42,7 @@ h2 {
 .tesztek .row .teszt2:hover {
     -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, .26);
     -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, .26);
-    z-index: 3;
+    z-index: 3
 }
 
 .companies,
@@ -89,16 +109,22 @@ h1 {
     font-size: 5rem;
     font-family: Roboto, Droid Sans sans-serif;
     font-weight: 700;
-    color: #1E777A;
     margin: .83rem .83rem .83rem 0
 }
 
 h2,
 h3 {
     font-size: 2.3rem;
-    color: #1E777A;
     font-weight: 400;
     font-family: Roboto, Droid Sans sans-serif
+}
+
+h4,
+h5,
+h6,
+h6 li {
+    font-family: Roboto, Droid Sans sans-serif;
+    font-weight: 700
 }
 
 h2 {
@@ -106,41 +132,37 @@ h2 {
 }
 
 h3 {
-    margin: 1rem 1rem 1rem 0;
     line-height: 2.8rem
 }
 
 h4,
 h5 {
-    margin: 1rem 1rem 1rem 0;
     font-size: 2.2rem
 }
 
-h4 {
-    font-family: Roboto, Droid Sans sans-serif;
-    color: #313131;
-    font-weight: 700
-}
-
 h5 {
-    font-family: Roboto, Droid Sans sans-serif;
-    color: #DBDBDB;
-    font-weight: 700
+    color: #DBDBDB
 }
 
 h6,
 h6 li {
     font-size: 1.7rem;
-    line-height: 26px;
-    font-family: Roboto, Droid Sans sans-serif;
-    font-weight: 700;
-    color: #313131
+    line-height: 26px
+}
+
+.articlebody_g .container ul,
+a,
+li,
+p {
+    font-size: 1.7rem;
+    font-family: Droid Sans, sans-serif
 }
 
 h6 {
     margin: .3rem .3rem .3rem 0
 }
 
+.articlebody_g .container ul,
 h6 li {
     margin: 0 0 0 20px;
     list-style: outside
@@ -149,22 +171,17 @@ h6 li {
 .articlebody_g .container ul,
 li,
 p {
-    font-weight: 400;
-    font-size: 1.7rem;
-    font-family: Droid Sans, sans-serif
+    font-weight: 400
 }
 
 li,
 p {
-    line-height: 30px;
-    color: #313131
+    line-height: 30px
 }
 
 .articlebody_g .container ul {
     line-height: 26px;
-    margin: 0 0 0 20px;
-    color: #fff;
-    list-style: outside
+    color: #fff
 }
 
 blockquote,
@@ -179,9 +196,7 @@ a {
     transition-duration: .3s;
     -webkit-transition-property: color, border-color, background-color;
     transition-property: color, border-color, background-color;
-    color: #1E777A;
-    font-size: 1.7rem;
-    font-family: Droid Sans, sans-serif
+    color: #1E777A
 }
 
 a:focus,
@@ -500,7 +515,7 @@ sub {
 .tesztek .row .teszt1 {
     padding-top: 4rem;
     background-color: #0A83D0;
-    z-index: 3;;
+    z-index: 3;
     height: 500px;
     transition: all .1s ease-in;
     -webkit-transition: all .1s ease-in;
@@ -587,12 +602,16 @@ sub {
     background-repeat: no-repeat
 }
 
-.Elonyok .row .col-md-12 .list .el1,
-.Elonyok .row .col-md-12 .list .el2,
-.Elonyok .row .col-md-12 .list .el3,
-.Elonyok .row .col-md-12 .list .el4 {
-    background-repeat: no-repeat;
-    background-position: center
+#device1,
+#device2,
+#device3,
+#device4,
+.folyamat .row .col-md-4 .elso,
+.folyamat .row .col-md-4 .harmadik,
+.folyamat .row .col-md-4 .masodik,
+.miket {
+    background-position: center;
+    background-repeat: no-repeat
 }
 
 .Elonyok .row .col-md-12 h2#ctelonyei {
@@ -646,6 +665,8 @@ sub {
 .Elonyok .row .col-md-12 .list .el2,
 .Elonyok .row .col-md-12 .list .el3,
 .Elonyok .row .col-md-12 .list .el4 {
+    background-repeat: no-repeat;
+    background-position: center;
     height: 250px;
     background-color: rgba(21, 104, 107, .89);
     padding: 25px;
@@ -694,7 +715,7 @@ sub {
 .Elonyok .row .col-md-12 .el3:hover,
 .Elonyok .row .col-md-12 .el4:hover {
     background-color: #82b999;
-    z-index: 3;;
+    z-index: 3;
     -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, .26);
     -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, .26);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, .26)
@@ -752,8 +773,6 @@ sub {
     background-image: url(../img/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     min-height: 500px
 }
 
@@ -762,9 +781,7 @@ sub {
 #device3,
 #device4 {
     background-size: contain;
-    height: 150px;
-    background-position: center;
-    background-repeat: no-repeat
+    height: 150px
 }
 
 .miket .row .col-md-12 {
@@ -884,9 +901,7 @@ sub {
 
 .folyamat .row .col-md-4 .elso {
     background-image: url(../img/document.png);
-    background-size: 58px 50px;
-    background-repeat: no-repeat;
-    background-position: center
+    background-size: 58px 50px
 }
 
 .folyamat .row .col-md-4 .elso:before {
@@ -897,9 +912,7 @@ sub {
 
 .folyamat .row .col-md-4 .masodik {
     background-image: url(../img/people2.png);
-    background-size: 70px 70px;
-    background-repeat: no-repeat;
-    background-position: center
+    background-size: 70px 70px
 }
 
 .folyamat .row .col-md-4 .masodik:before {
@@ -910,9 +923,7 @@ sub {
 
 .folyamat .row .col-md-4 .harmadik {
     background-image: url(../img/diagram.png);
-    background-size: 52px 55px;
-    background-repeat: no-repeat;
-    background-position: center
+    background-size: 52px 55px
 }
 
 .folyamat .row .col-md-4 .harmadik:before {

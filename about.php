@@ -13,6 +13,11 @@
     </head>
 
     <body>
+    <style>
+    	* {
+    		outline: 1px red solid;
+    	}
+    </style>
         <div id="pagewrap">
             <?php include('navigation.php'); ?> </div>
         <div class="container rolunk">
@@ -34,78 +39,18 @@
             <div class="team">
                 <div class="container-fluid">
                     <h2>A csapat</h2>
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-1">
-                        <div class="container-fluid">
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div id="ph1" class="col-lg-12"> </div>
-                                <div id="ph1_2" class="col-lg-12">
-                                    <p data-desc="<h6>Csíkos Ádám<h1><p>Első paragraph<br><br></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>">Csíkos Ádám</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 infoBox hidden-lg hidden-md hidden-sm"></div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div id="ph2" class="col-lg-12"></div>
-                                <div id="ph2_2" class="col-lg-12">
-                                    <p data-desc="<h6>Fónagy Balázs<h1><p>Első paragraph<br><br></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>">Fónagy Balázs</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 infoBox hidden-lg" id="_1"></div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div id="ph3" class="col-lg-12"></div>
-                                <div id="ph3_2" class="col-lg-12">
-                                    <p data-desc="<h6>Csíkos Ádám<h1><p>Első paragraph<br><br></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>">Csankovszki Kata</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 infoBox hidden-md hidden-sm" id="_2"></div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div id="ph4" class="col-lg-12"></div>
-                                <div id="ph4_2" class="col-lg-12">
-                                    <p data-desc="<h6>Michal Matus<h1><p>Első paragraph<br><br></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>">Michal Matus</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 infoBox hidden-lg" id="_3"></div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div id="ph5" class="col-lg-12"></div>
-                                <div id="ph5_2" class="col-lg-12">
-                                    <p data-desc="<h6>Lichter Tamás<h1><p>Első paragraph<br><br></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>">Lichter Tamás</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 infoBox hidden-lg hidden-md hidden-sm" id="_5"></div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div id="ph6" class="col-lg-12"></div>
-                                <div id="ph6_2" class="col-lg-12">
-                                    <p data-desc="<h6>Bartha Gizella<h1><p>Első paragraph<br><br></p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>">Bartha Gizella</p>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 infoBox" id="_4"></div>
-                        </div>
-                    </div>
-                </div>
+                    <div class="container-fluid">
+                    	<div class="row">
+                        	<div class="col-md-3">
+                            	
+                    		</div>
+                    	</div>
+                	</div>
             </div>
         </div>
         <?php
             include ('footer.php');
         ?>
-        <script>
-            $(function() {
-                $("html").click(function() {
-                    $(".infoBox").each(function() {
-                        $(this).removeClass("active"), $(this).html("")
-                    }), $(".team .col-lg-4.col-md-6.col-sm-6").each(function() {
-                        $(this).children(".col-lg-12:first").css("opacity", "1"), $(this).children(".col-lg-12:nth-child(2)").css("opacity", "1")
-                    })
-                }), $(".team p").click(function() {
-                    event.stopPropagation();
-                    var t = ($(this).text(), $(this).data("desc"));
-                    $(this).parent().parent().find(".infoBox").first();
-                    $(".infoBox").each(function() {
-                        $(this).removeClass("active"), $(this).html("")
-                    }), $(".team .col-lg-4.col-md-6.col-sm-6").each(function() {
-                        console.log(this), $(this).children(".col-lg-12:first").css("opacity", "1"), $(this).children(".col-lg-12:nth-child(2)").css("opacity", "1")
-                    }), $(this).parent().css("opacity", "0"), $(this).parent().parent().nextAll(".col-lg-12:first").css("opacity", "1"), $(this).parent().parent().nextAll(".infoBox:visible:first").addClass("active"), $(this).parent().parent().nextAll(".infoBox:visible:first").html(t)
-                })
-            })
-        </script>
         <?php
             include('analytics.php');
             include('bottom-components.php');
