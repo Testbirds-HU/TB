@@ -8,7 +8,7 @@
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" async defer></script>
     <script src="/js/combined.min.js" async defer></script>
 
-    <link href="/css/basic-styles-'?><? echo($components->tld);?><? echo '.css" rel="stylesheet" async defer>
+    <link href="/css/basic-styles-'?><?php echo($components->tld);?><?php echo '.css" rel="stylesheet" async defer>
     <script>
     	$( document ).ready(function() {
    			$("#arrow").click(function() {

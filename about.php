@@ -1,11 +1,11 @@
-<?
+<?php
   include('lang.php');
 ?>
     <!DOCTYPE html>
     <html>
 
     <head>
-        <? include('html-head.php'); ?>
+        <?php include('html-head.php'); ?>
     </head>
 
     <body>

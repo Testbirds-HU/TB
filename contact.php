@@ -138,7 +138,7 @@
     <html>
 
     <head>
-        <? include('html-head.php'); ?>
+        <?php include('html-head.php'); ?>
     </head>
 
     <body>
@@ -147,7 +147,7 @@
         <div class="container">
             <div class="articlebody_g kapcsolat">
                 <div class="container">
-                    <? if(empty($_POST) ){
+                    <?php if(empty($_POST) ){
          
         ?>
                         <h1><?=writeText($lang,'kapcsolat_cim1',$content);?></h1>
@@ -192,7 +192,7 @@
                             <p class="thankyou">
                                 <?=writeText($lang,'kapcsolat_kapcsolat5',$content);?>
                             </p>
-                            <? } ?>
+                            <?php } ?>
                 </div>
             </div>
         </div>

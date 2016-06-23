@@ -2,16 +2,16 @@
             <footer class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 contact">
-                        <h5>')?><?=writeText($lang,'footer_kapcsolat',$content);?><? echo('</h5>
+                        <h5>')?><?=writeText($lang,'footer_kapcsolat',$content);?><?php echo('</h5>
                         <p>
-                            ')?><?=writeText($lang,'footer_kapcsolat2',$content);?><? echo('<br></p>
+                            ')?><?=writeText($lang,'footer_kapcsolat2',$content);?><?php echo('<br></p>
                         <p>
-                            ')?><?=writeText($lang,'footer_kapcsolat3',$content);?><? echo('<br></p>
+                            ')?><?=writeText($lang,'footer_kapcsolat3',$content);?><?php echo('<br></p>
                         <p>
-                            ')?><?=writeText($lang,'footer_kapcsolat4',$content);?><? echo('
+                            ')?><?=writeText($lang,'footer_kapcsolat4',$content);?><?php echo('
                         </p>
                         <p>
-                            ')?><?=writeText($lang,'footer_kapcsolat5',$content);?><? echo('
+                            ')?><?=writeText($lang,'footer_kapcsolat5',$content);?><?php echo('
                         </p>
                         <a href="https://www.facebook.com/testbirds.hu/" class="ref" target="_blank">
                             <div class="fbicon"></div>
