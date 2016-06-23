@@ -38,7 +38,7 @@
             transition: background-position .1s;
 }
 
-.team .portrait:hover {
+.team .portrait:not(.kata):hover {
     background-position: -162.5px 0;
 }
 
