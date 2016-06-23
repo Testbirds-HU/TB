@@ -150,47 +150,47 @@
                     <?php if(empty($_POST) ){
          
         ?>
-                        <h1><?=writeText($lang,'kapcsolat_cim1',$content);?></h1>
-                        <h2><?=writeText($lang,'kapcsolat_cim2',$content);?></h2>
+                        <h1><?php writeText($lang,'kapcsolat_cim1',$content);?></h1>
+                        <h2><?php writeText($lang,'kapcsolat_cim2',$content);?></h2>
                         <p>
-                            <?=writeText($lang,'kapcsolat_cim3',$content);?>
+                            <?php writeText($lang,'kapcsolat_cim3',$content);?>
                         </p>
                         <form method="post" action="" accept-charset="UTF-8">
                             <div class="row form">
                                 <div class="col-md-6">
-                                    <div class="form-group"> <input id="usr" name="nev" placeholder="<?=writeText($lang,'kapcsolat_form1',$content);?>" required class="form-control"> </div>
-                                    <div class="form-group"> <input id="usr" type="email" name="email" placeholder="<?=writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control"> </div>
-                                    <div class="form-group"> <input id="usr" type="tel" name="telefonszam" placeholder="<?=writeText($lang,'kapcsolat_form3',$content);?>" required class="form-control"> </div>
-                                    <div class="form-group"> <input id="usr" name="cegnev" placeholder="<?=writeText($lang,'kapcsolat_form4',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group"> <input id="usr" name="nev" placeholder="<?php writeText($lang,'kapcsolat_form1',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group"> <input id="usr" type="email" name="email" placeholder="<?php writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group"> <input id="usr" type="tel" name="telefonszam" placeholder="<?php writeText($lang,'kapcsolat_form3',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group"> <input id="usr" name="cegnev" placeholder="<?php writeText($lang,'kapcsolat_form4',$content);?>" required class="form-control"> </div>
                                 </div>
                                 <div class="col-md-6 message">
                                     <div class="form-horizontal">
                                         <div class="form-group">
-                                            <div class="col-md-12"> <textarea rows="3" placeholder="<?=writeText($lang,'kapcsolat_form5',$content);?>" required name="projekt" class="form-control"></textarea> </div>
+                                            <div class="col-md-12"> <textarea rows="3" placeholder="<?php writeText($lang,'kapcsolat_form5',$content);?>" required name="projekt" class="form-control"></textarea> </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row send col-md-12"> <input class="btn-primary" type="submit" value="<?=writeText($lang,'kapcsolat_form6',$content);?>"> </div>
+                                <div class="row send col-md-12"> <input class="btn-primary" type="submit" value="<?php writeText($lang,'kapcsolat_form6',$content);?>"> </div>
                             </div>
                         </form>
                         <div style="border-top:1px solid rgba(255,255,255,.49);margin-right:15px;margin-top:40px;padding-top:40px;text-align:center;opacity:.5" class="row">
                             <p>
-                                <?=writeText($lang,'kapcsolat_kapcsolat1',$content);?>
+                                <?php writeText($lang,'kapcsolat_kapcsolat1',$content);?>
                             </p>
                             <p>
-                                <?=writeText($lang,'kapcsolat_kapcsolat2',$content);?>
+                                <?php writeText($lang,'kapcsolat_kapcsolat2',$content);?>
                             </p>
                             <p>
-                                <?=writeText($lang,'kapcsolat_kapcsolat3',$content);?>
+                                <?php writeText($lang,'kapcsolat_kapcsolat3',$content);?>
                             </p>
                             <p>
-                                <?=writeText($lang,'kapcsolat_kapcsolat4',$content);?>
+                                <?php writeText($lang,'kapcsolat_kapcsolat4',$content);?>
                             </p>
                         </div>
                         <?php } else {
         ?>
                             <p class="thankyou">
-                                <?=writeText($lang,'kapcsolat_kapcsolat5',$content);?>
+                                <?php writeText($lang,'kapcsolat_kapcsolat5',$content);?>
                             </p>
                             <?php } ?>
                 </div>

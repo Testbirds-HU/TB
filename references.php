@@ -1,7 +1,7 @@
                 <div class="col-md-12 companies">
                     <div class="row">
                         <div class="col-md-12" id="reftitle">
-                            <h2><?=writeText($lang,'Referencia_cim',$content);?></h2></div>
+                            <h2><?php writeText($lang,'Referencia_cim',$content);?></h2></div>
                         <div class="col-md-2 col-sm-4 col-xs-6"><div class="sprite sprite-1"></div></div>
                         <div class="col-md-2 col-sm-4 col-xs-6"><div class="sprite sprite-2"></div></div>
                         <div class="col-md-2 col-sm-4 col-xs-6"><div class="sprite sprite-3"></div></div>

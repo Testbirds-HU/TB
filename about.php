@@ -13,8 +13,8 @@
         <div class="container rolunk">
             <div class="articletitle">
                 <div class="container">
-                    <h1><?=writeText($lang,'rolunk_cim1',$content);?></h1>
-                    <h2><?=writeText($lang,'rolunk_cim2',$content);?></h2> </div>
+                    <h1><?php writeText($lang,'rolunk_cim1',$content);?></h1>
+                    <h2><?php writeText($lang,'rolunk_cim2',$content);?></h2> </div>
             </div>
             <div class="articlecover">
                 <div class="container"></div>
@@ -22,7 +22,7 @@
             <div class="articlebody_w">
                 <div class="container">
                     <p>
-                        <?=writeText($lang,'rolunk_cim3',$content);?>
+                        <?php writeText($lang,'rolunk_cim3',$content);?>
                     </p>
                 </div>
             </div>

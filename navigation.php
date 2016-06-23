@@ -13,7 +13,7 @@ class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.ph
               <li id="menu2"><a href="whyus.php" class="pageload-link"><?php writeText($lang,'Menu2',$content);?></a></li>
               <li id="menu3"><a href="functional.php" class="pageload-link"><?php writeText($lang,'Menu3',$content);?></a></li>
               <li id="menu4"><a href="ux.php" class="pageload-link"><?php writeText($lang,'Menu4',$content);?></a></li>
-              <li id="menu5"><a href="<?php writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?=writeText($lang,'Menu6',$content);?></a></li>
+              <li id="menu5"><a href="<?php writeText($lang,'menublogurl',$content);?>" class="pageload-link"><?php writeText($lang,'Menu6',$content);?></a></li>
               <li id="menu6"><a href="contact.php" class="pageload-link"><?php writeText($lang,'Menu5',$content);?></a></li>
             </ul>
           </div>
