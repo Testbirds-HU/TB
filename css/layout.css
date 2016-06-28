@@ -1511,3 +1511,35 @@ textarea.form-control {
     -webkit-transition: opacity .3s;
     transition: opacity .3s
 }
+
+.testimonial .quote:after {
+    content: '\201C';
+    display: inline-block;
+    font-size: 72px;
+    font-family: "Georgia";
+    transform: translateX(30px);
+}
+
+.testimonial {
+    background-color: #efefef;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.testimonial .content {
+    color: #1f777a;
+    text-align: justify;
+}
+
+.testimonial .author {
+    color: #82B999;
+}
+
+.testimonial .row {
+    display: flex;
+    align-items: center
+}
+
+.testimonial .imgholder img {
+    width: 100%;
+}

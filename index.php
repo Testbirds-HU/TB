@@ -54,6 +54,19 @@
                         </a>
                     </div>
                 </div>
+                <div class="testimonial">
+                    <div class="row">
+                        <div class="col-md-1 quote hidden-sm">
+                        </div>
+                        <div class="col-md-8">
+                            <p class="content"><?php writeText($lang,'testimonial1-cont',$content);?></p>
+                            <p class="author"><?php writeText($lang,'testimonial1-auth',$content);?></p>
+                        </div>
+                        <div class="col-md-2 imgholder hidden-sm">
+                            <img src=<?php writeText($lang,'testimonial1-img',$content);?>>
+                        </div>
+                    </div>
+                </div>
                 <div class="Elonyok">
                     <div class="row">
                         <div class="col-md-12">
@@ -129,6 +142,19 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="row">
+                        <div class="col-md-1 quote hidden-sm">
+                        </div>
+                        <div class="col-md-8">
+                            <p class="content"><?php writeText($lang,'testimonial2-cont',$content);?></p>
+                            <p class="author"><?php writeText($lang,'testimonial2-auth',$content);?></p>
+                        </div>
+                        <div class="col-md-2 imgholder hidden-sm">
+                            <img src=<?php writeText($lang,'testimonial2-img',$content);?>>
                         </div>
                     </div>
                 </div>
