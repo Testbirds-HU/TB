@@ -173,20 +173,6 @@
 
 .sprite-9 {
     background-position: -391px -253px
-}@font-face {
-    font-family: 'Droid Sans';
-    font-weight: 400;
-    font-style: normal;
-    src: url(/fonts/Droid-Sans-regular/Droid-Sans-regular.eot);
-    src: url(/fonts/Droid-Sans-regular/Droid-Sans-regular.eot?#iefix) format('embedded-opentype'), local('Droid Sans'), local('Droid-Sans-regular'), url(/fonts/Droid-Sans-regular/Droid-Sans-regular.woff2) format('woff2'), url(/fonts/Droid-Sans-regular/Droid-Sans-regular.woff) format('woff'), url(/fonts/Droid-Sans-regular/Droid-Sans-regular.ttf) format('truetype'), url(/fonts/Droid-Sans-regular/Droid-Sans-regular.svg#DroidSans) format('svg')
-}
-
-@font-face {
-    font-family: 'Droid Sans';
-    font-weight: 700;
-    font-style: normal;
-    src: url(/fonts/Droid-Sans-700/Droid-Sans-700.eot);
-    src: url(/fonts/Droid-Sans-700/Droid-Sans-700.eot?#iefix) format('embedded-opentype'), local('Droid Sans Bold'), local('Droid-Sans-700'), url(/fonts/Droid-Sans-700/Droid-Sans-700.woff2) format('woff2'), url(/fonts/Droid-Sans-700/Droid-Sans-700.woff) format('woff'), url(/fonts/Droid-Sans-700/Droid-Sans-700.ttf) format('truetype'), url(/fonts/Droid-Sans-700/Droid-Sans-700.svg#DroidSans) format('svg')
 }.elonyok .articletitle .container .row #placeholder1,
 .elonyok .articletitle .container .row #placeholder2,
 .elonyok .articletitle .container .row #placeholder3,
@@ -397,7 +383,59 @@
 .flickity-page-dots .dot.is-selected {
     filter: alpha(opacity=100);
     opacity: 1
-}.navbar-default {
+}@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Roboto'),
+		local('Roboto-Regular'),
+		url('/fonts/Roboto_400.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Roboto_400.woff') format('woff'),
+		url('/fonts/Roboto_400.woff2') format('woff2'),
+		url('/fonts/Roboto_400.svg#Roboto') format('svg'),
+		url('/fonts/Roboto_400.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Roboto Bold'),
+		local('Roboto-Bold'),
+		url('/fonts/Roboto_700.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Roboto_700.woff') format('woff'),
+		url('/fonts/Roboto_700.woff2') format('woff2'),
+		url('/fonts/Roboto_700.svg#Roboto') format('svg'),
+		url('/fonts/Roboto_700.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Droid Sans';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Droid Sans'),
+		local('DroidSans'),
+		url('/fonts/Droid_Sans_400.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Droid_Sans_400.woff') format('woff'),
+		url('/fonts/Droid_Sans_400.woff2') format('woff2'),
+		url('/fonts/Droid_Sans_400.svg#DroidSans') format('svg'),
+		url('/fonts/Droid_Sans_400.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Droid Sans';
+	font-style: normal;
+	font-weight: 700;
+	src:
+		local('Droid Sans Bold'),
+		local('DroidSans-Bold'),
+		url('/fonts/Droid_Sans_700.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/Droid_Sans_700.woff') format('woff'),
+		url('/fonts/Droid_Sans_700.woff2') format('woff2'),
+		url('/fonts/Droid_Sans_700.svg#DroidSans') format('svg'),
+		url('/fonts/Droid_Sans_700.ttf') format('truetype');
+}
+.navbar-default {
     background-color: #1E777A;
     height: 80px;
     z-index: 4;
@@ -656,20 +694,6 @@ textarea.form-control {
 .send .btn-primary:hover {
     background-color: #69A782;
     cursor: pointer
-}@font-face {
-    font-family: Roboto;
-    font-weight: 400;
-    font-style: normal;
-    src: url(/fonts/Roboto-regular/Roboto-regular.eot);
-    src: url(/fonts/Roboto-regular/Roboto-regular.eot?#iefix) format('embedded-opentype'), local('Roboto'), local('Roboto-regular'), url(/fonts/Roboto-regular/Roboto-regular.woff2) format('woff2'), url(/fonts/Roboto-regular/Roboto-regular.woff) format('woff'), url(/fonts/Roboto-regular/Roboto-regular.ttf) format('truetype'), url(/fonts/Roboto-regular/Roboto-regular.svg#Roboto) format('svg')
-}
-
-@font-face {
-    font-family: Roboto;
-    font-weight: 700;
-    font-style: normal;
-    src: url(/fonts/Roboto-700/Roboto-700.eot);
-    src: url(/fonts/Roboto-700/Roboto-700.eot?#iefix) format('embedded-opentype'), local('Roboto Bold'), local('Roboto-700'), url(/fonts/Roboto-700/Roboto-700.woff2) format('woff2'), url(/fonts/Roboto-700/Roboto-700.woff) format('woff'), url(/fonts/Roboto-700/Roboto-700.ttf) format('truetype'), url(/fonts/Roboto-700/Roboto-700.svg#Roboto) format('svg')
 }.rolunk .articlecover,
 .rolunk .team {
     background-color: #FAFAFA
