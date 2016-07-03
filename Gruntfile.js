@@ -66,6 +66,19 @@ module.exports = function(grunt){
 					'res/js/min/main.min.js': ['res/js/grunt/*.js']
 				}
 			}
+		},
+		imagemin: {
+			dynamic: {
+				options: {
+					optimizationLevel: 7
+				},
+				files: [{
+					expand: true,
+					cwd: 'res/img/src/',
+					src: ['**/*.{png,jpg,gif}'],
+					dest: 'res/img/dist/'
+				}]
+			}
 		}
     });
 
@@ -76,7 +89,8 @@ module.exports = function(grunt){
     	'concat',
     	'autoprefixer',
     	'uglify',
-    	'jsvalidate:after_min'
+    	'jsvalidate:after_min',
+    	'newer:imagemin'
     ]);
 
 };
