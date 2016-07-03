@@ -56,6 +56,16 @@ module.exports = function(grunt){
 					src: ['Gruntfile.js', 'res/js/min/*.js']
 				}
 			}
+		},
+		uglify: {
+			options: {
+				mangle: false
+			},
+			main: {
+				files: {
+					'res/js/min/main.min.js': ['res/js/grunt/*.js']
+				}
+			}
 		}
     });
 
@@ -64,7 +74,9 @@ module.exports = function(grunt){
     	'bower_concat',
     	'jsvalidate:before_min',
     	'concat',
-    	'autoprefixer'
+    	'autoprefixer',
+    	'uglify',
+    	'jsvalidate:after_min'
     ]);
 
 };
