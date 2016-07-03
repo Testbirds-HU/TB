@@ -32,19 +32,19 @@
 }
 
 .elonyok .articletitle .container .row #placeholder1 {
-    background-image: url(../img/target.jpg)
+    background-image: url(/res/img/dist/target.jpg)
 }
 
 .elonyok .articletitle .container .row #placeholder2 {
-    background-image: url(../img/devices.jpg)
+    background-image: url(/res/img/dist/devices.jpg)
 }
 
 .elonyok .articletitle .container .row #placeholder3 {
-    background-image: url(../img/People.jpg)
+    background-image: url(/res/img/dist/People.jpg)
 }
 
 .elonyok .articletitle .container .row #placeholder4 {
-    background-image: url(../img/answers.jpg)
+    background-image: url(/res/img/dist/answers.jpg)
 }
 
 .elonyok .articletitle .container .row .text {

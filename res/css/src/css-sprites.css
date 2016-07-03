@@ -32,7 +32,7 @@
 }
 
 .sprite {
-    background-image: url(/img/companies/spritesheet.png);
+    background-image: url(/res/img/dist/companies/spritesheet.png);
     background-repeat: no-repeat;
     display: block;
     margin: 0 auto;

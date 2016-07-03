@@ -404,7 +404,7 @@ sub {
 }
 
 .cover .row .kep {
-    background-image: url(../img/dudes.png);
+    background-image: url(/res/img/dist/dudes.png);
     height: 35vw;
     margin-left: 0
 }
@@ -521,7 +521,7 @@ sub {
 }
 
 .tesztek .row .teszt1 .imgholder {
-    background-image: url(../img/tb_bug2.png);
+    background-image: url(/res/img/dist/tb_bug2.png);
     height: 370px;
     background-position: center;
     background-position-y: 0;
@@ -546,7 +546,7 @@ sub {
 }
 
 .tesztek .row .teszt2 .imgholder {
-    background-image: url(../img/ux2.png);
+    background-image: url(/res/img/dist/ux2.png);
     height: 170px;
     background-position: center;
     margin-top: 90px
@@ -591,7 +591,7 @@ sub {
     height: 1200px;
     padding-left: 0;
     padding-right: 0;
-    background-image: url(../img/Dude-Projectmanager.png);
+    background-image: url(/res/img/dist/Dude-Projectmanager.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat
@@ -616,7 +616,7 @@ sub {
 
 .Elonyok .row .col-md-12 #ctelonyei:after {
     content: "";
-    background-image: url(../img/arrow_down.png);
+    background-image: url(/res/img/dist/arrow_down.png);
     background-size: 366px 34px;
     display: block;
     width: 118px;
@@ -633,25 +633,25 @@ sub {
 }
 
 .Elonyok .row .col-md-12 .list .el1 {
-    background-image: url(../img/target.png);
+    background-image: url(/res/img/dist/target.png);
     background-size: 70px;
     background-position-y: 110px
 }
 
 .Elonyok .row .col-md-12 .list .el2 {
-    background-image: url(../img/devices.png);
+    background-image: url(/res/img/dist/devices.png);
     background-size: 110px;
     background-position-y: 87px
 }
 
 .Elonyok .row .col-md-12 .list .el3 {
-    background-image: url(../img/people.png);
+    background-image: url(/res/img/dist/people.png);
     background-size: 80px;
     background-position-y: 100px
 }
 
 .Elonyok .row .col-md-12 .list .el4 {
-    background-image: url(../img/messages.png);
+    background-image: url(/res/img/dist/messages.png);
     background-size: 90px;
     background-position-y: 88px
 }
@@ -765,7 +765,7 @@ sub {
 }
 
 .miket {
-    background-image: url(../img/bg.jpg);
+    background-image: url(/res/img/dist/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     min-height: 500px
@@ -795,19 +795,19 @@ sub {
 }
 
 #device1 {
-    background-image: url(../img/what_we_test_icon_1.png)
+    background-image: url(/res/img/dist/what_we_test_icon_1.png)
 }
 
 #device2 {
-    background-image: url(../img/what_we_test_icon_2.png)
+    background-image: url(/res/img/dist/what_we_test_icon_2.png)
 }
 
 #device3 {
-    background-image: url(../img/what_we_test_icon_5.png)
+    background-image: url(/res/img/dist/what_we_test_icon_5.png)
 }
 
 #device4 {
-    background-image: url(../img/what_we_test_icon_3.png)
+    background-image: url(/res/img/dist/what_we_test_icon_3.png)
 }
 
 .flickity-slider {
@@ -895,7 +895,7 @@ sub {
 }
 
 .folyamat .row .col-md-4 .elso {
-    background-image: url(../img/document.png);
+    background-image: url(/res/img/dist/document.png);
     background-size: 58px 50px
 }
 
@@ -906,7 +906,7 @@ sub {
 }
 
 .folyamat .row .col-md-4 .masodik {
-    background-image: url(../img/people2.png);
+    background-image: url(/res/img/dist/people2.png);
     background-size: 70px 70px
 }
 
@@ -917,7 +917,7 @@ sub {
 }
 
 .folyamat .row .col-md-4 .harmadik {
-    background-image: url(../img/diagram.png);
+    background-image: url(/res/img/dist/diagram.png);
     background-size: 52px 55px
 }
 
@@ -940,7 +940,7 @@ sub {
     border-radius: 500px;
     margin: 0 auto 30px;
     width: 200px;
-    background-image: url(../img/Dude-MissMarketing.png);
+    background-image: url(/res/img/dist/Dude-MissMarketing.png);
     background-repeat: no-repeat;
     background-size: 101.7px;
     background-position: top
@@ -1033,7 +1033,7 @@ footer .col-md-12 p {
 }
 
 .fbicon {
-    background-image: url(../img/fb_icon.png);
+    background-image: url(/res/img/dist/fb_icon.png);
     transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -1042,11 +1042,11 @@ footer .col-md-12 p {
 }
 
 .fbicon:hover {
-    background-image: url(../img/fb_icon_c.png)
+    background-image: url(/res/img/dist/fb_icon_c.png)
 }
 
 .inicon {
-    background-image: url(../img/in_icon.png);
+    background-image: url(/res/img/dist/in_icon.png);
     display: flex-inline;
     transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
@@ -1056,7 +1056,7 @@ footer .col-md-12 p {
 }
 
 .inicon:hover {
-    background-image: url(../img/in_icon_c.png)
+    background-image: url(/res/img/dist/in_icon_c.png)
 }
 
 @media (max-width:992px) {

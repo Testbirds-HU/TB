@@ -6,4 +6,4 @@
     <meta name="keywords" content="<?php writeText($lang,'head_keywords',$content);?>">
     <title><?php writeText($lang,'head_title',$content);?></title>
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="/css/layout.css" async defer>
+    <link rel="stylesheet" href="/res/css/dist/layout.min.css" async defer>

@@ -11,7 +11,11 @@ module.exports = function(grunt){
         		dest: {
         			js: 'res/js/src/bower.js',
         			css: 'res/css/src/bower.css'
-        		}
+        		},
+                exclude: [
+                	'jquery',
+                	'bootstrap'
+                ]
         	}
         },
         concat: {
@@ -87,7 +91,8 @@ module.exports = function(grunt){
 			},
 			main: {
 				files: {
-					'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css']
+					'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css'],
+					'res/css/dist/layout.min.css': ['res/css/layout.css']
 				}
 			}
 		}

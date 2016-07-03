@@ -22,11 +22,11 @@
 }
 
 .articlecover_funkc {
-    background-image: url(../img/explorebug.png)
+    background-image: url(/res/img/dist/explorebug.png)
 }
 
 .articlecover_felh {
-    background-image: url(../img/tesztbg1.png)
+    background-image: url(/res/img/dist/tesztbg1.png)
 }
 
 @media (max-width:992px) {
@@ -82,7 +82,7 @@
 
 .quote h3:first-child:before {
     content: "";
-    background-image: url(../img/quotemark.png);
+    background-image: url(/res/img/dist/quotemark.png);
     background-repeat: no-repeat;
     display: block;
     background-size: 50px 32px;

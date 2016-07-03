@@ -17,7 +17,7 @@
                         <div class="col-md-6 kep"></div>
                     </div>
                     <div class="row">
-                        <div id="arrow" class="scrollholder"><img src="img/scroll_icon.png"></div>
+                        <div id="arrow" class="scrollholder"><img src="/res/img/dist/scroll_icon.png"></div>
                     </div>
                 </div>
                 <div class="csatlakozz">

@@ -61,7 +61,7 @@
 
 .navbar-brand {
     padding: 0 15px;
-    background-image: url(../img/Logo_CMYK_Background.png);
+    background-image: url(/res/img/dist/Logo_CMYK_Background.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 75px;
