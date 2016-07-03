@@ -33,11 +33,11 @@ module.exports = function(grunt){
             },
             maincss: {
             	src: 'res/css/grunt/main.concat.css',
-            	dest: 'res/css/prfx/main.prfx.css'
+            	dest: 'res/css/grunt/main.prfx.css'
             },
             customcss: {
             	src: 'res/css/layout.css',
-            	dest: 'res/css/prfx/layout.prfx.css'
+            	dest: 'res/css/grunt/layout.prfx.css'
             }
         },
         jsvalidate: {
@@ -53,7 +53,7 @@ module.exports = function(grunt){
 			},
 			after_min: {
 				files: {
-					src: ['Gruntfile.js', 'res/js/min/*.js']
+					src: ['Gruntfile.js', 'res/js/dist/*.js']
 				}
 			}
 		},
@@ -63,7 +63,7 @@ module.exports = function(grunt){
 			},
 			main: {
 				files: {
-					'res/js/min/main.min.js': ['res/js/grunt/*.js']
+					'res/js/dist/main.min.js': ['res/js/grunt/*.js']
 				}
 			}
 		},
@@ -79,6 +79,17 @@ module.exports = function(grunt){
 					dest: 'res/img/dist/'
 				}]
 			}
+		},
+		cssmin: {
+			options: {
+				shorthandCompacting: false,
+				roundingPrecision: -1
+			},
+			main: {
+				files: {
+					'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css']
+				}
+			}
 		}
     });
 
@@ -90,7 +101,8 @@ module.exports = function(grunt){
     	'autoprefixer',
     	'uglify',
     	'jsvalidate:after_min',
-    	'newer:imagemin'
+    	'newer:imagemin',
+    	'cssmin'
     ]);
 
 };
