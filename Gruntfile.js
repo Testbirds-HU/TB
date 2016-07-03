@@ -57,6 +57,18 @@ module.exports = function(grunt){
 				}
 			}
 		},
+		purifycss: {
+			target: {
+				src: ['*.php', 'res/js/src/*.js'],
+				css: ['res/css/grunt/main.prfx.css'],
+				dest: 'res/css/grunt/main.pure.css'
+			},
+			target: {
+				src: ['*.php', 'res/js/src/*.js'],
+				css: ['res/css/grunt/layout.prfx.css'],
+				dest: 'res/css/grunt/layout.pure.css'
+			}
+		},
 		uglify: {
 			options: {
 				mangle: false
@@ -87,8 +99,8 @@ module.exports = function(grunt){
 			},
 			main: {
 				files: {
-					'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css'],
-					'res/css/dist/layout.min.css': ['res/css/layout.css']
+					'res/css/dist/main.min.css': ['res/css/grunt/main.pure.css'],
+					'res/css/dist/layout.min.css': ['res/css/grunt/layout.pure.css']
 				}
 			}
 		}
@@ -100,9 +112,10 @@ module.exports = function(grunt){
     	'jsvalidate:before_min',
     	'concat',
     	'autoprefixer',
-    	'uglify',
+    	'newer:uglify',
     	'jsvalidate:after_min',
     	'newer:imagemin',
+    	'newer:purifycss',
     	'cssmin'
     ]);
 
