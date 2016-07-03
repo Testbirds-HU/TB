@@ -1,0 +1,31 @@
+@-webkit-keyframes moveRight {
+    to {
+        -webkit-transform: translateX(20px)
+    }
+}
+
+@keyframes moveRight {
+    to {
+        transform: translateX(20px)
+    }
+}
+
+@-webkit-keyframes moveLeft {
+    to {
+        -webkit-transform: translateX(-20px)
+    }
+}
+
+@keyframes moveLeft {
+    to {
+        transform: translateX(-20px)
+    }
+}
+
+.pageload-loading.pageload-overlay::after,
+.pageload-loading.pageload-overlay::before {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s
+}

@@ -1,0 +1,94 @@
+.rolunk .articlecover,
+.rolunk .team {
+    background-color: #FAFAFA
+}
+
+.rolunk .articletitle .container {
+    padding-bottom: 0
+}
+
+.rolunk .articlecover .container {
+    background-image: url(/img/process.png);
+    background-size: contain;
+    max-width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+    height: 120px
+}
+
+.rolunk .team {
+    padding-bottom: 80px
+}
+
+.rolunk .team .container {
+    max-width: 800px
+}
+
+.team .portrait {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 0;
+    width: 162.5px;
+    padding-top: 225px;
+    background-size: 325px 225px;
+    background-position: 0 0;
+    -webkit-transition: background-position .1s;
+            transition: background-position .1s;
+}
+
+.team .portrait:not(.kata):hover {
+    background-position: -162.5px 0;
+}
+
+.team .row {
+    margin-top: 25px;
+    text-align: justify;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .4);
+    border-radius: 3px;
+}
+
+.team .portrait.anna {
+    background-image: url("/img/team/anna.jpg");
+}
+
+.team .portrait.gizella {
+    background-image: url("/img/team/gizella.jpg");
+}
+
+.team .portrait.bianka {
+    background-image: url("/img/team/bianka.jpg");
+}
+
+.team .portrait.laszlo {
+    background-image: url("/img/team/laszlo.jpg");
+}
+
+.team .portrait.akos {
+    background-image: url("/img/team/akos.jpg");
+}
+
+.team .portrait.barnabas {
+    background-image: url("/img/team/barnabas.jpg");
+}
+
+.team .portrait.gergely {
+    background-image: url("/img/team/gergely.jpg");
+}
+
+.team .portrait.agnes {
+    background-image: url("/img/team/agnes.jpg");
+}
+
+.team .portrait.kata {
+    background-image: url("/img/team/kata.jpg");
+}
+
+.team .portrait.tamas {
+    background-image: url("/img/team/tamas.jpg");
+}

@@ -9,8 +9,8 @@ module.exports = function(grunt){
         bower_concat: {
         	main: {
         		dest: {
-        			js: 'res/js/src/main.js',
-        			css: 'res/css/src/main.css'
+        			js: 'res/js/src/bower.js',
+        			css: 'res/css/src/bower.css'
         		}
         	}
         },
@@ -18,10 +18,27 @@ module.exports = function(grunt){
         	options: {
         		separator: ';'
         	},
-        	main: {
+        	main_js: {
         		src: ['res/js/src/*.js', 'res/js/instantclick.js'],
-        		dest: 'res/js/concat/main.concat.js'
+        		dest: 'res/js/grunt/main.concat.js'
+        	},
+        	main_css: {
+        		src: ['res/css/src/*.css'],
+        		dest: 'res/css/grunt/main.concat.css'
         	}
+        },
+        autoprefixer: {
+            options: {
+            	safe: true
+            },
+            maincss: {
+            	src: 'res/css/grunt/main.concat.css',
+            	dest: 'res/css/prfx/main.prfx.css'
+            },
+            customcss: {
+            	src: 'res/css/layout.css',
+            	dest: 'res/css/prfx/layout.prfx.css'
+            }
         },
         jsvalidate: {
 			options: {
@@ -46,7 +63,8 @@ module.exports = function(grunt){
     grunt.registerTask('default', [
     	'bower_concat',
     	'jsvalidate:before_min',
-    	'concat'
+    	'concat',
+    	'autoprefixer'
     ]);
 
 };

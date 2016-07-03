@@ -1,0 +1,19 @@
+#menu1, #menu5 {
+  display: none; }
+
+.folyamat .row .circlewoman {
+  background-image: url("../img/Dude-MrMarketing.png"); }
+
+.csatlakozz .row {
+  padding-top: 45px !important; }
+
+#reftitle {
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px; }
+
+.testimonial {
+	display: none;
+}
+
+/*# sourceMappingURL=basic-styles-cz2.css.map */
