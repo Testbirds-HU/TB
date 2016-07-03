@@ -55,7 +55,7 @@
 
 .active:after {
     background-color: #83B999;
-    width: 92%!important;
+    width: 92%;
     z-index: 2
 }
 
@@ -110,7 +110,7 @@
     .navbar-left,
     .navbar-nav,
     .navbar-right {
-        float: none!important
+        float: none
     }
     .navbar-toggle {
         display: block
@@ -119,8 +119,8 @@
         border-top: 1px solid #fff;
         box-shadow: none
     }
-    .navbar-collapse.collapse {
-        display: none!important
+    .collapse {
+        display: none
     }
     .navbar-fixed-top {
         top: 0;
@@ -137,22 +137,22 @@
         padding-top: 10px;
         padding-bottom: 10px
     }
-    .collapse.in {
-        display: block!important
+    .in {
+        display: block
     }
-    .navbar.navbar-default .container-fluid {
-        padding-left: 0!important;
-        padding-right: 0!important
+    .navbar-default .container-fluid {
+        padding-left: 0;
+        padding-right: 0
     }
     .navbar-default {
-        border-radius: 0!important
+        border-radius: 0
     }
     .active:after {
         content: "";
         display: block;
         background-color: #83B999;
         height: 4px;
-        width: 300px!important;
+        width: 300px;
         text-align: left;
         margin-top: -18px;
         z-index: 2

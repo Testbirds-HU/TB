@@ -15,17 +15,12 @@
     min-height: 550px
 }
 
-.articlebody_g .container h1,
-.articlebody_g .container h2 {
-    color: #fff!important
+.articlebody_g .container {
+    color: #fff
 }
 
 .articlebody_g .container .container {
     padding-top: 90px
-}
-
-.articlebody_g .container .container h1 {
-    color: #fff
 }
 
 .thankyou {

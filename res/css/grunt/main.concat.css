@@ -1552,7 +1552,7 @@ th {
 }
 
 .rolunk .articlecover .container {
-    background-image: url(/img/process.png);
+    background-image: url(/res/img/process.png);
     background-size: contain;
     max-width: 800px;
     background-position: center;
@@ -1598,43 +1598,43 @@ th {
 }
 
 .team .portrait.anna {
-    background-image: url("/img/team/anna.jpg");
+    background-image: url("/res/img/team/anna.jpg");
 }
 
 .team .portrait.gizella {
-    background-image: url("/img/team/gizella.jpg");
+    background-image: url("/res/img/team/gizella.jpg");
 }
 
 .team .portrait.bianka {
-    background-image: url("/img/team/bianka.jpg");
+    background-image: url("/res/img/team/bianka.jpg");
 }
 
 .team .portrait.laszlo {
-    background-image: url("/img/team/laszlo.jpg");
+    background-image: url("/res/img/team/laszlo.jpg");
 }
 
 .team .portrait.akos {
-    background-image: url("/img/team/akos.jpg");
+    background-image: url("/res/img/team/akos.jpg");
 }
 
 .team .portrait.barnabas {
-    background-image: url("/img/team/barnabas.jpg");
+    background-image: url("/res/img/team/barnabas.jpg");
 }
 
 .team .portrait.gergely {
-    background-image: url("/img/team/gergely.jpg");
+    background-image: url("/res/img/team/gergely.jpg");
 }
 
 .team .portrait.agnes {
-    background-image: url("/img/team/agnes.jpg");
+    background-image: url("/res/img/team/agnes.jpg");
 }
 
 .team .portrait.kata {
-    background-image: url("/img/team/kata.jpg");
+    background-image: url("/res/img/team/kata.jpg");
 }
 
 .team .portrait.tamas {
-    background-image: url("/img/team/tamas.jpg");
+    background-image: url("/res/img/team/tamas.jpg");
 };@charset "UTF-8";
 h1,
 h2,

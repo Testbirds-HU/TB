@@ -65,15 +65,6 @@ h1,h2 {
   z-index: 2;
 }
 
-.navbar-brand {
-  padding: 0 15px;
-  background-image: url(/res/img/dist/Logo_CMYK_Background.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 75px;
-  width: 210px;
-}
-
 @media (min-width:768px) {
   .navbar-nav {
     float: right;
@@ -91,11 +82,6 @@ h1,h2 {
 
 .navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover {
   background-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
-  margin-top: 6px;
 }
 
 .navbar-toggle {
@@ -876,10 +862,6 @@ q:after,q:before {
   .flickity-prev-next-button.next,  .flickity-prev-next-button.previous {
     margin-top: -30px;
   }
-
-  .companies {
-    min-height: 600px;
-  }
 }
 
 .folyamat {
@@ -1011,28 +993,7 @@ q:after,q:before {
   }
 }
 
-.companies {
-  background-color: #E9E9E9;
-  padding-bottom: 40px!important;
-  text-align: center;
-}
-
-.companies img {
-  max-width: 120px;
-  margin-top: 50px;
-}
-
-#reftitle {
-  padding-bottom: 30px;
-  padding-top: 80px;
-  display: none;
-}
-
 @media (max-width:767px) {
-  .companies {
-    min-height: 900px;
-  }
-
   .no {
     display: none;
   }
@@ -1044,16 +1005,6 @@ footer {
   min-height: 300px;
 }
 
-.fbicon,.inicon {
-  background-repeat: no-repeat;
-  background-size: 60px 60px;
-  height: 60px;
-  margin-top: 30px;
-  width: 60px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 footer .col-md-12 a,footer .col-md-12 p {
   color: #666;
 }
@@ -1062,37 +1013,6 @@ footer .col-md-12 a,footer .col-md-12 p {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
-}
-
-.ref {
-  display: inline-block;
-}
-
-.fbicon {
-  background-image: url(/res/img/dist/fb_icon.png);
-  transition: all .3s ease-in;
-  -webkit-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -ms-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-}
-
-.fbicon:hover {
-  background-image: url(/res/img/dist/fb_icon_c.png);
-}
-
-.inicon {
-  background-image: url(/res/img/dist/in_icon.png);
-  display: flex-inline;
-  transition: all .3s ease-in;
-  -webkit-transition: all .3s ease-in;
-  -moz-transition: all .3s ease-in;
-  -ms-transition: all .3s ease-in;
-  -o-transition: all .3s ease-in;
-}
-
-.inicon:hover {
-  background-image: url(/res/img/dist/in_icon_c.png);
 }
 
 @media (max-width:660px) {

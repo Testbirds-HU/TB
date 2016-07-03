@@ -25,6 +25,10 @@ module.exports = function(grunt){
         	main_js: {
         		src: ['res/js/src/*.js', 'res/js/instantclick.js'],
         		dest: 'res/js/grunt/main.concat.js'
+        	},
+        	main_css: {
+        		src: ['res/css/src/*.css'],
+        		dest: 'res/css/grunt/main.concat.css'
         	}
         },
         autoprefixer: {
@@ -32,7 +36,7 @@ module.exports = function(grunt){
             	safe: true
             },
             maincss: {
-            	src: 'res/css/src/*.css',
+            	src: 'res/css/grunt/main.concat.css',
             	dest: 'res/css/grunt/main.prfx.css'
             },
             customcss: {
@@ -92,6 +96,30 @@ module.exports = function(grunt){
 				}]
 			}
 		},
+		csslint: {
+			before_min: {
+				options: {
+					import: false
+				},
+				src: [
+					'res/css/src/component.css',
+					'res/css/src/css-sprites.css',
+					'res/css/src/elonyok.css',
+					'res/css/src/header.css',
+					'res/css/src/kapcsolat.css',
+					'res/css/src/rolunk.css',
+					'res/css/src/screen.css',
+					'res/css/src/tesztek.css',
+					'res/css/src/layout.css'
+				]
+			},
+			after_min: {
+				options: {
+					import: false
+				},
+				src: ['res/css/dist/main.min.css', 'res/css/dist/layout.min.css']
+			}
+		},
 		cssmin: {
 			options: {
 				shorthandCompacting: false,
@@ -108,6 +136,7 @@ module.exports = function(grunt){
 
     // define the default task that executes when we run 'grunt' from inside the project
     grunt.registerTask('default', [
+    	'csslint:before_min',
     	'bower_concat',
     	'jsvalidate:before_min',
     	'concat',
@@ -117,7 +146,8 @@ module.exports = function(grunt){
     	'newer:imagemin',
     	'purifycss:main',
     	'purifycss:layout',
-    	'cssmin'
+    	'cssmin',
+    	'csslint:after_min'
     ]);
 
 };

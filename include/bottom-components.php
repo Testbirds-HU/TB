@@ -1,4 +1,4 @@
-    <link href="/res/css/grunt/main.min.css" rel="stylesheet">
+    <link href="/res/css/dist/main.min.css" rel="stylesheet">
 
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

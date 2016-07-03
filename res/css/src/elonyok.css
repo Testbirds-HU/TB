@@ -1,15 +1,8 @@
-.elonyok .articletitle .container .row #placeholder1,
-.elonyok .articletitle .container .row #placeholder2,
-.elonyok .articletitle .container .row #placeholder3,
-.elonyok .articletitle .container .row #placeholder4 {
+.elonyok .articletitle .container .row > div:nth-child(1) {
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
-}
-
-.elonyok h2 {
-    margin-bottom: 2rem
 }
 
 .elonyok li {
@@ -51,7 +44,7 @@
     padding-top: 10px
 }
 
-.elonyok .articletitle .container .row.nr1 {
+.elonyok .articletitle .container .nr1 {
     margin-top: 30px
 }
 

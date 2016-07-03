@@ -1,15 +1,15 @@
     <!DOCTYPE html>
-    <?php include('lang.php'); ?>
+    <?php include('include/lang.php'); ?>
     <html>
     <head>
-        <?php include('html-head.php'); ?>
+        <?php include('include/html-head.php'); ?>
     </head>
 
     <body>
     <style>
     </style>
         <div id="pagewrap">
-            <?php include('navigation.php'); ?> </div>
+            <?php include('include/navigation.php'); ?> </div>
         <div class="container rolunk">
             <div class="articletitle">
                 <div class="container">
@@ -202,9 +202,9 @@
                 </div>
         	</div>
         <?php
-            include ('footer.php');
-            include('analytics.php');
-            include('bottom-components.php');
+            include ('include/footer.php');
+            include('include/analytics.php');
+            include('include/bottom-components.php');
         ?>
         </body>
 

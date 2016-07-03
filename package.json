@@ -6,11 +6,13 @@
     "grunt-autoprefixer": "^3.0.4",
     "grunt-bower-concat": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-csslint": "^1.0.0",
     "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-uglify": "^1.0.1",
     "grunt-jsvalidate": "^0.2.2",
     "grunt-newer": "^1.2.0",
+    "grunt-phplint": "0.0.8",
     "grunt-purifycss": "^0.1.1",
     "load-grunt-tasks": "~0.1.0"
   },

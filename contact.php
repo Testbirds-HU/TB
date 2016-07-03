@@ -1,5 +1,5 @@
 <?php
-  include('lang.php');
+  include('include/lang.php');
 
   if($lang == 'Slovak'){
     // To send HTML mail, the Content-type header must be set
@@ -197,9 +197,9 @@
             </div>
         </div>
         <?php
-            include('footer.php');
-            include('analytics.php');
-            include('bottom-components.php');
+            include('include/footer.php');
+            include('include/analytics.php');
+            include('include/bottom-components.php');
         ?>
         </body>
 
