@@ -25,10 +25,6 @@ module.exports = function(grunt){
         	main_js: {
         		src: ['res/js/src/*.js', 'res/js/instantclick.js'],
         		dest: 'res/js/grunt/main.concat.js'
-        	},
-        	main_css: {
-        		src: ['res/css/src/*.css'],
-        		dest: 'res/css/grunt/main.concat.css'
         	}
         },
         autoprefixer: {
@@ -36,7 +32,7 @@ module.exports = function(grunt){
             	safe: true
             },
             maincss: {
-            	src: 'res/css/grunt/main.concat.css',
+            	src: 'res/css/src/*.css',
             	dest: 'res/css/grunt/main.prfx.css'
             },
             customcss: {
