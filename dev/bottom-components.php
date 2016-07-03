@@ -1,9 +1,9 @@
-    <link href="/res/css/grunt/main.prfx.css" rel="stylesheet">
+    <link href="/res/css/grunt/main.min.css" rel="stylesheet">
 
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="/res/js/grunt/main.concat.js" type="text/javascript"></script>
+    <script src="/res/js/dist/main.min.js" type="text/javascript"></script>
 
     <?php echo '<link href="/res/css/basic-styles-hu'?><?php echo($components->tld);?><?php echo '.css" rel="stylesheet" async defer>';?>
     <script>

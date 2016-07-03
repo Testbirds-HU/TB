@@ -12,10 +12,10 @@ module.exports = function(grunt){
         			js: 'res/js/src/bower.js',
         			css: 'res/css/src/bower.css'
         		},
-                exclude: [
-                	'jquery',
-                	'bootstrap'
-                ]
+                //exclude: [
+                //	'jquery',
+                //	'bootstrap'
+                //]
         	}
         },
         concat: {
@@ -58,12 +58,12 @@ module.exports = function(grunt){
 			}
 		},
 		purifycss: {
-			target: {
+			main: {
 				src: ['*.php', 'res/js/src/*.js'],
 				css: ['res/css/grunt/main.prfx.css'],
 				dest: 'res/css/grunt/main.pure.css'
 			},
-			target: {
+			layout: {
 				src: ['*.php', 'res/js/src/*.js'],
 				css: ['res/css/grunt/layout.prfx.css'],
 				dest: 'res/css/grunt/layout.pure.css'
@@ -115,7 +115,8 @@ module.exports = function(grunt){
     	'newer:uglify',
     	'jsvalidate:after_min',
     	'newer:imagemin',
-    	'newer:purifycss',
+    	'purifycss:main',
+    	'purifycss:layout',
     	'cssmin'
     ]);
 
