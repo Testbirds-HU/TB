@@ -13,12 +13,40 @@ module.exports = function(grunt){
         			css: 'res/css/src/main.css'
         		}
         	}
-        }
+        },
+        concat: {
+        	options: {
+        		separator: ';'
+        	},
+        	main: {
+        		src: ['res/js/src/*.js', 'res/js/instantclick.js'],
+        		dest: 'res/js/concat/main.concat.js'
+        	}
+        },
+        jsvalidate: {
+			options: {
+				globals: {},
+				esprimaOptions: {},
+				verbose: false
+			},
+			before_min: {
+				files: {
+					src: ['Gruntfile.js', 'res/js/src/*.js', 'res/js/*.js']
+				}
+			},
+			after_min: {
+				files: {
+					src: ['Gruntfile.js', 'res/js/min/*.js']
+				}
+			}
+		}
     });
 
     // define the default task that executes when we run 'grunt' from inside the project
     grunt.registerTask('default', [
-    	'bower_concat'
+    	'bower_concat',
+    	'jsvalidate:before_min',
+    	'concat'
     ]);
 
 };
