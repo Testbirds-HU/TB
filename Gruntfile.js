@@ -41,12 +41,8 @@ module.exports = function (grunt) {
                 safe: true
             },
             maincss: {
-                src: 'res/css/grunt/main.concat.css',
+                src: ['res/css/grunt/main.concat.css', 'res/css/layout.css'],
                 dest: 'res/css/grunt/main.prfx.css'
-            },
-            customcss: {
-                src: 'res/css/layout.css',
-                dest: 'res/css/grunt/layout.prfx.css'
             }
         },
 /**/    purifycss: {
@@ -54,11 +50,18 @@ module.exports = function (grunt) {
                 src: ['*.php', 'res/js/src/*.js'],
                 css: ['res/css/grunt/main.prfx.css'],
                 dest: 'res/css/grunt/main.pure.css'
-            },
-            layout: {
-                src: ['*.php', 'res/js/src/*.js'],
-                css: ['res/css/grunt/layout.prfx.css'],
-                dest: 'res/css/grunt/layout.pure.css'
+            }
+        },
+        critical: {
+            main: {
+                options: {
+                    base: './',
+                    css: 'res/css/grunt/main.pure.css',
+                    width: 1920,
+                    height: 1080
+                },
+                src: 'res/html/src/*.php',
+                dest: 'res/css/grunt/crit.css'
             }
         },
 /**/    csslint: {
@@ -156,9 +159,9 @@ module.exports = function (grunt) {
         'newer:uglify',
         'jsvalidate:after_min',
         'newer:imagemin',
-        'purifycss:main',
-        'purifycss:layout',
-        'cssmin',
+        'purifycss',
+        'critical',
+        'cssmin'
 //        'csslint:after_min'
     ]);
 
