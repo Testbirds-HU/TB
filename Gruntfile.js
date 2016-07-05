@@ -6,7 +6,9 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         // task configuration goes here
-        bower_concat: {
+        
+// BEGIN BOWER & BOTH
+/**/    bower_concat: {
             main: {
                 dest: {
                     js: 'res/js/src/bower.js',
@@ -18,7 +20,7 @@ module.exports = function (grunt) {
                 //]
             }
         },
-        concat: {
+/**/    concat: {
             options: {
                 separator: ';'
             },
@@ -31,7 +33,10 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/main.concat.css'
             }
         },
-        autoprefixer: {
+// END BOWER
+        
+// BEGIN CSS
+/**/    autoprefixer: {
             options: {
                 safe: true
             },
@@ -44,24 +49,7 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/layout.prfx.css'
             }
         },
-        jsvalidate: {
-            options: {
-                globals: {},
-                esprimaOptions: {},
-                verbose: false
-            },
-            before_min: {
-                files: {
-                    src: ['Gruntfile.js', 'res/js/src/*.js', 'res/js/*.js']
-                }
-            },
-            after_min: {
-                files: {
-                    src: ['Gruntfile.js', 'res/js/dist/*.js']
-                }
-            }
-        },
-        purifycss: {
+/**/    purifycss: {
             main: {
                 src: ['*.php', 'res/js/src/*.js'],
                 css: ['res/css/grunt/main.prfx.css'],
@@ -73,30 +61,7 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/layout.pure.css'
             }
         },
-        uglify: {
-            options: {
-                mangle: false
-            },
-            main: {
-                files: {
-                    'res/js/dist/main.min.js': ['res/js/grunt/*.js']
-                }
-            }
-        },
-        imagemin: {
-            dynamic: {
-                options: {
-                    optimizationLevel: 7
-                },
-                files: [{
-                    expand: true,
-                    cwd: 'res/img/src/',
-                    src: ['**/*.{png,jpg,gif}'],
-                    dest: 'res/img/dist/'
-                }]
-            }
-        },
-        csslint: {
+/**/    csslint: {
             before_min: {
                 options: {
                     import: false
@@ -120,7 +85,7 @@ module.exports = function (grunt) {
                 src: ['res/css/dist/main.min.css', 'res/css/dist/layout.min.css']
             }
         },
-        cssmin: {
+/**/    cssmin: {
             options: {
                 shorthandCompacting: false,
                 roundingPrecision: -1
@@ -131,7 +96,54 @@ module.exports = function (grunt) {
                     'res/css/dist/layout.min.css': ['res/css/grunt/layout.pure.css']
                 }
             }
+        },
+// END CSS
+        
+// BEGIN JS
+/**/    jsvalidate: {
+            options: {
+                globals: {},
+                esprimaOptions: {},
+                verbose: false
+            },
+            before_min: {
+                files: {
+                    src: ['Gruntfile.js', 'res/js/src/*.js', 'res/js/*.js']
+                }
+            },
+            after_min: {
+                files: {
+                    src: ['Gruntfile.js', 'res/js/dist/*.js']
+                }
+            }
+        },
+/**/    uglify: {
+            options: {
+                mangle: false
+            },
+            main: {
+                files: {
+                    'res/js/dist/main.min.js': ['res/js/grunt/*.js']
+                }
+            }
+        },
+// END JS
+        
+// BEGIN MEDIA
+/**/    imagemin: {
+            dynamic: {
+                options: {
+                    optimizationLevel: 7
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'res/img/src/',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'res/img/dist/'
+                }]
+            }
         }
+// END MEDIA
     });
 
     // define the default task that executes when we run 'grunt' from inside the project
