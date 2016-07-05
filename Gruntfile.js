@@ -38,7 +38,7 @@ module.exports = function (grunt) {
                 stderr: false
             },
             main: {
-                command: 'cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do; php res/css/grunt/php/"$line" > res/css/grunt/html/"$(echo $line | rev | cut -c 5-| rev)".html; done'
+                command: 'cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html; done'
             }
         },
 // END BOWER
@@ -68,8 +68,8 @@ module.exports = function (grunt) {
                     width: 1920,
                     height: 1080
                 },
-                src: 'res/html/src/*.php',
-                dest: 'res/css/grunt/crit.css'
+                src: 'res/css/grunt/html/main.html',
+                dest: 'res/css/grunt/critical.css'
             }
         },
 /**/    csslint: {
@@ -166,7 +166,7 @@ module.exports = function (grunt) {
         'autoprefixer',
         'newer:uglify',
         'jsvalidate:after_min',
-        'newer:imagemin',
+        //'newer:imagemin',
         'purifycss',
         'shell',
         'critical',
