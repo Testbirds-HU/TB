@@ -33,6 +33,14 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/main.concat.css'
             }
         },
+/**/    shell: {
+            options: {
+                stderr: false
+            },
+            main: {
+                command: 'cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do; php res/css/grunt/php/"$line" > res/css/grunt/html/"$(echo $line | rev | cut -c 5-| rev)".html; done'
+            }
+        },
 // END BOWER
         
 // BEGIN CSS
@@ -52,7 +60,7 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/main.pure.css'
             }
         },
-        critical: {
+/**/    critical: {
             main: {
                 options: {
                     base: './',
@@ -160,6 +168,7 @@ module.exports = function (grunt) {
         'jsvalidate:after_min',
         'newer:imagemin',
         'purifycss',
+        'shell',
         'critical',
         'cssmin'
 //        'csslint:after_min'
