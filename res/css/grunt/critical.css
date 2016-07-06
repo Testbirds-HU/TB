@@ -204,172 +204,6 @@ button::-moz-focus-inner {
   max-height: 390px;
 }
 
-body {
-  margin: 0;
-}
-
-nav {
-  display: block;
-}
-
-a {
-  background-color: transparent;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-button {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */
-}
-
-button {
-  overflow: visible;
-}
-
-button {
-  text-transform: none;
-}
-
-button {
-  -webkit-appearance: button;
-  /* 2 */
-  /* 3 */
-}
-
-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
-  display: block;
-}
-
-body,
-html {
-  overflow-x: hidden;
-  width: 100%;
-}
-
-body {
-  background-color: #EFEFEF;
-}
-
-html,
-html a {
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-  font-smoothing: antialiased;
-}
-
-li {
-  font-family: Roboto, Droid Sans sans-serif;
-  font-weight: 700;
-  font-size: 1.7rem;
-  line-height: 26px;
-}
-
-a,
-li {
-  font-size: 1.7rem;
-  font-family: Droid Sans, sans-serif;
-}
-
-h6 li {
-  margin: 0 0 0 20px;
-  list-style: outside;
-}
-
-li {
-  font-weight: 400;
-}
-
-ul {
-  margin: 0;
-}
-
-a {
-  color: #1E777A;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-
-@media (max-width:992px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-}
-
-@media (max-width:340px) {
-  h1 {
-    font-size: 3.3rem;
-  }
-}
-
-.container {
-  width: 94%;
-}
-
-@media (max-width:400px) {
-  .container {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-}
-
-@media (max-width:1230px) {
-  .container {
-    width: 98%;
-  }
-}
-
-#reftitle {
-  padding-bottom: 30px;
-  padding-top: 80px;
-  display: none;
-}
-
-.articletitle .container {
-  max-width: 800px;
-  padding-bottom: 50px;
-  padding-top: 80px;
-}
-
-.articlecover_felh {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-}
-
-.articlecover_felh {
-  background-image: url(/res/img/dist/tesztbg1.png);
-}
-
-@media (max-width:992px) {
-  .articlecover_felh {
-    height: 330px;
-  }
-}
-
 h1,
 h2 {
   text-transform: uppercase;
@@ -649,6 +483,172 @@ ul {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.articlecover_felh {
+  background-image: url(/res/img/dist/tesztbg1.png);
+}
+
+@media (max-width:992px) {
+  .articlecover_felh {
+    height: 330px;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+button {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+button {
+  overflow: visible;
+}
+
+button {
+  text-transform: none;
+}
+
+button {
+  -webkit-appearance: button;
+  /* 2 */
+  /* 3 */
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: block;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+html,
+html a {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+  font-smoothing: antialiased;
+}
+
+li {
+  font-family: Roboto, Droid Sans sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 26px;
+}
+
+a,
+li {
+  font-size: 1.7rem;
+  font-family: Droid Sans, sans-serif;
+}
+
+h6 li {
+  margin: 0 0 0 20px;
+  list-style: outside;
+}
+
+li {
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  color: #1E777A;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width:992px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width:340px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+}
+
+.container {
+  width: 94%;
+}
+
+@media (max-width:400px) {
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width:1230px) {
+  .container {
+    width: 98%;
+  }
+}
+
+#reftitle {
+  padding-bottom: 30px;
+  padding-top: 80px;
+  display: none;
+}
+
+.articletitle .container {
+  max-width: 800px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+
+.articlecover_felh {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
 
 .articlecover_felh {

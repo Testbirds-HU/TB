@@ -29,7 +29,7 @@ module.exports = function (grunt) {
                 dest: 'res/js/grunt/main.concat.js'
             },
             main_css: {
-                src: ['res/css/src/*.css', 'res/css/layout.css'],
+                src: ['res/css/src/*.css'],
                 dest: 'res/css/grunt/main.concat.css'
             }
         },
