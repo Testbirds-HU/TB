@@ -133,6 +133,7 @@ button::-moz-focus-inner {
 
 .navbar-default .navbar-collapse {
   background-color: #1E777A;
+  border-color: #0D6063;
 }
 
 .navbar-default .navbar-toggle {
@@ -146,10 +147,6 @@ button::-moz-focus-inner {
 
 .navbar-toggle {
   margin-top: 15px;
-}
-
-.navbar-default .navbar-collapse {
-  border-color: #0D6063;
 }
 
 @media (max-width:1142px) {
@@ -277,6 +274,7 @@ h2 {
 
 .navbar-default .navbar-collapse {
   background-color: #1E777A;
+  border-color: #0D6063;
 }
 
 .navbar-default .navbar-toggle {
@@ -290,10 +288,6 @@ h2 {
 
 .navbar-toggle {
   margin-top: 15px;
-}
-
-.navbar-default .navbar-collapse {
-  border-color: #0D6063;
 }
 
 @media (max-width:1142px) {
@@ -390,6 +384,7 @@ html,
 html a {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
   -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
 }
 
 h1 {
@@ -495,77 +490,11 @@ ul {
   }
 }
 
-body {
-  margin: 0;
-}
-
-nav {
-  display: block;
-}
-
-a {
-  background-color: transparent;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-button {
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */
-}
-
-button {
-  overflow: visible;
-}
-
-button {
-  text-transform: none;
-}
-
-button {
-  -webkit-appearance: button;
-  /* 2 */
-  /* 3 */
-}
-
-button::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
-  display: block;
-}
+@charset "UTF-8";
 
 body,
-html {
-  overflow-x: hidden;
-  width: 100%;
-}
-
-body {
-  background-color: #EFEFEF;
-}
-
-html,
-html a {
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-  font-smoothing: antialiased;
+li {
+  margin: 0;
 }
 
 li {
@@ -581,23 +510,6 @@ li {
   font-family: Droid Sans, sans-serif;
 }
 
-li {
-  font-weight: 400;
-}
-
-ul {
-  margin: 0;
-}
-
-a {
-  color: #1E777A;
-}
-
-ul {
-  padding: 0;
-  list-style: none;
-}
-
 @media (max-width:992px) {
   h1 {
     font-size: 3.5rem;
@@ -608,10 +520,6 @@ ul {
   h1 {
     font-size: 3.3rem;
   }
-}
-
-.container {
-  width: 94%;
 }
 
 @media (max-width:400px) {
@@ -625,12 +533,6 @@ ul {
   .container {
     width: 98%;
   }
-}
-
-#reftitle {
-  padding-bottom: 30px;
-  padding-top: 80px;
-  display: none;
 }
 
 .articletitle .container {

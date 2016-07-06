@@ -16,7 +16,7 @@
                                 <h1><?php writeText($lang,'fooldal_Focim',$content);?></h1>
                                 <h2><?php writeText($lang,'fooldal_Focim2',$content);?></h2>
                                 <h6><?php writeText($lang,'fooldal_Focim3',$content);?></h6> </div>
-                            <div class="col-md-6 kep"></div>
+                            <div class="col-md-6 icon-dudes"></div>
                         </div>
                         <div class="row">
                             <div id="arrow" class="scrollholder"><img alt="Click to scroll" src="/res/img/dist/scroll_icon.png"></div>
@@ -40,7 +40,7 @@
                                     <p>
                                         <?php writeText($lang,'fooldal_funkcionalis2',$content);?>
                                     </p>
-                                    <div class="imgholder"></div>
+                                    <div class="icon-tb_bug2"></div>
                                     <div class="navigator">
                                         <p class="more">></p>
                                     </div>
@@ -52,7 +52,7 @@
                                     <p>
                                         <?php writeText($lang,'fooldal_felhasznaloi2',$content);?>
                                     </p>
-                                    <div class="imgholder"></div>
+                                    <div class="icon-ux2"></div>
                                     <div class="navigator">
                                         <p class="more">></p>
                                     </div>
@@ -80,7 +80,7 @@
                                 <h2 id="ctelonyei"><?php writeText($lang,'fooldal_miertmi',$content);?></h2>
                                 <div class="row list">
                                     <a href="whyus.php#1" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 el1">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-target">
                                             <h2><?php writeText($lang,'fooldal_miertmi2',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">> </p>
@@ -88,7 +88,7 @@
                                         </div>
                                     </a>
                                     <a href="whyus.php#2" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 el2">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-devices">
                                             <h2><?php writeText($lang,'fooldal_miertmi3',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">> </p>
@@ -96,7 +96,7 @@
                                         </div>
                                     </a>
                                     <a href="whyus.php#3" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 el3">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-people">
                                             <h2><?php writeText($lang,'fooldal_miertmi4',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">></p>
@@ -104,7 +104,7 @@
                                         </div>
                                     </a>
                                     <a href="whyus.php#4" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 el4">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-messages">
                                             <h2><?php writeText($lang,'fooldal_miertmi5',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">></p>

@@ -29,7 +29,7 @@ module.exports = function (grunt) {
                 dest: 'res/js/grunt/main.concat.js'
             },
             main_css: {
-                src: ['res/css/src/*.css'],
+                src: ['res/css/src/*.css', 'res/css/grunt/sprite-*.css'],
                 dest: 'res/css/grunt/main.concat.css'
             }
         },
@@ -138,10 +138,15 @@ module.exports = function (grunt) {
             }
         },
 /**/    sprite: {
-            main: {
-                src: 'res/img/dist/**/*',
-                dest: 'res/img/grunt/sprite.png',
-                destCss: 'res/css/grunt/sprites.css'
+            misc: {
+                src: 'res/img/dist/*.png',
+                dest: 'res/img/grunt/sprite-misc.png',
+                destCss: 'res/css/grunt/sprite-misc.css'
+            },
+            companies: {
+                src: 'res/img/dist/companies/*.png',
+                dest: 'res/img/grunt/sprite-comp.png',
+                destCss: 'res/css/grunt/sprite-comp.css'
             }
         }
 // END MEDIA
@@ -150,13 +155,14 @@ module.exports = function (grunt) {
     // define the default task that executes when we run 'grunt' from inside the project
     grunt.registerTask('default', [
 //        'csslint:before_min',
-        'bower_concat',
+/*SRC*/ 'bower_concat',
         'jsvalidate:before_min',
+/*SRC*/ //'newer:imagemin',
+/*SRC*/ 'sprite',
         'concat',
         'newer:uglify',
         'jsvalidate:after_min',
         'autoprefixer',
-        //'newer:imagemin',
         'shell',
         'critical',
         'cssmin',
