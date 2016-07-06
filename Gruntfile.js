@@ -25,11 +25,11 @@ module.exports = function (grunt) {
                 separator: ';'
             },
             main_js: {
-                src: ['res/js/src/*.js', 'res/js/instantclick.js'],
+                src: ['res/js/src/*.js'],
                 dest: 'res/js/grunt/main.concat.js'
             },
             main_css: {
-                src: ['res/css/src/*.css'],
+                src: ['res/css/src/*.css', 'res/css/layout.css'],
                 dest: 'res/css/grunt/main.concat.css'
             }
         },
@@ -49,13 +49,13 @@ module.exports = function (grunt) {
                 safe: true
             },
             maincss: {
-                src: ['res/css/grunt/main.concat.css', 'res/css/layout.css'],
+                src: ['res/css/grunt/main.concat.css'],
                 dest: 'res/css/grunt/main.prfx.css'
             }
         },
 /**/    purifycss: {
             main: {
-                src: ['*.php', 'res/js/src/*.js'],
+                src: ['res/css/grunt/html/*.html', 'res/js/src/*.js'],
                 css: ['res/css/grunt/main.prfx.css'],
                 dest: 'res/css/grunt/main.pure.css'
             }
@@ -72,30 +72,6 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/critical.css'
             }
         },
-/**/    csslint: {
-            before_min: {
-                options: {
-                    import: false
-                },
-                src: [
-                    'res/css/src/component.css',
-                    'res/css/src/css-sprites.css',
-                    'res/css/src/elonyok.css',
-                    'res/css/src/header.css',
-                    'res/css/src/kapcsolat.css',
-                    'res/css/src/rolunk.css',
-                    'res/css/src/screen.css',
-                    'res/css/src/tesztek.css',
-                    'res/css/src/layout.css'
-                ]
-            },
-            after_min: {
-                options: {
-                    import: false
-                },
-                src: ['res/css/dist/main.min.css', 'res/css/dist/layout.min.css']
-            }
-        },
 /**/    cssmin: {
             options: {
                 shorthandCompacting: false,
@@ -104,7 +80,7 @@ module.exports = function (grunt) {
             main: {
                 files: {
                     'res/css/dist/main.min.css': ['res/css/grunt/main.pure.css'],
-                    'res/css/dist/layout.min.css': ['res/css/grunt/layout.pure.css']
+                    'res/css/dist/critical.min.css': ['res/css/grunt/critical.css']
                 }
             }
         },
@@ -163,12 +139,12 @@ module.exports = function (grunt) {
         'bower_concat',
         'jsvalidate:before_min',
         'concat',
-        'autoprefixer',
         'newer:uglify',
         'jsvalidate:after_min',
+        'autoprefixer',
         //'newer:imagemin',
-        'purifycss',
         'shell',
+        'purifycss',
         'critical',
         'cssmin'
 //        'csslint:after_min'

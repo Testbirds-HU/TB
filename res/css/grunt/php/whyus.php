@@ -1,12 +1,15 @@
-    <!DOCTYPE html>
-    <?php include('include/lang.php'); ?>
+<!DOCTYPE html>
+<?php include('include/lang.php'); ?>
     <html>
+
     <head>
         <?php include('include/html-head.php'); ?>
     </head>
+
     <body>
         <div id="pagewrap">
-            <?php include('include/navigation.php'); ?> </div>
+            <?php include('include/navigation.php'); ?>
+        </div>
         <div class="container elonyok">
             <div class="articletitle">
                 <div class="container">
@@ -129,6 +132,6 @@
             include('include/analytics.php');
             include('include/bottom-components.php');
         ?>
-        </body>
+    </body>
 
     </html>

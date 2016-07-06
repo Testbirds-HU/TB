@@ -1,7 +1,373 @@
-@charset "UTF-8";
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+button {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+button {
+  overflow: visible;
+}
+
+button {
+  text-transform: none;
+}
+
+button {
+  -webkit-appearance: button;
+  /* 2 */
+  /* 3 */
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'),		local('Roboto-Bold'),		url('/fonts/Roboto_700.eot?#iefix') format('embedded-opentype'),		url('/fonts/Roboto_700.woff') format('woff'),		url('/fonts/Roboto_700.woff2') format('woff2'),		url('/fonts/Roboto_700.svg#Roboto') format('svg'),		url('/fonts/Roboto_700.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'),		local('DroidSans'),		url('/fonts/Droid_Sans_400.eot?#iefix') format('embedded-opentype'),		url('/fonts/Droid_Sans_400.woff') format('woff'),		url('/fonts/Droid_Sans_400.woff2') format('woff2'),		url('/fonts/Droid_Sans_400.svg#DroidSans') format('svg'),		url('/fonts/Droid_Sans_400.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'),		local('DroidSans-Bold'),		url('/fonts/Droid_Sans_700.eot?#iefix') format('embedded-opentype'),		url('/fonts/Droid_Sans_700.woff') format('woff'),		url('/fonts/Droid_Sans_700.woff2') format('woff2'),		url('/fonts/Droid_Sans_700.svg#DroidSans') format('svg'),		url('/fonts/Droid_Sans_700.ttf') format('truetype');
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 15px;
+  font-family: Droid Sans, sans-serif;
+  font-weight: 400;
+  margin: 1rem;
+  padding-top: 20px;
+}
+
+.navbar-default .navbar-nav>li:after {
+  content: "";
+  display: block;
+  height: 4px;
+  text-align: center;
+  margin: -18px auto 0;
+}
+
+.navbar-default .navbar-nav>li:after {
+  background-color: #83B999;
+  width: 0;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  background-image: url(/res/img/dist/Logo_CMYK_Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75px;
+  width: 210px;
+}
+
+@media (min-width:768px) {
+  .navbar-nav {
+    float: right;
+    margin-right: 15px;
+  }
+}
+
+.navbar-default .navbar-collapse {
+  background-color: #1E777A;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  margin-top: 6px;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: #0D6063;
+}
+
+@media (max-width:1142px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-nav {
+    float: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid #fff;
+    box-shadow: none;
+  }
+
+  .collapse {
+    display: none;
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-nav {
+    margin-top: 7.5px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-nav li {
+    float: none;
+  }
+
+  .navbar-nav li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-default .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-default {
+    border-radius: 0;
+  }
+}
+
+@media (max-width:767px) {
+  .navbar-toggle {
+    margin-right: 35px;
+  }
+}
+
+@media (max-width:992px) {
+  .navbar-default .navbar-nav>li:after {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -14px;
+    width: 0;
+  }
+}
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: 390px;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+button {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+button {
+  overflow: visible;
+}
+
+button {
+  text-transform: none;
+}
+
+button {
+  -webkit-appearance: button;
+  /* 2 */
+  /* 3 */
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
 
 a {
   text-decoration: none;
+}
+
+nav {
+  display: block;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+html,
+html a {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+  font-smoothing: antialiased;
+}
+
+li {
+  font-family: Roboto, Droid Sans sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 26px;
+}
+
+a,
+li {
+  font-size: 1.7rem;
+  font-family: Droid Sans, sans-serif;
+}
+
+h6 li {
+  margin: 0 0 0 20px;
+  list-style: outside;
+}
+
+li {
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  color: #1E777A;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width:992px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width:340px) {
+  h1 {
+    font-size: 3.3rem;
+  }
+}
+
+.container {
+  width: 94%;
+}
+
+@media (max-width:400px) {
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width:1230px) {
+  .container {
+    width: 98%;
+  }
+}
+
+#reftitle {
+  padding-bottom: 30px;
+  padding-top: 80px;
+  display: none;
+}
+
+.articletitle .container {
+  max-width: 800px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+
+.articlecover_felh {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.articlecover_felh {
+  background-image: url(/res/img/dist/tesztbg1.png);
+}
+
+@media (max-width:992px) {
+  .articlecover_felh {
+    height: 330px;
+  }
 }
 
 h1,
@@ -41,6 +407,15 @@ h2 {
   width: 0;
 }
 
+.navbar-brand {
+  padding: 0 15px;
+  background-image: url(/res/img/dist/Logo_CMYK_Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75px;
+  width: 210px;
+}
+
 @media (min-width:768px) {
   .navbar-nav {
     float: right;
@@ -54,6 +429,11 @@ h2 {
 
 .navbar-default .navbar-toggle {
   border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  margin-top: 6px;
 }
 
 .navbar-toggle {
@@ -245,6 +625,12 @@ ul {
   .container {
     width: 98%;
   }
+}
+
+#reftitle {
+  padding-bottom: 30px;
+  padding-top: 80px;
+  display: none;
 }
 
 .articletitle {
