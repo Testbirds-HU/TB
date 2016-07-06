@@ -1,167 +1,182 @@
 .navbar-default {
-	background-color: #1E777A;
-	height: 80px;
-	z-index: 4;
-	border: none;
-	border-radius: 0;
+    background-color: #1E777A;
+    height: 80px;
+    z-index: 4;
+    border: none;
+    border-radius: 0;
 }
+
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.4rem;
-	line-height: 15px;
-	font-family: Droid Sans, sans-serif;
-	font-weight: 400;
-	margin: 1rem;
-	padding-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 15px;
+    font-family: Droid Sans, sans-serif;
+    font-weight: 400;
+    margin: 1rem;
+    padding-top: 20px;
 }
-.active:after,.navbar-default .navbar-nav>li:after,.navbar-default .navbar-nav>li:hover:after {
-	content: "";
-	display: block;
-	height: 4px;
-	text-align: center;
-	margin: -18px auto 0;
-}
-.navbar-default .navbar-nav>li>a:hover {
-	color: #fff;
-}
-.navbar-default .navbar-nav>li:after {
-	background-color: #83B999;
-	width: 0;
-	transition: all .3s ease-in;
-	-webkit-transition: all .3s ease-in;
-	-moz-transition: all .3s ease-in;
-	-ms-transition: all .3s ease-in;
-	-o-transition: all .3s ease-in;
-}
+
+.active:after,
+.navbar-default .navbar-nav>li:after,
 .navbar-default .navbar-nav>li:hover:after {
-	background-color: #83B999;
-	width: 92%;
+    content: "";
+    display: block;
+    height: 4px;
+    text-align: center;
+    margin: -18px auto 0;
 }
-.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
-	color: #fff;
-	background-color: transparent;
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
 }
+
+.navbar-default .navbar-nav>li:after {
+    background-color: #83B999;
+    width: 0;
+    transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+}
+
+.navbar-default .navbar-nav>li:hover:after {
+    background-color: #83B999;
+    width: 92%;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
 .active:after {
-	background-color: #83B999;
-	width: 92%;
-	z-index: 2;
+    background-color: #83B999;
+    width: 92%;
+    z-index: 2;
 }
+
 .navbar-brand {
-	padding: 0 15px;
-	background-image: url(/res/img/dist/Logo_CMYK_Background.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 75px;
-	width: 210px;
+    padding: 0 15px;
+    background-image: url(/res/img/dist/Logo_CMYK_Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75px;
+    width: 210px;
 }
 
 @media (min-width:768px) {
-
-	.navbar-nav {
-		float: right;
-		margin-right: 15px;
-	}
+    .navbar-nav {
+        float: right;
+        margin-right: 15px;
+    }
 }
 
-.navbar-default .navbar-collapse,.navbar-default .navbar-form {
-	background-color: #1E777A;
-	border-color: #0D6063;
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    background-color: #1E777A;
+    border-color: #0D6063;
 }
+
 .navbar-default .navbar-toggle {
-	border-color: transparent;
+    border-color: transparent;
 }
-.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover {
-	background-color: transparent;
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
 }
+
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff;
-	margin-top: 6px;
+    background-color: #fff;
+    margin-top: 6px;
 }
+
 .navbar-toggle {
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 @media (max-width:1142px) {
-
-	.navbar-header {
-		float: none;
-	}
-	.navbar-left,.navbar-nav,.navbar-right {
-		float: none;
-	}
-	.navbar-toggle {
-		display: block;
-	}
-	.navbar-collapse {
-		border-top: 1px solid #fff;
-		box-shadow: none;
-	}
-	.collapse {
-		display: none;
-	}
-	.navbar-fixed-top {
-		top: 0;
-		border-width: 0 0 1px;
-	}
-	.navbar-nav {
-		margin-top: 7.5px;
-		padding-bottom: 10px;
-	}
-	.navbar-nav li {
-		float: none;
-	}
-	.navbar-nav li a {
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	.in {
-		display: block;
-	}
-	.navbar-default .container-fluid {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.navbar-default {
-		border-radius: 0;
-	}
-	.active:after {
-		content: "";
-		display: block;
-		background-color: #83B999;
-		height: 4px;
-		width: 300px;
-		text-align: left;
-		margin-top: -18px;
-		z-index: 2;
-	}
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-nav,
+    .navbar-right {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid #fff;
+        box-shadow: none;
+    }
+    .collapse {
+        display: none;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-nav {
+        margin-top: 7.5px;
+        padding-bottom: 10px;
+    }
+    .navbar-nav li {
+        float: none;
+    }
+    .navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .in {
+        display: block;
+    }
+    .navbar-default .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .navbar-default {
+        border-radius: 0;
+    }
+    .active:after {
+        content: "";
+        display: block;
+        background-color: #83B999;
+        height: 4px;
+        width: 300px;
+        text-align: left;
+        margin-top: -18px;
+        z-index: 2;
+    }
 }
-
 
 @media (max-width:767px) {
-
-	.navbar-toggle {
-		margin-right: 35px;
-	}
+    .navbar-toggle {
+        margin-right: 35px;
+    }
 }
-
 
 @media (max-width:992px) {
-
-	.navbar-default .navbar-nav>li:after {
-		position: absolute;
-		margin-left: 20px;
-		margin-top: -14px;
-		width: 0;
-	}
-	.navbar-default .navbar-nav>li:hover:after {
-		position: absolute;
-		margin-left: 20px;
-		margin-top: -14px;
-		width: 230px;
-	}
+    .navbar-default .navbar-nav>li:after {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: -14px;
+        width: 0;
+    }
+    .navbar-default .navbar-nav>li:hover:after {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: -14px;
+        width: 230px;
+    }
 }
 
-.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse {
-	max-height: 390px;
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+    max-height: 390px;
 }
