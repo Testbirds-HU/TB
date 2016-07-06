@@ -80,7 +80,7 @@
                                 <h2 id="ctelonyei"><?php writeText($lang,'fooldal_miertmi',$content);?></h2>
                                 <div class="row list">
                                     <a href="whyus.php#1" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-target">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-target el">
                                             <h2><?php writeText($lang,'fooldal_miertmi2',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">> </p>
@@ -88,7 +88,7 @@
                                         </div>
                                     </a>
                                     <a href="whyus.php#2" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-devices">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-devices el">
                                             <h2><?php writeText($lang,'fooldal_miertmi3',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">> </p>
@@ -96,7 +96,7 @@
                                         </div>
                                     </a>
                                     <a href="whyus.php#3" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-people">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-people el">
                                             <h2><?php writeText($lang,'fooldal_miertmi4',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">></p>
@@ -104,7 +104,7 @@
                                         </div>
                                     </a>
                                     <a href="whyus.php#4" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-messages">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-messages el">
                                             <h2><?php writeText($lang,'fooldal_miertmi5',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">></p>

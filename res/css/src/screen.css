@@ -48,10 +48,6 @@ h2 {
     background-color: #83B999;
     width: 0;
     transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
 }
 
 .navbar-default .navbar-nav>li:hover:after {
@@ -563,7 +559,6 @@ sub {
 }
 
 .cover .row .kep {
-    background-image: url(/res/img/dist/dudes.png);
     height: 35vw;
     margin-left: 0;
 }
@@ -685,7 +680,6 @@ sub {
 }
 
 .tesztek .row .teszt1 .imgholder {
-    background-image: url(/res/img/dist/tb_bug2.png);
     height: 370px;
     background-position: center;
     background-position-y: 0;
@@ -711,7 +705,6 @@ sub {
 }
 
 .tesztek .row .teszt2 .imgholder {
-    background-image: url(/res/img/dist/ux2.png);
     height: 170px;
     background-position: center;
     margin-top: 90px;
@@ -795,53 +788,34 @@ sub {
     cursor: pointer;
 }
 
-.Elonyok .row .col-md-12 .list .el1 h2,
-.Elonyok .row .col-md-12 .list .el1 p,
-.Elonyok .row .col-md-12 .list .el2 h2,
-.Elonyok .row .col-md-12 .list .el2 p,
-.Elonyok .row .col-md-12 .list .el3 h2,
-.Elonyok .row .col-md-12 .list .el3 p,
-.Elonyok .row .col-md-12 .list .el4 h2,
-.Elonyok .row .col-md-12 .list .el4 p {
+
+.Elonyok .row .col-md-12 .list .el h2,
+.Elonyok .row .col-md-12 .list .el p {
     color: #fff;
 }
 
-.Elonyok .row .col-md-12 .list .el1 .navigator p,
-.Elonyok .row .col-md-12 .list .el2 .navigator p,
-.Elonyok .row .col-md-12 .list .el3 .navigator p,
-.Elonyok .row .col-md-12 .list .el4 .navigator p {
+.Elonyok .row .col-md-12 .list .el .navigator p {
     position: absolute;
     bottom: 30px;
     font-size: 1.5rem;
     max-width: 80%;
 }
 
-.Elonyok .row .col-md-12 .list .el1 .navigator .more,
-.Elonyok .row .col-md-12 .list .el2 .navigator .more,
-.Elonyok .row .col-md-12 .list .el3 .navigator .more,
-.Elonyok .row .col-md-12 .list .el4 .navigator .more {
+.Elonyok .row .col-md-12 .list .el .navigator .more {
     position: absolute;
     bottom: 30px;
     float: right;
     right: 35px;
 }
 
-.Elonyok .row .col-md-12 .el1:hover,
-.Elonyok .row .col-md-12 .el2:hover,
-.Elonyok .row .col-md-12 .el3:hover,
-.Elonyok .row .col-md-12 .el4:hover {
+.Elonyok .row .col-md-12 .el:hover {
     background-color: #82b999;
     z-index: 3;
-    -webkit-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, .26);
-    -moz-box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, .26);
     box-shadow: 4px 4px 10px -1px rgba(0, 0, 0, .26);
 }
 
 @media (max-width:660px) {
-    .Elonyok .row .col-md-12 .list .el1,
-    .Elonyok .row .col-md-12 .list .el2,
-    .Elonyok .row .col-md-12 .list .el3,
-    .Elonyok .row .col-md-12 .list .el4 {
+    .Elonyok .row .col-md-12 .list .el {
         padding-left: 2rem;
     }
 }
@@ -856,10 +830,7 @@ sub {
 }
 
 @media (max-width:992px) {
-    .Elonyok .row .col-md-12 .list .el1,
-    .Elonyok .row .col-md-12 .list .el2,
-    .Elonyok .row .col-md-12 .list .el3,
-    .Elonyok .row .col-md-12 .list .el4 {
+    .Elonyok .row .col-md-12 .list .el {
         margin-bottom: 1px;
     }
     .Elonyok .row .col-md-12 {
@@ -894,10 +865,10 @@ sub {
     min-height: 500px;
 }
 
-#device1,
-#device2,
-#device3,
-#device4 {
+.device1,
+.device2,
+.device3,
+.device4 {
     background-size: contain;
     height: 150px;
     background-position: center;
@@ -920,19 +891,19 @@ sub {
     padding-top: 168px;
 }
 
-#device1 {
+.device1 {
     background-image: url(/res/img/dist/what_we_test_icon_1.png);
 }
 
-#device2 {
+.device2 {
     background-image: url(/res/img/dist/what_we_test_icon_2.png);
 }
 
-#device3 {
+.device3 {
     background-image: url(/res/img/dist/what_we_test_icon_5.png);
 }
 
-#device4 {
+.device4 {
     background-image: url(/res/img/dist/what_we_test_icon_3.png);
 }
 
@@ -1668,34 +1639,34 @@ h6 li {
     margin-left: -5px;
 }
 
-.Elonyok .row .col-md-12 .list .el1 {
+.Elonyok .row .col-md-12 .list .el {
     background-image: url(/res/img/dist/target.png);
     background-size: 70px;
     background-position-y: 110px;
 }
 
-.Elonyok .row .col-md-12 .list .el2 {
+.Elonyok .row .col-md-12 .list .el {
     background-image: url(/res/img/dist/devices.png);
     background-size: 110px;
     background-position-y: 87px;
 }
 
-.Elonyok .row .col-md-12 .list .el3 {
+.Elonyok .row .col-md-12 .list .el {
     background-image: url(/res/img/dist/people.png);
     background-size: 80px;
     background-position-y: 100px;
 }
 
-.Elonyok .row .col-md-12 .list .el4 {
+.Elonyok .row .col-md-12 .list .el {
     background-image: url(/res/img/dist/messages.png);
     background-size: 90px;
     background-position-y: 88px;
 }
 
-.Elonyok .row .col-md-12 .list .el1,
-.Elonyok .row .col-md-12 .list .el2,
-.Elonyok .row .col-md-12 .list .el3,
-.Elonyok .row .col-md-12 .list .el4 {
+.Elonyok .row .col-md-12 .list .el,
+.Elonyok .row .col-md-12 .list .el,
+.Elonyok .row .col-md-12 .list .el,
+.Elonyok .row .col-md-12 .list .el {
     background-repeat: no-repeat;
     background-position: center;
     height: 250px;
@@ -1721,10 +1692,10 @@ h6 li {
 }
 
 @media (max-width:660px) {
-    .Elonyok .row .col-md-12 .list .el1,
-    .Elonyok .row .col-md-12 .list .el2,
-    .Elonyok .row .col-md-12 .list .el3,
-    .Elonyok .row .col-md-12 .list .el4 {
+    .Elonyok .row .col-md-12 .list .el,
+    .Elonyok .row .col-md-12 .list .el,
+    .Elonyok .row .col-md-12 .list .el,
+    .Elonyok .row .col-md-12 .list .el {
         padding-left: 2rem;
     }
 }
@@ -1739,10 +1710,10 @@ h6 li {
 }
 
 @media (max-width:992px) {
-    .Elonyok .row .col-md-12 .list .el1,
-    .Elonyok .row .col-md-12 .list .el2,
-    .Elonyok .row .col-md-12 .list .el3,
-    .Elonyok .row .col-md-12 .list .el4 {
+    .Elonyok .row .col-md-12 .list .el,
+    .Elonyok .row .col-md-12 .list .el,
+    .Elonyok .row .col-md-12 .list .el,
+    .Elonyok .row .col-md-12 .list .el {
         margin-bottom: 1px;
     }
     .Elonyok .row .col-md-12 {
