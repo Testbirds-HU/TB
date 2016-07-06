@@ -66,18 +66,12 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/main.prfx.css'
             }
         },
-/**/    purifycss: {
-            main: {
-                src: ['res/css/grunt/html/*.html', 'res/js/src/*.js'],
-                css: ['res/css/grunt/main.prfx.css'],
-                dest: 'res/css/grunt/main.pure.css'
-            }
-        },
 /**/    critical: {
             main: {
                 options: {
                     base: './',
-                    css: 'res/css/grunt/main.pure.css',
+                    css: 'res/css/grunt/main.prfx.css',
+                    extract: true,
                     width: 1920,
                     height: 1080
                 },
@@ -92,7 +86,7 @@ module.exports = function (grunt) {
             },
             main: {
                 files: {
-                    'res/css/dist/main.min.css': ['res/css/grunt/main.pure.css'],
+                    'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css'],
                     'res/css/dist/critical.min.css': ['res/css/grunt/critical.css']
                 }
             }
@@ -157,7 +151,6 @@ module.exports = function (grunt) {
         'autoprefixer',
         //'newer:imagemin',
         'shell',
-        'purifycss',
         'critical',
         'cssmin',
         'htmllint'

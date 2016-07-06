@@ -2901,9 +2901,8 @@ td,
 th {
   padding: 0;
 }
-;.rolunk .articlecover,
-.rolunk .team {
-    background-color: #FAFAFA
+;.rolunk {
+    background: #FAFAFA !important
 }
 
 .rolunk .articletitle .container {
@@ -2918,7 +2917,6 @@ th {
     background-repeat: no-repeat;
     height: 120px
 }
-
 .rolunk .team {
     padding-bottom: 80px
 }
@@ -2949,6 +2947,7 @@ th {
     padding-top: 15px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, .4);
     border-radius: 3px;
+    background-color: white;
 }
 
 .team .anna {
