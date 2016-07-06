@@ -1,4 +1,4 @@
-<?php echo '<link href="/res/css/basic-styles-'?><?php echo($components->tld);?><?php echo '.css" rel="stylesheet" async defer>';?>
+<?php echo '<link href="/res/css/basic-styles-'?><?php echo($components->tld);?><?php echo '.css" rel="stylesheet">';?>
 <script>
     $(document).ready(function () {
         $("#arrow").click(function () {
@@ -8,7 +8,6 @@
         });
     })
 </script>
-<!--<script src="res/js/instantclick.min.js" data-no-instant></script>-->
 <script data-no-instant>
     InstantClick.init();
 </script>

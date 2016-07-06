@@ -33,15 +33,28 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/main.concat.css'
             }
         },
+// END BOWER
+        
+//BEGIN HTML
 /**/    shell: {
             options: {
                 stderr: false
             },
             main: {
-                command: 'cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html; done'
+                command: 'cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html;  done && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/$(echo $line | rev | cut -c 5- | rev).html; done'
             }
         },
-// END BOWER
+        htmllint: {
+            main: [
+                    'res/css/grunt/html/index.html',
+                    'res/css/grunt/html/about.html',
+                    'res/css/grunt/html/contact.html',
+                    'res/css/grunt/html/functional.html',
+                    'res/css/grunt/html/ux.html',
+                    'res/css/grunt/html/whyus.html'
+                  ]
+        },
+// END HTML
         
 // BEGIN CSS
 /**/    autoprefixer: {
@@ -146,7 +159,8 @@ module.exports = function (grunt) {
         'shell',
         'purifycss',
         'critical',
-        'cssmin'
+        'cssmin',
+        'htmllint'
 //        'csslint:after_min'
     ]);
 

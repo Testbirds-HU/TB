@@ -15,7 +15,15 @@
                 <div class="container">
                     <h1><?php writeText($lang,'felhasznaloi_cim1',$content);?></h1>
                     <h2><?php writeText($lang,'felhasznaloi_cim2',$content);?></h2>
-                    <h6><?php writeText($lang,'felhasznaloi_cim3',$content);?> <ul> <li><?php writeText($lang,'felhasznaloi_cim4',$content);?></li> <li><?php writeText($lang,'felhasznaloi_cim5',$content);?></li> <li><?php writeText($lang,'felhasznaloi_cim6',$content);?></li> <li><?php writeText($lang,'felhasznaloi_cim7',$content);?></li> </ul> </h6> </div>
+                    <div class="boldul"><?php writeText($lang,'felhasznaloi_cim3',$content);?>
+                        <ul>
+                            <li><?php writeText($lang,'felhasznaloi_cim4',$content);?></li>
+                            <li><?php writeText($lang,'felhasznaloi_cim5',$content);?></li>
+                            <li><?php writeText($lang,'felhasznaloi_cim6',$content);?></li>
+                            <li><?php writeText($lang,'felhasznaloi_cim7',$content);?></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="articlecover_felh"></div>
             <div class="articlebody_g">

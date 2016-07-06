@@ -1,8 +1,3 @@
-<style>
-    .navbar-default .navbar-nav>li>a {
-        color: white !important
-    }
-</style>
 <nav class="navbar navbar-default navbar-fixed-top" style="z-index: 4;">
     <div class="container-fluid">
         <div class="navbar-header">

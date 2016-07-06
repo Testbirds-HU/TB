@@ -9,7 +9,7 @@
 </title>
 <link rel="shortcut icon" href="favicon.ico">
 <link href="/res/css/dist/critical.min.css" rel="stylesheet">
-<link href="/bower_components/bootstrap/dist/css/bootstrap.css" res="stylesheet">
+<link href="/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
 <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="/res/css/dist/main.min.css" rel="stylesheet">
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>

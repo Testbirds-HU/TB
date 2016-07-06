@@ -19,7 +19,7 @@
                             <div class="col-md-6 kep"></div>
                         </div>
                         <div class="row">
-                            <div id="arrow" class="scrollholder"><img src="/res/img/dist/scroll_icon.png"></div>
+                            <div id="arrow" class="scrollholder"><img alt="Click to scroll" src="/res/img/dist/scroll_icon.png"></div>
                         </div>
                     </div>
                     <div class="csatlakozz">
@@ -71,7 +71,7 @@
                                     <?php writeText($lang,'testimonial1-auth',$content);?>
                                 </p>
                             </div>
-                            <div class="col-md-2 imgholder hidden-sm"> <img src=<?php writeText($lang, 'testimonial1-img',$content);?>> </div>
+                            <div class="col-md-2 imgholder hidden-sm"> <img alt="Testimonial image" src=<?php writeText($lang, 'testimonial1-img',$content);?>> </div>
                         </div>
                     </div>
                     <div class="Elonyok">
@@ -120,31 +120,31 @@
                             <div class="col-md-12">
                                 <h2><?php writeText($lang,'fooldal_miket',$content);?></h2>
                                 <div class="row ikonok">
-                                    <div id="device1" class="col-md-3">
+                                    <div class="device1 col-md-3">
                                         <h6><?php writeText($lang,'fooldal_miket2',$content);?></h6> </div>
-                                    <div id="device2" class="col-md-3">
+                                    <div class="device2 col-md-3">
                                         <h6><?php writeText($lang,'fooldal_miket3',$content);?></h6> </div>
-                                    <div id="device3" class="col-md-3">
+                                    <div class="device3 col-md-3">
                                         <h6><?php writeText($lang,'fooldal_miket4',$content);?></h6> </div>
-                                    <div id="device4" class="col-md-3">
+                                    <div class="device4 col-md-3">
                                         <h6><?php writeText($lang,'fooldal_miket5',$content);?></h6> </div>
                                 </div>
                                 <div class="row miketmob">
                                     <div class="carousel js-flickity">
                                         <div class="carousel-cell">
-                                            <div id="device1">
+                                            <div class="device1">
                                                 <h6><?php writeText($lang,'fooldal_miket2',$content);?></h6> </div>
                                         </div>
                                         <div class="carousel-cell">
-                                            <div id="device2">
+                                            <div class="device2">
                                                 <h6><?php writeText($lang,'fooldal_miket3',$content);?></h6> </div>
                                         </div>
                                         <div class="carousel-cell">
-                                            <div id="device3">
+                                            <div class="device3">
                                                 <h6><?php writeText($lang,'fooldal_miket4',$content);?></h6> </div>
                                         </div>
                                         <div class="carousel-cell">
-                                            <div id="device4">
+                                            <div class="device4">
                                                 <h6><?php writeText($lang,'fooldal_miket5',$content);?></h6> </div>
                                         </div>
                                     </div>
@@ -163,7 +163,7 @@
                                     <?php writeText($lang,'testimonial2-auth',$content);?>
                                 </p>
                             </div>
-                            <div class="col-md-2 imgholder hidden-sm"> <img src=<?php writeText($lang, 'testimonial2-img',$content);?>> </div>
+                            <div class="col-md-2 imgholder hidden-sm"> <img alt="Testimonial image" src=<?php writeText($lang, 'testimonial2-img',$content);?>> </div>
                         </div>
                     </div>
                     <div class="folyamat">
@@ -171,21 +171,21 @@
                             <div class="col-md-12">
                                 <h2><?php writeText($lang,'fooldal_folyamat',$content);?></h2> </div>
                             <div class="col-md-4">
-                                <div class="circle elso"><img></div>
+                                <div class="circle elso"></div>
                                 <h2><?php writeText($lang,'fooldal_folyamat2',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat3',$content);?>
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <div class="circle masodik"><img></div>
+                                <div class="circle masodik"></div>
                                 <h2><?php writeText($lang,'fooldal_folyamat4',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat5',$content);?>
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <div class="circle harmadik"><img></div>
+                                <div class="circle harmadik"></div>
                                 <h2><?php writeText($lang,'fooldal_folyamat6',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat7',$content);?>
