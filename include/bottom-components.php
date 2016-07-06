@@ -1,4 +1,4 @@
-<?php echo '<link href="/res/css/basic-styles-'?><?php echo($components->tld);?><?php echo '.css" rel="stylesheet">';?>
+<?php echo '<link href="/res/css/';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
             <script>
                 $(document).ready(function () {
                     $("#arrow").click(function () {
@@ -15,7 +15,7 @@
                     $.ajaxSetup({
                         cache: true
                     });
-                    $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css" />');
+                    $('head').append('');
                     $.getScript("/res/js/dist/main.min.js", function () {
                         console.log("Main js loaded");
                         InstantClick.init();

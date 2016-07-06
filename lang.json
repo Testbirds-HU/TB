@@ -1,7 +1,7 @@
 {
     "Hungarian": {
 	    "nesturl": "nest.testbirds.com/locale/public-language/hu",
-        "customcss": "",
+        "customcss": "basic-styles-hu.css",
         "head_title": "Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.",
         "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
         "head_keywords": "crowdtesting",

@@ -1,9 +1,9 @@
-.rolunk {
-    background: #FAFAFA !important
-}
-
 .rolunk .articletitle .container {
     padding-bottom: 0
+}
+
+.rolunk > div {
+    background-color: #FAFAFA
 }
 
 .rolunk .articlecover .container {
