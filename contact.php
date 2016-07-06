@@ -143,7 +143,8 @@
 
     <body>
         <div id="pagewrap">
-            <?php include('navigation.php'); ?> </div>
+            <?php include('navigation.php'); ?>
+        </div>
         <div class="container">
             <div class="articlebody_g kapcsolat">
                 <div class="container">
@@ -158,19 +159,26 @@
                         <form method="post" action="" accept-charset="UTF-8">
                             <div class="row form">
                                 <div class="col-md-6">
-                                    <div class="form-group"> <input id="usr" name="nev" placeholder="<?php writeText($lang,'kapcsolat_form1',$content);?>" required class="form-control"> </div>
-                                    <div class="form-group"> <input id="usr" type="email" name="email" placeholder="<?php writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control"> </div>
-                                    <div class="form-group"> <input id="usr" type="tel" name="telefonszam" placeholder="<?php writeText($lang,'kapcsolat_form3',$content);?>" required class="form-control"> </div>
-                                    <div class="form-group"> <input id="usr" name="cegnev" placeholder="<?php writeText($lang,'kapcsolat_form4',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group">
+                                        <input id="usr" name="nev" placeholder="<?php writeText($lang,'kapcsolat_form1',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group">
+                                        <input id="usr" type="email" name="email" placeholder="<?php writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group">
+                                        <input id="usr" type="tel" name="telefonszam" placeholder="<?php writeText($lang,'kapcsolat_form3',$content);?>" required class="form-control"> </div>
+                                    <div class="form-group">
+                                        <input id="usr" name="cegnev" placeholder="<?php writeText($lang,'kapcsolat_form4',$content);?>" required class="form-control"> </div>
                                 </div>
                                 <div class="col-md-6 message">
                                     <div class="form-horizontal">
                                         <div class="form-group">
-                                            <div class="col-md-12"> <textarea rows="3" placeholder="<?php writeText($lang,'kapcsolat_form5',$content);?>" required name="projekt" class="form-control"></textarea> </div>
+                                            <div class="col-md-12">
+                                                <textarea rows="3" placeholder="<?php writeText($lang,'kapcsolat_form5',$content);?>" required name="projekt" class="form-control"></textarea>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row send col-md-12"> <input class="btn-primary" type="submit" value="<?php writeText($lang,'kapcsolat_form6',$content);?>"> </div>
+                                <div class="row send col-md-12">
+                                    <input class="btn-primary" type="submit" value="<?php writeText($lang,'kapcsolat_form6',$content);?>"> </div>
                             </div>
                         </form>
                         <div style="border-top:1px solid rgba(255,255,255,.49);margin-right:15px;margin-top:40px;padding-top:40px;text-align:center;opacity:.5" class="row">
@@ -201,6 +209,6 @@
             include('include/analytics.php');
             include('include/bottom-components.php');
         ?>
-        </body>
+    </body>
 
     </html>

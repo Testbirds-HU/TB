@@ -40,7 +40,8 @@
         <div style="width:700px">
             <div>
                 <p style="color:#fff">Git Deployment Script</p>
-                <?php echo $output; ?> </div>
+                <?php echo $output; ?>
+            </div>
         </div>
     </body>
 

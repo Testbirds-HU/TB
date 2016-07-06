@@ -1,12 +1,15 @@
-    <!DOCTYPE html>
-    <?php include('include/lang.php'); ?>
+<!DOCTYPE html>
+<?php include('include/lang.php'); ?>
     <html>
+
     <head>
         <?php include('include/html-head.php'); ?>
     </head>
+
     <body>
         <div id="pagewrap">
-            <?php include('include/navigation.php'); ?> </div>
+            <?php include('include/navigation.php'); ?>
+        </div>
         <div class="container">
             <div class="articletitle">
                 <div class="container">
@@ -20,45 +23,69 @@
                     <h6><?php writeText($lang,'felhasznaloi_leiras1',$content);?></h6>
                     <p>
                         <?php writeText($lang,'felhasznaloi_leiras2',$content);?>
-                    </p><br><br>
+                    </p>
+                    <br>
+                    <br>
                     <h6><?php writeText($lang,'felhasznaloi_leiras3',$content);?></h6>
                     <p>
-                        <?php writeText($lang,'felhasznaloi_leiras4',$content);?><br><br></p>
+                        <?php writeText($lang,'felhasznaloi_leiras4',$content);?>
+                            <br>
+                            <br>
+                    </p>
                     <h6><?php writeText($lang,'felhasznaloi_leiras4.1',$content);?><br></h6>
                     <p>
-                        <?php writeText($lang,'felhasznaloi_leiras5',$content);?><br><br></p>
+                        <?php writeText($lang,'felhasznaloi_leiras5',$content);?>
+                            <br>
+                            <br>
+                    </p>
                     <ul>
                         <li>
                             <?php writeText($lang,'felhasznaloi_leiras6',$content);?>
                         </li>
                         <li>
-                            <?php writeText($lang,'felhasznaloi_leiras7',$content);?><br></li>
+                            <?php writeText($lang,'felhasznaloi_leiras7',$content);?>
+                                <br>
+                        </li>
                         <li>
-                            <?php writeText($lang,'felhasznaloi_leiras8',$content);?><br><br></li>
+                            <?php writeText($lang,'felhasznaloi_leiras8',$content);?>
+                                <br>
+                                <br>
+                        </li>
                     </ul>
                     <h6><?php writeText($lang,'felhasznaloi_leiras9',$content);?><br></h6>
                     <p>
-                        <?php writeText($lang,'felhasznaloi_leiras10',$content);?><br></p>
+                        <?php writeText($lang,'felhasznaloi_leiras10',$content);?>
+                            <br>
+                    </p>
                 </div>
             </div>
             <div class="articlebody_w">
                 <div class="container">
                     <h2><?php writeText($lang,'felhasznaloi_folyamat1',$content);?><br><br></h2>
                     <p>
-                        <?php writeText($lang,'felhasznaloi_folyamat2',$content);?><br><br></p>
+                        <?php writeText($lang,'felhasznaloi_folyamat2',$content);?>
+                            <br>
+                            <br>
+                    </p>
                     <h6><?php writeText($lang,'felhasznaloi_folyamat3',$content);?><br></h6>
                     <p>
-                        <?php writeText($lang,'felhasznaloi_folyamat4',$content);?><br><br></p>
+                        <?php writeText($lang,'felhasznaloi_folyamat4',$content);?>
+                            <br>
+                            <br>
+                    </p>
                     <h6><?php writeText($lang,'felhasznaloi_folyamat5',$content);?></h6>
                     <p>
-                        <?php writeText($lang,'felhasznaloi_folyamat6',$content);?><br><br></p>
+                        <?php writeText($lang,'felhasznaloi_folyamat6',$content);?>
+                            <br>
+                            <br>
+                    </p>
                     <h6><?php writeText($lang,'felhasznaloi_folyamat7',$content);?></h6>
                     <p>
                         <?php writeText($lang,'felhasznaloi_folyamat8',$content);?>
                     </p>
                 </div>
             </div>
-        <?php
+            <?php
             include('include/references.php');
         ?>
         </div>
@@ -67,5 +94,6 @@
             include('include/analytics.php');
             include('include/bottom-components.php');
         ?>
-        </body>
+    </body>
+
     </html>
