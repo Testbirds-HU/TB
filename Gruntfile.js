@@ -137,19 +137,11 @@ module.exports = function (grunt) {
                 }]
             }
         },
-/**/    sprity: {
-            options: {
-                'cssPath': '/res/img/dist/sprites',
-                'processor': 'css',
-                'orientation': 'binary-tree',
-                'margin': 4
-            },
+/**/    sprite: {
             main: {
-                options: {
-                    'style': 'res/css/grunt/sprites.css'
-                },
-                src: ['res/img/dist/**/*'],
-                dest: 'res/img/grunt/sprite.png'
+                src: 'res/img/dist/**/*',
+                dest: 'res/img/grunt/sprite.png',
+                destCss: 'res/css/grunt/sprites.css'
             }
         }
 // END MEDIA
