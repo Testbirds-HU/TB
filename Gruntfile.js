@@ -125,13 +125,24 @@ module.exports = function (grunt) {
         
 // BEGIN MEDIA
 /**/    imagemin: {
-            dynamic: {
+            main: {
                 options: {
                     optimizationLevel: 7
                 },
                 files: [{
                     expand: true,
                     cwd: 'res/img/src/',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'res/img/dist/'
+                }]
+            },
+            sprites: {
+                options: {
+                    optimizationLevel: 7
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'res/img/grunt/',
                     src: ['**/*.{png,jpg,gif}'],
                     dest: 'res/img/dist/'
                 }]
@@ -159,8 +170,8 @@ module.exports = function (grunt) {
 //        'csslint:before_min',
 /*SRC*/ 'bower_concat',
         'jsvalidate:before_min',
-/*SRC*/ //'newer:imagemin',
-/*SRC*/ 'sprite',
+/*SRC*/ 'newer:imagemin:main',
+/*SRC*/ 'newer:sprite',
         'concat',
         'newer:uglify',
         'jsvalidate:after_min',
@@ -168,7 +179,8 @@ module.exports = function (grunt) {
         'shell',
         'critical',
         'cssmin',
-        'htmllint'
+        'htmllint',
+//        'newer:imagemin:sprites'
 //        'csslint:after_min'
     ]);
 

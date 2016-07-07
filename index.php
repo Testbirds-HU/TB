@@ -35,24 +35,28 @@
                     <div id="top" class="tesztek">
                         <div class="row">
                             <a href="functional.php">
-                                <div class="col-md-6 teszt1">
+                                <div class="col-md-6 teszt teszt1">
                                     <h2><?php writeText($lang,'fooldal_funkcionalis',$content);?></h2>
                                     <p>
                                         <?php writeText($lang,'fooldal_funkcionalis2',$content);?>
                                     </p>
-                                    <div class="icon-tb_bug2"></div>
+                                    <div class="spriteholder">
+                                        <div class="icon-tb_bug2"></div>
+                                    </div>
                                     <div class="navigator">
                                         <p class="more">></p>
                                     </div>
                                 </div>
                             </a>
                             <a href="ux.php">
-                                <div class="col-md-6 teszt2">
+                                <div class="col-md-6 teszt teszt2">
                                     <h2><?php writeText($lang,'fooldal_felhasznaloi',$content);?></h2>
                                     <p>
                                         <?php writeText($lang,'fooldal_felhasznaloi2',$content);?>
                                     </p>
-                                    <div class="icon-ux2"></div>
+                                    <div class="spriteholder">
+                                        <div class="icon-ux2"></div>
+                                    </div>
                                     <div class="navigator">
                                         <p class="more">></p>
                                     </div>
@@ -82,33 +86,44 @@
                                     <a href="whyus.php#1">
                                         <div class="col-md-3 col-sm-6 col-xs-12 el">
                                             <h2><?php writeText($lang,'fooldal_miertmi2',$content);?></h2>
-                                            <div class="sprietbg icon icon-target"></div>
+                                            <div class="spriteholder">
+                                                <div class="sprietbg icon icon-target"></div>
+                                            </div>
                                             <div class="navigator">
-                                                <p class="more">> </p>
+                                                <p class="more"> </p>
                                             </div>
                                         </div>
                                     </a>
                                     <a href="whyus.php#2">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon icon-devices el">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 el">
                                             <h2><?php writeText($lang,'fooldal_miertmi3',$content);?></h2>
+                                            <div class="spriteholder">
+                                                <div class="sprietbg icon icon-devices"></div>
+                                            </div>
                                             <div class="navigator">
-                                                <p class="more">> </p>
+                                                <p class="more"> </p>
                                             </div>
                                         </div>
                                     </a>
                                     <a href="whyus.php#3">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon icon-people el">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 el">
                                             <h2><?php writeText($lang,'fooldal_miertmi4',$content);?></h2>
+                                            <div class="spriteholder">
+                                                <div class="sprietbg icon icon-people"></div>
+                                            </div>
                                             <div class="navigator">
-                                                <p class="more">></p>
+                                                <p class="more"> </p>
                                             </div>
                                         </div>
                                     </a>
                                     <a href="whyus.php#4">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon icon-messages el">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 el">
                                             <h2><?php writeText($lang,'fooldal_miertmi5',$content);?></h2>
+                                            <div class="spriteholder">
+                                                <div class="sprietbg icon icon-messages"></div>
+                                            </div>
                                             <div class="navigator">
-                                                <p class="more">></p>
+                                                <p class="more"> </p>
                                             </div>
                                         </div>
                                     </a>

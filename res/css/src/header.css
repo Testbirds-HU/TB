@@ -35,10 +35,6 @@
     background-color: #83B999;
     width: 0;
     transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -ms-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
 }
 
 .navbar-default .navbar-nav>li:hover:after {
