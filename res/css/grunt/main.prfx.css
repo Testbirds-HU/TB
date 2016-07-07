@@ -1190,12 +1190,6 @@ ul {
 }
 
 a {
-    -webkit-transition-timing-function: ease-in-out;
-            transition-timing-function: ease-in-out;
-    -webkit-transition-duration: .3s;
-            transition-duration: .3s;
-    -webkit-transition-property: color, border-color, background-color;
-            transition-property: color, border-color, background-color;
     color: #1E777A
 }
 
@@ -1284,8 +1278,6 @@ b {
 .cover .scrollholder img {
     max-width: 40px;
     opacity: .3;
-    -webkit-transition: all .1s ease-in;
-            transition: all .1s ease-in
 }
 
 .cover .scrollholder img:hover {
@@ -1381,8 +1373,6 @@ b {
     background-color: rgba(21, 104, 107, .89);
     padding: 25px;
     border-left: 1px solid #fff;
-    -webkit-transition: all .2s ease-in;
-            transition: all .2s ease-in;
     cursor: pointer
 }
 
@@ -1422,7 +1412,7 @@ b {
     height: 30px
 }
 
-.spriteholder {
+.tesztek .spriteholder {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1434,6 +1424,19 @@ b {
             align-items: center;
     width: 100%;
     min-height: 400px
+}
+
+.spriteholder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
 }
 
 @media (min-width:753px) {
@@ -2025,12 +2028,9 @@ h6 li {
 
 .Elonyok .row .col-md-12 .list .el {
     background-repeat: no-repeat;
-    height: 250px;
     background-color: rgba(21, 104, 107, .89);
     padding: 25px;
     border-left: 1px solid #fff;
-    -webkit-transition: all .2s ease-in;
-            transition: all .2s ease-in;
     cursor: pointer
 }
 

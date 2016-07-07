@@ -1190,9 +1190,6 @@ ul {
 }
 
 a {
-    transition-timing-function: ease-in-out;
-    transition-duration: .3s;
-    transition-property: color, border-color, background-color;
     color: #1E777A
 }
 
@@ -1281,7 +1278,6 @@ b {
 .cover .scrollholder img {
     max-width: 40px;
     opacity: .3;
-    transition: all .1s ease-in
 }
 
 .cover .scrollholder img:hover {
@@ -1377,7 +1373,6 @@ b {
     background-color: rgba(21, 104, 107, .89);
     padding: 25px;
     border-left: 1px solid #fff;
-    transition: all .2s ease-in;
     cursor: pointer
 }
 
@@ -1417,12 +1412,19 @@ b {
     height: 30px
 }
 
-.spriteholder {
+.tesztek .spriteholder {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 400px
+}
+
+.spriteholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 @media (min-width:753px) {
@@ -2001,11 +2003,9 @@ h6 li {
 
 .Elonyok .row .col-md-12 .list .el {
     background-repeat: no-repeat;
-    height: 250px;
     background-color: rgba(21, 104, 107, .89);
     padding: 25px;
     border-left: 1px solid #fff;
-    transition: all .2s ease-in;
     cursor: pointer
 }
 

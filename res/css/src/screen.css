@@ -396,12 +396,19 @@ b {
     height: 30px
 }
 
-.spriteholder {
+.tesztek .spriteholder {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 400px
+}
+
+.spriteholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 @media (min-width:753px) {
@@ -980,7 +987,6 @@ h6 li {
 
 .Elonyok .row .col-md-12 .list .el {
     background-repeat: no-repeat;
-    height: 250px;
     background-color: rgba(21, 104, 107, .89);
     padding: 25px;
     border-left: 1px solid #fff;
