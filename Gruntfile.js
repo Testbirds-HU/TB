@@ -141,12 +141,14 @@ module.exports = function (grunt) {
             misc: {
                 src: 'res/img/dist/*.png',
                 dest: 'res/img/grunt/sprite-misc.png',
-                destCss: 'res/css/grunt/sprite-misc.css'
+                destCss: 'res/css/grunt/sprite-misc.css',
+                imgPath: '/res/img/grunt/sprite-misc.png'
             },
             companies: {
                 src: 'res/img/dist/companies/*.png',
                 dest: 'res/img/grunt/sprite-comp.png',
-                destCss: 'res/css/grunt/sprite-comp.css'
+                destCss: 'res/css/grunt/sprite-comp.css',
+                imgPath: '/res/img/grunt/sprite-comp.png'
             }
         }
 // END MEDIA

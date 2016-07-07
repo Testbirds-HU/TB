@@ -16,7 +16,7 @@
                                 <h1><?php writeText($lang,'fooldal_Focim',$content);?></h1>
                                 <h2><?php writeText($lang,'fooldal_Focim2',$content);?></h2>
                                 <h6><?php writeText($lang,'fooldal_Focim3',$content);?></h6> </div>
-                            <div class="col-md-6 icon-dudes"></div>
+                            <div class="col-md-6 icon icon-dudes"></div>
                         </div>
                         <div class="row">
                             <div id="arrow" class="scrollholder"><img alt="Click to scroll" src="/res/img/dist/scroll_icon.png"></div>
@@ -34,7 +34,7 @@
                     </div>
                     <div id="top" class="tesztek">
                         <div class="row">
-                            <a href="functional.php" class="pageload-link">
+                            <a href="functional.php">
                                 <div class="col-md-6 teszt1">
                                     <h2><?php writeText($lang,'fooldal_funkcionalis',$content);?></h2>
                                     <p>
@@ -46,7 +46,7 @@
                                     </div>
                                 </div>
                             </a>
-                            <a href="ux.php" class="pageload-link">
+                            <a href="ux.php">
                                 <div class="col-md-6 teszt2">
                                     <h2><?php writeText($lang,'fooldal_felhasznaloi',$content);?></h2>
                                     <p>
@@ -79,32 +79,33 @@
                             <div class="col-md-12">
                                 <h2 id="ctelonyei"><?php writeText($lang,'fooldal_miertmi',$content);?></h2>
                                 <div class="row list">
-                                    <a href="whyus.php#1" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-target el">
+                                    <a href="whyus.php#1">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 el">
                                             <h2><?php writeText($lang,'fooldal_miertmi2',$content);?></h2>
+                                            <div class="sprietbg icon icon-target"></div>
                                             <div class="navigator">
                                                 <p class="more">> </p>
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="whyus.php#2" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-devices el">
+                                    <a href="whyus.php#2">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon icon-devices el">
                                             <h2><?php writeText($lang,'fooldal_miertmi3',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">> </p>
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="whyus.php#3" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-people el">
+                                    <a href="whyus.php#3">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon icon-people el">
                                             <h2><?php writeText($lang,'fooldal_miertmi4',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">></p>
                                             </div>
                                         </div>
                                     </a>
-                                    <a href="whyus.php#4" class="pageload-link">
-                                        <div class="col-md-3 col-sm-6 col-xs-12 icon-messages el">
+                                    <a href="whyus.php#4">
+                                        <div class="col-md-3 col-sm-6 col-xs-12 icon icon-messages el">
                                             <h2><?php writeText($lang,'fooldal_miertmi5',$content);?></h2>
                                             <div class="navigator">
                                                 <p class="more">></p>
@@ -120,34 +121,14 @@
                             <div class="col-md-12">
                                 <h2><?php writeText($lang,'fooldal_miket',$content);?></h2>
                                 <div class="row ikonok">
-                                    <div class="device1 col-md-3">
+                                    <div class="device col-md-3 icon icon-what_we_test_icon_1">
                                         <h6><?php writeText($lang,'fooldal_miket2',$content);?></h6> </div>
-                                    <div class="device2 col-md-3">
+                                    <div class="device col-md-3 icon icon-what_we_test_icon_2">
                                         <h6><?php writeText($lang,'fooldal_miket3',$content);?></h6> </div>
-                                    <div class="device3 col-md-3">
+                                    <div class="device col-md-3 icon icon-what_we_test_icon_3">
                                         <h6><?php writeText($lang,'fooldal_miket4',$content);?></h6> </div>
-                                    <div class="device4 col-md-3">
+                                    <div class="device col-md-3 icon icon-what_we_test_icon_4">
                                         <h6><?php writeText($lang,'fooldal_miket5',$content);?></h6> </div>
-                                </div>
-                                <div class="row miketmob">
-                                    <div class="carousel js-flickity">
-                                        <div class="carousel-cell">
-                                            <div class="device1">
-                                                <h6><?php writeText($lang,'fooldal_miket2',$content);?></h6> </div>
-                                        </div>
-                                        <div class="carousel-cell">
-                                            <div class="device2">
-                                                <h6><?php writeText($lang,'fooldal_miket3',$content);?></h6> </div>
-                                        </div>
-                                        <div class="carousel-cell">
-                                            <div class="device3">
-                                                <h6><?php writeText($lang,'fooldal_miket4',$content);?></h6> </div>
-                                        </div>
-                                        <div class="carousel-cell">
-                                            <div class="device4">
-                                                <h6><?php writeText($lang,'fooldal_miket5',$content);?></h6> </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -171,30 +152,30 @@
                             <div class="col-md-12">
                                 <h2><?php writeText($lang,'fooldal_folyamat',$content);?></h2> </div>
                             <div class="col-md-4">
-                                <div class="circle elso"></div>
+                                <div class="circle elso icon icon-document"></div>
                                 <h2><?php writeText($lang,'fooldal_folyamat2',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat3',$content);?>
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <div class="circle masodik"></div>
+                                <div class="circle masodik icon icon-people2"></div>
                                 <h2><?php writeText($lang,'fooldal_folyamat4',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat5',$content);?>
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <div class="circle harmadik"></div>
+                                <div class="circle harmadik icon icon-diagram"></div>
                                 <h2><?php writeText($lang,'fooldal_folyamat6',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat7',$content);?>
                                 </p>
                             </div>
                             <div class="col-md-12">
-                                <div class="circlewoman"></div>
+                                <div class="circlewoman icon icon-Dude-MissMarketing"></div>
                                 <h3><?php writeText($lang,'fooldal_ajanlat',$content);?></h3>
-                                <a href="contact.php" class="pageload-link">
+                                <a href="contact.php">
                                     <div class="btn-primary">
                                         <?php writeText($lang,'fooldal_ajanlat2',$content);?>
                                     </div>
