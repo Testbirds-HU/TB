@@ -511,14 +511,14 @@ b {
     color: #1E777A
 }
 
-.folyamat .row .circlewoman {
+/*.folyamat .row .circlewoman {
     height: 200px;
     background-color: #FAFAFA;
     box-shadow: inset -1px -11px 34px -17px rgba(0, 0, 0, .28);
-    border-radius: 500px;
+    border-radius: 100%;
     margin: 0 auto 30px;
     width: 200px
-}
+}*/
 
 .folyamat .row .btn-primary {
     color: #fff;
@@ -1087,4 +1087,8 @@ h6 li {
 
 .device .spriteholder {
     margin-bottom: 20px
+}
+
+.circle .icon {
+    transform: scale(.6,.6)
 }

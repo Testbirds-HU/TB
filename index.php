@@ -179,28 +179,44 @@
                             <div class="col-md-12">
                                 <h2><?php writeText($lang,'fooldal_folyamat',$content);?></h2> </div>
                             <div class="col-md-4">
-                                <div class="circle elso icon icon-document"></div>
+                                <div class="circle elso">
+                                <div class="spriteholder">
+                                    <div class="icon icon-document"></div>
+                                </div>
+                                </div>
                                 <h2><?php writeText($lang,'fooldal_folyamat2',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat3',$content);?>
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <div class="circle masodik icon icon-people2"></div>
+                                <div class="circle masodik">
+                                <div class="spriteholder">
+                                    <div class="icon icon-people2"></div>
+                                </div>
+                                </div>
                                 <h2><?php writeText($lang,'fooldal_folyamat4',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat5',$content);?>
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <div class="circle harmadik icon icon-diagram"></div>
+                                <div class="circle harmadik">
+                                <div class="spriteholder">
+                                    <div class="icon icon-diagram"></div>
+                                </div>
+                                </div>
                                 <h2><?php writeText($lang,'fooldal_folyamat6',$content);?></h2>
                                 <p>
                                     <?php writeText($lang,'fooldal_folyamat7',$content);?>
                                 </p>
                             </div>
                             <div class="col-md-12">
-                                <div class="circlewoman icon icon-Dude-MissMarketing"></div>
+                                <div class="circlewoman">
+                                <div class="spriteholder">
+                                    <div class="icon icon-Dude-MissMarketing"></div>
+                                </div> 
+                                </div>
                                 <h3><?php writeText($lang,'fooldal_ajanlat',$content);?></h3>
                                 <a href="contact.php">
                                     <div class="btn-primary">
@@ -219,8 +235,8 @@
         	?>
         </div>
         <?php
-            include('include/analytics.php');
             include('include/bottom-components.php');
+            include('include/analytics.php');
         ?>
     </body>
 

@@ -1,30 +1,30 @@
 {
-  "name": "tb",
-  "description": "Testbirds ce homepage",
-  "main": "index.php",
-  "authors": [
-    "Kristhof",
-    "DecentM"
-  ],
-  "license": "ISC",
-  "keywords": [
-    "testbirds",
-    "crowdtesting"
-  ],
-  "homepage": "https://testbirds.hu",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "bootstrap": "~3.3.6",
-    "font-awesome": "^4.6.3",
-    "normalize-css": "~3.0.3",
-    "instantclick": "^3.1.0",
-    "flickity": "^1.2.1"
-  }
+    "name": "tb",
+    "description": "Testbirds ce homepage",
+    "main": "index.php",
+    "authors": [
+        "Kristhof",
+        "DecentM"
+    ],
+    "license": "ISC",
+    "keywords": [
+        "testbirds",
+        "crowdtesting"
+    ],
+    "homepage": "https://testbirds.hu",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "~3.3.6",
+        "font-awesome": "^4.6.3",
+        "normalize-css": "~4.2.0",
+        "instantclick": "^3.1.0",
+        "flickity": "^1.2.1"
+    }
 }

@@ -1,10 +1,12 @@
 html {
   font-family: sans-serif;
   /* 1 */
+  line-height: 1.15;
+  /* 2 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
+  /* 3 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */
+  /* 3 */
 }
 
 body {
@@ -12,11 +14,15 @@ body {
 }
 
 nav {
+  /* 1 */
   display: block;
 }
 
 a {
   background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
 }
 
 h1 {
@@ -25,31 +31,49 @@ h1 {
 }
 
 button {
-  color: inherit;
-  /* 1 */
   font: inherit;
-  /* 2 */
+  /* 1 */
   margin: 0;
-  /* 3 */
+  /* 2 */
 }
 
 button {
+  /* 1 */
   overflow: visible;
 }
 
 button {
+  /* 1 */
   text-transform: none;
 }
 
-button {
+button,
+html [type="button"] {
   -webkit-appearance: button;
   /* 2 */
-  /* 3 */
 }
 
-button::-moz-focus-inner {
-  border: 0;
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner {
+  border-style: none;
   padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 @font-face {

@@ -1,3 +1,4 @@
+<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 <?php echo '<link href="/res/css/';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
             <script>
                 $(document).ready(function () {
@@ -8,7 +9,6 @@
                     });
                 })
             </script>
-            <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
             <script type="text/javascript">
                 $(document).ready(function () {
                     console.log('Document ready fired');
