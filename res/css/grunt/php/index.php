@@ -136,13 +136,25 @@
                             <div class="col-md-12">
                                 <h2><?php writeText($lang,'fooldal_miket',$content);?></h2>
                                 <div class="row ikonok">
-                                    <div class="device col-md-3 icon icon-what_we_test_icon_1">
+                                    <div class="device col-md-3">
+                                        <div class="spriteholder">
+                                            <div class="icon icon-what_we_test_icon_1"></div>
+                                        </div>
                                         <h6><?php writeText($lang,'fooldal_miket2',$content);?></h6> </div>
-                                    <div class="device col-md-3 icon icon-what_we_test_icon_2">
+                                    <div class="device col-md-3">
+                                        <div class="spriteholder">
+                                            <div class="icon icon-what_we_test_icon_2"></div>
+                                        </div>
                                         <h6><?php writeText($lang,'fooldal_miket3',$content);?></h6> </div>
-                                    <div class="device col-md-3 icon icon-what_we_test_icon_3">
+                                    <div class="device col-md-3">
+                                        <div class="spriteholder">
+                                            <div class="icon icon-what_we_test_icon_3"></div>
+                                        </div>
                                         <h6><?php writeText($lang,'fooldal_miket4',$content);?></h6> </div>
-                                    <div class="device col-md-3 icon icon-what_we_test_icon_4">
+                                    <div class="device col-md-3">
+                                        <div class="spriteholder">
+                                            <div class="icon icon-what_we_test_icon_4"></div>
+                                        </div>
                                         <h6><?php writeText($lang,'fooldal_miket5',$content);?></h6> </div>
                                 </div>
                             </div>

@@ -335,15 +335,8 @@ b {
     background-repeat: no-repeat
 }
 
-.articlecover_felh,
-.articlecover_funkc,
-.device1,
-.device2,
-.device3,
-.device4,
-.miket {
-    background-position: center;
-    background-repeat: no-repeat
+.device > * {
+    color: white;
 }
 
 .Elonyok .row .col-md-12 .list {
@@ -384,7 +377,11 @@ b {
 }
 
 .Elonyok .el {
-    height: 450px
+    height: 250px
+}
+
+.Elonyok .el .spriteholder {
+    margin-top: 20px
 }
 
 .Elonyok .el:hover {
@@ -449,11 +446,6 @@ b {
     padding-bottom: 80px
 }
 
-.miket .row .col-md-12 h6 {
-    color: #fff;
-    padding-top: 168px
-}
-
 .folyamat {
     background-color: #FAFAFA;
     padding-bottom: 80px
@@ -472,7 +464,7 @@ b {
 .folyamat .row .col-md-4 .circle {
     height: 150px;
     background-color: #EFEFEF;
-    border-radius: 500px;
+    border-radius: 100%;
     margin: 60px auto 80px;
     width: 150px
 }
@@ -1033,7 +1025,8 @@ h6 li {
         display: none
     }
     .miket .row .col-md-12 h6 {
-        margin-top: 0
+        margin-top: 0;
+        color: #fff;
     }
     .miket {
         min-height: 360px
@@ -1061,28 +1054,8 @@ h6 li {
     }
 }
 
-.device1,
-.device2,
-.device3,
-.device4 {
-    background-size: contain;
+.device {
     height: 150px
-}
-
-.device1 {
-    background-image: url(/res/img/dist/what_we_test_icon_1.png)
-}
-
-.device2 {
-    background-image: url(/res/img/dist/what_we_test_icon_2.png)
-}
-
-.device3 {
-    background-image: url(/res/img/dist/what_we_test_icon_5.png)
-}
-
-.device4 {
-    background-image: url(/res/img/dist/what_we_test_icon_3.png)
 }
 
 @media (max-width:600px) {
@@ -1109,4 +1082,9 @@ h6 li {
     footer .col-md-4 {
         padding-left: 2rem
     }
+}
+
+
+.device .spriteholder {
+    margin-bottom: 20px
 }

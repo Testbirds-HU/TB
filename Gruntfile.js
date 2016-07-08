@@ -150,16 +150,16 @@ module.exports = function (grunt) {
         },
 /**/    sprite: {
             misc: {
-                src: 'res/img/dist/*.png',
-                dest: 'res/img/grunt/sprite-misc.png',
+                src: 'res/img/src/*.png',
+                dest: 'res/img/grunt/sprites/sprite-misc.png',
                 destCss: 'res/css/grunt/sprite-misc.css',
-                imgPath: '/res/img/grunt/sprite-misc.png'
+                imgPath: '/res/img/grunt/sprites/sprite-misc.png'
             },
             companies: {
                 src: 'res/img/dist/companies/*.png',
-                dest: 'res/img/grunt/sprite-comp.png',
+                dest: 'res/img/grunt/sprites/sprite-comp.png',
                 destCss: 'res/css/grunt/sprite-comp.css',
-                imgPath: '/res/img/grunt/sprite-comp.png'
+                imgPath: '/res/img/grunt/sprites/sprite-comp.png'
             }
         }
 // END MEDIA
@@ -171,7 +171,7 @@ module.exports = function (grunt) {
 /*SRC*/ 'bower_concat',
         'jsvalidate:before_min',
 /*SRC*/ 'newer:imagemin:main',
-/*SRC*/ 'newer:sprite',
+/*SRC*/ 'sprite',
         'concat',
         'newer:uglify',
         'jsvalidate:after_min',
@@ -180,7 +180,7 @@ module.exports = function (grunt) {
         'critical',
         'cssmin',
         'htmllint',
-//        'newer:imagemin:sprites'
+        //'newer:imagemin:sprites'
 //        'csslint:after_min'
     ]);
 
