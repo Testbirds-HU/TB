@@ -117,7 +117,8 @@ h2,
 h3 {
     font-size: 2.3rem;
     font-weight: 400;
-    font-family: Roboto, Droid Sans sans-serif
+    font-family: Roboto, Droid Sans sans-serif;
+    color: #1f777a
 }
 
 h4,
