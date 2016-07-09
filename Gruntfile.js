@@ -11,13 +11,13 @@ module.exports = function (grunt) {
 /**/    bower_concat: {
             main: {
                 dest: {
-                    js: 'res/js/src/bower.js',
-                    css: 'res/css/src/bower.css'
-                }
-                //exclude: [
+                    js: 'res/js/src/50-bower.js',
+                    css: 'res/css/src/50-bower.css'
+                },
+                exclude: [
                 //    'jquery',
-                //    'bootstrap'
-                //]
+                    'bootstrap'
+                ]
             }
         },
 /**/    concat: {
@@ -29,7 +29,7 @@ module.exports = function (grunt) {
                 dest: 'res/js/grunt/main.concat.js'
             },
             main_css: {
-                src: ['res/css/src/*.css', 'res/css/grunt/sprite-*.css'],
+                src: ['res/css/src/*.css', 'res/css/grunt/sprite-*.css', 'bower_components/okaynav/dist/css/common.min.css'],
                 dest: 'res/css/grunt/main.concat.css'
             }
         },
@@ -179,7 +179,7 @@ module.exports = function (grunt) {
         'shell',
         'critical',
         'cssmin',
-        'htmllint',
+//        'htmllint',
         //'newer:imagemin:sprites'
 //        'csslint:after_min'
     ]);

@@ -462,12 +462,26 @@ b {
     padding-top: 80px
 }
 
-.folyamat .row .col-md-4 .circle {
-    height: 150px;
+.folyamat .col-md-4 .circle {
+    background-color: #EFEFEF;
+    margin: 60px auto 80px;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px
+}
+
+.folyamat .col-md-12 .circle {
     background-color: #EFEFEF;
     border-radius: 100%;
-    margin: 60px auto 80px;
-    width: 150px
+    width: 200px;
+    height: 200px;
+    box-shadow: inset -1px -11px 34px -17px rgba(0,0,0,.28)
+}
+
+.contact-cta {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .folyamat .row .col-md-4 .circle:before {
@@ -511,15 +525,6 @@ b {
 .folyamat .row .col-md-4 p {
     color: #1E777A
 }
-
-/*.folyamat .row .circlewoman {
-    height: 200px;
-    background-color: #FAFAFA;
-    box-shadow: inset -1px -11px 34px -17px rgba(0, 0, 0, .28);
-    border-radius: 100%;
-    margin: 0 auto 30px;
-    width: 200px
-}*/
 
 .folyamat .row .btn-primary {
     color: #fff;
@@ -1085,11 +1090,17 @@ h6 li {
     }
 }
 
-
 .device .spriteholder {
     margin-bottom: 20px
 }
 
-.circle .icon {
+.col-md-4 .circle .icon {
     transform: scale(.6,.6)
+}
+
+.icon-missmarketing-small {
+    border-radius: 100%;
+    height: 200px !important;
+    width: 200px !important;
+    background-position-x: 55px !important;
 }

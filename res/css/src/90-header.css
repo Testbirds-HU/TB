@@ -1,3 +1,11 @@
+#header {
+    display: inline-flex;
+    height: 79px;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+/*
 .navbar-default {
     background-color: #1E777A;
     height: 80px;
@@ -176,3 +184,4 @@
 .navbar-fixed-top .navbar-collapse {
     max-height: 390px;
 }
+*/
