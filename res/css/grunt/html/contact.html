@@ -12,18 +12,18 @@
     Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.</title>
 <link rel="shortcut icon" href="favicon.ico">
 <link href="/res/css/dist/critical.min.css" rel="stylesheet">
-<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">    </head>
+<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--<script type="text/javascript" src="/res/js/dist/main.min.js" async defer></script>-->    </head>
 
     <body>
         <div id="pagewrap">
-            <header id="header">
+            <div id="header" style="display: inline-flex;">
     <a class="site-logo" href="/index.php">
         <div class="spriteholder">
-            <!--<img src="http://tb/res/img/dist/Logo_CMYK_Background.png" alt="Logo" width="210" height="75">-->
             <div class="icon icon-headerlogo"></div>
         </div>
     </a>
-    <nav role="navigation" id="nav-main" class="okayNav">
+    <nav id="nav-main">
         <ul class="nav navbar-nav">
             <li id="menu1">
                 <a href="about.php">
@@ -51,7 +51,7 @@
             </li>
         </ul>
     </nav>
-</header>                <div class="container">
+</div>                <div class="container">
                     <div class="articlebody_g kapcsolat">
                         <div class="container">
                                                             <h1>Lépj kapcsolatba velünk!</h1>
@@ -132,12 +132,18 @@
         });
         
         $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
         
         $.getScript("/res/js/dist/main.min.js", function () {
             InstantClick.init();
             console.log("Main js loaded");
         });
         
+        $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
+            $('#nav-main').slicknav();
+            console.log("Slicknav loaded");
+        });
+
         $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {
             console.log("Bootstrap js loaded");
         });

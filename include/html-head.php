@@ -10,3 +10,4 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link href="/res/css/dist/critical.min.css" rel="stylesheet">
 <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--<script type="text/javascript" src="/res/js/dist/main.min.js" async defer></script>-->

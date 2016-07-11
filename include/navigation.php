@@ -1,11 +1,10 @@
-<header id="header">
+<div id="header" style="display: inline-flex;">
     <a class="site-logo" href="/index.php">
         <div class="spriteholder">
-            <!--<img src="http://tb/res/img/dist/Logo_CMYK_Background.png" alt="Logo" width="210" height="75">-->
             <div class="icon icon-headerlogo"></div>
         </div>
     </a>
-    <nav role="navigation" id="nav-main" class="okayNav">
+    <nav id="nav-main">
         <ul class="nav navbar-nav">
             <li id="menu1">
                 <a href="about.php">
@@ -39,4 +38,4 @@
             </li>
         </ul>
     </nav>
-</header>
+</div>

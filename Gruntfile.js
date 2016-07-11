@@ -8,7 +8,7 @@ module.exports = function (grunt) {
         // task configuration goes here
         
 // BEGIN BOWER & BOTH
-/**/    bower_concat: {
+/*1*/   bower_concat: {
             main: {
                 dest: {
                     js: 'res/js/src/50-bower.js',
@@ -16,11 +16,13 @@ module.exports = function (grunt) {
                 },
                 exclude: [
                 //    'jquery',
-                    'bootstrap'
-                ]
+                    'bootstrap',
+                    'slicknav'
+                ],
+                includeDev: true
             }
         },
-/**/    concat: {
+/*5*/    concat: {
             options: {
                 separator: ';'
             },
@@ -36,7 +38,7 @@ module.exports = function (grunt) {
 // END BOWER
         
 //BEGIN HTML
-/**/    shell: {
+/*9*/   shell: {
             options: {
                 stderr: false
             },
@@ -44,7 +46,7 @@ module.exports = function (grunt) {
                 command: 'cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html;  done && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/$(echo $line | rev | cut -c 5- | rev).html; done'
             }
         },
-        htmllint: {
+/*12*/  htmllint: {
             main: [
                     'res/css/grunt/html/index.html',
                     'res/css/grunt/html/about.html',
@@ -57,7 +59,7 @@ module.exports = function (grunt) {
 // END HTML
         
 // BEGIN CSS
-/**/    autoprefixer: {
+/*8*/   autoprefixer: {
             options: {
                 safe: true
             },
@@ -66,7 +68,7 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/main.prfx.css'
             }
         },
-/**/    critical: {
+/*10*/  critical: {
             main: {
                 options: {
                     base: './',
@@ -79,7 +81,7 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/critical.css'
             }
         },
-/**/    cssmin: {
+/*11*/  cssmin: {
             options: {
                 shorthandCompacting: false,
                 roundingPrecision: -1
@@ -94,7 +96,7 @@ module.exports = function (grunt) {
 // END CSS
         
 // BEGIN JS
-/**/    jsvalidate: {
+/*2:7*/ jsvalidate: {
             options: {
                 globals: {},
                 esprimaOptions: {},
@@ -111,7 +113,7 @@ module.exports = function (grunt) {
                 }
             }
         },
-/**/    uglify: {
+/*6*/   uglify: {
             options: {
                 mangle: false
             },
@@ -124,7 +126,7 @@ module.exports = function (grunt) {
 // END JS
         
 // BEGIN MEDIA
-/**/    imagemin: {
+/*3*/    imagemin: {
             main: {
                 options: {
                     optimizationLevel: 7
@@ -148,7 +150,7 @@ module.exports = function (grunt) {
                 }]
             }
         },
-/**/    sprite: {
+/*4*/    sprite: {
             misc: {
                 src: 'res/img/src/*.png',
                 dest: 'res/img/grunt/sprites/sprite-misc.png',
@@ -179,8 +181,8 @@ module.exports = function (grunt) {
         'shell',
         'critical',
         'cssmin',
-//        'htmllint',
-        //'newer:imagemin:sprites'
+        'htmllint',
+//        'newer:imagemin:sprites'
 //        'csslint:after_min'
     ]);
 
