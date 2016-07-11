@@ -1,3 +1,4 @@
+/*Separator*/
 @font-face {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -613,7 +614,8 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
-;@charset "UTF-8";
+;/*Separator*/
+@charset "UTF-8";
 h1,
 h2,
 h3 {
@@ -1751,7 +1753,64 @@ h6 li {
     width: 200px !important;
     background-position-x: 55px !important;
 }
-;.articletitle {
+
+nav .navbar-nav {
+    height: 100%;
+    width: 100%;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:end;
+        -ms-flex-pack:end;
+            justify-content:flex-end;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+#nav-main {
+    width: 100%;
+}
+
+.nav li a {
+    color: white;
+    font-family: "Droid Sans","sans serif";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav ul {
+    margin-right: 20px;
+}
+
+#header {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background-color: #1f777a;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+
+.slicknav_menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1f777a !important;
+    z-index: 4;
+}
+
+html.desktop .slicknav_menu {
+    /*display: none;*/
+}
+
+html.mobile #header {
+    display: none;
+};/*Separator*/
+.articletitle {
     background-color: #FAFAFA;
     margin-top: 80px;
 }
@@ -1818,7 +1877,8 @@ h6 li {
     padding-top: 70px;
     text-align: center;
 }
-;.rolunk .articletitle .container {
+;/*Separator*/
+.rolunk .articletitle .container {
     padding-bottom: 0;
 }
 
@@ -1907,7 +1967,8 @@ h6 li {
 .team .tamas {
     background-image: url("/res/img/dist/team/tamas.jpg");
 }
-;.elonyok .articletitle .container .row > div:nth-child(1) {
+;/*Separator*/
+.elonyok .articletitle .container .row > div:nth-child(1) {
     height: 550px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1971,7 +2032,8 @@ h6 li {
         margin-top: 30px;
     }
 }
-;.kapcsolat .container .row .col-md-6,
+;/*Separator*/
+.kapcsolat .container .row .col-md-6,
 .send {
     padding-left: 0;
 }
@@ -2038,12 +2100,7 @@ textarea.form-control {
     background-color: #69A782;
     cursor: pointer;
 }
-;#header {
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-    background-color: #1f777a;
-};/*
+;/*
 Icon classes can be used entirely standalone. They are named after their original file names.
 
 Example usage in HTML:

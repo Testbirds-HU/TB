@@ -1,4 +1,4 @@
-<div id="header" style="display: inline-flex;">
+<div id="header">
     <a class="site-logo" href="/index.php">
         <div class="spriteholder">
             <div class="icon icon-headerlogo"></div>

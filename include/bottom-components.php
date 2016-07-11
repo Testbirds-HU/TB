@@ -15,10 +15,12 @@
             console.log("Main js loaded");
         });
         
-        $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
-            $('#nav-main').slicknav();
-            console.log("Slicknav loaded");
-        });
+        if ($("html").hasClass("desktop")) {
+            $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
+                $('#nav-main').slicknav();
+                console.log("Slicknav loaded");
+            });
+        };
 
         $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {
             console.log("Bootstrap js loaded");

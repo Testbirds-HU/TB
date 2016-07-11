@@ -13,11 +13,12 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link href="/res/css/dist/critical.min.css" rel="stylesheet">
 <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--<script type="text/javascript" src="/res/js/dist/main.min.js" async defer></script>-->    </head>
+<!--<script type="text/javascript" src="/res/js/dist/main.min.js" async defer></script>-->
+    </head>
 
     <body>
         <div id="pagewrap">
-            <div id="header" style="display: inline-flex;">
+            <div id="header">
     <a class="site-logo" href="/index.php">
         <div class="spriteholder">
             <div class="icon icon-headerlogo"></div>
@@ -51,7 +52,8 @@
             </li>
         </ul>
     </nav>
-</div>        </div>
+</div>
+        </div>
         <div class="container">
             <div class="articletitle">
                 <div class="container">
@@ -243,10 +245,12 @@
             console.log("Main js loaded");
         });
         
-        $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
-            $('#nav-main').slicknav();
-            console.log("Slicknav loaded");
-        });
+        //if ($("html").hasClass("desktop")) {
+            $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
+                $('#nav-main').slicknav();
+                console.log("Slicknav loaded");
+            });
+        //};
 
         $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {
             console.log("Bootstrap js loaded");
@@ -258,6 +262,7 @@
             }, 1000);
         });
     });
-</script>    </body>
+</script>
+    </body>
 
     </html>

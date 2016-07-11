@@ -1,3 +1,4 @@
+/*Separator*/
 @charset "UTF-8";
 h1,
 h2,
@@ -1103,4 +1104,53 @@ h6 li {
     height: 200px !important;
     width: 200px !important;
     background-position-x: 55px !important;
+}
+
+nav .navbar-nav {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+#nav-main {
+    width: 100%;
+}
+
+.nav li a {
+    color: white;
+    font-family: "Droid Sans","sans serif";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav ul {
+    margin-right: 20px;
+}
+
+#header {
+    display: inline-flex;
+    background-color: #1f777a;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+
+.slicknav_menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1f777a !important;
+    z-index: 4;
+}
+
+html.desktop .slicknav_menu {
+    display: none;
+}
+
+html.mobile #header {
+    display: none;
 }

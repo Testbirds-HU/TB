@@ -6,7 +6,16 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         // task configuration goes here
-        
+
+
+/*0*/   clean: {
+            main: [
+                "res/css/grunt",
+                "res/css/dist",
+                "res/js/grunt",
+                "res/js/dist"
+            ]
+        },
 // BEGIN BOWER & BOTH
 /*1*/   bower_concat: {
             main: {
@@ -17,7 +26,17 @@ module.exports = function (grunt) {
                 exclude: [
                 //    'jquery',
                     'bootstrap',
-                    'slicknav'
+                    'slicknav',
+                    'classie',
+                    'eventie',
+                    'doc-ready',
+                    'eventEmitter',
+                    'matches-selector',
+                    'fizzy-ui-utils',
+                    'get-size',
+                    'unipointer',
+                    'tap-listener',
+                    'unidragger'
                 ],
                 includeDev: true
             }
@@ -43,7 +62,7 @@ module.exports = function (grunt) {
                 stderr: false
             },
             main: {
-                command: 'cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html;  done && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/$(echo $line | rev | cut -c 5- | rev).html; done'
+                command: 'mkdir res/css/grunt/php && mkdir res/css/grunt/html && cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html;  done && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/$(echo $line | rev | cut -c 5- | rev).html; done'
             }
         },
 /*12*/  htmllint: {
@@ -169,19 +188,20 @@ module.exports = function (grunt) {
 
     // define the default task that executes when we run 'grunt' from inside the project
     grunt.registerTask('default', [
+        'clean',
 //        'csslint:before_min',
 /*SRC*/ 'bower_concat',
         'jsvalidate:before_min',
 /*SRC*/ 'newer:imagemin:main',
 /*SRC*/ 'sprite',
         'concat',
-        'newer:uglify',
+        'uglify',
         'jsvalidate:after_min',
         'autoprefixer',
         'shell',
         'critical',
         'cssmin',
-        'htmllint',
+        'htmllint'
 //        'newer:imagemin:sprites'
 //        'csslint:after_min'
     ]);
