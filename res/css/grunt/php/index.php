@@ -126,57 +126,28 @@
                         </div>
                     </div>
                 </div>
-                <div class="miket wide">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2><?php writeText($lang,'fooldal_miket',$content);?></h2>
-                            <div class="row ikonok">
-                                <div class="device col-md-3">
-                                    <div class="spriteholder">
-                                        <div class="icon icon-what_we_test_icon_1"></div>
-                                    </div>
-                                    <h6><?php writeText($lang,'fooldal_miket2',$content);?></h6> </div>
-                                <div class="device col-md-3">
-                                    <div class="spriteholder">
-                                        <div class="icon icon-what_we_test_icon_2"></div>
-                                    </div>
-                                    <h6><?php writeText($lang,'fooldal_miket3',$content);?></h6> </div>
-                                <div class="device col-md-3">
-                                    <div class="spriteholder">
-                                        <div class="icon icon-what_we_test_icon_3"></div>
-                                    </div>
-                                    <h6><?php writeText($lang,'fooldal_miket4',$content);?></h6> </div>
-                                <div class="device col-md-3">
-                                    <div class="spriteholder">
-                                        <div class="icon icon-what_we_test_icon_4"></div>
-                                    </div>
-                                    <h6><?php writeText($lang,'fooldal_miket5',$content);?></h6> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 
-                <div class="miket narrow">
+                <div class="miket">
                     <div class="row">
                         <div class="col-md-12">
                             <h2><?php writeText($lang,'fooldal_miket',$content);?></h2>
-                            <div class="row main-carousel">
-                                <div class="col-md-12 carousel-cell">
+                            <div class="carousel">
+                                <div class="col-md-3 col-xs-12 carousel-cell">
                                     <div class="spriteholder">
                                         <div class="icon icon-what_we_test_icon_1"></div>
                                     </div>
                                     <h6><?php writeText($lang,'fooldal_miket2',$content);?></h6> </div>
-                                <div class="col-md-12 carousel-cell">
+                                <div class="col-md-3 col-xs-12 carousel-cell">
                                     <div class="spriteholder">
                                         <div class="icon icon-what_we_test_icon_2"></div>
                                     </div>
                                     <h6><?php writeText($lang,'fooldal_miket3',$content);?></h6> </div>
-                                <div class="col-md-12 carousel-cell">
+                                <div class="col-md-3 col-xs-12 carousel-cell">
                                     <div class="spriteholder">
                                         <div class="icon icon-what_we_test_icon_3"></div>
                                     </div>
                                     <h6><?php writeText($lang,'fooldal_miket4',$content);?></h6> </div>
-                                <div class="col-md-12 carousel-cell">
+                                <div class="col-md-3 col-xs-12 carousel-cell">
                                     <div class="spriteholder">
                                         <div class="icon icon-what_we_test_icon_4"></div>
                                     </div>

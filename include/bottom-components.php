@@ -1,5 +1,5 @@
 <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
-<?php echo '<link href="/res/css';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
+<?php echo '<link href="/res/css/';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
 <script>
     $(document).ready(function () {
         console.log('Document ready fired');
@@ -30,10 +30,12 @@
         });
         
         $.getScript("/bower_components/flickity/dist/flickity.pkgd.min.js", function() {
-            $('.main-carousel').flickity({
+            $('.carousel').flickity({
                 // options
-                cellAlign: 'left',
-                contain: true
+                cellAlign: 'center',
+                contain: true,
+                watchCSS: 'fallbackOn',
+                pageDots: false
             });
         });
         

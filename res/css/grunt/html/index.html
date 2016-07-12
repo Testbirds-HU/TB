@@ -183,57 +183,28 @@
                         </div>
                     </div>
                 </div>
-                <div class="miket wide">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2>MIKET TESZTELÜNK?</h2>
-                            <div class="row ikonok">
-                                <div class="device col-md-3">
-                                    <div class="spriteholder">
-                                        <div class="icon icon-what_we_test_icon_1"></div>
-                                    </div>
-                                    <h6>Mobil<br>alkalmazásokat</h6> </div>
-                                <div class="device col-md-3">
-                                    <div class="spriteholder">
-                                        <div class="icon icon-what_we_test_icon_2"></div>
-                                    </div>
-                                    <h6>Weboldalakat<br>és webshopokat</h6> </div>
-                                <div class="device col-md-3">
-                                    <div class="spriteholder">
-                                        <div class="icon icon-what_we_test_icon_3"></div>
-                                    </div>
-                                    <h6>TV<br>alkalmazásokat</h6> </div>
-                                <div class="device col-md-3">
-                                    <div class="spriteholder">
-                                        <div class="icon icon-what_we_test_icon_4"></div>
-                                    </div>
-                                    <h6>Egyéb szoftverek<br>felhasználói felületeit</h6> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 
-                <div class="miket narrow">
+                <div class="miket">
                     <div class="row">
                         <div class="col-md-12">
                             <h2>MIKET TESZTELÜNK?</h2>
-                            <div class="row main-carousel">
-                                <div class="col-md-12 carousel-cell">
+                            <div class="carousel">
+                                <div class="col-md-3 col-xs-12 carousel-cell">
                                     <div class="spriteholder">
                                         <div class="icon icon-what_we_test_icon_1"></div>
                                     </div>
                                     <h6>Mobil<br>alkalmazásokat</h6> </div>
-                                <div class="col-md-12 carousel-cell">
+                                <div class="col-md-3 col-xs-12 carousel-cell">
                                     <div class="spriteholder">
                                         <div class="icon icon-what_we_test_icon_2"></div>
                                     </div>
                                     <h6>Weboldalakat<br>és webshopokat</h6> </div>
-                                <div class="col-md-12 carousel-cell">
+                                <div class="col-md-3 col-xs-12 carousel-cell">
                                     <div class="spriteholder">
                                         <div class="icon icon-what_we_test_icon_3"></div>
                                     </div>
                                     <h6>TV<br>alkalmazásokat</h6> </div>
-                                <div class="col-md-12 carousel-cell">
+                                <div class="col-md-3 col-xs-12 carousel-cell">
                                     <div class="spriteholder">
                                         <div class="icon icon-what_we_test_icon_4"></div>
                                     </div>
@@ -394,7 +365,7 @@
                 Himfy utca 1.                    <br>
             </p>
             <p>
-                +36 30 569 5988            </p>
+                +36 70 458 4615            </p>
             <p>
                 info@testbirds.hu            </p>
             <a href="https://www.facebook.com/testbirds.hu/" class="ref" target="_blank">
@@ -407,7 +378,7 @@
     </div>
 </footer>
 <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
-<link href="/res/cssbasic-styles-hu.css" rel="stylesheet"><script>
+<link href="/res/css/basic-styles-hu.css" rel="stylesheet"><script>
     $(document).ready(function () {
         console.log('Document ready fired');
         
@@ -437,10 +408,12 @@
         });
         
         $.getScript("/bower_components/flickity/dist/flickity.pkgd.min.js", function() {
-            $('.main-carousel').flickity({
+            $('.carousel').flickity({
                 // options
-                cellAlign: 'left',
-                contain: true
+                cellAlign: 'center',
+                contain: true,
+                watchCSS: 'fallbackOn',
+                pageDots: false
             });
         });
         

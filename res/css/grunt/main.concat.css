@@ -481,7 +481,6 @@ h3 {
 }
 
 h4,
-h6,
 h6 li {
     color: #313131
 }
@@ -920,6 +919,10 @@ b {
 .miket .row .col-md-12 h2 {
     color: #fff;
     padding-bottom: 80px
+}
+
+.miket .carousel-cell {
+    color: white;
 }
 
 .folyamat {
@@ -1486,6 +1489,18 @@ h6 li {
     .Elonyok .row .col-md-12 h2#ctelonyei {
         padding-left: 35px
     }
+}
+
+/* enable Flickity by default */
+.carousel:after {
+  content: 'flickity';
+  display: none;
+}
+
+@media screen and (min-width: 990px) {
+  .carousel:after {
+    content: '';
+  }
 }
 
 @media (max-width:992px) {
