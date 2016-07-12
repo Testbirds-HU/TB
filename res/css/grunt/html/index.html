@@ -183,7 +183,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="miket">
+                <div class="miket wide">
                     <div class="row">
                         <div class="col-md-12">
                             <h2>MIKET TESZTELÜNK?</h2>
@@ -212,6 +212,37 @@
                         </div>
                     </div>
                 </div>
+                
+                <div class="miket narrow">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>MIKET TESZTELÜNK?</h2>
+                            <div class="row main-carousel">
+                                <div class="col-md-12 carousel-cell">
+                                    <div class="spriteholder">
+                                        <div class="icon icon-what_we_test_icon_1"></div>
+                                    </div>
+                                    <h6>Mobil<br>alkalmazásokat</h6> </div>
+                                <div class="col-md-12 carousel-cell">
+                                    <div class="spriteholder">
+                                        <div class="icon icon-what_we_test_icon_2"></div>
+                                    </div>
+                                    <h6>Weboldalakat<br>és webshopokat</h6> </div>
+                                <div class="col-md-12 carousel-cell">
+                                    <div class="spriteholder">
+                                        <div class="icon icon-what_we_test_icon_3"></div>
+                                    </div>
+                                    <h6>TV<br>alkalmazásokat</h6> </div>
+                                <div class="col-md-12 carousel-cell">
+                                    <div class="spriteholder">
+                                        <div class="icon icon-what_we_test_icon_4"></div>
+                                    </div>
+                                    <h6>Egyéb szoftverek<br>felhasználói felületeit</h6> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <div class="testimonial">
                     <div class="row">
                         <div class="col-md-1 quote hidden-sm"> </div>
@@ -376,7 +407,7 @@
     </div>
 </footer>
 <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
-<link href="/res/css/basic-styles-hu.css" rel="stylesheet"><script>
+<link href="/res/cssbasic-styles-hu.css" rel="stylesheet"><script>
     $(document).ready(function () {
         console.log('Document ready fired');
         
@@ -386,12 +417,13 @@
         
         $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
         
         $('.slicknav_menu').prepend('<a href="index.php"><div class="icon icon-Logo_CMYK_Background" alt="Testbirds Logo" /></a>');
         
         $.getScript("/res/js/dist/main.min.js", function () {
             InstantClick.init();
-            //document.body.className = document.body.className.replace("loading","");
+            document.body.className = document.body.className.replace("loading","");
             console.log("Main js loaded");
         });
         
@@ -402,6 +434,14 @@
 
         $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {
             console.log("Bootstrap js loaded");
+        });
+        
+        $.getScript("/bower_components/flickity/dist/flickity.pkgd.min.js", function() {
+            $('.main-carousel').flickity({
+                // options
+                cellAlign: 'left',
+                contain: true
+            });
         });
         
         $("#arrow").click(function () {
@@ -415,6 +455,6 @@
 <noscript>
     <p><img src="//analytics.testbirds.hu/piwik.php?idsite=1" style="border:0;" alt="" /></p>
 </noscript>
-<script src="js/stats-.js" type="text/javascript"></script><!-- Start of Leadin Embed --><script type="text/javascript" src="//js.leadin.com/js/v1/1798051.js" id="LeadinEmbed-1798051" crossorigin="use-credentials"></script><!-- End of Leadin Embed -->                </body>
+<script src="/res/js/stats-.js" type="text/javascript"></script><!-- Start of Leadin Embed --><script type="text/javascript" src="//js.leadin.com/js/v1/1798051.js" id="LeadinEmbed-1798051" crossorigin="use-credentials"></script><!-- End of Leadin Embed -->                </body>
 
     </html>

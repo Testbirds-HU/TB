@@ -1,5 +1,5 @@
 <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
-<?php echo '<link href="/res/css/';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
+<?php echo '<link href="/res/css';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
 <script>
     $(document).ready(function () {
         console.log('Document ready fired');
@@ -10,6 +10,7 @@
         
         $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
         
         $('.slicknav_menu').prepend('<a href="index.php"><div class="icon icon-Logo_CMYK_Background" alt="Testbirds Logo" /></a>');
         
@@ -26,6 +27,14 @@
 
         $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {
             console.log("Bootstrap js loaded");
+        });
+        
+        $.getScript("/bower_components/flickity/dist/flickity.pkgd.min.js", function() {
+            $('.main-carousel').flickity({
+                // options
+                cellAlign: 'left',
+                contain: true
+            });
         });
         
         $("#arrow").click(function () {

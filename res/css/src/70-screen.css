@@ -1017,34 +1017,11 @@ h6 li {
     .Elonyok .row .col-md-12 .list .el {
         margin-bottom: 1px
     }
-    .Elonyok .row .col-md-12 {
-        background-image: none
-    }
-    .Elonyok .row .col-md-12 h2#ctelonyei {
+    #ctelonyei {
         padding-top: 90px
     }
-    .miket .ikonok {
-        margin-top: -110px;
-        padding-bottom: 40px
-    }
-    .ikonok {
+    .wide {
         display: none
-    }
-    .miket .row .col-md-12 h6 {
-        margin-top: 0;
-        color: #fff;
-    }
-    .miket {
-        min-height: 360px
-    }
-    .miket .row .col-md-12 {
-        padding-bottom: 0
-    }
-    .miket .row .col-md-12 h2 {
-        padding-bottom: 30px
-    }
-    .companies {
-        min-height: 600px
     }
 }
 
@@ -1057,6 +1034,9 @@ h6 li {
 @media (min-width:992px) {
     .Elonyok .row .col-md-12 {
         height: 500px
+    }
+    .narrow {
+        display: none;
     }
 }
 

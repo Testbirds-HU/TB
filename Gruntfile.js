@@ -36,7 +36,8 @@ module.exports = function (grunt) {
                     'get-size',
                     'unipointer',
                     'tap-listener',
-                    'unidragger'
+                    'unidragger',
+                    'flickity'
                 ],
                 includeDev: true
             }

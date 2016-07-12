@@ -50,17 +50,6 @@
 		url('/fonts/Droid_Sans_700.ttf') format('truetype');
 }
 
-html {
-  font-family: sans-serif;
-  /* 1 */
-  line-height: 1.15;
-  /* 2 */
-  -ms-text-size-adjust: 100%;
-  /* 3 */
-  -webkit-text-size-adjust: 100%;
-  /* 3 */
-}
-
 body {
   margin: 0;
 }
@@ -398,12 +387,6 @@ p {
 @media (max-width:1230px) {
   .container {
     width: 98%;
-  }
-}
-
-@media (max-width:992px) {
-  .companies {
-    min-height: 600px;
   }
 }
 
