@@ -1,5 +1,4 @@
 /*Separator*/
-@charset "UTF-8";
 h1,
 h2,
 h3 {
@@ -476,13 +475,13 @@ b {
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    box-shadow: inset -1px -11px 34px -17px rgba(0,0,0,.28)
+    box-shadow: inset -1px -11px 34px -17px rgba(0, 0, 0, .28)
 }
 
 .contact-cta {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .folyamat .row .col-md-4 .circle:before {
@@ -1096,7 +1095,7 @@ h6 li {
 }
 
 .col-md-4 .circle .icon {
-    transform: scale(.6,.6)
+    transform: scale(.6, .6)
 }
 
 .icon-missmarketing-small {
@@ -1109,9 +1108,9 @@ h6 li {
 nav .navbar-nav {
     height: 100%;
     width: 100%;
-    display:flex;
-    justify-content:flex-end;
-    align-items:center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #nav-main {
@@ -1120,7 +1119,7 @@ nav .navbar-nav {
 
 .nav li a {
     color: white;
-    font-family: "Droid Sans","sans serif";
+    font-family: "Droid Sans", "sans serif";
     font-weight: 400;
     text-transform: uppercase;
     font-size: 14px;
@@ -1128,27 +1127,22 @@ nav .navbar-nav {
 }
 
 .nav a:after {
-    background: #82b999 !important;
+    background: #82b999!important;
     display: block;
-    width: 70%;
-    padding-left: 10px !important;
-    margin-right: 10px;
-    transform: scale(1.2,1);
+    width: 100%;
+    transform: scale(.6, 1) translateY(-5px);
     position: absolute;
     top: 100%;
     left: 0;
-    height: 4px;
+    height: 2px;
     content: '';
     opacity: 0;
-    transition: opacity 0.3s, transform 0.3s, width: 0.3s, margin: 0.3s;
-    transform: translateY(10px);
-    box-sizing: border-box;
+    transition: opacity .3s, transform .3s, width .3s, margin .3s;
 }
 
 .nav a:hover:after {
-    width: 110%;
     opacity: 1;
-    transform: translateY(-10px);
+    transform: translateY(-10px)
 }
 
 nav {

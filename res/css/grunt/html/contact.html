@@ -1,8 +1,7 @@
     <!DOCTYPE html>
     <html>
-
     <head>
-        <meta charset="utf-8">
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.">
@@ -13,93 +12,105 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link href="/res/css/dist/critical.min.css" rel="stylesheet">
 <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--<script type="text/javascript" src="/res/js/dist/main.min.js" async defer></script>-->
-    </head>
-
-    <body>
-        <div id="pagewrap">
-            <div id="header">
-    <a class="site-logo" href="/index.php">
-        <div class="spriteholder">
-            <div class="icon icon-headerlogo"></div>
-        </div>
-    </a>
-    <nav id="nav-main">
-        <ul class="nav navbar-nav">
-            <li id="menu1">
-                <a href="about.php">
-                    Rólunk                </a>
-            </li>
-            <li id="menu2">
-                <a href="whyus.php">
-                    Miért mi?                </a>
-            </li>
-            <li id="menu3">
-                <a href="functional.php">
-                    Funkcionális tesztelés                </a>
-            </li>
-            <li id="menu4">
-                <a href="ux.php">
-                    Felhasználói élmény kutatás                </a>
-            </li>
-            <li id="menu5">
-                <a href="//blog.testbirds.hu">
-                    Blog                </a>
-            </li>
-            <li id="menu6">
-                <a href="contact.php">
-                    Kapcsolat                </a>
-            </li>
-        </ul>
-    </nav>
-</div>
-                <div class="container">
-                    <div class="articlebody_g kapcsolat">
-                        <div class="container">
-                                                            <h1>Lépj kapcsolatba velünk!</h1>
-                                <h2>ALIG VÁRJUK, HOGY EGYÜTT DOLGOZHASSUNK VELED!</h2>
-                                <p>
-                                    A crowdtesting nem dobozos szolgáltatás. Minden ügyfelünknek egyedi ajánlatot készítünk, egy ingyenes, kötelezettségek nélküli beszélgetést követően. Kérjük, add meg pár adatodat, hogy Kata felvehesse veled a kapcsolatot!                                </p>
-                                <form method="post" action="#" accept-charset="UTF-8">
-                                    <div class="row form">
-                                        <div class="col-md-6">
+<style type="text/css">
+    .loading .container,
+    .loading .row,
+    .loading footer.container-fluid {
+        display: none;
+    }
+    body.loading {
+        background-image: url("/res/img/src/loader.svg") !important;
+        background-position: center;
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+    }
+</style>
+</head>
+<body class="loading">
+<script type="text/javascript">
+    document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px' ;
+</script>        <div id="pagewrap">
+    <div id="header">
+        <a class="site-logo" href="/index.php">
+            <div class="spriteholder">
+                <div class="icon icon-headerlogo"></div>
+            </div>
+        </a>
+        <nav id="nav-main">
+            <ul class="nav navbar-nav">
+                <li id="menu1">
+                    <a href="about.php">
+                        Rólunk                    </a>
+                </li>
+                <li id="menu2">
+                    <a href="whyus.php">
+                        Miért mi?                    </a>
+                </li>
+                <li id="menu3">
+                    <a href="functional.php">
+                        Funkcionális tesztelés                    </a>
+                </li>
+                <li id="menu4">
+                    <a href="ux.php">
+                        Felhasználói élmény kutatás                    </a>
+                </li>
+                <li id="menu5">
+                    <a href="//blog.testbirds.hu">
+                        Blog                    </a>
+                </li>
+                <li id="menu6">
+                    <a href="contact.php">
+                        Kapcsolat                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>            <div class="container">
+                <div class="articlebody_g kapcsolat">
+                    <div class="container">
+                                                    <h1>Lépj kapcsolatba velünk!</h1>
+                            <h2>ALIG VÁRJUK, HOGY EGYÜTT DOLGOZHASSUNK VELED!</h2>
+                            <p>
+                                A crowdtesting nem dobozos szolgáltatás. Minden ügyfelünknek egyedi ajánlatot készítünk, egy ingyenes, kötelezettségek nélküli beszélgetést követően. Kérjük, add meg pár adatodat, hogy Kata felvehesse veled a kapcsolatot!                            </p>
+                            <form method="post" action="#" accept-charset="UTF-8">
+                                <div class="row form">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="nev" placeholder="Név" required class="form-control"> </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder="Email cím" required class="form-control"> </div>
+                                        <div class="form-group">
+                                            <input type="tel" name="telefonszam" placeholder="Telefonszám" required class="form-control"> </div>
+                                        <div class="form-group">
+                                            <input name="cegnev" placeholder="Cégnév" required class="form-control"> </div>
+                                    </div>
+                                    <div class="col-md-6 message">
+                                        <div class="form-horizontal">
                                             <div class="form-group">
-                                                <input name="nev" placeholder="Név" required class="form-control"> </div>
-                                            <div class="form-group">
-                                                <input type="email" name="email" placeholder="Email cím" required class="form-control"> </div>
-                                            <div class="form-group">
-                                                <input type="tel" name="telefonszam" placeholder="Telefonszám" required class="form-control"> </div>
-                                            <div class="form-group">
-                                                <input name="cegnev" placeholder="Cégnév" required class="form-control"> </div>
-                                        </div>
-                                        <div class="col-md-6 message">
-                                            <div class="form-horizontal">
-                                                <div class="form-group">
-                                                    <div class="col-md-12">
-                                                        <textarea rows="3" placeholder="Mesélj a projektedről!" required name="projekt" class="form-control"></textarea>
-                                                    </div>
+                                                <div class="col-md-12">
+                                                    <textarea rows="3" placeholder="Mesélj a projektedről!" required name="projekt" class="form-control"></textarea>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="row send col-md-12">
-                                            <input class="btn-primary" type="submit" value="Küldés"> </div>
                                     </div>
-                                </form>
-                                <div style="border-top:1px solid rgba(255,255,255,.49);margin-right:15px;margin-top:40px;padding-top:40px;text-align:center;opacity:.5" class="row">
-                                    <p>
-                                        1118 Budapest, Himfy utca 1.                                    </p>
-                                    <p>
-                                        Csankovszki Kata                                    </p>
-                                    <p>
-                                        +36 30 569 5988                                    </p>
-                                    <p>
-                                        info@testbirds.hu                                    </p>
+                                    <div class="row send col-md-12">
+                                        <input class="btn-primary" type="submit" value="Küldés"> </div>
                                 </div>
-                                                        </div>
-                    </div>
+                            </form>
+                            <div style="border-top:1px solid rgba(255,255,255,.49);margin-right:15px;margin-top:40px;padding-top:40px;text-align:center;opacity:.5" class="row">
+                                <p>
+                                    1118 Budapest, Himfy utca 1.                                </p>
+                                <p>
+                                    Csankovszki Kata                                </p>
+                                <p>
+                                    +36 30 569 5988                                </p>
+                                <p>
+                                    info@testbirds.hu                                </p>
+                            </div>
+                                                </div>
                 </div>
-        </div>
-                <footer class="container-fluid">
+            </div>
+            <footer class="container-fluid">
     <div class="row">
         <div class="col-md-12 contact">
             <h5>Kapcsolat</h5>
@@ -129,6 +140,7 @@
 <link href="/res/css/basic-styles-hu.css" rel="stylesheet"><script>
     $(document).ready(function () {
         console.log('Document ready fired');
+        
         $.ajaxSetup({
             cache: true
         });
@@ -136,8 +148,11 @@
         $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
         
+        $('.slicknav_menu').prepend('<a href="index.php"><div class="icon icon-Logo_CMYK_Background" alt="Testbirds Logo" /></a>');
+        
         $.getScript("/res/js/dist/main.min.js", function () {
             InstantClick.init();
+            //document.body.className = document.body.className.replace("loading","");
             console.log("Main js loaded");
         });
         
@@ -155,8 +170,9 @@
                 scrollTop: $("#top").offset().top - 90
             }, 1000);
         });
+        console.log('Document ready done');
     });
 </script>
-    </body>
+                </body>
 
     </html>

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
     <html>
-
     <head>
-        <meta charset="utf-8">
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.">
@@ -13,66 +12,78 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link href="/res/css/dist/critical.min.css" rel="stylesheet">
 <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--<script type="text/javascript" src="/res/js/dist/main.min.js" async defer></script>-->
-    </head>
-
-    <body>
-        <div id="pagewrap">
-            <div id="header">
-    <a class="site-logo" href="/index.php">
-        <div class="spriteholder">
-            <div class="icon icon-headerlogo"></div>
-        </div>
-    </a>
-    <nav id="nav-main">
-        <ul class="nav navbar-nav">
-            <li id="menu1">
-                <a href="about.php">
-                    Rólunk                </a>
-            </li>
-            <li id="menu2">
-                <a href="whyus.php">
-                    Miért mi?                </a>
-            </li>
-            <li id="menu3">
-                <a href="functional.php">
-                    Funkcionális tesztelés                </a>
-            </li>
-            <li id="menu4">
-                <a href="ux.php">
-                    Felhasználói élmény kutatás                </a>
-            </li>
-            <li id="menu5">
-                <a href="//blog.testbirds.hu">
-                    Blog                </a>
-            </li>
-            <li id="menu6">
-                <a href="contact.php">
-                    Kapcsolat                </a>
-            </li>
-        </ul>
-    </nav>
-</div>
-        </div>
-        <div class="container rolunk">
-            <div class="articletitle">
-                <div class="container">
-                    <h1>Rólunk</h1>
-                    <h2>Segítünk ügyfeleinknek, hogy meghallják a felhasználóik hangját. Az eredmény: olyan digitális fejlesztés, amelyet öröm használni.</h2> </div>
+<style type="text/css">
+    .loading .container,
+    .loading .row,
+    .loading footer.container-fluid {
+        display: none;
+    }
+    body.loading {
+        background-image: url("/res/img/src/loader.svg") !important;
+        background-position: center;
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+    }
+</style>
+</head>
+<body class="loading">
+<script type="text/javascript">
+    document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px' ;
+</script>        <div id="pagewrap">
+    <div id="header">
+        <a class="site-logo" href="/index.php">
+            <div class="spriteholder">
+                <div class="icon icon-headerlogo"></div>
             </div>
-            <div class="articlecover">
-                <div class="container"></div>
-            </div>
-            <div class="articlebody_w">
-                <div class="container">
-                    <p>
-                        A Testbirds crowdtesting szolgáltató cég. Hiszünk benne, hogy ha a felhasználókat bevonjuk a fejlesztésbe, azzal mindenki nyer: ebben segít a crowdtesting. A német hátterű Testbirds hazai irodáját 2013 nyarán indítottuk el, hogy itthon is segítsünk áthidalni a fejlesztőket a végfelhasználóktól elválasztó információs-szakadékot. Nemzetközi szinten eddig több mint 100.000 tesztelő regisztrált platformunkon, itthon pedig több mint 10.000 magyar tesztelővel rendelkezünk.                    </p>
+        </a>
+        <nav id="nav-main">
+            <ul class="nav navbar-nav">
+                <li id="menu1">
+                    <a href="about.php">
+                        Rólunk                    </a>
+                </li>
+                <li id="menu2">
+                    <a href="whyus.php">
+                        Miért mi?                    </a>
+                </li>
+                <li id="menu3">
+                    <a href="functional.php">
+                        Funkcionális tesztelés                    </a>
+                </li>
+                <li id="menu4">
+                    <a href="ux.php">
+                        Felhasználói élmény kutatás                    </a>
+                </li>
+                <li id="menu5">
+                    <a href="//blog.testbirds.hu">
+                        Blog                    </a>
+                </li>
+                <li id="menu6">
+                    <a href="contact.php">
+                        Kapcsolat                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>            <div class="container rolunk">
+                <div class="articletitle">
+                    <div class="container">
+                        <h1>Rólunk</h1>
+                        <h2>Segítünk ügyfeleinknek, hogy meghallják a felhasználóik hangját. Az eredmény: olyan digitális fejlesztés, amelyet öröm használni.</h2> </div>
                 </div>
-            </div>
-            <div class="team container-fluid">
-                <div class="container">
-                    <h2>A csapat</h2>
-                    <!-- TEMPLATE:
+                <div class="articlecover">
+                    <div class="container"></div>
+                </div>
+                <div class="articlebody_w">
+                    <div class="container">
+                        <p>
+                            A Testbirds crowdtesting szolgáltató cég. Hiszünk benne, hogy ha a felhasználókat bevonjuk a fejlesztésbe, azzal mindenki nyer: ebben segít a crowdtesting. A német hátterű Testbirds hazai irodáját 2013 nyarán indítottuk el, hogy itthon is segítsünk áthidalni a fejlesztőket a végfelhasználóktól elválasztó információs-szakadékot. Nemzetközi szinten eddig több mint 100.000 tesztelő regisztrált platformunkon, itthon pedig több mint 10.000 magyar tesztelővel rendelkezünk.                        </p>
+                    </div>
+                </div>
+                <div class="team container-fluid">
+                    <div class="container">
+                        <h2>A csapat</h2>
+                        <!-- TEMPLATE:
 					<div class="row">
 						<div class="col-md-3">
 						</div>
@@ -99,111 +110,109 @@
 						</div>
 					</div>
 -->
-                    <div class="row">
-                        <div class="col-md-3 col-md-push-9">
-                            <div class="portrait tamas"></div>
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-9">
+                                <div class="portrait tamas"></div>
+                            </div>
+                            <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Lichter Tamás</b>
+                                <div>
+                                    <p> Telekommunikációs cégnél szerzett 10+ év tapasztalatot informatikai fejlesztési területen. Közgazdász végzettsége van, üzleti gondolkodásmód jellemzi (vagy legalábbis szeretné…). Tamás hisz abban, hogy egy cégnél akkor jó dolgozni, ha a vezetők megbíznak a munkatársakban, a munkatársakat bevonják a döntésekbe, nyitott, ügyfélorientált és haladó szemléletű a cégkultúra, és nem mellesleg jó a hangulat. Tamás azon dolgozik, hogy a Testbirds ilyen cég legyen. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Lichter Tamás</b> <div>
-								<p>
-									Telekommunikációs cégnél szerzett 10+ év tapasztalatot informatikai fejlesztési területen. Közgazdász végzettsége van, üzleti gondolkodásmód jellemzi (vagy legalábbis szeretné…). Tamás hisz abban, hogy egy cégnél akkor jó dolgozni, ha a vezetők megbíznak a munkatársakban, a munkatársakat bevonják a döntésekbe, nyitott, ügyfélorientált és haladó szemléletű a cégkultúra, és nem mellesleg jó a hangulat. Tamás azon dolgozik, hogy a Testbirds ilyen cég legyen. 
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="portrait akos"></div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="portrait akos"></div>
+                            </div>
+                            <div class="col-md-9"> <b class="text-centered">Maczinkó Ákos</b>
+                                <div>
+                                    <p> 15+ év tapasztalat a telekommunikáció világában, elsősorban értékesítési és ügyfélélmény területen. Éveken keresztül részt vett lakossági termékek kialakításában és kereskedelmi elindításában. Ákos Tamással együtt vezeti a közép-európai Testbirds-öt, ami most már három országban működik. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9"> <b class="text-centered">Maczinkó Ákos</b> <div>
-								<p>
-									15+ év tapasztalat a telekommunikáció világában, elsősorban értékesítési és ügyfélélmény területen. Éveken keresztül részt vett lakossági termékek kialakításában és kereskedelmi elindításában. Ákos Tamással együtt vezeti a közép-európai Testbirds-öt, ami most már három országban működik.
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-md-push-9">
-                            <div class="portrait gizella"></div>
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-9">
+                                <div class="portrait gizella"></div>
+                            </div>
+                            <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Bartha Gizella</b>
+                                <div>
+                                    <p> Gizella, a Testbirds UX kutatójaként közel 50 különböző termék mintegy 100 felhasználói kutatását végezte az elmúlt két évben. Hiszi, hogy egy jó termék létrehozásához nélkülözhetetlen a felhasználó bevonása a lehető legkorábban. Munkája során azon túl, hogy a kezdetektől alkalmazza az ismert módszertani megközelítéseket, folyamatosan törekszik arra, hogy ezek módosításával, megújításával még pontosabban tárja fel a felhasználók igényét. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Bartha Gizella</b> <div>
-								<p>
-									Gizella, a Testbirds UX kutatójaként közel 50 különböző termék mintegy 100 felhasználói kutatását végezte az elmúlt két évben. Hiszi, hogy egy jó termék létrehozásához nélkülözhetetlen a felhasználó bevonása a lehető legkorábban. Munkája során azon túl, hogy a kezdetektől alkalmazza az ismert módszertani megközelítéseket, folyamatosan törekszik arra, hogy ezek módosításával, megújításával még pontosabban tárja fel a felhasználók igényét.
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="portrait barnabas"></div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="portrait barnabas"></div>
+                            </div>
+                            <div class="col-md-9"> <b class="text-centered">Bertényi Barnabás</b>
+                                <div>
+                                    <p> Barnabás pályáját crowdtesztelőként kezdte és körülbelül aznap csatlakozott a Testbirds-höz, amint az legálisan lehetséges volt, alighogy a tizennyolcat betöltötte, az érettségi vizsgák után egyből az irodába jött dolgozni – vagyis ha valakire igaz, hogy lelkes fiatal, az Barnabás. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9"> <b class="text-centered">Bertényi Barnabás</b> <div>
-								<p>
-									Barnabás pályáját crowdtesztelőként kezdte  és körülbelül aznap csatlakozott a Testbirds-höz, amint az legálisan lehetséges volt, alighogy a tizennyolcat betöltötte, az érettségi vizsgák után egyből az irodába jött dolgozni – vagyis ha valakire igaz, hogy lelkes fiatal, az Barnabás. 
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-md-push-9">
-                            <div class="portrait kata"></div>
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-9">
+                                <div class="portrait kata"></div>
+                            </div>
+                            <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Csankovszki Kata</b>
+                                <div>
+                                    <p> Kata az új ügyfeleket kutatja fel, illetve a meglévő ügyfeleket segíti a közös munka további lehetőségeivel kapcsolatban a Testbirds-nél. Élete legmeghatározóbb célja, hogy segítse az embereket ott, ahol tudja. Így a Testbirds ügyfeleit például abban, hogy használhatóbb és szerethetőbb alkalmazásokat, weboldalakat és szoftvereket fejleszthessenek az ügyfeleiknek. Kata balkezes, amivel egyáltalán nincs egyedül a Testbirds irodában. Talán ez a Testbirds sikereinek az egyik fontos indikátora </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Csankovszki Kata</b> <div>
-								<p>
-									Kata az új ügyfeleket kutatja fel, illetve a meglévő ügyfeleket segíti a közös munka további lehetőségeivel kapcsolatban a Testbirds-nél. Élete legmeghatározóbb célja, hogy segítse az embereket ott, ahol tudja. Így a Testbirds ügyfeleit például abban, hogy használhatóbb és szerethetőbb alkalmazásokat, weboldalakat és szoftvereket fejleszthessenek az ügyfeleiknek.
-									Kata balkezes, amivel egyáltalán nincs egyedül a Testbirds irodában. Talán ez a Testbirds sikereinek az egyik fontos indikátora
-
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="portrait laszlo"></div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="portrait laszlo"></div>
+                            </div>
+                            <div class="col-md-9"> <b class="text-centered">Horváth László</b>
+                                <div>
+                                    <p> Szociológus végzettségű autodidakta fotós. Gyermekkora óta vonzódik a számítógépek és a programok világához. Érdekli minden olyan fejlesztés, kütyü, ami könnyebbé, érdekesebbé teszi a mindennapokat. Egyedi látásmódját, tudását és szenvedélyét összekapcsolva munkálkodik az ügyfelek és a felhasználók elégedettségén. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9"> <b class="text-centered">Horváth László</b> <div>
-								<p>
-									Szociológus végzettségű autodidakta fotós. Gyermekkora óta vonzódik a számítógépek és a programok világához. Érdekli minden olyan fejlesztés, kütyü, ami könnyebbé, érdekesebbé teszi a mindennapokat. Egyedi látásmódját, tudását és szenvedélyét összekapcsolva munkálkodik az ügyfelek és a felhasználók elégedettségén.
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-md-push-9">
-                            <div class="portrait bianka"></div>
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-9">
+                                <div class="portrait bianka"></div>
+                            </div>
+                            <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Makkai Bianka</b>
+                                <div>
+                                    <p> Informatikai érdeklődése mellé közgazdász végzettség párosul, ezt leginkább funkcionális tesztelési projektekben kamatoztatja. Mindig az újdonságokat keresi, legyen szó fejlődésgazdaságtani elméletekről, gasztronómiáról vagy technológiai megoldásokról. Hisz benne, hogy bár az egész világot nem tehetjük jobbá, a munkánk révén egy szeletére mégis hatással tudunk lenni, ebből pedig a legjobbat kell kihoznunk. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Makkai Bianka</b> <div>
-								<p>
-									Informatikai érdeklődése mellé közgazdász végzettség párosul, ezt leginkább funkcionális tesztelési projektekben kamatoztatja. Mindig az újdonságokat keresi, legyen szó fejlődésgazdaságtani elméletekről, gasztronómiáról vagy technológiai megoldásokról. Hisz benne, hogy bár az egész világot nem tehetjük jobbá, a munkánk révén egy szeletére mégis hatással tudunk lenni, ebből pedig a legjobbat kell kihoznunk.
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="portrait anna"></div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="portrait anna"></div>
+                            </div>
+                            <div class="col-md-9"> <b class="text-centered">Mészár Anna</b>
+                                <div>
+                                    <p> Annát leginkább az optimális folyamatok, a jó szolgáltatások, ügyfélbarát szemléletmód lelkesítik. Nagyra értékeli az akár apró, könnyen megvalósítható és mindeközben szellemes ötleteket, és azt a légkört, amelyben ezek az ötletek megszülethetnek. Kutatóként és kulturális antropológusként a probléma és a különböző nézőpontok árnyalt megértéséhez tud igazán hozzájárulni, ez az amiben leginkább otthon érzi magát. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9"> <b class="text-centered">Mészár Anna</b> <div>
-								<p>
-									Annát leginkább az optimális folyamatok, a jó szolgáltatások, ügyfélbarát szemléletmód lelkesítik. Nagyra értékeli az akár apró, könnyen megvalósítható és mindeközben szellemes ötleteket, és azt a légkört, amelyben ezek az ötletek megszülethetnek. Kutatóként és kulturális antropológusként a probléma és a különböző nézőpontok árnyalt megértéséhez tud igazán hozzájárulni, ez az amiben leginkább otthon érzi magát.
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-md-push-9">
-                            <div class="portrait agnes"></div>
+                        <div class="row">
+                            <div class="col-md-3 col-md-push-9">
+                                <div class="portrait agnes"></div>
+                            </div>
+                            <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Muszka Ágnes</b>
+                                <div>
+                                    <p> Több éves tapasztalatot szerzett szoftvertesztelőként, valamint projektmenedzserként. Kommunikáció- és média szakon végzett a Budapesti Műszaki és Gazdaságtudományi Egyetemen. Érdeklődési területe a technológia és a közösségi együttműködések közötti összefüggések. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9 col-md-pull-3"> <b class="text-centered">Muszka Ágnes</b> <div>
-								<p>
-									Több éves tapasztalatot szerzett szoftvertesztelőként, valamint projektmenedzserként. Kommunikáció- és média szakon végzett a Budapesti Műszaki és Gazdaságtudományi Egyetemen. Érdeklődési területe a technológia és a közösségi együttműködések közötti összefüggések.
-								</p>
-							</div> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="portrait gergely"></div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="portrait gergely"></div>
+                            </div>
+                            <div class="col-md-9"> <b class="text-centered">Vászon Gergely</b>
+                                <div>
+                                    <p> Programtervező informatikus hallgató az ELTE-n. Tapasztalt sokszereplős, crowd illetve funkcionális teszt projektek menedzselésében, funkcionális és exploratív tesztelésben. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-9"> <b class="text-centered">Vászon Gergely</b> <div>
-								<p>
-									Programtervező informatikus hallgató az ELTE-n. Tapasztalt sokszereplős, crowd illetve funkcionális teszt projektek menedzselésében, funkcionális és exploratív tesztelésben. 
-								</p>
-							</div> </div>
                     </div>
                 </div>
             </div>
-        </div>
             <footer class="container-fluid">
     <div class="row">
         <div class="col-md-12 contact">
@@ -234,6 +243,7 @@
 <link href="/res/css/basic-styles-hu.css" rel="stylesheet"><script>
     $(document).ready(function () {
         console.log('Document ready fired');
+        
         $.ajaxSetup({
             cache: true
         });
@@ -241,8 +251,11 @@
         $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
         
+        $('.slicknav_menu').prepend('<a href="index.php"><div class="icon icon-Logo_CMYK_Background" alt="Testbirds Logo" /></a>');
+        
         $.getScript("/res/js/dist/main.min.js", function () {
             InstantClick.init();
+            //document.body.className = document.body.className.replace("loading","");
             console.log("Main js loaded");
         });
         
@@ -260,8 +273,9 @@
                 scrollTop: $("#top").offset().top - 90
             }, 1000);
         });
+        console.log('Document ready done');
     });
 </script>
-    </body>
+                </body>
 
     </html>

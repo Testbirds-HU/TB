@@ -65,6 +65,7 @@ body {
   margin: 0;
 }
 
+footer,
 nav {
   /* 1 */
   display: block;
@@ -102,6 +103,10 @@ h6 {
   color: #313131;
 }
 
+.companies {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -109,6 +114,10 @@ a {
 h1,
 h2 {
   text-transform: uppercase;
+}
+
+h5 {
+  margin: 1rem 1rem 1rem 0;
 }
 
 body,
@@ -119,6 +128,7 @@ ul {
   margin: 0;
 }
 
+footer,
 nav {
   display: block;
 }
@@ -153,6 +163,7 @@ h2 {
   color: #1f777a;
 }
 
+h5,
 h6 {
   font-family: Roboto, Droid Sans sans-serif;
   font-weight: 700;
@@ -160,6 +171,14 @@ h6 {
 
 h2 {
   line-height: 3rem;
+}
+
+h5 {
+  font-size: 2.2rem;
+}
+
+h5 {
+  color: #DBDBDB;
 }
 
 h6 {
@@ -197,6 +216,11 @@ a {
   width: 94%;
 }
 
+.container .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .spriteholder {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -208,6 +232,56 @@ a {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
+}
+
+.companies {
+  background-color: #E9E9E9;
+  padding-bottom: 40px!important;
+}
+
+#reftitle {
+  padding-bottom: 30px;
+  padding-top: 80px;
+  display: none;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #2C2C2C;
+  min-height: 300px;
+}
+
+.fbicon,
+.inicon {
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  height: 60px;
+  margin-top: 30px;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer .col-md-12 a,
+footer .col-md-12 p {
+  color: #666;
+}
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ref {
+  display: inline-block;
+}
+
+.fbicon {
+  background-image: url(/res/img/dist/fb_icon.png);
+}
+
+.inicon {
+  background-image: url(/res/img/dist/in_icon.png);
 }
 
 .articletitle {
@@ -231,6 +305,10 @@ a {
 }
 
 @media (max-width:992px) {
+  footer {
+    padding-bottom: 50px;
+  }
+
   .articlecover_felh {
     height: 330px;
   }
@@ -273,6 +351,11 @@ body,
 li,
 p {
   margin: 0;
+}
+
+.companies,
+.contact {
+  text-align: center;
 }
 
 li {
@@ -318,6 +401,24 @@ p {
   }
 }
 
+@media (max-width:992px) {
+  .companies {
+    min-height: 600px;
+  }
+}
+
+@media (max-width:767px) {
+  .companies {
+    min-height: 900px;
+  }
+}
+
+@media (max-width:992px) {
+  footer {
+    padding-bottom: 50px;
+  }
+}
+
 nav .navbar-nav {
   height: 100%;
   width: 100%;
@@ -338,7 +439,7 @@ nav .navbar-nav {
 
 .nav li a {
   color: white;
-  font-family: "Droid Sans","sans serif";
+  font-family: "Droid Sans", "sans serif";
   font-weight: 400;
   text-transform: uppercase;
   font-size: 14px;
@@ -346,24 +447,17 @@ nav .navbar-nav {
 }
 
 .nav a:after {
-  background: #82b999 !important;
+  background: #82b999!important;
   display: block;
-  width: 70%;
-  padding-left: 10px !important;
-  margin-right: 10px;
-  -webkit-transform: scale(1.2,1);
-  transform: scale(1.2,1);
+  width: 100%;
+  -webkit-transform: scale(.6, 1) translateY(-5px);
+  transform: scale(.6, 1) translateY(-5px);
   position: absolute;
   top: 100%;
   left: 0;
-  height: 4px;
+  height: 2px;
   content: '';
   opacity: 0;
-  width: 0.3s,;
-  margin: 0.3s;
-  -webkit-transform: translateY(10px);
-  transform: translateY(10px);
-  box-sizing: border-box;
 }
 
 nav {

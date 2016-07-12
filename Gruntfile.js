@@ -169,7 +169,7 @@ module.exports = function (grunt) {
                 }]
             }
         },
-/*4*/    sprite: {
+/*4*/   sprite: {
             misc: {
                 src: 'res/img/src/*.png',
                 dest: 'res/img/grunt/sprites/sprite-misc.png',
@@ -182,7 +182,23 @@ module.exports = function (grunt) {
                 destCss: 'res/css/grunt/sprite-comp.css',
                 imgPath: '/res/img/grunt/sprites/sprite-comp.png'
             }
-        }
+        },
+/**/    svgmin: {
+            options: {
+                plugins: [
+                    {
+					removeViewBox: false
+				}, {
+					removeUselessStrokeAndFill: false
+				}
+			]
+		},
+		main: {
+			files: {
+				'res/img/dist/loader.svg': 'res/img/src/loader.svg'
+			}
+		}
+	}
 // END MEDIA
     });
 
@@ -193,6 +209,7 @@ module.exports = function (grunt) {
 /*SRC*/ 'bower_concat',
         'jsvalidate:before_min',
 /*SRC*/ 'newer:imagemin:main',
+/*SRC*/ 'newer:svgmin',
 /*SRC*/ 'sprite',
         'concat',
         'uglify',

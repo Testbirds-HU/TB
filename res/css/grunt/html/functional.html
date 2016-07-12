@@ -1,8 +1,7 @@
 <!DOCTYPE html>
     <html>
-
     <head>
-        <meta charset="utf-8">
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.">
@@ -13,101 +12,118 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link href="/res/css/dist/critical.min.css" rel="stylesheet">
 <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<!--<script type="text/javascript" src="/res/js/dist/main.min.js" async defer></script>-->
-    </head>
-
-    <body>
-        <div id="pagewrap">
-            <div id="header">
-    <a class="site-logo" href="/index.php">
-        <div class="spriteholder">
-            <div class="icon icon-headerlogo"></div>
-        </div>
-    </a>
-    <nav id="nav-main">
-        <ul class="nav navbar-nav">
-            <li id="menu1">
-                <a href="about.php">
-                    Rólunk                </a>
-            </li>
-            <li id="menu2">
-                <a href="whyus.php">
-                    Miért mi?                </a>
-            </li>
-            <li id="menu3">
-                <a href="functional.php">
-                    Funkcionális tesztelés                </a>
-            </li>
-            <li id="menu4">
-                <a href="ux.php">
-                    Felhasználói élmény kutatás                </a>
-            </li>
-            <li id="menu5">
-                <a href="//blog.testbirds.hu">
-                    Blog                </a>
-            </li>
-            <li id="menu6">
-                <a href="contact.php">
-                    Kapcsolat                </a>
-            </li>
-        </ul>
-    </nav>
-</div>
-        </div>
-        <div class="container">
-            <div class="articletitle">
-                <div class="container">
-                    <h1>Funkcionális tesztelés</h1>
-                    <h2>TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT!</h2>
-                    <div class="boldul">Neked ajánljuk, ha:                        <ul>
-                            <li>a fejlesztésed már elkészült, de még a bevezetés előtt meg akarsz győződni megoldásod minőségéről;</li>
-                            <li>nincs elegendő erőforrásod egy teljes körű tesztelésre.</li>
-                            <li>ha sok platformon fejlesztesz egyszerre vagy sok platformon kell egyszerre működnie a megoldásodnak.</li>
-                            <li>élesítés előtt, ha új funkciók kerültek a megoldásodba.</li>
-                        </ul>
+<style type="text/css">
+    .loading .container,
+    .loading .row,
+    .loading footer.container-fluid {
+        display: none;
+    }
+    body.loading {
+        background-image: url("/res/img/src/loader.svg") !important;
+        background-position: center;
+        background-size: 100px 100px;
+        background-repeat: no-repeat;
+    }
+</style>
+</head>
+<body class="loading">
+<script type="text/javascript">
+    document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px' ;
+</script>        <div id="pagewrap">
+    <div id="header">
+        <a class="site-logo" href="/index.php">
+            <div class="spriteholder">
+                <div class="icon icon-headerlogo"></div>
+            </div>
+        </a>
+        <nav id="nav-main">
+            <ul class="nav navbar-nav">
+                <li id="menu1">
+                    <a href="about.php">
+                        Rólunk                    </a>
+                </li>
+                <li id="menu2">
+                    <a href="whyus.php">
+                        Miért mi?                    </a>
+                </li>
+                <li id="menu3">
+                    <a href="functional.php">
+                        Funkcionális tesztelés                    </a>
+                </li>
+                <li id="menu4">
+                    <a href="ux.php">
+                        Felhasználói élmény kutatás                    </a>
+                </li>
+                <li id="menu5">
+                    <a href="//blog.testbirds.hu">
+                        Blog                    </a>
+                </li>
+                <li id="menu6">
+                    <a href="contact.php">
+                        Kapcsolat                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>            <div class="container">
+                <div class="articletitle">
+                    <div class="container">
+                        <h1>Funkcionális tesztelés</h1>
+                        <h2>TÁRD FEL TESZTELŐINK SEGÍTSÉGÉVEL FELHASZNÁLÓI FELÜLETEID MŰKÖDÉSI HIBÁIT!</h2>
+                        <div class="boldul">
+                            Neked ajánljuk, ha:                                <ul>
+                                    <li>
+                                        a fejlesztésed már elkészült, de még a bevezetés előtt meg akarsz győződni megoldásod minőségéről;                                    </li>
+                                    <li>
+                                        nincs elegendő erőforrásod egy teljes körű tesztelésre.                                    </li>
+                                    <li>
+                                        ha sok platformon fejlesztesz egyszerre vagy sok platformon kell egyszerre működnie a megoldásodnak.                                    </li>
+                                    <li>
+                                        élesítés előtt, ha új funkciók kerültek a megoldásodba.                                    </li>
+                                </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="articlecover_funkc"></div>
-            <div class="articlebody_g">
-                <div class="container">
-                    <h6>Strukturált hibakeresés </h6>
-                    <p>
-                        Tesztelőink előzetesen meghatározott teszteset dokumentáció alapján, lépésről-lépésre haladva vizsgálják át felhasználói felületeid. A hibakeresés kötött szabályok alapján zajlik.                            <br>
-                            <br> </p>
-                    <h6>Felfedező tesztelés<br></h6>
-                    <p>
-                        Tesztelőink a leggyakoribb funkciókból kiindulva, előre meghatározott forgatókönyv nélkül fedezik fel felhasználói felületed.                            <br>
-                            <br> </p>
-                    <h6>Hibák felülvizsgálata<br></h6>
-                    <p>
-                        A feltárt hibás működés minden esetben ellenőrzésre kerül különböző eszközökön és operációs rendszereken is. A feltárt hibákat az általad elvárt időközönként és formátumban adjuk át számodra.                            <br>
-                            <br> </p>
-                    <h6>Eredmények villámgyorsan<br></h6>
-                    <p>
-                        Teljes projektek akár 48 óra alatt, a hibák összesítésével és kiértékelésével.                            <br> </p>
+                <div class="articlecover_funkc"></div>
+                <div class="articlebody_g">
+                    <div class="container">
+                        <h6>Strukturált hibakeresés </h6>
+                        <p>
+                            Tesztelőink előzetesen meghatározott teszteset dokumentáció alapján, lépésről-lépésre haladva vizsgálják át felhasználói felületeid. A hibakeresés kötött szabályok alapján zajlik.                                <br>
+                                <br> </p>
+                        <h6>Felfedező tesztelés<br></h6>
+                        <p>
+                            Tesztelőink a leggyakoribb funkciókból kiindulva, előre meghatározott forgatókönyv nélkül fedezik fel felhasználói felületed.                                <br>
+                                <br> </p>
+                        <h6>Hibák felülvizsgálata<br></h6>
+                        <p>
+                            A feltárt hibás működés minden esetben ellenőrzésre kerül különböző eszközökön és operációs rendszereken is. A feltárt hibákat az általad elvárt időközönként és formátumban adjuk át számodra.                                <br>
+                                <br> </p>
+                        <h6>Eredmények villámgyorsan<br></h6>
+                        <p>
+                            Teljes projektek akár 48 óra alatt, a hibák összesítésével és kiértékelésével.                                <br> </p>
+                    </div>
                 </div>
-            </div>
-            <div class="articlebody_w">
-                <div class="container">
-                    <h2>FUNKCIONÁLIS TESZTELÉS FOLYAMATA<br><br></h2>
-                    <p>
-                        A teljes tesztelési folyamat kijelölt Testbirds projektmenedzser vezetésével zajlik.                            <br>
-                            <br> </p>
-                    <h6>1. Felkészülés<br></h6>
-                    <p>
-                        Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is: tesztelendő platformok, tesztelők által használt eszközök.                            <br>
-                            <br> </p>
-                    <h6>2. Tesztelés a kiválasztott módszertan alapján</h6>
-                    <p>
-                        A Testbirds projektmenedzser kiválasztja a felkészülési megbeszélésen egyeztetett tesztelői kört és elindítja a tesztelést. A teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét.                            <br>
-                            <br> </p>
-                    <h6>3. Tesztelési eredmények összefoglalása és bemutatása</h6>
-                    <p>
-                        A Testbirds projektmenedzser riportot készít a tesztelők által jelzett hibákról, az észlelt hiba részletes leírásával és csatolt képernyő fotókkal együtt.                    </p>
+                <div class="articlebody_w">
+                    <div class="container">
+                        <h2>FUNKCIONÁLIS TESZTELÉS FOLYAMATA<br><br></h2>
+                        <p>
+                            A teljes tesztelési folyamat kijelölt Testbirds projektmenedzser vezetésével zajlik.                                <br>
+                                <br> </p>
+                        <h6>1. Felkészülés<br></h6>
+                        <p>
+                            Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is: tesztelendő platformok, tesztelők által használt eszközök.                                <br>
+                                <br> </p>
+                        <h6>2. Tesztelés a kiválasztott módszertan alapján</h6>
+                        <p>
+                            A Testbirds projektmenedzser kiválasztja a felkészülési megbeszélésen egyeztetett tesztelői kört és elindítja a tesztelést. A teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét.                                <br>
+                                <br> </p>
+                        <h6>3. Tesztelési eredmények összefoglalása és bemutatása</h6>
+                        <p>
+                            A Testbirds projektmenedzser riportot készít a tesztelők által jelzett hibákról, az észlelt hiba részletes leírásával és csatolt képernyő fotókkal együtt.                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-12 companies">
+                <div class="col-md-12 companies">
     <div class="row">
         <div class="col-md-12" id="reftitle">
             <h2>Referenciáink</h2></div>
@@ -184,8 +200,8 @@
             <div class="icon icon-"></div>
         </div>
     </div>
-</div>        </div>
-        <footer class="container-fluid">
+</div>            </div>
+            <footer class="container-fluid">
     <div class="row">
         <div class="col-md-12 contact">
             <h5>Kapcsolat</h5>
@@ -215,6 +231,7 @@
 <link href="/res/css/basic-styles-hu.css" rel="stylesheet"><script>
     $(document).ready(function () {
         console.log('Document ready fired');
+        
         $.ajaxSetup({
             cache: true
         });
@@ -222,8 +239,11 @@
         $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
         
+        $('.slicknav_menu').prepend('<a href="index.php"><div class="icon icon-Logo_CMYK_Background" alt="Testbirds Logo" /></a>');
+        
         $.getScript("/res/js/dist/main.min.js", function () {
             InstantClick.init();
+            //document.body.className = document.body.className.replace("loading","");
             console.log("Main js loaded");
         });
         
@@ -241,8 +261,9 @@
                 scrollTop: $("#top").offset().top - 90
             }, 1000);
         });
+        console.log('Document ready done');
     });
 </script>
-    </body>
+                </body>
 
     </html>
