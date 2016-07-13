@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php writeText($lang,'head_description',$content);?>">
     <meta name="description" content="<?php writeText($lang,'head_description',$content);?>">
-    <meta name="keywords" content="<?php writeText($lang,'head_keywords',$content);?>">
     <title>
         <?php writeText($lang,'head_title',$content);?>
     </title>

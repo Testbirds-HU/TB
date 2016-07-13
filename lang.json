@@ -4,7 +4,7 @@
         "customcss": "basic-styles-hu.css",
         "head_title": "Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.",
         "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
-        "head_keywords": "crowdtesting",
+
         "Menu1": "Rólunk",
         "Menu2": "Miért mi?",
         "Menu3": "Funkcionális tesztelés",
@@ -168,7 +168,7 @@
         "customcss": "basic-styles-sk.css",
         "head_title": "Testbirds – Crowdtesting: testovanie skutočnými používateľmi.",
         "head_description": "Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.",
-        "head_keywords": "crowdtesting",        
+
         "Menu1": "O nás",
         "Menu2": "Prečo my?",
         "Menu3": "Funkcionálne testovanie",
@@ -326,7 +326,7 @@
         "customcss": "basic-styles-cz.css",
         "head_title": "Testbirds - Crowdtesting: testování s reálnými uživateli.",
         "head_description": "Opravdový uživatelé, reálné prostředí, testování aplikací, webových stránek a software.",
-        "head_keywords": "crowdtesting",
+
         "Menu1": "O nás",
         "Menu2": "Proč my?",
         "Menu3": "Funkční testování",
