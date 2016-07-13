@@ -234,8 +234,8 @@ b {
     background-color: #FAFAFA;
     overflow: hidden;
     padding-bottom: 25px;
-    padding-top: 100px;
-    height: 88vh
+    height: 88vh;
+    padding-top: 20px;
 }
 
 .cover h6 {
@@ -244,7 +244,6 @@ b {
 }
 
 .cover .row .text {
-    padding-top: 8vw;
     padding-bottom: 60px;
     padding-left: 256px;
     padding-left: 16rem
@@ -462,10 +461,28 @@ b {
     margin-bottom: 25px;
 }
 
-.contact-cta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width: 1350px) {
+    .contact-cta,
+    .main-intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .contact-cta,
+    .main-intro {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-intro .icon {
+        display: none;
+    }
 }
 
 .folyamat .row .col-md-4 .circle:before {
@@ -1150,6 +1167,9 @@ nav {
     .narrow {
         display: none
     }
+    .cover {
+        padding-top: 100px !important;
+    }
 }
 
 @media (max-width:600px) {
@@ -1158,13 +1178,13 @@ nav {
     }
 }
 
-@media screen and (min-width: 1069px) {
+@media screen and (min-width: 1059px) {
     .slicknav_menu {
         display: none
     }
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1060px) {
     #header {
         display: none
     }

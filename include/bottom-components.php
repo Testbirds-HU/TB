@@ -29,7 +29,8 @@
         
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
-
+        $('head').append('<link rel="stylesheet" href="/res/css/dist/sprites.min.css" type="text/css">');
+        
         $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
             $('#nav-main').slicknav();
             console.log("Slicknav loaded");
@@ -49,7 +50,7 @@
             });
         });
         
-        $("#arrow").click(function () {
+        $("#arrow img").click(function () {
             $("html, body").animate({
                 scrollTop: $("#top").offset().top - 90
             }, "slow");

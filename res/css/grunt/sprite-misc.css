@@ -16,111 +16,99 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-Logo_CMYK_Background {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1006px -1118px;
-  width: 766px;
-  height: 284px;
-}
 .icon-anonymous {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2908px -1781px;
+  background-position: -562px -1838px;
   width: 220px;
   height: 220px;
 }
 .icon-arrow_down {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1842px -2043px;
+  background-position: -1300px -1500px;
   width: 913px;
   height: 115px;
 }
 .icon-devices {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2002px -1838px;
+  background-position: -2313px -1500px;
   width: 100px;
   height: 100px;
 }
 .icon-diagram {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2354px -1118px;
+  background-position: -2343px -990px;
   width: 150px;
   height: 150px;
 }
 .icon-document {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -3128px -1781px;
+  background-position: -2319px -808px;
   width: 150px;
   height: 150px;
 }
 .icon-dudes {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: 0px -2043px;
+  background-position: -1810px -472px;
   width: 509px;
   height: 518px;
 }
-.icon-explorebug {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: 0px -1500px;
-  width: 1303px;
-  height: 543px;
-}
 .icon-fb_icon {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2506px -1500px;
+  background-position: -281px -1838px;
   width: 281px;
   height: 281px;
 }
 .icon-headerlogo {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2506px -1926px;
+  background-position: -2123px -1340px;
   width: 210px;
   height: 78px;
 }
 .icon-in_icon {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2908px -1500px;
+  background-position: 0px -1838px;
   width: 281px;
   height: 281px;
 }
 .icon-marketingguy {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2908px 0px;
+  background-position: -1408px 0px;
   width: 402px;
   height: 1500px;
 }
 .icon-messages {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2787px -1600px;
+  background-position: -2213px -1500px;
   width: 100px;
   height: 100px;
 }
 .icon-missmarketing-small {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: 0px -2752px;
+  background-position: -2319px -472px;
   width: 90px;
   height: 336px;
 }
 .icon-missmarketing {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2506px 0px;
+  background-position: -1006px 0px;
   width: 402px;
   height: 1500px;
 }
 .icon-people {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2787px -1500px;
+  background-position: -2409px -600px;
   width: 100px;
   height: 100px;
 }
 .icon-people2 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -509px -2393px;
+  background-position: -2343px -1140px;
   width: 150px;
   height: 150px;
 }
 .icon-process {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1042px -2043px;
+  background-position: -500px -1500px;
   width: 800px;
   height: 206px;
 }
@@ -132,79 +120,67 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-quotemark {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -509px -2043px;
+  background-position: -1810px -990px;
   width: 533px;
   height: 350px;
 }
 .icon-scroll {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -3189px -1500px;
+  background-position: -2409px -472px;
   width: 80px;
   height: 128px;
 }
 .icon-scroll_icon {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1772px -1118px;
+  background-position: -782px -1838px;
   width: 200px;
   height: 200px;
 }
 .icon-target {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -3189px -1628px;
+  background-position: -2409px -700px;
   width: 100px;
   height: 100px;
 }
 .icon-tb_bug1 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1303px -1500px;
+  background-position: -1810px 0px;
   width: 699px;
   height: 472px;
 }
 .icon-tb_bug2 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2002px -1500px;
+  background-position: 0px -1500px;
   width: 500px;
   height: 338px;
 }
-.icon-tesztbg1 {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1006px 0px;
-  width: 1500px;
-  height: 559px;
-}
-.icon-tesztbg2 {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1006px -559px;
-  width: 1500px;
-  height: 559px;
-}
 .icon-ux2 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2506px -1781px;
+  background-position: -1810px -1340px;
   width: 313px;
   height: 145px;
 }
 .icon-what_we_test_icon_1 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -191px -2561px;
+  background-position: -1364px -1838px;
   width: 191px;
   height: 191px;
 }
 .icon-what_we_test_icon_2 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: 0px -2561px;
+  background-position: -1173px -1838px;
   width: 191px;
   height: 191px;
 }
 .icon-what_we_test_icon_3 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2163px -1118px;
+  background-position: -982px -1838px;
   width: 191px;
   height: 191px;
 }
 .icon-what_we_test_icon_4 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1972px -1118px;
+  background-position: -1555px -1838px;
   width: 191px;
   height: 191px;
 }

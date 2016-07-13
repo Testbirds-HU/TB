@@ -5,12 +5,14 @@
             <div class="row"></div>
             <div class="container">
                 <div class="cover">
-                    <div class="row">
+                    <div class="row main-intro">
                         <div class="col-md-6 text">
                             <h1><?php writeText($lang,'fooldal_Focim',$content);?></h1>
                             <h2><?php writeText($lang,'fooldal_Focim2',$content);?></h2>
                             <h6><?php writeText($lang,'fooldal_Focim3',$content);?></h6> </div>
-                        <div class="col-md-6 icon icon-dudes"></div>
+                        <div class="col-md-6">
+                            <div class="icon icon-dudes"></div> 
+                        </div>
                     </div>
                     <div class="row">
                         <div id="arrow" class="scrollholder"><img alt="Click to scroll" src="/res/img/dist/scroll_icon.png"></div>

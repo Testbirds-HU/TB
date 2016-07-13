@@ -466,7 +466,7 @@ nav {
   }
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1060px) {
   #header {
     display: none;
   }
@@ -525,11 +525,4 @@ nav {
 .articlebody_g .container {
   min-height: 550px;
   color: #fff;
-}
-
-.icon-headerlogo {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2506px -1926px;
-  width: 210px;
-  height: 78px;
 }

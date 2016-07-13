@@ -13,7 +13,8 @@ module.exports = function (grunt) {
                 "res/css/grunt",
                 "res/css/dist",
                 "res/js/grunt",
-                "res/js/dist"
+                "res/js/dist"//,
+                //"res/img/dist"
             ]
         },
 // BEGIN BOWER & BOTH
@@ -51,7 +52,7 @@ module.exports = function (grunt) {
                 dest: 'res/js/grunt/main.concat.js'
             },
             main_css: {
-                src: ['res/css/src/*.css', 'res/css/grunt/sprite-*.css', 'bower_components/okaynav/dist/css/common.min.css'],
+                src: ['res/css/src/*.css'],
                 dest: 'res/css/grunt/main.concat.css'
             }
         },
@@ -95,7 +96,7 @@ module.exports = function (grunt) {
                     css: 'res/css/grunt/main.prfx.css',
                     extract: true,
                     width: 1920,
-                    height: 1080
+                    height: 1920
                 },
                 src: 'res/css/grunt/html/main.html',
                 dest: 'res/css/grunt/critical.css'
@@ -109,7 +110,8 @@ module.exports = function (grunt) {
             main: {
                 files: {
                     'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css'],
-                    'res/css/dist/critical.min.css': ['res/css/grunt/critical.css']
+                    'res/css/dist/critical.min.css': ['res/css/grunt/critical.css'],
+                    'res/css/dist/sprites.min.css': ['res/css/grunt/sprite-comp.css', 'res/css/grunt/sprite-misc.css']
                 }
             }
         },

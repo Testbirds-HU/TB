@@ -17,7 +17,7 @@
         .loading footer.container-fluid {
             display: none
         }
-
+        
         .loaderholder {
             position: absolute;
             width: 100px;
@@ -25,15 +25,15 @@
             opacity: 1;
             transition: opacity 1s;
         }
-
+        
         body:not(.loading) .loaderholder {
             opacity: 0;
         }
-
+        
         .loading {
             overflow: hidden;
         }
-
+        
         [data-loader='circle'] {
             position: absolute;
             width: 100px;
@@ -48,7 +48,7 @@
             border-bottom-color: #82b999;
             border-radius: 100%;
         }
-
+        
         @-webkit-keyframes circle {
             0% {
                 -webkit-transform: rotate(360deg);
@@ -63,7 +63,7 @@
                 transform: rotate(0);
             }
         }
-
+        
         @-moz-keyframes circle {
             0% {
                 -webkit-transform: rotate(360deg);
@@ -78,7 +78,7 @@
                 transform: rotate(0);
             }
         }
-
+        
         @-o-keyframes circle {
             0% {
                 -webkit-transform: rotate(360deg);
@@ -93,7 +93,7 @@
                 transform: rotate(0);
             }
         }
-
+        
         @keyframes circle {
             0% {
                 -webkit-transform: rotate(360deg);
@@ -119,7 +119,8 @@
         document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px';
         document.getElementsByClassName('loaderholder')[0].style.top = (window.innerHeight - 50) / 2 + 'px';
         document.getElementsByClassName('loaderholder')[0].style.left = (window.innerWidth - 50) / 2 + 'px';
-    </script>        <div id="pagewrap">
+    </script>
+        <div id="pagewrap">
     <div id="header">
         <a class="site-logo" href="/index.php">
             <div class="spriteholder">
@@ -256,7 +257,8 @@
         
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
-
+        $('head').append('<link rel="stylesheet" href="/res/css/dist/sprites.min.css" type="text/css">');
+        
         $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
             $('#nav-main').slicknav();
             console.log("Slicknav loaded");
@@ -276,7 +278,7 @@
             });
         });
         
-        $("#arrow").click(function () {
+        $("#arrow img").click(function () {
             $("html, body").animate({
                 scrollTop: $("#top").offset().top - 90
             }, "slow");
