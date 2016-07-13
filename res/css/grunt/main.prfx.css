@@ -1699,6 +1699,13 @@ nav {
     .folyamat .row .btn-primary {
         width: 100%
     }
+    .teszt .spriteholder {
+        display: none;
+    }
+    .tesztek .teszt {
+        min-height: 150px !important;
+    }
+    
 }
 
 @media screen and (min-width: 1059px) {
