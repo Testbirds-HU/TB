@@ -35,30 +35,10 @@ h2 {
     text-transform: uppercase
 }
 
-@media (max-width:767px) {
-    .navbar-toggle {
-        margin-right: 35px
-    }
-}
-
-@media (max-width:992px) {
-    .navbar-default .navbar-nav>li:after {
-        position: absolute;
-        margin-left: 20px;
-        margin-top: -14px;
-        width: 0
-    }
-    .navbar-default .navbar-nav>li:hover:after {
-        position: absolute;
-        margin-left: 20px;
-        margin-top: -14px;
-        width: 230px
-    }
-}
-
 h3,
 h4,
 h5 {
+    margin: 16px 16px 16px 0;
     margin: 1rem 1rem 1rem 0
 }
 
@@ -106,14 +86,17 @@ a:hover {
 }
 
 h1 {
+    font-size: 80px;
     font-size: 5rem;
     font-family: Roboto, Droid Sans sans-serif;
     font-weight: 700;
+    margin: 13px 13px 13px 0;
     margin: .83rem .83rem .83rem 0
 }
 
 h2,
 h3 {
+    font-size: 36px;
     font-size: 2.3rem;
     font-weight: 400;
     font-family: Roboto, Droid Sans sans-serif;
@@ -129,15 +112,18 @@ h6 li {
 }
 
 h2 {
+    line-height: 48px;
     line-height: 3rem
 }
 
 h3 {
+    line-height: 44px;
     line-height: 2.8rem
 }
 
 h4,
 h5 {
+    font-size: 35px;
     font-size: 2.2rem
 }
 
@@ -147,11 +133,13 @@ h5 {
 
 h6,
 h6 li {
+    font-size: 27px;
     font-size: 1.7rem;
     line-height: 26px
 }
 
 h6 {
+    margin: 4px 4px 4px 0;
     margin: .3rem .3rem .3rem 0
 }
 
@@ -159,6 +147,7 @@ h6 {
 li,
 p {
     font-weight: 400;
+    font-size: 27px;
     font-size: 1.7rem;
     font-family: Droid Sans, sans-serif
 }
@@ -237,6 +226,7 @@ b {
 }
 
 .container .row .col-md-6 {
+    padding-left: 64px;
     padding-left: 4rem
 }
 
@@ -256,16 +246,19 @@ b {
 .cover .row .text {
     padding-top: 8vw;
     padding-bottom: 60px;
+    padding-left: 256px;
     padding-left: 16rem
 }
 
 .cover .scrollholder img {
     max-width: 40px;
     opacity: .3;
+    filter: alpha(opacity=30);
 }
 
 .cover .scrollholder img:hover {
     opacity: 1;
+    filter: alpha(opacity=100);
     margin-top: -10px;
     cursor: pointer
 }
@@ -361,6 +354,7 @@ b {
 .Elonyok .row .col-md-12 .list .el .navigator p {
     position: absolute;
     bottom: 30px;
+    font-size: 24px;
     font-size: 1.5rem;
     max-width: 80%
 }
@@ -388,10 +382,7 @@ b {
     background-color: #82b999!important
 }
 
-.Elonyok .spritebg {
-    width: 30px;
-    height: 30px
-}
+
 
 .tesztek .spriteholder {
     display: flex;
@@ -406,27 +397,6 @@ b {
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-@media (min-width:753px) {
-    .Elonyok .row .col-md-12 {
-        height: 690px
-    }
-    #ctelonyei {
-        padding-left: 35px
-    }
-}
-
-@media (max-width:992px) {
-    .Elonyok .row .col-md-12 .list .el {
-        margin-bottom: 1px
-    }
-    .Elonyok .row .col-md-12 {
-        background-image: none
-    }
-    #ctelonyei {
-        padding-top: 90px
-    }
 }
 
 .miket {
@@ -465,20 +435,31 @@ b {
     padding-top: 80px
 }
 
-.folyamat .col-md-4 .circle {
+.folyamat .col-md-4 > .circle {
     background-color: #EFEFEF;
-    margin: 60px auto 80px;
     border-radius: 100%;
     width: 150px;
-    height: 150px
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.folyamat .col-md-12 .circle {
+.folyamat .col-md-12 > .circle {
     background-color: #EFEFEF;
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    box-shadow: inset -1px -11px 34px -17px rgba(0, 0, 0, .28)
+    box-shadow: inset -1px -11px 34px -17px rgba(0, 0, 0, .28);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.folyamat .col-md-4 h2 {
+    margin-top: 80px;
+}
+
+.folyamat .col-md-12 h2:nth-child(1) {
+    margin-bottom: 25px;
 }
 
 .contact-cta {
@@ -493,25 +474,26 @@ b {
     padding-top: 6px;
     margin-top: 173px;
     position: absolute;
-    margin-left: -25px;
+    margin-left: -20px;
+    font-size: 27px;
     font-size: 1.7rem;
     font-weight: 700;
     color: #1E777A
 }
 
-.folyamat .row .col-md-4 .elso:before {
+.circle.elso:before {
     content: "1";
     border: 2px solid #1E777A;
     border-radius: 100%
 }
 
-.folyamat .row .col-md-4 .masodik:before {
+.circle.masodik:before {
     content: "2";
     border: 2px solid #1E777A;
     border-radius: 100%
 }
 
-.folyamat .row .col-md-4 .harmadik:before {
+.circle.harmadik:before {
     content: "3";
     border: 2px solid #1E777A;
     border-radius: 100%
@@ -519,6 +501,7 @@ b {
 
 .form-control,
 .send .btn-primary {
+    font-size: 27px;
     font-size: 1.7rem;
     line-height: 30px;
     font-family: Droid Sans, sans-serif;
@@ -537,6 +520,7 @@ b {
     margin: 30px auto 0;
     padding: 20px;
     font-family: Droid Sans, sans-serif;
+    font-size: 27px;
     font-size: 1.7rem
 }
 
@@ -599,19 +583,21 @@ footer .col-md-12 p {
 }
 
 .fbicon {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+    filter: gray;
+-webkit-filter: grayscale(100%);
     background-image: url(/res/img/dist/fb_icon.png)
 }
 
-.fbicon:hover {
-    background-image: url(/res/img/dist/fb_icon_c.png)
+.fbicon:hover, .inicon:hover {
+    filter: none;
 }
 
 .inicon {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+    filter: gray;
+-webkit-filter: grayscale(100%);
     background-image: url(/res/img/dist/in_icon.png)
-}
-
-.inicon:hover {
-    background-image: url(/res/img/dist/in_icon_c.png)
 }
 
 .articletitle {
@@ -641,16 +627,6 @@ footer .col-md-12 p {
 
 .articlecover_felh {
     background-image: url(/res/img/dist/tesztbg1.png)
-}
-
-@media (max-width:992px) {
-    footer {
-        padding-bottom: 50px
-    }
-    .articlecover_felh,
-    .articlecover_funkc {
-        height: 330px
-    }
 }
 
 .articlebody_g {
@@ -719,6 +695,7 @@ footer .col-md-12 p {
 }
 
 .elonyok h2 {
+    margin-bottom: 32px;
     margin-bottom: 2rem
 }
 
@@ -746,21 +723,6 @@ footer .col-md-12 p {
     padding-top: 10px
 }
 
-@media (max-width:992px) {
-    .elonyok .articletitle .container .row .placeholder {
-        height: 280px
-    }
-    .elonyok .articletitle .container .row .text {
-        padding-top: 30px
-    }
-    .elonyok .container .row .col-md-6 {
-        padding-left: 1rem
-    }
-    .elonyok .articletitle .container .row {
-        margin-top: 30px
-    }
-}
-
 .kapcsolat .container .row .col-md-6,
 .send {
     padding-left: 0
@@ -777,12 +739,6 @@ footer .col-md-12 p {
 
 .articlebody_g .container .container h1 {
     color: #fff
-}
-
-@media (max-width:992px) {
-    .kapcsolat.articlebody_g .container {
-        padding-top: 30px
-    }
 }
 
 .kapcsolat {
@@ -877,6 +833,7 @@ li {
 a,
 li,
 p {
+    font-size: 27px;
     font-size: 1.7rem;
     font-family: Droid Sans, sans-serif
 }
@@ -887,86 +844,9 @@ h6 li {
     list-style: outside
 }
 
-@media (max-width:992px) {
-    h1 {
-        font-size: 3.5rem
-    }
-}
-
-@media (max-width:340px) {
-    h1 {
-        font-size: 3.3rem
-    }
-}
-
-@media (max-width:400px) {
-    .container {
-        padding-left: 5px;
-        padding-right: 5px
-    }
-    .container .row .col-md-6 {
-        padding-left: 2rem
-    }
-}
-
 .cover>* {
     color: #1E777A;
     padding-top: 10px
-}
-
-@media (max-width:1230px) {
-    .container {
-        width: 98%
-    }
-    .cover .row .text {
-        padding-left: 8rem
-    }
-}
-
-@media (max-width:992px) {
-    .cover .row .text {
-        padding-top: 40px
-    }
-    .scrollholder {
-        display: none
-    }
-}
-
-@media (max-width:660px) {
-    .cover .row .text {
-        padding-left: 2rem
-    }
-}
-
-@media (max-width:562px) {
-    .csatlakozz .row {
-        padding-top: 44px!important
-    }
-}
-
-@media (max-width:1220px) {
-    .tesztek .row .teszt2 .imgholder {
-        margin-top: 80px;
-        height: 140px
-    }
-}
-
-@media (max-width:991px) {
-    .tesztek .row .teszt2 .imgholder {
-        margin-top: 40px;
-        height: 120px
-    }
-    .tesztek .row .teszt1 .imgholder {
-        height: 280px;
-        background-position-y: -20px
-    }
-}
-
-@media (max-width:431px) {
-    .tesztek .row .teszt2 .imgholder {
-        margin-top: 40px;
-        height: 90px
-    }
 }
 
 #ctelonyei {
@@ -997,23 +877,9 @@ h6 li {
 .Elonyok .row .col-md-12 .list .navigator p {
     position: absolute;
     bottom: 30px;
+    font-size: 24px;
     font-size: 1.5rem;
     max-width: 80%
-}
-
-@media (max-width:660px) {
-    .Elonyok .row .col-md-12 .list .el {
-        padding-left: 2rem
-    }
-}
-
-@media (min-width:753px) {
-    .Elonyok .row .col-md-12 {
-        height: 690px
-    }
-    .Elonyok .row .col-md-12 h2#ctelonyei {
-        padding-left: 35px
-    }
 }
 
 /* enable Flickity by default */
@@ -1022,67 +888,8 @@ h6 li {
   display: none;
 }
 
-@media screen and (min-width: 990px) {
-  .carousel:after {
-    content: '';
-  }
-}
-
-@media (max-width:992px) {
-    .Elonyok .row .col-md-12 .list .el {
-        margin-bottom: 1px
-    }
-    #ctelonyei {
-        padding-top: 90px
-    }
-    .wide {
-        display: none
-    }
-}
-
-@media (min-width:767px) {
-    .Elonyok .row .col-md-12 {
-        height: 710px
-    }
-}
-
-@media (min-width:992px) {
-    .Elonyok .row .col-md-12 {
-        height: 500px
-    }
-    .narrow {
-        display: none;
-    }
-}
-
 .device {
     height: 150px
-}
-
-@media (max-width:600px) {
-    .folyamat .row .btn-primary {
-        width: 100%
-    }
-}
-
-@media (max-width:767px) {
-    .companies {
-        min-height: 900px
-    }
-}
-
-@media (max-width:992px) {
-    footer {
-        padding-bottom: 50px
-    }
-}
-
-@media (max-width:660px) {
-    footer .col-md-2,
-    footer .col-md-3,
-    footer .col-md-4 {
-        padding-left: 2rem
-    }
 }
 
 .device .spriteholder {
@@ -1132,11 +939,13 @@ nav .navbar-nav {
     height: 2px;
     content: '';
     opacity: 0;
+    filter: alpha(opacity=0);
     transition: opacity .3s, transform .3s, width .3s, margin .3s;
 }
 
 .nav a:hover:after {
     opacity: 1;
+    filter: alpha(opacity=100);
     transform: translateY(-10px)
 }
 
@@ -1161,14 +970,222 @@ nav {
     z-index: 4;
 }
 
+@media (max-width:767px) {
+    .navbar-toggle {
+        margin-right: 35px
+    }
+    .companies {
+        min-height: 900px
+    }
+}
+
+@media (max-width:992px) {
+    .navbar-default .navbar-nav>li:after {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: -14px;
+        width: 0
+    }
+    .navbar-default .navbar-nav>li:hover:after {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: -14px;
+        width: 230px
+    }
+    .Elonyok .row .col-md-12 .list .el {
+        margin-bottom: 1px
+    }
+    .Elonyok .row .col-md-12 {
+        background-image: none
+    }
+    #ctelonyei {
+        padding-top: 90px
+    }
+    footer {
+        padding-bottom: 50px
+    }
+    .articlecover_felh,
+    .articlecover_funkc {
+        height: 330px
+    }
+    .elonyok .articletitle .container .row .placeholder {
+        height: 280px
+    }
+    .elonyok .articletitle .container .row .text {
+        padding-top: 30px
+    }
+    .elonyok .container .row .col-md-6 {
+        padding-left: 1rem
+    }
+    .elonyok .articletitle .container .row {
+        margin-top: 30px
+    }
+    .kapcsolat.articlebody_g .container {
+        padding-top: 30px
+    }
+    h1 {
+        font-size: 3.5rem
+    }
+    .cover .row .text {
+        padding-top: 40px
+    }
+    .scrollholder {
+        display: none
+    }
+    .Elonyok .row .col-md-12 .list .el {
+        margin-bottom: 1px
+    }
+    #ctelonyei {
+        padding-top: 90px
+    }
+    .wide {
+        display: none
+    }
+    footer {
+        padding-bottom: 50px
+    }
+}
+
+@media (min-width:753px) {
+    .Elonyok .row .col-md-12 {
+        height: 690px
+    }
+    #ctelonyei {
+        padding-left: 35px
+    }
+    .Elonyok .row .col-md-12 {
+        height: 690px
+    }
+    .Elonyok .row .col-md-12 h2#ctelonyei {
+        padding-left: 35px
+    }
+}
+
+@media (max-width:340px) {
+    h1 {
+        font-size: 3.3rem
+    }
+}
+
+@media (max-width:400px) {
+    .container {
+        padding-left: 5px;
+        padding-right: 5px
+    }
+    .container .row .col-md-6 {
+        padding-left: 2rem
+    }
+}
+
+@media (max-width:1230px) {
+    .container {
+        width: 98%
+    }
+    .cover .row .text {
+        padding-left: 8rem
+    }
+}
+
+@media (max-width:660px) {
+    .cover .row .text {
+        padding-left: 2rem
+    }
+    .Elonyok .row .col-md-12 .list .el {
+        padding-left: 2rem
+    }
+    footer .col-md-2,
+    footer .col-md-3,
+    footer .col-md-4 {
+        padding-left: 2rem
+    }
+}
+
+@media (max-width:562px) {
+    .csatlakozz .row {
+        padding-top: 44px!important
+    }
+}
+
+@media (max-width:1220px) {
+    .tesztek .row .teszt2 .imgholder {
+        margin-top: 80px;
+        height: 140px
+    }
+}
+
+@media (max-width:991px) {
+    .tesztek .row .teszt2 .imgholder {
+        margin-top: 40px;
+        height: 120px
+    }
+    .tesztek .row .teszt1 .imgholder {
+        height: 280px;
+        background-position-y: -20px
+    }
+}
+
+@media (max-width:431px) {
+    .tesztek .row .teszt2 .imgholder {
+        margin-top: 40px;
+        height: 90px
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .carousel:after {
+        content: ''
+    }
+}
+
+@media (min-width:767px) {
+    .Elonyok .row .col-md-12 {
+        height: 710px
+    }
+}
+
+@media (min-width:992px) {
+    .Elonyok .row .col-md-12 {
+        height: 500px
+    }
+    .narrow {
+        display: none
+    }
+}
+
+@media (max-width:600px) {
+    .folyamat .row .btn-primary {
+        width: 100%
+    }
+}
+
 @media screen and (min-width: 1069px) {
     .slicknav_menu {
-        display: none;
+        display: none
     }
 }
 
 @media screen and (max-width: 1070px) {
     #header {
-        display: none;
+        display: none
     }
+}
+
+.loaderholder,
+.loaderholder * {
+    pointer-events: none !important;
+}
+
+#arrow {
+    display: block
+}
+
+#arrow, .teszt, .el, a, .btn, .btn-primary, img {
+    transition:
+        opacity .3s,
+        margin .3s,
+        padding .3s,
+        color .3s,
+        background .3s,
+        box-shadow .3s,
+        transform .3s
 }

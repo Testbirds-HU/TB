@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <?php include('include/lang.php'); ?>
-    <html>
     <?php include('include/html-head.php'); ?>
         <?php include('include/navigation.php'); ?>
             <div class="container elonyok">
@@ -127,4 +126,4 @@
         ?>
                 </body>
 
-    </html>
+                </html>

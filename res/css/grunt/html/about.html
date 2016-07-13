@@ -1,35 +1,125 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.">
-<meta name="description" content="Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.">
-<meta name="keywords" content="crowdtesting">
-<title>
-    Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.</title>
-<link rel="shortcut icon" href="favicon.ico">
-<link href="/res/css/dist/critical.min.css" rel="stylesheet">
-<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<style type="text/css">
-    .loading .container,
-    .loading .row,
-    .loading footer.container-fluid {
-        display: none;
-    }
-    body.loading {
-        background-image: url("/res/img/src/loader.svg") !important;
-        background-position: center;
-        background-size: 100px 100px;
-        background-repeat: no-repeat;
-    }
-</style>
+    <html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.">
+    <title>
+        Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.    </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/res/css/dist/critical.min.css" rel="stylesheet">
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .loading .container,
+        .loading .row,
+        .loading footer.container-fluid {
+            display: none
+        }
+
+        .loaderholder {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            opacity: 1;
+            transition: opacity 1s;
+        }
+
+        body:not(.loading) .loaderholder {
+            opacity: 0;
+        }
+
+        .loading {
+            overflow: hidden;
+        }
+
+        [data-loader='circle'] {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            -webkit-animation: circle infinite 1s linear;
+            -moz-animation: circle infinite 1s linear;
+            -o-animation: circle infinite 1s linear;
+            animation: circle infinite 1s linear;
+            border: 20px solid transparent;
+            border-top-color: #1f777a;
+            border-bottom-color: #82b999;
+            border-radius: 100%;
+        }
+
+        @-webkit-keyframes circle {
+            0% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                -o-transform: rotate(0);
+                transform: rotate(0);
+            }
+        }
+
+        @-moz-keyframes circle {
+            0% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                -o-transform: rotate(0);
+                transform: rotate(0);
+            }
+        }
+
+        @-o-keyframes circle {
+            0% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                -o-transform: rotate(0);
+                transform: rotate(0);
+            }
+        }
+
+        @keyframes circle {
+            0% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                -o-transform: rotate(0);
+                transform: rotate(0);
+            }
+        }
+    </style>
 </head>
+
 <body class="loading">
-<script type="text/javascript">
-    document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px' ;
-</script>        <div id="pagewrap">
+    <div class="loaderholder">
+        <div data-loader="circle"></div>
+    </div>
+    <script type="text/javascript">
+        document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px';
+        document.getElementsByClassName('loaderholder')[0].style.top = (window.innerHeight - 50) / 2 + 'px';
+        document.getElementsByClassName('loaderholder')[0].style.left = (window.innerWidth - 50) / 2 + 'px';
+    </script>        <div id="pagewrap">
     <div id="header">
         <a class="site-logo" href="/index.php">
             <div class="spriteholder">
@@ -244,22 +334,32 @@
     $(document).ready(function () {
         console.log('Document ready fired');
         
+        var isWebkit = 'WebkitAppearance' in document.documentElement.style
+        console.log('Webkit: ' + isWebkit);
+
+        if (isWebkit == true) {
+            $('.scrollholder').remove();
+            console.log('Scrollholder removed');
+        };
+
         $.ajaxSetup({
             cache: true
         });
         
         $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
-        $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
-        $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
-        
-        $('.slicknav_menu').prepend('<a href="index.php"><div class="icon icon-Logo_CMYK_Background" alt="Testbirds Logo" /></a>');
         
         $.getScript("/res/js/dist/main.min.js", function () {
             InstantClick.init();
             document.body.className = document.body.className.replace("loading","");
-            console.log("Main js loaded");
+            setTimeout(function() {
+                $('.loaderholder').remove();
+            }, 1500);
+            console.log("Main js loaded and page is ready");
         });
         
+        $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
+
         $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
             $('#nav-main').slicknav();
             console.log("Slicknav loaded");
@@ -282,11 +382,12 @@
         $("#arrow").click(function () {
             $("html, body").animate({
                 scrollTop: $("#top").offset().top - 90
-            }, 1000);
+            }, "slow");
         });
+
         console.log('Document ready done');
     });
 </script>
                 </body>
 
-    </html>
+                </html>

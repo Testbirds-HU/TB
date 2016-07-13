@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <?php include('include/lang.php'); ?>
-    <html>
     <?php include('include/html-head.php'); ?>
         <?php include('include/navigation.php'); ?>
             <div class="row"></div>
@@ -82,7 +81,7 @@
                                     <div class="col-md-3 col-sm-6 col-xs-12 el">
                                         <h2><?php writeText($lang,'fooldal_miertmi2',$content);?></h2>
                                         <div class="spriteholder">
-                                            <div class="sprietbg icon icon-target"></div>
+                                            <div class="spritebg icon icon-target"></div>
                                         </div>
                                         <div class="navigator">
                                             <p class="more"> </p>
@@ -93,7 +92,7 @@
                                     <div class="col-md-3 col-sm-6 col-xs-12 el">
                                         <h2><?php writeText($lang,'fooldal_miertmi3',$content);?></h2>
                                         <div class="spriteholder">
-                                            <div class="sprietbg icon icon-devices"></div>
+                                            <div class="spritebg icon icon-devices"></div>
                                         </div>
                                         <div class="navigator">
                                             <p class="more"> </p>
@@ -104,7 +103,7 @@
                                     <div class="col-md-3 col-sm-6 col-xs-12 el">
                                         <h2><?php writeText($lang,'fooldal_miertmi4',$content);?></h2>
                                         <div class="spriteholder">
-                                            <div class="sprietbg icon icon-people"></div>
+                                            <div class="spritebg icon icon-people"></div>
                                         </div>
                                         <div class="navigator">
                                             <p class="more"> </p>
@@ -115,7 +114,7 @@
                                     <div class="col-md-3 col-sm-6 col-xs-12 el">
                                         <h2><?php writeText($lang,'fooldal_miertmi5',$content);?></h2>
                                         <div class="spriteholder">
-                                            <div class="sprietbg icon icon-messages"></div>
+                                            <div class="spritebg icon icon-messages"></div>
                                         </div>
                                         <div class="navigator">
                                             <p class="more"> </p>
@@ -126,7 +125,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="miket">
                     <div class="row">
                         <div class="col-md-12">
@@ -156,7 +154,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="testimonial">
                     <div class="row">
                         <div class="col-md-1 quote hidden-sm"> </div>
@@ -174,39 +171,42 @@
                 <div class="folyamat">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2><?php writeText($lang,'fooldal_folyamat',$content);?></h2> </div>
-                        <div class="col-md-4">
-                            <div class="circle elso">
-                                <div class="spriteholder">
-                                    <div class="icon icon-document"></div>
+                            <h2><?php writeText($lang,'fooldal_folyamat',$content);?></h2>
+                            <div class="carousel">
+                                <div class="col-md-4 col-xs-12 carousel-cell">
+                                    <div class="circle elso">
+                                        <div class="spriteholder">
+                                            <div class="icon icon-document"></div>
+                                        </div>
+                                    </div>
+                                    <h2><?php writeText($lang,'fooldal_folyamat2',$content);?></h2>
+                                    <p>
+                                        <?php writeText($lang,'fooldal_folyamat3',$content);?>
+                                    </p>
+                                </div>
+                                <div class="col-md-4 col-xs-12 carousel-cell">
+                                    <div class="circle masodik">
+                                        <div class="spriteholder">
+                                            <div class="icon icon-people2"></div>
+                                        </div>
+                                    </div>
+                                    <h2><?php writeText($lang,'fooldal_folyamat4',$content);?></h2>
+                                    <p>
+                                        <?php writeText($lang,'fooldal_folyamat5',$content);?>
+                                    </p>
+                                </div>
+                                <div class="col-md-4 col-xs-12 carousel-cell">
+                                    <div class="circle harmadik">
+                                        <div class="spriteholder">
+                                            <div class="icon icon-diagram"></div>
+                                        </div>
+                                    </div>
+                                    <h2><?php writeText($lang,'fooldal_folyamat6',$content);?></h2>
+                                    <p>
+                                        <?php writeText($lang,'fooldal_folyamat7',$content);?>
+                                    </p>
                                 </div>
                             </div>
-                            <h2><?php writeText($lang,'fooldal_folyamat2',$content);?></h2>
-                            <p>
-                                <?php writeText($lang,'fooldal_folyamat3',$content);?>
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="circle masodik">
-                                <div class="spriteholder">
-                                    <div class="icon icon-people2"></div>
-                                </div>
-                            </div>
-                            <h2><?php writeText($lang,'fooldal_folyamat4',$content);?></h2>
-                            <p>
-                                <?php writeText($lang,'fooldal_folyamat5',$content);?>
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="circle harmadik">
-                                <div class="spriteholder">
-                                    <div class="icon icon-diagram"></div>
-                                </div>
-                            </div>
-                            <h2><?php writeText($lang,'fooldal_folyamat6',$content);?></h2>
-                            <p>
-                                <?php writeText($lang,'fooldal_folyamat7',$content);?>
-                            </p>
                         </div>
                         <div class="col-md-12 contact-cta">
                             <div class="circle">
@@ -216,11 +216,9 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <h3><?php writeText($lang,'fooldal_ajanlat',$content);?></h3>
+                            <h3>Érdekel a szolgáltatásunk? Lépj kapcsolatba velünk!</h3>
                             <a href="contact.php">
-                                <div class="btn-primary">
-                                    <?php writeText($lang,'fooldal_ajanlat2',$content);?>
-                                </div>
+                                <div class="btn-primary"> Ajánlatot kérek! </div>
                             </a>
                         </div>
                     </div>
@@ -236,4 +234,4 @@
         ?>
                 </body>
 
-    </html>
+                </html>

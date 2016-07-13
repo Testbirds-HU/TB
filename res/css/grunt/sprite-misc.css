@@ -64,7 +64,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 1303px;
   height: 543px;
 }
-.icon-fb_icon_c {
+.icon-fb_icon {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
   background-position: -2506px -1500px;
   width: 281px;
@@ -76,7 +76,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 210px;
   height: 78px;
 }
-.icon-in_icon_c {
+.icon-in_icon {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
   background-position: -2908px -1500px;
   width: 281px;

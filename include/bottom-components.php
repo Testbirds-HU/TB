@@ -4,22 +4,32 @@
     $(document).ready(function () {
         console.log('Document ready fired');
         
+        var isWebkit = 'WebkitAppearance' in document.documentElement.style
+        console.log('Webkit: ' + isWebkit);
+
+        if (isWebkit == true) {
+            $('.scrollholder').remove();
+            console.log('Scrollholder removed');
+        };
+
         $.ajaxSetup({
             cache: true
         });
         
         $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
-        $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
-        $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
-        
-        $('.slicknav_menu').prepend('<a href="index.php"><div class="icon icon-Logo_CMYK_Background" alt="Testbirds Logo" /></a>');
         
         $.getScript("/res/js/dist/main.min.js", function () {
             InstantClick.init();
             document.body.className = document.body.className.replace("loading","");
-            console.log("Main js loaded");
+            setTimeout(function() {
+                $('.loaderholder').remove();
+            }, 1500);
+            console.log("Main js loaded and page is ready");
         });
         
+        $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
+
         $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
             $('#nav-main').slicknav();
             console.log("Slicknav loaded");
@@ -42,8 +52,9 @@
         $("#arrow").click(function () {
             $("html, body").animate({
                 scrollTop: $("#top").offset().top - 90
-            }, 1000);
+            }, "slow");
         });
+
         console.log('Document ready done');
     });
 </script>

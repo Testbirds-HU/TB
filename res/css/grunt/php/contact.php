@@ -131,7 +131,6 @@
 
 ?>
     <!DOCTYPE html>
-    <html>
     <?php include('include/html-head.php'); ?>
         <?php include('include/navigation.php'); ?>
             <div class="container">
@@ -198,4 +197,4 @@
         ?>
                 </body>
 
-    </html>
+                </html>

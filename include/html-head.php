@@ -1,16 +1,17 @@
+<html lang="<?php writeText($tld);?>" xml:lang="<?php writeText($tld);?>" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php writeText($lang,'head_description',$content);?>">
-    <html lang="<?php writeText($tld);?>" xml:lang="<?php writeText($tld);?>" xmlns="http://www.w3.org/1999/xhtml">
     <title>
         <?php writeText($lang,'head_title',$content);?>
     </title>
     <link rel="shortcut icon" href="favicon.ico">
     <link href="/res/css/dist/critical.min.css" rel="stylesheet">
     <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">        
+    <style type="text/css">
         .loading .container,
         .loading .row,
         .loading footer.container-fluid {
@@ -19,7 +20,8 @@
         
         .loaderholder {
             position: absolute;
-            width: 100%;
+            width: 100px;
+            height: 100px;
             opacity: 1;
             transition: opacity 1s;
         }
@@ -115,7 +117,6 @@
     </div>
     <script type="text/javascript">
         document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px';
-        document.getElementsByClassName('loaderholder')[0].style.height = (window.innerHeight-50)/2 + 'px';
-        document.getElementsByClassName('loaderholder')[0].style.top = (window.innerHeight-50)/2 + 'px';
-        document.getElementsByClassName('loaderholder')[0].style.left = (window.innerWidth-50)/2 + 'px';
+        document.getElementsByClassName('loaderholder')[0].style.top = (window.innerHeight - 50) / 2 + 'px';
+        document.getElementsByClassName('loaderholder')[0].style.left = (window.innerWidth - 50) / 2 + 'px';
     </script>
