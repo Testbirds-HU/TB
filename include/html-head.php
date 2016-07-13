@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php writeText($lang,'head_description',$content);?>">
-    <meta name="description" content="<?php writeText($lang,'head_description',$content);?>">
+    <html lang="<?php writeText($tld);?>" xml:lang="<?php writeText($tld);?>" xmlns="http://www.w3.org/1999/xhtml">
     <title>
         <?php writeText($lang,'head_title',$content);?>
     </title>
