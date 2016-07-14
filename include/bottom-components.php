@@ -1,9 +1,9 @@
-<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script data-no-instant type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script data-no-instant type="text/javascript" src="/bower_components/instantclick/instantclick.js"></script>
 <?php echo '<link href="/res/css/';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
 <script>
-    $(document).ready(function () {
-        console.log('Document ready fired');
-        
+    InstantClick.on('change', function() {
+        console.log('Instantclick page change');
         var isWebkit = 'WebkitAppearance' in document.documentElement.style
         console.log('Webkit: ' + isWebkit);
 
@@ -11,6 +11,17 @@
             $('.scrollholder').remove();
             console.log('Scrollholder removed');
         };
+        
+        document.body.className = document.body.className.replace("loading","");
+        setTimeout(function() {
+            $('.loaderholder').remove();
+        }, 1500);
+        console.log("Main js loaded and page is ready");
+    });
+</script>
+<script data-no-instant>
+    $(document).ready(function () {
+        console.log('Document ready fired');
 
         $.ajaxSetup({
             cache: true
@@ -21,10 +32,6 @@
         $.getScript("/res/js/dist/main.min.js", function () {
             InstantClick.init();
             document.body.className = document.body.className.replace("loading","");
-            setTimeout(function() {
-                $('.loaderholder').remove();
-            }, 1500);
-            console.log("Main js loaded and page is ready");
         });
         
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');

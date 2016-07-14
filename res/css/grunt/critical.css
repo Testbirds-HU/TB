@@ -233,6 +233,10 @@ a {
   padding-bottom: 40px!important;
 }
 
+.companies .col-md-2 {
+  margin-top: 50px;
+}
+
 #reftitle {
   padding-bottom: 30px;
   padding-top: 80px;

@@ -38,7 +38,8 @@ module.exports = function (grunt) {
                     'unipointer',
                     'tap-listener',
                     'unidragger',
-                    'flickity'
+                    'flickity',
+		    'instantclick'
                 ],
                 includeDev: true
             }

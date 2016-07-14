@@ -118,5 +118,5 @@
     <script type="text/javascript">
         document.getElementsByTagName('body')[0].style.height = window.innerHeight + 'px';
         document.getElementsByClassName('loaderholder')[0].style.top = (window.innerHeight - 50) / 2 + 'px';
-        document.getElementsByClassName('loaderholder')[0].style.left = (window.innerWidth - 50) / 2 + 'px';
+        document.getElementsByClassName('loaderholder')[0].style.left = (window.innerWidth - 100) / 2 + 'px';
     </script>
