@@ -1,4 +1,4 @@
-<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script data-no-instant type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script data-no-instant type="text/javascript" src="/bower_components/instantclick/instantclick.js"></script>
 <?php echo '<link href="/res/css/';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
 <script>
