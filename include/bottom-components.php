@@ -12,7 +12,7 @@
         };
         
         if (isInitialLoad == false) {
-            console.log('Már ismerlek téged és már van sódered');
+            console.log('Már ismerlek téged és már van sódered - nem kapsz!');
             document.body.className = document.body.className.replace("loading","");
         };
         setTimeout(function() {
