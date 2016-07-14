@@ -18,7 +18,7 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 */
 .icon-anonymous {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -562px -1838px;
+  background-position: 0px -1838px;
   width: 220px;
   height: 220px;
 }
@@ -28,21 +28,33 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 913px;
   height: 115px;
 }
+.icon-bottom-icon-fb {
+  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
+  background-position: -2379px -922px;
+  width: 60px;
+  height: 60px;
+}
+.icon-bottom-icon-in {
+  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
+  background-position: -2319px -922px;
+  width: 60px;
+  height: 60px;
+}
 .icon-devices {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2313px -1500px;
+  background-position: -2213px -1500px;
   width: 100px;
   height: 100px;
 }
 .icon-diagram {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2343px -990px;
+  background-position: -2319px -772px;
   width: 150px;
   height: 150px;
 }
 .icon-document {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2319px -808px;
+  background-position: -2319px -472px;
   width: 150px;
   height: 150px;
 }
@@ -52,57 +64,45 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   width: 509px;
   height: 518px;
 }
-.icon-fb_icon {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -281px -1838px;
-  width: 281px;
-  height: 281px;
-}
 .icon-headerlogo {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
   background-position: -2123px -1340px;
   width: 210px;
   height: 78px;
 }
-.icon-in_icon {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: 0px -1838px;
-  width: 281px;
-  height: 281px;
-}
 .icon-marketingguy {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1408px 0px;
-  width: 402px;
-  height: 1500px;
-}
-.icon-messages {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2213px -1500px;
-  width: 100px;
-  height: 100px;
-}
-.icon-missmarketing-small {
-  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2319px -472px;
-  width: 90px;
-  height: 336px;
-}
-.icon-missmarketing {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
   background-position: -1006px 0px;
   width: 402px;
   height: 1500px;
 }
+.icon-messages {
+  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
+  background-position: -2343px -1218px;
+  width: 100px;
+  height: 100px;
+}
+.icon-missmarketing-circle {
+  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
+  background-position: -220px -1838px;
+  width: 200px;
+  height: 200px;
+}
+.icon-missmarketing {
+  background-image: url(/res/img/grunt/sprites/sprite-misc.png);
+  background-position: -1408px 0px;
+  width: 402px;
+  height: 1500px;
+}
 .icon-people {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2409px -600px;
+  background-position: -2313px -1500px;
   width: 100px;
   height: 100px;
 }
 .icon-people2 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2343px -1140px;
+  background-position: -2319px -622px;
   width: 150px;
   height: 150px;
 }
@@ -126,19 +126,19 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-scroll {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2409px -472px;
+  background-position: -2343px -990px;
   width: 80px;
   height: 128px;
 }
 .icon-scroll_icon {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -782px -1838px;
+  background-position: -420px -1838px;
   width: 200px;
   height: 200px;
 }
 .icon-target {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -2409px -700px;
+  background-position: -2343px -1118px;
   width: 100px;
   height: 100px;
 }
@@ -162,25 +162,25 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 }
 .icon-what_we_test_icon_1 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1364px -1838px;
+  background-position: -1193px -1838px;
   width: 191px;
   height: 191px;
 }
 .icon-what_we_test_icon_2 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1173px -1838px;
+  background-position: -1002px -1838px;
   width: 191px;
   height: 191px;
 }
 .icon-what_we_test_icon_3 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -982px -1838px;
+  background-position: -811px -1838px;
   width: 191px;
   height: 191px;
 }
 .icon-what_we_test_icon_4 {
   background-image: url(/res/img/grunt/sprites/sprite-misc.png);
-  background-position: -1555px -1838px;
+  background-position: -620px -1838px;
   width: 191px;
   height: 191px;
 }

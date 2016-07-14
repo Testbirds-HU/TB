@@ -17,10 +17,14 @@
                 <?php writeText($lang,'footer_kapcsolat5',$content);?>
             </p>
             <a href="https://www.facebook.com/testbirds.hu/" class="ref" target="_blank">
-                <div class="fbicon"></div>
+                <div class="spriteholder">
+                    <div class="icon icon-bottom-icon-fb"></div>
+                </div>
             </a>
             <a href="https://www.linkedin.com/company/testbirds-magyarorsz-g" class="ref" target="_blank">
-                <div class="inicon"></div>
+                <div class="spriteholder">
+                    <div class="icon icon-bottom-icon-in"></div>
+                </div>
             </a>
         </div>
     </div>

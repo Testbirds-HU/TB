@@ -213,7 +213,7 @@
                         <div class="col-md-12 contact-cta">
                             <div class="circle">
                                 <div class="spriteholder">
-                                    <div class="icon icon-missmarketing-small"></div>
+                                    <div class="icon icon-missmarketing-circle"></div>
                                 </div>
                             </div>
                         </div>
