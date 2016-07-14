@@ -25,7 +25,7 @@ module.exports = function (grunt) {
                     css: 'res/css/src/50-bower.css'
                 },
                 exclude: [
-                //    'jquery',
+                    'jquery',
                     'bootstrap',
                     'slicknav',
                     'classie',
