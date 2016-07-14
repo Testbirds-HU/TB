@@ -15,6 +15,13 @@
             console.log('Már ismerlek téged és már van sódered - nem kapsz!');
             document.body.className = document.body.className.replace("loading","");
         };
+
+	$("#arrow img").click(function () {
+            $("html, body").animate({
+                scrollTop: $("#top").offset().top - 90
+            }, "slow");
+        });
+
         setTimeout(function() {
             $('.loaderholder').remove();
         }, 1500);
