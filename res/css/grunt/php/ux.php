@@ -7,8 +7,8 @@
                     <div class="container">
                         <h1><?php writeText($lang,'felhasznaloi_cim1',$content);?></h1>
                         <h2><?php writeText($lang,'felhasznaloi_cim2',$content);?></h2>
-                        <div class="boldul">
-                            <?php writeText($lang,'felhasznaloi_cim3',$content);?>
+                        <div class="ulholder">
+                            <p class="intro"><?php writeText($lang,'felhasznaloi_cim3',$content);?></p>
                                 <ul>
                                     <li>
                                         <?php writeText($lang,'felhasznaloi_cim4',$content);?>

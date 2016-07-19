@@ -634,6 +634,9 @@ p {
 
 ul {
     padding: 0;
+}
+
+#header ul {
     list-style: none
 }
 
@@ -663,10 +666,6 @@ footer .col-md-12 a:hover {
 
 a:focus {
     color: #fff!important
-}
-
-b {
-    font-weight: 700
 }
 
 .tesztek .row .teszt1 .imgholder,
@@ -1319,7 +1318,7 @@ p {
     text-align: center
 }
 
-li {
+#header li {
     font-weight: 700;
     line-height: 26px
 }
@@ -1677,6 +1676,15 @@ nav {
         background .3s,
         box-shadow .3s,
         transform .3s
+}
+.boldul .intro {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.intro {
+    font-weight: 700;
 }
 ;/*Separator*/
 .articletitle {

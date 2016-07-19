@@ -199,6 +199,9 @@ p {
 
 ul {
   padding: 0;
+}
+
+#header ul {
   list-style: none;
 }
 
@@ -345,7 +348,7 @@ p {
   text-align: center;
 }
 
-li {
+#header li {
   font-weight: 700;
   line-height: 26px;
 }
@@ -472,6 +475,10 @@ nav {
 
 
 
+
+.intro {
+  font-weight: 700;
+}
 
 .articletitle .container {
   max-width: 800px;
