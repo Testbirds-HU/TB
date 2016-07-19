@@ -24,8 +24,6 @@
         
         setTimeout(function() {
             $('.loaderholder').remove();
-            document.getElementsByClassName('loaderholder')[0].style.top = '';
-            document.getElementsByClassName('loaderholder')[0].style.left = '';
         }, 1500);
         
         console.log("IC betöltött egy újabb lapot");
