@@ -44,9 +44,13 @@
     padding: 10px;
     padding-bottom: 15px;
     padding-top: 15px;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .4);
-    border-radius: 3px;
-    background-color: white;
+    background-color: #1f777a;
+    color: white;
+}
+
+.team .name {
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .team .anna {

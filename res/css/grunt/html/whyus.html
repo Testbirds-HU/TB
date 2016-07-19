@@ -286,7 +286,7 @@
 <noscript>
     <p><img src="//analytics.testbirds.hu/piwik.php?idsite=1" style="border:0;" alt="" /></p>
 </noscript>
-<script src="/res/js/stats-.js" type="text/javascript"></script><!-- Start of Leadin Embed --><script type="text/javascript" src="//js.leadin.com/js/v1/1798051.js" id="LeadinEmbed-1798051" crossorigin="use-credentials"></script><!-- End of Leadin Embed --><script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script data-no-instant src="/res/js/stats-.js" type="text/javascript"></script><!-- Start of Leadin Embed --><script data-no-instant type="text/javascript" src="//js.leadin.com/js/v1/1798051.js" id="LeadinEmbed-1798051" crossorigin="use-credentials"></script><!-- End of Leadin Embed --><script data-no-instant type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script data-no-instant type="text/javascript" src="/bower_components/instantclick/instantclick.js"></script>
 <link href="/res/css/basic-styles-hu.css" rel="stylesheet"><script>
     InstantClick.on('change', function(isInitialLoad) {
@@ -299,9 +299,16 @@
         };
         
         if (isInitialLoad == false) {
-            console.log('Már ismerlek téged és már van sódered');
+            console.log('Már ismerlek téged és már van sódered - nem kapsz!');
             document.body.className = document.body.className.replace("loading","");
         };
+
+	$("#arrow img").click(function () {
+            $("html, body").animate({
+                scrollTop: $("#top").offset().top - 90
+            }, "slow");
+        });
+
         setTimeout(function() {
             $('.loaderholder').remove();
         }, 1500);
@@ -354,6 +361,7 @@
 
         console.log('Sóder szállítva');
     });
-</script>                </body>
+</script>
+                </body>
 
                 </html>
