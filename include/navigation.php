@@ -6,7 +6,7 @@
             </div>
         </a>
         <nav id="nav-main">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav" style="height: 80px">
                 <li id="menu1">
                     <a href="about.php">
                         <?php writeText($lang,'Menu1',$content);?>
