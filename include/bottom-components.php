@@ -21,10 +21,9 @@
                 scrollTop: $("#top").offset().top - 90
             }, "slow");
         });
-
+        
         setTimeout(function() {
             $('.loaderholder').remove();
-            document.getElementsByTagName('body')[0].style.height = '';
             document.getElementsByClassName('loaderholder')[0].style.top = '';
             document.getElementsByClassName('loaderholder')[0].style.left = '';
         }, 1500);
