@@ -25,6 +25,13 @@
         setTimeout(function() {
             $('.loaderholder').remove();
         }, 1500);
+        
+        setTimeout(function() {
+            document.getElementsByTagName('body')[0].style.height = '';
+            document.getElementsByClassName('loaderholder')[0].style.top = '';
+            document.getElementsByClassName('loaderholder')[0].style.left = '';
+        }, 3000);
+        
         console.log("IC betöltött egy újabb lapot");
     });
 </script>
@@ -71,7 +78,7 @@
                 scrollTop: $("#top").offset().top - 90
             }, "slow");
         });
-
+        
         console.log('Sóder szállítva');
     });
 </script>
