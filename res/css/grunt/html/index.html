@@ -548,13 +548,10 @@
 
         setTimeout(function() {
             $('.loaderholder').remove();
-        }, 1500);
-        
-        setTimeout(function() {
             document.getElementsByTagName('body')[0].style.height = '';
             document.getElementsByClassName('loaderholder')[0].style.top = '';
             document.getElementsByClassName('loaderholder')[0].style.left = '';
-        }, 3000);
+        }, 1500);
         
         console.log("IC betöltött egy újabb lapot");
     });
