@@ -30,7 +30,7 @@
     });
 </script>
 <script data-no-instant>
-    InstantClick.init();
+//    InstantClick.init();
     $(document).ready(function () {
         console.log('Még nem ismerlek - jön a sóder!');
 
