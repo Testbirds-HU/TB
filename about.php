@@ -89,16 +89,6 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3 col-md-push-9">
-                                <div class="portrait kata"></div>
-                            </div>
-                            <div class="col-md-9 col-md-pull-3"> <p class="name">Csankovszki Kata</p>
-                                <div>
-                                    <p> Kata az új ügyfeleket kutatja fel, illetve a meglévő ügyfeleket segíti a közös munka további lehetőségeivel kapcsolatban a Testbirds-nél. Élete legmeghatározóbb célja, hogy segítse az embereket ott, ahol tudja. Így a Testbirds ügyfeleit például abban, hogy használhatóbb és szerethetőbb alkalmazásokat, weboldalakat és szoftvereket fejleszthessenek az ügyfeleiknek. Kata balkezes, amivel egyáltalán nincs egyedül a Testbirds irodában. Talán ez a Testbirds sikereinek az egyik fontos indikátora </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="col-md-3">
                                 <div class="portrait laszlo"></div>
                             </div>
