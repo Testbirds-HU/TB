@@ -83,5 +83,5 @@
 	</p>
 </noscript>
 <script type="text/javascript">
-	clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https:///plugins/ClickHeat/libs/click.php';initClickHeat();
+	clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https:///analytics.testbirds.hu/plugins/ClickHeat/libs/click.php';initClickHeat();
 </script>
