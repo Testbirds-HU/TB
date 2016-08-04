@@ -76,12 +76,7 @@
         console.log('Sóder szállítva');
     });
 </script>
-<script type="text/javascript" src="https:///analytics.testbirds.hu/ClickHeat/libs/js/clickheat.js"></script>
-<noscript>
-	<p>
-		<a href="http://www.dugwood.com/index.html">Open Source Sofware</a>
-	</p>
-</noscript>
+<script type="text/javascript" src="https://analytics.testbirds.hu/plugins/ClickHeat/libs/js/clickheat.js"></script>
 <script type="text/javascript">
 	clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https:///analytics.testbirds.hu/plugins/ClickHeat/libs/click.php';initClickHeat();
 </script>
