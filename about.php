@@ -89,50 +89,50 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-md-push-9">
                                 <div class="portrait laszlo"></div>
                             </div>
-                            <div class="col-md-9"> <p class="name">Horváth László</p>
+                            <div class="col-md-9 col-md-pull-3"> <p class="name">Horváth László</p>
                                 <div>
                                     <p> Szociológus végzettségű autodidakta fotós. Gyermekkora óta vonzódik a számítógépek és a programok világához. Érdekli minden olyan fejlesztés, kütyü, ami könnyebbé, érdekesebbé teszi a mindennapokat. Egyedi látásmódját, tudását és szenvedélyét összekapcsolva munkálkodik az ügyfelek és a felhasználók elégedettségén. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3 col-md-push-9">
+                            <div class="col-md-3">
                                 <div class="portrait bianka"></div>
                             </div>
-                            <div class="col-md-9 col-md-pull-3"> <p class="name">Makkai Bianka</p>
+                            <div class="col-md-9"> <p class="name">Makkai Bianka</p>
                                 <div>
                                     <p> Informatikai érdeklődése mellé közgazdász végzettség párosul, ezt leginkább funkcionális tesztelési projektekben kamatoztatja. Mindig az újdonságokat keresi, legyen szó fejlődésgazdaságtani elméletekről, gasztronómiáról vagy technológiai megoldásokról. Hisz benne, hogy bár az egész világot nem tehetjük jobbá, a munkánk révén egy szeletére mégis hatással tudunk lenni, ebből pedig a legjobbat kell kihoznunk. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-md-push-9">
                                 <div class="portrait anna"></div>
                             </div>
-                            <div class="col-md-9"> <p class="name">Mészár Anna</p>
+                            <div class="col-md-9 col-md-pull-3"> <p class="name">Mészár Anna</p>
                                 <div>
                                     <p> Annát leginkább az optimális folyamatok, a jó szolgáltatások, ügyfélbarát szemléletmód lelkesítik. Nagyra értékeli az akár apró, könnyen megvalósítható és mindeközben szellemes ötleteket, és azt a légkört, amelyben ezek az ötletek megszülethetnek. Kutatóként és kulturális antropológusként a probléma és a különböző nézőpontok árnyalt megértéséhez tud igazán hozzájárulni, ez az amiben leginkább otthon érzi magát. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3 col-md-push-9">
+                            <div class="col-md-3">
                                 <div class="portrait agnes"></div>
                             </div>
-                            <div class="col-md-9 col-md-pull-3"> <p class="name">Muszka Ágnes</p>
+                            <div class="col-md-9"> <p class="name">Muszka Ágnes</p>
                                 <div>
                                     <p> Több éves tapasztalatot szerzett szoftvertesztelőként, valamint projektmenedzserként. Kommunikáció- és média szakon végzett a Budapesti Műszaki és Gazdaságtudományi Egyetemen. Érdeklődési területe a technológia és a közösségi együttműködések közötti összefüggések. </p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-md-push-9">
                                 <div class="portrait gergely"></div>
                             </div>
-                            <div class="col-md-9"> <p class="name">Vászon Gergely</p>
+                            <div class="col-md-9 col-md-pull-3"> <p class="name">Vászon Gergely</p>
                                 <div>
                                     <p> Programtervező informatikus hallgató az ELTE-n. Tapasztalt sokszereplős, crowd illetve funkcionális teszt projektek menedzselésében, funkcionális és exploratív tesztelésben. </p>
                                 </div>
