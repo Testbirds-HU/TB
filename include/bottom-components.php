@@ -30,7 +30,7 @@
     });
 </script>
 <script data-no-instant>
-//    InstantClick.init();
+   InstantClick.init();
     $(document).ready(function () {
         console.log('Még nem ismerlek - jön a sóder!');
 
@@ -75,8 +75,4 @@
         
         console.log('Sóder szállítva');
     });
-</script>
-<script type="text/javascript" src="https://analytics.testbirds.hu/plugins/ClickHeat/libs/js/clickheat.js"></script>
-<script type="text/javascript">
-	clickHeatSite = 1;clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'https:///analytics.testbirds.hu/plugins/ClickHeat/libs/click.php';initClickHeat();
 </script>
