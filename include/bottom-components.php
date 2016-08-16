@@ -1,39 +1,40 @@
 <script data-no-instant type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script data-no-instant type="text/javascript" src="/bower_components/instantclick/instantclick.js"></script>
 <?php echo '<link href="/res/css/';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
-<script>
+<script data-no-instant>
     InstantClick.on('change', function(isInitialLoad) {
-        console.log('IC oldal váltás');
+        
+        // START INITIAL LOAD /======================/
+        
         var isWebkit = 'WebkitAppearance' in document.documentElement.style
 
         if (isWebkit == true) {
             $('.scrollholder').remove();
-            console.log('Scrollholder kirobbantva');
         };
         
         if (isInitialLoad == false) {
-            console.log('Már ismerlek téged és már van sódered - nem kapsz!');
             document.body.className = document.body.className.replace("loading","");
         };
 
-	$("#arrow img").click(function () {
+        $.getScript("/res/js/src/load-cards.js", function () {});
+        
+	    $("#arrow img").click(function () {
             $("html, body").animate({
                 scrollTop: $("#top").offset().top - 90
             }, "slow");
         });
         
+        $.getScript("/res/js/dist/mustache.min.js", function () {})
+        
         setTimeout(function() {
             $('.loaderholder').remove();
         }, 1500);
         
-        console.log("IC betöltött egy újabb lapot");
+        // END INITIAL LOAD /======================/
+        
     });
-</script>
-<script data-no-instant>
    InstantClick.init();
     $(document).ready(function () {
-        console.log('Még nem ismerlek - jön a sóder!');
-
         $.ajaxSetup({
             cache: true
         });
@@ -50,16 +51,14 @@
         
         $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
             $('#nav-main').slicknav();
-            console.log("Mobil nav kavicsok");
         });
 
-        $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {
-            console.log("Reszponzív kavicsok");
-        });
+        $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {});
+        
+        $.getScript("/res/js/src/load-cards.js", function () {});
         
         $.getScript("/bower_components/flickity/dist/flickity.pkgd.min.js", function() {
             $('.carousel').flickity({
-                // options
                 cellAlign: 'center',
                 contain: true,
                 watchCSS: 'fallbackOn',
@@ -72,7 +71,5 @@
                 scrollTop: $("#top").offset().top - 90
             }, "slow");
         });
-        
-        console.log('Sóder szállítva');
     });
 </script>

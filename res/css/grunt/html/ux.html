@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+    <html lang="" xml:lang="" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Valódi felhasználókkal, valós körülmények között tesztelünk mobil appokat, webes alkalmazásokat, asztali szoftvereket.">
+    <title>
+        Testbirds - Crowdtesting: tesztelés valódi felhasználókkal.    </title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .loading .container,
+        .loading .row,
+        .loading footer.container-fluid {
+            display: none
+        }
+        
+        .loaderholder {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            opacity: 1;
+            transition: opacity 1s;
+        }
+        
+        body:not(.loading) .loaderholder {
+            opacity: 0;
+        }
+        
+        .loading {
+            overflow: hidden;
+        }
+        
+        [data-loader='circle'] {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            -webkit-animation: circle infinite 1s linear;
+            -moz-animation: circle infinite 1s linear;
+            -o-animation: circle infinite 1s linear;
+            animation: circle infinite 1s linear;
+            border: 20px solid transparent;
+            border-top-color: #1f777a;
+            border-bottom-color: #82b999;
+            border-radius: 100%;
+        }
+        
+        @-webkit-keyframes circle {
+            0% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                -o-transform: rotate(0);
+                transform: rotate(0);
+            }
+        }
+        
+        @-moz-keyframes circle {
+            0% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                -o-transform: rotate(0);
+                transform: rotate(0);
+            }
+        }
+        
+        @-o-keyframes circle {
+            0% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                -o-transform: rotate(0);
+                transform: rotate(0);
+            }
+        }
+        
+        @keyframes circle {
+            0% {
+                -webkit-transform: rotate(360deg);
+                -ms-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+            100% {
+                -webkit-transform: rotate(0);
+                -ms-transform: rotate(0);
+                -o-transform: rotate(0);
+                transform: rotate(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="loading">
+    <div class="loaderholder">
+        <div data-loader="circle"></div>
+    </div>
+    <script type="text/javascript">
+        document.getElementsByClassName('loaderholder')[0].style.top = (window.innerHeight - 50) / 2 + 'px';
+        document.getElementsByClassName('loaderholder')[0].style.left = (window.innerWidth - 100) / 2 + 'px';
+    </script>
+        <div id="pagewrap">
+    <div id="header">
+        <a class="site-logo" href="/index.php">
+            <div class="spriteholder">
+                <div class="icon icon-headerlogo"></div>
+            </div>
+        </a>
+        <nav id="nav-main">
+            <ul class="nav navbar-nav" style="height: 80px">
+                <li id="menu1">
+                    <a href="about.php">
+                        Rólunk                    </a>
+                </li>
+                <li id="menu2">
+                    <a href="whyus.php">
+                        Miért mi?                    </a>
+                </li>
+                <li id="menu3">
+                    <a href="functional.php">
+                        Funkcionális tesztelés                    </a>
+                </li>
+                <li id="menu4">
+                    <a href="ux.php">
+                        Felhasználói élmény kutatás                    </a>
+                </li>
+                <li id="menu5">
+                    <a href="//blog.testbirds.hu">
+                        Blog                    </a>
+                </li>
+                <li id="menu6">
+                    <a href="contact.php">
+                        Kapcsolat                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>            <div class="container">
+                <div class="articletitle">
+                    <div class="container">
+                        <h1>Felhasználói élmény kutatás</h1>
+                        <h2>GYŰJTS VISSZAJELZÉSEKET A TESZTELŐINK ÁLTAL ÉRZÉKELT FELHASZNÁLÓI ÉLMÉNYRŐL!</h2>
+                        <div class="ulholder">
+                            <p class="intro">Neked ajánljuk, ha:</p>
+                                <ul>
+                                    <li>
+                                        van egy üzleti koncepciód, de a megvalósítás megkezdése előtt validálni szeretnéd azt valódi ügyfelekkel;                                    </li>
+                                    <li>
+                                        van már egy prototípusod és a fejlesztés megkezdése előtt visszajelzést szeretnél a potenciális ügyfeleidtől, ezzel fejlesztési költséget spórolva a cégednek;                                    </li>
+                                    <li>
+                                        a lefejlesztett megoldásod bevezetését megelőzően visszajelzéseket akarsz gyűjteni a használhatóságáról;                                    </li>
+                                    <li>
+                                        a piacon lévő megoldásod használhatóságával kapcsolatban bizonytalan vagy, talán vannak már negatív visszajelzéseid is ügyfelektől, esetleg roadmap építésben vagy.                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="articlecover_felh"></div>
+                <div class="articlebody_g">
+                    <div class="container">
+                        <h6>Felhasználói élmények első kézből</h6>
+                        <p>
+                            A kiválasztott célcsoportba eső, valós felhasználók adnak visszajelzést megoldásod használhatóságáról. A felhasználók bevonásával tükröt tartunk eléd és megtudhatod, mit gondolnak lehetséges (vagy valós) ügyfeleid az általad nyújtott szolgáltatásról.                        </p>
+                        <br>
+                        <br>
+                        <h6>Kvalitatív módszertan</h6>
+                        <p>
+                            A megoldásodhoz legjobban illeszkedő módszertant alkalmazva tárjuk fel felhasználóid véleményét. Mélyinterjúk, kvalitatív kérdőívek, ügyfél által vezetett naplók segítenek megérteni felhasználóid motivációit, viselkedésük okait.                                <br>
+                                <br> </p>
+                        <h6>Struktúrált visszajelzések<br></h6>
+                        <p>
+                            A Testbirds UX kutatói a felhasználói tesztelés eredményeiről strukturált visszajelzést készítenek számodra:                                <br>
+                                <br> </p>
+                        <ul>
+                            <li>
+                                Információt kapsz a kevésbé hasznos vagy nem jól érthető funkciókról;                            </li>
+                            <li>
+                                Összefoglaljuk számodra a felhasználók által jelzett fejlesztési lehetőségeket vagy hiányolt üzleti funkciókat.                                    <br> </li>
+                            <li>
+                                Kézzel fogható javaslatokat fogalmazunk meg, a felhasználói visszajelzésekre alapozva.                                    <br>
+                                    <br> </li>
+                        </ul>
+                        <h6>Versenytárs elemzés<br></h6>
+                        <p>
+                            A teljes kép megértéséhez gyakran hasznos a versenytársaid megoldásainak értékelése is. Felhasználói élmény tesztjeink lehetőséget biztosítanak számodra, hogy megoldásod megmérettesd a piacon elérhető többi megoldással.                                <br> </p>
+                    </div>
+                </div>
+                <div class="articlebody_w">
+                    <div class="container">
+                        <h2>A FELHASZNÁLÓI ÉLMÉNY KUTATÁS FOLYAMATA<br><br></h2>
+                        <p>
+                            A teljes tesztelési folyamatot kijelölt Testbirds projektmenedzser támogatja.                                <br>
+                                <br> </p>
+                        <h6>1. Felkészülés<br></h6>
+                        <p>
+                            Egy személyes beszélgetés során, alaposan megértve az általad képviselt üzleti igényt, alakítjuk ki a tesztelési feladat tartalmát. A felkészülési szakaszban határozzuk meg a tesztelői kört is, a tesztelői célcsoport jellemzői alapján. Illetve leegyeztetjük a hangsúlyos tesztelendő funkciókat.                                 <br>
+                                <br> </p>
+                        <h6>2. Tesztelés a kiválasztott módszertan alapján</h6>
+                        <p>
+                            A Testbirds projektmenedzser kiválasztja a feladatba bevont tesztelői kört és elindítja a tesztelést  és a teljes tesztelés során ellenőrzi a tesztelők által jelzett hibákat, biztosítja a tesztelői munka minőségét.                                <br>
+                                <br> </p>
+                        <h6>3. Tesztelési eredmények összefoglalása és bemutatása</h6>
+                        <p>
+                            A Testbirds UX kutatója záró prezentációt készít, amit személyesen előad az ügyfélnek. A záró anyagban kézzel fogható javaslatokat fogalmazunk meg a felhasználók visszajelzéseire alapozva, fontossági sorrendbe állítva a javaslatokat.                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12 companies">
+    <div class="row">
+        <div class="col-md-12" id="reftitle">
+            <h2>Referenciáink</h2>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-e-on"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-kh"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-profession"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-libri-shopline"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-granitbank"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-pharmanova"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-prezi"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-liligo"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-vodafone"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-otp-mobil"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-telekom"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-groby"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-edigital"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-maesteszinhaz"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-mvmpartner"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-logmein"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-nng"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-jofogas"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-simple"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-upc"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-mastercard"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-telenor"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-e-on"></div>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-4">
+            <div class="spriteholder">
+                <div class="icon icon-antikvarium"></div>
+            </div>
+        </div>
+    </div>
+</div>            </div>
+            <footer class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 contact">
+            <h5>Kapcsolat</h5>
+            <p>
+                1118 Budapest                    <br>
+            </p>
+            <p>
+                Himfy utca 1.                    <br>
+            </p>
+            <p>
+                +36 70 458 4615            </p>
+            <p>
+                info@testbirds.hu            </p>
+            <a href="https://www.facebook.com/testbirds.hu/" class="ref" target="_blank">
+                <div class="spriteholder">
+                    <div class="icon icon-bottom-icon-fb"></div>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/company/testbirds-magyarorsz-g" class="ref" target="_blank">
+                <div class="spriteholder">
+                    <div class="icon icon-bottom-icon-in"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</footer>
+<noscript>
+    <p><img src="//analytics.testbirds.hu/piwik.php?idsite=1" style="border:0;" alt="" /></p>
+</noscript>
+<script data-no-instant src="/res/js/stats-.js" type="text/javascript"></script><!-- Start of Leadin Embed --><script data-no-instant type="text/javascript" src="//js.leadin.com/js/v1/1798051.js" id="LeadinEmbed-1798051" crossorigin="use-credentials"></script><!-- End of Leadin Embed --><script data-no-instant type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script data-no-instant type="text/javascript" src="/bower_components/instantclick/instantclick.js"></script>
+<link href="/res/css/basic-styles-hu.css" rel="stylesheet"><script data-no-instant>
+    InstantClick.on('change', function(isInitialLoad) {
+        
+        // START INITIAL LOAD /======================/
+        
+        var isWebkit = 'WebkitAppearance' in document.documentElement.style
+
+        if (isWebkit == true) {
+            $('.scrollholder').remove();
+        };
+        
+        if (isInitialLoad == false) {
+            document.body.className = document.body.className.replace("loading","");
+        };
+
+        $.getScript("/res/js/src/load-cards.js", function () {});
+        
+	    $("#arrow img").click(function () {
+            $("html, body").animate({
+                scrollTop: $("#top").offset().top - 90
+            }, "slow");
+        });
+        
+        $.getScript("/res/js/dist/mustache.min.js", function () {})
+        
+        setTimeout(function() {
+            $('.loaderholder').remove();
+        }, 1500);
+        
+        // END INITIAL LOAD /======================/
+        
+    });
+   InstantClick.init();
+    $(document).ready(function () {
+        $.ajaxSetup({
+            cache: true
+        });
+        
+        $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
+        
+        $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/res/css/dist/sprites.min.css" type="text/css">');
+        
+        $.getScript("/res/js/dist/main.min.js", function () {
+            document.body.className = document.body.className.replace("loading","");
+        });
+        
+        $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {
+            $('#nav-main').slicknav();
+        });
+
+        $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {});
+        
+        $.getScript("/res/js/src/load-cards.js", function () {});
+        
+        $.getScript("/bower_components/flickity/dist/flickity.pkgd.min.js", function() {
+            $('.carousel').flickity({
+                cellAlign: 'center',
+                contain: true,
+                watchCSS: 'fallbackOn',
+                pageDots: false
+            });
+        });
+        
+        $("#arrow img").click(function () {
+            $("html, body").animate({
+                scrollTop: $("#top").offset().top - 90
+            }, "slow");
+        });
+    });
+</script>
+                </body>
+
+                </html>

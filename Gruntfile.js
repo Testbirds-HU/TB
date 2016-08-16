@@ -90,19 +90,6 @@ module.exports = function (grunt) {
                 dest: 'res/css/grunt/main.prfx.css'
             }
         },
-/*10*/  critical: {
-            main: {
-                options: {
-                    base: './',
-                    css: 'res/css/grunt/main.prfx.css',
-                    extract: true,
-                    width: 1920,
-                    height: 1920
-                },
-                src: 'res/css/grunt/html/main.html',
-                dest: 'res/css/grunt/critical.css'
-            }
-        },
 /*11*/  cssmin: {
             options: {
                 shorthandCompacting: false,
@@ -111,7 +98,6 @@ module.exports = function (grunt) {
             main: {
                 files: {
                     'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css'],
-                    'res/css/dist/critical.min.css': ['res/css/grunt/critical.css'],
                     'res/css/dist/sprites.min.css': ['res/css/grunt/sprite-comp.css', 'res/css/grunt/sprite-misc.css']
                 }
             }
@@ -142,7 +128,8 @@ module.exports = function (grunt) {
             },
             main: {
                 files: {
-                    'res/js/dist/main.min.js': ['res/js/grunt/*.js']
+                    'res/js/dist/main.min.js': ['res/js/src/*.js'],
+                    'res/js/dist/mustache.min.js': ['bower_components/mustache.js/mustache.min.js', 'res/js/src/jquery.mustache.js']
                 }
             }
         },
@@ -220,7 +207,6 @@ module.exports = function (grunt) {
         'jsvalidate:after_min',
         'autoprefixer',
         'shell',
-        'critical',
         'cssmin',
         'htmllint'
 //        'newer:imagemin:sprites'

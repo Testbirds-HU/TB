@@ -1,0 +1,30 @@
+{
+	"members": [
+		{
+			"name": "Test member name",
+			"description": "Test member description",
+			"imgsrc": "http://placeponi.es/400/300",
+            "shortname": "barnabas"
+		},
+        {
+			"name": "Lichter Tamás",
+			"description": "Telekommunikációs cégnél szerzett 10+ év tapasztalatot informatikai fejlesztési területen. Közgazdász végzettsége van, üzleti gondolkodásmód jellemzi (vagy legalábbis szeretné…). Tamás hisz abban, hogy egy cégnél akkor jó dolgozni, ha a vezetők megbíznak a munkatársakban, a munkatársakat bevonják a döntésekbe, nyitott, ügyfélorientált és haladó szemléletű a cégkultúra, és nem mellesleg jó a hangulat. Tamás azon dolgozik, hogy a Testbirds ilyen cég legyen.",
+			"imgsrc": "/res/img/dist/team/tamas.jpg"
+		},
+        {
+			"name": "Maczinkó Ákos",
+			"description": "15+ év tapasztalat a telekommunikáció világában, elsősorban értékesítési és ügyfélélmény területen. Éveken keresztül részt vett lakossági termékek kialakításában és kereskedelmi elindításában. Ákos Tamással együtt vezeti a közép-európai Testbirds-öt, ami most már három országban működik.",
+			"imgsrc": "res/img/dist/team/akos.jpg"
+		},
+        {
+			"name": "Bartha Gizella",
+			"description": "Gizella, a Testbirds UX kutatójaként közel 50 különböző termék mintegy 100 felhasználói kutatását végezte az elmúlt két évben. Hiszi, hogy egy jó termék létrehozásához nélkülözhetetlen a felhasználó bevonása a lehető legkorábban. Munkája során azon túl, hogy a kezdetektől alkalmazza az ismert módszertani megközelítéseket, folyamatosan törekszik arra, hogy ezek módosításával, megújításával még pontosabban tárja fel a felhasználók igényét.",
+			"imgsrc": "res/img/dist/team/gizella.jpg"
+		},
+        {
+			"name": "",
+			"description": "",
+			"imgsrc": "res/img/dist/team/"
+		}
+	]
+}
