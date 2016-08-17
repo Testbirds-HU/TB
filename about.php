@@ -18,7 +18,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="team container-fluid">
+                <div class="team container-fluid alternating">
                     <div class="container">
                         <h2>A csapat</h2>
                         <!-- TEMPLATE:
