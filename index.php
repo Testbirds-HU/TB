@@ -3,76 +3,7 @@
         <?php include('include/navigation.php'); ?>
             <div class="row"></div>
             <div class="container">
-                <div class="cover">
-                    <div class="row main-intro">
-                        <div class="col-md-6 text">
-                            <h1>{{fooldal_Focim}}</h1>
-                            <h2>{{fooldal_Focim2}}</h2>
-                            <h6>{{fooldal_Focim3}}</h6> </div>
-                        <div class="col-md-6">
-                            <div class="icon icon-dudes"></div> 
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div id="arrow" class="scrollholder"><img alt="Click to scroll" src="/res/img/dist/scroll_icon.png"></div>
-                    </div>
-                </div>
-                <div class="csatlakozz">
-                    <div class="row">
-                        <p>
-                            {{fooldal_legytesztelo}}&nbsp;
-                                <a href="//nest.testbirds.com{{NOPE}}" target="_blank">
-                                    {{fooldal_legytesztelo2}}
-                                </a>
-                        </p>
-                    </div>
-                </div>
-                <div id="top" class="tesztek">
-                    <div class="row">
-                        <a href="functional.php">
-                            <div class="col-md-6 teszt teszt1">
-                                <h2>{{fooldal_funkcionalis}}</h2>
-                                <p>
-                                    {{fooldal_funkcionalis2}}
-                                </p>
-                                <div class="spriteholder">
-                                    <div class="icon-tb_bug2"></div>
-                                </div>
-                                <div class="navigator">
-                                    <p class="more">></p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="ux.php">
-                            <div class="col-md-6 teszt teszt2">
-                                <h2>{{fooldal_felhasznaloi}}</h2>
-                                <p>
-                                    {{fooldal_felhasznaloi2}}
-                                </p>
-                                <div class="spriteholder">
-                                    <div class="icon-ux2"></div>
-                                </div>
-                                <div class="navigator">
-                                    <p class="more">></p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="row">
-                        <div class="col-md-1 quote hidden-sm"> </div>
-                        <div class="col-md-8">
-                            <p class="content">
-                                {{testimonial1-cont}}
-                            </p>
-                            <p class="author">
-                                {{testimonial1-auth}}
-                            </p>
-                        </div>
-                        <div class="col-md-2 imgholder hidden-sm"> <img alt="Testimonial image" src={{'testimonial1-img}}> </div>
-                    </div>
-                </div>
+                
                 <div class="Elonyok">
                     <div class="row">
                         <div class="col-md-12">

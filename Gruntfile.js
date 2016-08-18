@@ -198,7 +198,7 @@ module.exports = function (grunt) {
         'jsvalidate:before_min',
 /*SRC*/ 'newer:imagemin:main',
 /*SRC*/ 'newer:svgmin',
-/*SRC*/ 'sprite',
+/*SRC*/ 'newer:sprite',
         'concat',
         'uglify',
         'jsvalidate:after_min',
