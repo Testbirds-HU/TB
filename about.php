@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php include('include/lang.php'); ?>
     <?php include('include/html-head.php'); ?>
         <?php include('include/navigation.php'); ?>
             <div class="container rolunk">

@@ -14037,7 +14037,7 @@ var InstantClick = function(document, location) {
 
     $.Mustache.load('/res/html/src/member.htm').done(function () {
         console.log("Mustache loading");
-        var members = JSON.parse(readJSON('/res/js/team.json'));
+        var members = JSON.parse(readJSON('/res/json/src/team.json'));
         $('#team-template').mustache('print-member', members, {
             method: 'html'
         });

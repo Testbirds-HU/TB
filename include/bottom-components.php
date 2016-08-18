@@ -1,6 +1,6 @@
 <script data-no-instant type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script data-no-instant type="text/javascript" src="/bower_components/instantclick/instantclick.js"></script>
-<?php echo '<link href="/res/css/';?><?php writeText($lang,'customcss',$content);?><?php echo '" rel="stylesheet">';?>
+<?php echo '<link href="/res/css/';?>{{customcss}}<?php echo '" rel="stylesheet">';?>
 <script data-no-instant>
     function universalPageSetup() {
         var isWebkit = 'WebkitAppearance' in document.documentElement.style;
@@ -42,6 +42,7 @@
         
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/res/css/dist/sprites.min.css" type="text/css">');
         
         $.getScript("/bower_components/bootstrap/dist/js/bootstrap.min.js", function () {

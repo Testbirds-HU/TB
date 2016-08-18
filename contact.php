@@ -1,6 +1,4 @@
 <?php
-  include('include/lang.php');
-
   if($lang == 'Slovak'){
     // To send HTML mail, the Content-type header must be set
     $headers = 'MIME-Version: 1.0' . PHP_EOL .
