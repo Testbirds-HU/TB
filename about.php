@@ -5,8 +5,8 @@
             <div class="container rolunk">
                 <div class="articletitle">
                     <div class="container">
-                        <h1><?php writeText($lang,'rolunk_cim1',$content);?></h1>
-                        <h2><?php writeText($lang,'rolunk_cim2',$content);?></h2> </div>
+                        <h1>{{rolunk_cim1}}</h1>
+                        <h2>{{rolunk_cim2}}</h2> </div>
                 </div>
                 <div class="articlecover">
                     <div class="container"></div>
@@ -14,7 +14,7 @@
                 <div class="articlebody_w">
                     <div class="container">
                         <p>
-                            <?php writeText($lang,'rolunk_cim3',$content);?>
+                            {{rolunk_cim3}}
                         </p>
                     </div>
                 </div>

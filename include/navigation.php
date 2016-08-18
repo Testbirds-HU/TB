@@ -9,32 +9,32 @@
             <ul class="nav navbar-nav" style="height: 80px">
                 <li id="menu1">
                     <a href="about.php">
-                        <?php writeText($lang,'Menu1',$content);?>
+                        {{Menu1}}
                     </a>
                 </li>
                 <li id="menu2">
                     <a href="whyus.php">
-                        <?php writeText($lang,'Menu2',$content);?>
+                        {{Menu2}}
                     </a>
                 </li>
                 <li id="menu3">
                     <a href="functional.php">
-                        <?php writeText($lang,'Menu3',$content);?>
+                        {{Menu3}}
                     </a>
                 </li>
                 <li id="menu4">
                     <a href="ux.php">
-                        <?php writeText($lang,'Menu4',$content);?>
+                        {{Menu4}}
                     </a>
                 </li>
                 <li id="menu5">
-                    <a href="<?php writeText($lang,'menublogurl',$content);?>">
-                        <?php writeText($lang,'Menu6',$content);?>
+                    <a href="{{menublogurl}}">
+                        {{Menu6}}
                     </a>
                 </li>
                 <li id="menu6">
                     <a href="contact.php">
-                        <?php writeText($lang,'Menu5',$content);?>
+                        {{Menu5}}
                     </a>
                 </li>
             </ul>

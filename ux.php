@@ -5,22 +5,22 @@
             <div class="container">
                 <div class="articletitle">
                     <div class="container">
-                        <h1><?php writeText($lang,'felhasznaloi_cim1',$content);?></h1>
-                        <h2><?php writeText($lang,'felhasznaloi_cim2',$content);?></h2>
+                        <h1>{{felhasznaloi_cim1}}</h1>
+                        <h2>{{felhasznaloi_cim2}}</h2>
                         <div class="ulholder">
-                            <p class="intro"><?php writeText($lang,'felhasznaloi_cim3',$content);?></p>
+                            <p class="intro">{{felhasznaloi_cim3}}</p>
                                 <ul>
                                     <li>
-                                        <?php writeText($lang,'felhasznaloi_cim4',$content);?>
+                                        {{felhasznaloi_cim4}}
                                     </li>
                                     <li>
-                                        <?php writeText($lang,'felhasznaloi_cim5',$content);?>
+                                        {{felhasznaloi_cim5}}
                                     </li>
                                     <li>
-                                        <?php writeText($lang,'felhasznaloi_cim6',$content);?>
+                                        {{felhasznaloi_cim6}}
                                     </li>
                                     <li>
-                                        <?php writeText($lang,'felhasznaloi_cim7',$content);?>
+                                        {{felhasznaloi_cim7}}
                                     </li>
                                 </ul>
                         </div>
@@ -29,60 +29,60 @@
                 <div class="articlecover_felh"></div>
                 <div class="articlebody_g">
                     <div class="container">
-                        <h6><?php writeText($lang,'felhasznaloi_leiras1',$content);?></h6>
+                        <h6>{{felhasznaloi_leiras1}}</h6>
                         <p>
-                            <?php writeText($lang,'felhasznaloi_leiras2',$content);?>
+                            {{felhasznaloi_leiras2}}
                         </p>
                         <br>
                         <br>
-                        <h6><?php writeText($lang,'felhasznaloi_leiras3',$content);?></h6>
+                        <h6>{{felhasznaloi_leiras3}}</h6>
                         <p>
-                            <?php writeText($lang,'felhasznaloi_leiras4',$content);?>
+                            {{felhasznaloi_leiras4}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'felhasznaloi_leiras4.1',$content);?><br></h6>
+                        <h6>{{felhasznaloi_leiras4.1}}<br></h6>
                         <p>
-                            <?php writeText($lang,'felhasznaloi_leiras5',$content);?>
+                            {{felhasznaloi_leiras5}}
                                 <br>
                                 <br> </p>
                         <ul>
                             <li>
-                                <?php writeText($lang,'felhasznaloi_leiras6',$content);?>
+                                {{felhasznaloi_leiras6}}
                             </li>
                             <li>
-                                <?php writeText($lang,'felhasznaloi_leiras7',$content);?>
+                                {{felhasznaloi_leiras7}}
                                     <br> </li>
                             <li>
-                                <?php writeText($lang,'felhasznaloi_leiras8',$content);?>
+                                {{felhasznaloi_leiras8}}
                                     <br>
                                     <br> </li>
                         </ul>
-                        <h6><?php writeText($lang,'felhasznaloi_leiras9',$content);?><br></h6>
+                        <h6>{{felhasznaloi_leiras9}}<br></h6>
                         <p>
-                            <?php writeText($lang,'felhasznaloi_leiras10',$content);?>
+                            {{felhasznaloi_leiras10}}
                                 <br> </p>
                     </div>
                 </div>
                 <div class="articlebody_w">
                     <div class="container">
-                        <h2><?php writeText($lang,'felhasznaloi_folyamat1',$content);?><br><br></h2>
+                        <h2>{{felhasznaloi_folyamat1}}<br><br></h2>
                         <p>
-                            <?php writeText($lang,'felhasznaloi_folyamat2',$content);?>
+                            {{felhasznaloi_folyamat2}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'felhasznaloi_folyamat3',$content);?><br></h6>
+                        <h6>{{felhasznaloi_folyamat3}}<br></h6>
                         <p>
-                            <?php writeText($lang,'felhasznaloi_folyamat4',$content);?>
+                            {{felhasznaloi_folyamat4}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'felhasznaloi_folyamat5',$content);?></h6>
+                        <h6>{{felhasznaloi_folyamat5}}</h6>
                         <p>
-                            <?php writeText($lang,'felhasznaloi_folyamat6',$content);?>
+                            {{felhasznaloi_folyamat6}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'felhasznaloi_folyamat7',$content);?></h6>
+                        <h6>{{felhasznaloi_folyamat7}}</h6>
                         <p>
-                            <?php writeText($lang,'felhasznaloi_folyamat8',$content);?>
+                            {{felhasznaloi_folyamat8}}
                         </p>
                     </div>
                 </div>

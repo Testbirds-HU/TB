@@ -80,6 +80,10 @@ module.exports = function (grunt) {
             maincss: {
                 src: ['res/css/grunt/main.concat.css'],
                 dest: 'res/css/grunt/main.prfx.css'
+            },
+            allcss: {
+                src: ['res/css/src/all.css'],
+                dest: 'res/css/grunt/all.prfx.css'
             }
         },
 /*11*/  cssmin: {
@@ -90,7 +94,8 @@ module.exports = function (grunt) {
             main: {
                 files: {
                     'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css'],
-                    'res/css/dist/sprites.min.css': ['res/css/grunt/sprite-comp.css', 'res/css/grunt/sprite-misc.css']
+                    'res/css/dist/sprites.min.css': ['res/css/grunt/sprite-comp.css', 'res/css/grunt/sprite-misc.css'],
+                    'res/css/dist/all.min.css': ['res/css/grunt/all.prfx.css']
                 }
             }
         },

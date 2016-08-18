@@ -251,10 +251,31 @@ textarea {
     font: inherit
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h6 li {
+    font-family: Roboto, Droid Sans sans-serif
+}
+
 #header li,
 h6,
 h6 li {
     line-height: 26px
+}
+
+h1,
+h2,
+h3 {
+    color: #1e777a
+}
+
+h4,
+h6 li {
+    color: #313131
 }
 
 .Elonyok .el:hover,
@@ -385,12 +406,12 @@ p {
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
-    color: #1f777a
+    color: #1e777a
 }
 
 a:focus,
 a:hover {
-    color: #1f777a;
+    color: #1e777a;
     cursor: pointer;
     text-decoration: underline;
     outline: 0!important
@@ -450,7 +471,7 @@ a:focus {
 }
 
 .cover h6 {
-    color: #1f777a;
+    color: #1e777a;
     padding-top: 10px
 }
 
@@ -591,17 +612,29 @@ a:focus {
 }
 
 .tesztek .spriteholder {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%;
     min-height: 400px
 }
 
 .spriteholder {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 100%
 }
 
@@ -662,9 +695,15 @@ a:focus {
 @media screen and (min-width:1350px) {
     .contact-cta,
     .main-intro {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center
     }
 }
 
@@ -672,8 +711,12 @@ a:focus {
     .contact-cta,
     .main-intro {
         display: block;
-        justify-content: center;
-        align-items: center
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center
     }
 }
 
@@ -693,35 +736,35 @@ a:focus {
     font-size: 27px;
     font-size: 1.7rem;
     font-weight: 700;
-    color: #1f777a
+    color: #1e777a
 }
 
 .circle.elso:before {
     content: "1";
-    border: 2px solid #1f777a;
+    border: 2px solid #1e777a;
     border-radius: 100%
 }
 
 .circle.masodik:before {
     content: "2";
-    border: 2px solid #1f777a;
+    border: 2px solid #1e777a;
     border-radius: 100%
 }
 
 .circle.harmadik:before {
     content: "3";
-    border: 2px solid #1f777a;
+    border: 2px solid #1e777a;
     border-radius: 100%
 }
 
 .folyamat .row .col-md-4 p {
-    color: #1f777a
+    color: #1e777a
 }
 
 .folyamat .row .btn-primary {
     color: #fff;
-    background-color: #1f777a;
-    border-color: #1f777a;
+    background-color: #1e777a;
+    border-color: #1e777a;
     width: 310px;
     margin: 30px auto 0;
     padding: 20px;
@@ -810,7 +853,8 @@ footer .col-md-12 p {
 
 .icon-bottom-icon-fb:hover,
 .icon-bottom-icon-in:hover {
-    filter: none
+    -webkit-filter: none;
+            filter: none
 }
 
 .icon-bottom-icon-in {
@@ -873,9 +917,17 @@ footer .col-md-12 p {
     color: #fff
 }
 
+@-webkit-keyframes moveLeft {
+    to {
+        -webkit-transform: translateX(-20px);
+                transform: translateX(-20px)
+    }
+}
+
 @keyframes moveLeft {
     to {
-        transform: translateX(-20px)
+        -webkit-transform: translateX(-20px);
+                transform: translateX(-20px)
     }
 }
 
@@ -884,7 +936,8 @@ footer .col-md-12 p {
     display: inline-block;
     font-size: 72px;
     font-family: Georgia;
-    transform: translateX(30px)
+    -webkit-transform: translateX(30px);
+            transform: translateX(30px)
 }
 
 .testimonial {
@@ -913,8 +966,12 @@ footer .col-md-12 p {
 }
 
 .testimonial .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
 }
 
 .testimonial .imgholder img {
@@ -943,7 +1000,7 @@ h6 li {
 }
 
 .cover>* {
-    color: #1f777a;
+    color: #1e777a;
     padding-top: 10px
 }
 
@@ -994,7 +1051,8 @@ h6 li {
 }
 
 .col-md-4 .circle .icon {
-    transform: scale(.6, .6)
+    -webkit-transform: scale(.6, .6);
+            transform: scale(.6, .6)
 }
 
 .icon-missmarketing-circle {
@@ -1006,9 +1064,15 @@ h6 li {
 nav .navbar-nav {
     height: 100%;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-items: center
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
 }
 
 #nav-main {
@@ -1027,7 +1091,8 @@ nav .navbar-nav {
     background: #82b999!important;
     display: block;
     width: 100%;
-    transform: scale(.6, 1) translateY(-5px);
+    -webkit-transform: scale(.6, 1) translateY(-5px);
+            transform: scale(.6, 1) translateY(-5px);
     position: absolute;
     top: 100%;
     left: 0;
@@ -1035,7 +1100,8 @@ nav .navbar-nav {
     content: '';
     opacity: 0;
     filter: alpha(opacity=0);
-    transition: opacity .3s, transform .3s, width .3s, margin .3s
+    -webkit-transition: opacity .3s, -webkit-transform .3s, width .3s, margin .3s;
+            transition: opacity .3s, transform .3s, width .3s, margin .3s
 }
 
 #header,
@@ -1048,7 +1114,8 @@ nav .navbar-nav {
 .nav a:hover:after {
     opacity: 1;
     filter: alpha(opacity=100);
-    transform: translateY(-10px)
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
 }
 
 nav {
@@ -1056,6 +1123,8 @@ nav {
 }
 
 #header {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     background-color: #1f777a
 }
@@ -1254,7 +1323,8 @@ nav {
 .teszt,
 a,
 img {
-    transition: opacity .3s, margin .3s, padding .3s, color .3s, background .3s, box-shadow .3s, transform .3s
+    -webkit-transition: opacity .3s, margin .3s, padding .3s, color .3s, background .3s, box-shadow .3s, -webkit-transform .3s;
+            transition: opacity .3s, margin .3s, padding .3s, color .3s, background .3s, box-shadow .3s, transform .3s
 }
 
 .boldul .intro {
@@ -1301,7 +1371,7 @@ img {
 }
 
 .articlebody_g {
-    background-color: #1f777a
+    background-color: #1e777a
 }
 
 .articlebody_w,

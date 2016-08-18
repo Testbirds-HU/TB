@@ -1,20 +1,20 @@
 <footer class="container-fluid">
     <div class="row">
         <div class="col-md-12 contact">
-            <h5><?php writeText($lang,'footer_kapcsolat',$content);?></h5>
+            <h5>{{footer_kapcsolat}}</h5>
             <p>
-                <?php writeText($lang,'footer_kapcsolat2',$content);?>
+                {{footer_kapcsolat2}}
                     <br>
             </p>
             <p>
-                <?php writeText($lang,'footer_kapcsolat3',$content);?>
+                {{footer_kapcsolat3}}
                     <br>
             </p>
             <p>
-                <?php writeText($lang,'footer_kapcsolat4',$content);?>
+                {{footer_kapcsolat4}}
             </p>
             <p>
-                <?php writeText($lang,'footer_kapcsolat5',$content);?>
+                {{footer_kapcsolat5}}
             </p>
             <a href="https://www.facebook.com/testbirds.hu/" class="ref" target="_blank">
                 <div class="spriteholder">

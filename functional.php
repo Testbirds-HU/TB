@@ -5,22 +5,22 @@
             <div class="container">
                 <div class="articletitle">
                     <div class="container">
-                        <h1><?php writeText($lang,'funkcionalis_cim1',$content);?></h1>
-                        <h2><?php writeText($lang,'funkcionalis_cim2',$content);?></h2>
+                        <h1>{{funkcionalis_cim1}}</h1>
+                        <h2>{{funkcionalis_cim2}}</h2>
                         <div class="ulholder">
-                            <p class="intro"><?php writeText($lang,'funkcionalis_cim3',$content);?></p>
+                            <p class="intro">{{funkcionalis_cim3}}</p>
                                 <ul>
                                     <li>
-                                        <?php writeText($lang,'funkcionalis_cim4',$content);?>
+                                        {{funkcionalis_cim4}}
                                     </li>
                                     <li>
-                                        <?php writeText($lang,'funkcionalis_cim5',$content);?>
+                                        {{funkcionalis_cim5}}
                                     </li>
                                     <li>
-                                        <?php writeText($lang,'funkcionalis_cim6',$content);?>
+                                        {{funkcionalis_cim6}}
                                     </li>
                                     <li>
-                                        <?php writeText($lang,'funkcionalis_cim7',$content);?>
+                                        {{funkcionalis_cim7}}
                                     </li>
                                 </ul>
                         </div>
@@ -29,47 +29,47 @@
                 <div class="articlecover_funkc"></div>
                 <div class="articlebody_g">
                     <div class="container">
-                        <h6><?php writeText($lang,'funkcionalis_leiras1',$content);?> </h6>
+                        <h6>{{funkcionalis_leiras1}} </h6>
                         <p>
-                            <?php writeText($lang,'funkcionalis_leiras2',$content);?>
+                            {{funkcionalis_leiras2}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'funkcionalis_leiras3',$content);?><br></h6>
+                        <h6>{{funkcionalis_leiras3}}<br></h6>
                         <p>
-                            <?php writeText($lang,'funkcionalis_leiras4',$content);?>
+                            {{funkcionalis_leiras4}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'funkcionalis_leiras5',$content);?><br></h6>
+                        <h6>{{funkcionalis_leiras5}}<br></h6>
                         <p>
-                            <?php writeText($lang,'funkcionalis_leiras6',$content);?>
+                            {{funkcionalis_leiras6}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'funkcionalis_leiras7',$content);?><br></h6>
+                        <h6>{{funkcionalis_leiras7}}<br></h6>
                         <p>
-                            <?php writeText($lang,'funkcionalis_leiras8',$content);?>
+                            {{funkcionalis_leiras8}}
                                 <br> </p>
                     </div>
                 </div>
                 <div class="articlebody_w">
                     <div class="container">
-                        <h2><?php writeText($lang,'funkcionalis_folyamat1',$content);?><br><br></h2>
+                        <h2>{{funkcionalis_folyamat1}}<br><br></h2>
                         <p>
-                            <?php writeText($lang,'funkcionalis_folyamat2',$content);?>
+                            {{funkcionalis_folyamat2}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'funkcionalis_folyamat3',$content);?><br></h6>
+                        <h6>{{funkcionalis_folyamat3}}<br></h6>
                         <p>
-                            <?php writeText($lang,'funkcionalis_folyamat4',$content);?>
+                            {{funkcionalis_folyamat4}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'funkcionalis_folyamat5',$content);?></h6>
+                        <h6>{{funkcionalis_folyamat5}}</h6>
                         <p>
-                            <?php writeText($lang,'funkcionalis_folyamat6',$content);?>
+                            {{funkcionalis_folyamat6}}
                                 <br>
                                 <br> </p>
-                        <h6><?php writeText($lang,'funkcionalis_folyamat7',$content);?></h6>
+                        <h6>{{funkcionalis_folyamat7}}</h6>
                         <p>
-                            <?php writeText($lang,'funkcionalis_folyamat8',$content);?>
+                            {{funkcionalis_folyamat8}}
                         </p>
                     </div>
                 </div>

@@ -38,7 +38,7 @@
     });
     
     $(document).ready(function () {
-        $('head').append('<link rel="stylesheet" href="/res/css/dist/main.min.css" type="text/css">');
+        $('head').append('<link rel="stylesheet" href="/res/css/dist/all.min.css" type="text/css">');
         
         $('head').append('<link rel="stylesheet" href="/bower_components/slicknav/dist/slicknav.min.css" type="text/css">');
         $('head').append('<link rel="stylesheet" href="/bower_components/flickity/dist/flickity.min.css" type="text/css">');
@@ -48,8 +48,8 @@
             console.log("Boostrap JS loaded, running callback")
         
             $.getScript("/res/js/dist/main.min.js", function () {
+                console.log("Closing loading animation");
                 document.body.className = document.body.className.replace("loading","");
-                console.log("Closing loading animation")
             });
         
             $.getScript("/bower_components/slicknav/dist/jquery.slicknav.min.js", function() {

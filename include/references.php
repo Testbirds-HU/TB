@@ -1,7 +1,7 @@
 <div class="col-md-12 companies">
     <div class="row">
         <div class="col-md-12" id="reftitle">
-            <h2><?php writeText($lang,'Referencia_cim',$content);?></h2>
+            <h2>{{Referencia_cim}}</h2>
         </div>
         <div class="col-md-2 col-sm-4">
             <div class="spriteholder">
