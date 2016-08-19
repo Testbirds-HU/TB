@@ -218,9 +218,9 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <h3>Érdekel a szolgáltatásunk? Lépj kapcsolatba velünk!</h3>
+                            <h3><?php writeText($lang,'fooldal_ajanlat',$content);?></h3>
                             <a href="contact.php">
-                                <div class="btn-primary"> Ajánlatot kérek! </div>
+                                <div class="btn-primary"><?php writeText($lang,'fooldal_ajanlat2',$content);?></div>
                             </a>
                         </div>
                     </div>
