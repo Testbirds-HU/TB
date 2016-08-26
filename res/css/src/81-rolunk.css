@@ -1,0 +1,49 @@
+/*Separator*/
+.rolunk .articletitle .container {
+    padding-bottom: 0;
+}
+
+.rolunk > div {
+    background-color: #FAFAFA;
+}
+
+.team .portrait:hover {
+    background-position: -162.5px 0;
+}
+
+.rolunk .articlecover .container {
+    background-image: url(/res/img/dist/process.png);
+    background-size: contain;
+    max-width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+}
+
+.rolunk .team {
+    padding-bottom: 80px;
+}
+
+.rolunk .team .container {
+    max-width: 800px;
+}
+
+.team .portrait {
+    background-repeat: no-repeat;
+    height: 0;
+    width: 162.5px;
+    padding-top: 225px;
+    background-size: 325px 225px;
+    background-position: 0 0;
+}
+
+.team .row {
+    margin-top: 25px;
+    text-align: justify;
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: #1f777a;
+    color: white;
+}

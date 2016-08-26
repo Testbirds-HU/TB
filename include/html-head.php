@@ -1,14 +1,15 @@
-<html lang="{{langc}}" xml:lang="{{langc}}" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="<?php writeText($tld);?>" xml:lang="<?php writeText($tld);?>" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{head_description}}">
+    <meta name="description" content="<?php writeText($lang,'head_description',$content);?>">
     <title>
-        {{head_title}}
+        <?php writeText($lang,'head_title',$content);?>
     </title>
     <link rel="shortcut icon" href="favicon.ico">
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
         .loading .container,
         .loading .row,

@@ -60,6 +60,14 @@ module.exports = function (grunt) {
 // END BOWER
         
 //BEGIN HTML
+/*9*/   shell: {
+            options: {
+                stderr: false
+            },
+            main: {
+                command: 'mkdir res/css/grunt/php && mkdir res/css/grunt/html && cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html;  done && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/$(echo $line | rev | cut -c 5- | rev).html; done'
+            }
+        },
 /*12*/  htmllint: {
             main: [
                     'res/css/grunt/html/index.html',
@@ -80,10 +88,6 @@ module.exports = function (grunt) {
             maincss: {
                 src: ['res/css/grunt/main.concat.css'],
                 dest: 'res/css/grunt/main.prfx.css'
-            },
-            allcss: {
-                src: ['res/css/src/all.css'],
-                dest: 'res/css/grunt/all.prfx.css'
             }
         },
 /*11*/  cssmin: {
@@ -94,8 +98,7 @@ module.exports = function (grunt) {
             main: {
                 files: {
                     'res/css/dist/main.min.css': ['res/css/grunt/main.prfx.css'],
-                    'res/css/dist/sprites.min.css': ['res/css/grunt/sprite-comp.css', 'res/css/grunt/sprite-misc.css'],
-                    'res/css/dist/all.min.css': ['res/css/grunt/all.prfx.css']
+                    'res/css/dist/sprites.min.css': ['res/css/grunt/sprite-comp.css', 'res/css/grunt/sprite-misc.css']
                 }
             }
         },
@@ -198,14 +201,14 @@ module.exports = function (grunt) {
         'jsvalidate:before_min',
 /*SRC*/ 'newer:imagemin:main',
 /*SRC*/ 'newer:svgmin',
-/*SRC*/ 'newer:sprite',
+/*SRC*/ 'sprite',
         'concat',
         'uglify',
         'jsvalidate:after_min',
         'autoprefixer',
-//        'shell',
+        'shell',
         'cssmin',
-//        'htmllint'
+        'htmllint'
 //        'newer:imagemin:sprites'
 //        'csslint:after_min'
     ]);
