@@ -10,9 +10,10 @@
     $commands = array(
         'echo $PWD',
         'whoami',
-	'git checkout --',
+	'git checkout staging',
 	'git reset --hard',
-        'git pull',
+	'git fetch --all --prune',
+        'git pull -f',
 	'git reset --hard',
         'git status',
 	'find -type f -exec chmod 640 {} \;',
