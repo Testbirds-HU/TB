@@ -9,7 +9,6 @@
         <?php writeText($lang,'head_title',$content);?>
     </title>
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="/res/css/dist/critical.min.css" rel="stylesheet">
     <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
         .loading .container,

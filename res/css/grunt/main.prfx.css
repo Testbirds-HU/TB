@@ -575,7 +575,6 @@ h3 {
     font-size: 2.3rem;
     font-weight: 400;
     font-family: Roboto, Droid Sans sans-serif;
-    color: #1f777a
 }
 
 h4,
@@ -1819,6 +1818,10 @@ nav {
     background-color: #FAFAFA;
 }
 
+.team .portrait:hover {
+    background-position: -162.5px 0;
+}
+
 .rolunk .articlecover .container {
     background-image: url(/res/img/dist/process.png);
     background-size: contain;
@@ -1845,10 +1848,6 @@ nav {
     background-position: 0 0;
 }
 
-.team .portrait:not(.kata):hover {
-    background-position: -162.5px 0;
-}
-
 .team .row {
     margin-top: 25px;
     text-align: justify;
@@ -1858,51 +1857,6 @@ nav {
     padding-top: 15px;
     background-color: #1f777a;
     color: white;
-}
-
-.team .name {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.team .anna {
-    background-image: url("/res/img/dist/team/anna.jpg");
-}
-
-.team .gizella {
-    background-image: url("/res/img/dist/team/gizella.jpg");
-}
-
-.team .bianka {
-    background-image: url("/res/img/dist/team/bianka.jpg");
-}
-
-.team .laszlo {
-    background-image: url("/res/img/dist/team/laszlo.jpg");
-}
-
-.team .akos {
-    background-image: url("/res/img/dist/team/akos.jpg");
-}
-
-.team .barnabas {
-    background-image: url("/res/img/dist/team/barnabas.jpg");
-}
-
-.team .gergely {
-    background-image: url("/res/img/dist/team/gergely.jpg");
-}
-
-.team .agnes {
-    background-image: url("/res/img/dist/team/agnes.jpg");
-}
-
-.team .kata {
-    background-image: url("/res/img/dist/team/kata.jpg");
-}
-
-.team .tamas {
-    background-image: url("/res/img/dist/team/tamas.jpg");
 }
 ;/*Separator*/
 .elonyok .articletitle .container .row > div:nth-child(1) {
