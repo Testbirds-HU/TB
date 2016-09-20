@@ -1,6 +1,7 @@
 // wrapper function
 module.exports = function (grunt) {
     // load all our Grunt plugins
+    require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
     grunt.initConfig({
@@ -65,7 +66,7 @@ module.exports = function (grunt) {
                 stderr: false
             },
             main: {
-                command: 'mkdir res/css/grunt/php && mkdir res/css/grunt/html && cp {about.php,contact.php,functional.php,index.php,ux.php,whyus.php} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html;  done && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/$(echo $line | rev | cut -c 5- | rev).html; done'
+                command: 'mkdir -p res/css/grunt/php && mkdir -p res/css/grunt/html && cp \{about.php,contact.php,functional.php,index.php,ux.php,whyus.php\} res/css/grunt/php/ && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/main.html;  done && for line in $(find res/css/grunt/php -maxdepth 1 -name "*.php" | cut -c 19-); do php res/css/grunt/php/"$line" > res/css/grunt/html/$(echo $line | rev | cut -c 5- | rev).html; done'
             }
         },
 /*12*/  htmllint: {
@@ -206,9 +207,9 @@ module.exports = function (grunt) {
         'uglify',
         'jsvalidate:after_min',
         'autoprefixer',
-        'shell',
+//        'shell',
         'cssmin',
-        'htmllint'
+//        'htmllint'
 //        'newer:imagemin:sprites'
 //        'csslint:after_min'
     ]);
