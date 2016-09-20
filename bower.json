@@ -27,6 +27,7 @@
     "instantclick": "^3.1.0",
     "flickity": "^1.2.1",
     "slicknav": "^1.0.7",
-    "device.js": "devicejs#^0.2.7"
+    "device.js": "devicejs#^0.2.7",
+    "jquery": "^3.1.0"
   }
 }
