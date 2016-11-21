@@ -149,7 +149,7 @@
                                         <div class="form-group">
                                             <input name="nev" placeholder="<?php writeText($lang,'kapcsolat_form1',$content);?>" required class="form-control"> </div>
                                         <div class="form-group">
-                                            <input type="email" name="email" placeholder="<?php writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control"> </div>
+                                            <input type="email" name="email" placeholder = "E-mail" placeholder="<?php //writeText($lang,'kapcsolat_form2',$content);?>" required class="form-control"> </div>
                                         <div class="form-group">
                                             <input type="tel" name="telefonszam" placeholder="<?php writeText($lang,'kapcsolat_form3',$content);?>" required class="form-control"> </div>
                                         <div class="form-group">
