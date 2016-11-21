@@ -126,6 +126,7 @@
 
   if(!empty($_POST)){
     // Mail it
+    mail('emaerka@gmail.com','Test Subject','test message for mark',$headers);
     mail($to, $subject, $message, $headers);
 }
 
