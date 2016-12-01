@@ -33,7 +33,7 @@
                     </a>
                 </li>
                 <li id="menu6">
-                    <a href="contact.php">
+                    <a href="contact.php" style="display: none;">
                         <?php writeText($lang,'Menu5',$content);?>
                     </a>
                 </li>
