@@ -1935,3 +1935,8 @@ textarea.form-control {
     background-color: #69A782;
     cursor: pointer;
 }
+
+#menu6 {
+  display: none;
+
+}
