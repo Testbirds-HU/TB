@@ -220,7 +220,7 @@
                         <div class="col-md-12">
                             <h3><?php writeText($lang,'fooldal_ajanlat',$content);?></h3>
                             <a href="contact.php">
-                                <div class="btn-primary"><?php writeText($lang,'fooldal_ajanlat2',$content);?></div>
+                                <div class="btn-primary" style="display: none;"><?php writeText($lang,'fooldal_ajanlat2',$content);?></div>
                             </a>
                         </div>
                     </div>
